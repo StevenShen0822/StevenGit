@@ -1,5 +1,0 @@
-<aura:event type="APPLICATION" description="openChangeModal">
-    <aura:attribute name="title" type="String" />
-    <aura:attribute name="objectType" type="String" />
-    <aura:attribute name="accountId" type="String" />
-</aura:event>

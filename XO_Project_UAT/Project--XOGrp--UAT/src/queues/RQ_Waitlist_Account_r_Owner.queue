@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
-    <doesSendEmailToMembers>false</doesSendEmailToMembers>
-    <name>RQ: Waitlist_Account__r.Owner</name>
-    <queueSobject>
-        <sobjectType>zqu__ZProduct__c</sobjectType>
-    </queueSobject>
-</Queue>
