@@ -1,2 +1,0 @@
-UserId,TemplateId
-005j000000Dvvbb,00X3F000000S9ou

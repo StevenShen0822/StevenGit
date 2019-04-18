@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Document xmlns="http://soap.sforce.com/2006/04/metadata">
-    <description>CSP-2618 Marketplace Saleability Color picture</description>
-    <internalUseOnly>false</internalUseOnly>
-    <name>orange.jpg</name>
-    <public>false</public>
-</Document>

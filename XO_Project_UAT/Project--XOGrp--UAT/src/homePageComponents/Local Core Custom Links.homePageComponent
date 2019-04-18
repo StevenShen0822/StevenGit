@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<HomePageComponent xmlns="http://soap.sforce.com/2006/04/metadata">
-    <links>Renewals_Next_90_Days</links>
-    <links>Callback_Queue</links>
-    <links>My_Opportunities_the_Require_Action</links>
-    <links>Renewal_Dashboard</links>
-    <pageComponentType>links</pageComponentType>
-</HomePageComponent>

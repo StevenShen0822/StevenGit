@@ -1,3 +1,0 @@
-<apex:page showHeader="true" sidebar="true" controller="ReportRedirectController" action="{!goToReport}">
-	<apex:pageMessages />
-</apex:page>
