@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- Subscriptions --></label>
+        <name>fields_for_select_billing_account_compon</name>
+    </fieldSets>
+    <fields>
+        <label><!-- AccountIdCaseInsensitive --></label>
+        <name>AccountIdCaseInsensitive__c</name>
+    </fields>
+    <fields>
+        <label><!-- AutoRenewal --></label>
+        <name>AutoRenewal__c</name>
+        <picklistValues>
+            <masterLabel>NO</masterLabel>
+            <translation><!-- NO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>YES</masterLabel>
+            <translation><!-- YES --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Billing_Account_ID_Formula__c --></label>
+        <name>Billing_Account_ID_Formula_c__c</name>
+    </fields>
+    <fields>
+        <label><!-- CreatingSalesforceQuoteID --></label>
+        <name>CreatingSalesforceQuoteID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Discount Total --></label>
+        <name>DiscountTotal__c</name>
+    </fields>
+    <fields>
+        <label><!-- FloaterRepID --></label>
+        <name>FloaterRepID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Floater Rep --></label>
+        <name>Floater_Rep__c</name>
+        <relationshipLabel><!-- Subscriptions (Floater Rep) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Gross Total --></label>
+        <name>GrossTotal__c</name>
+    </fields>
+    <fields>
+        <label><!-- I Am The Renewal Rep --></label>
+        <name>I_Am_The_Renewal_Rep__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Expired --></label>
+        <name>Is_Expired__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Valid Subscription --></label>
+        <name>Is_Valid_Subscription__c</name>
+    </fields>
+    <fields>
+        <label><!-- LOB --></label>
+        <name>LOB__c</name>
+        <picklistValues>
+            <masterLabel>Concierge</masterLabel>
+            <translation><!-- Concierge --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>The Bump</masterLabel>
+            <translation><!-- The Bump --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>The Knot</masterLabel>
+            <translation><!-- The Knot --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- This field will have the latest quote which has modified/amended this subscription. --></help>
+        <label><!-- Latest Quote --></label>
+        <name>Latest_Quote__c</name>
+        <relationshipLabel><!-- Subscriptions (Latest Quote) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Need To Update Subscription Creator --></label>
+        <name>NeedToUpdateSubscriptionCreator__c</name>
+    </fields>
+    <fields>
+        <label><!-- Net Total --></label>
+        <name>NetTotal__c</name>
+    </fields>
+    <fields>
+        <label><!-- OriginalSalesforceQuoteID --></label>
+        <name>OriginalSalesforceQuoteID__c</name>
+    </fields>
+    <fields>
+        <label><!-- OriginalSubCreatorSalesRepId --></label>
+        <name>OriginalSubCreatorSalesRepId__c</name>
+    </fields>
+    <fields>
+        <help><!-- This is the Quote which originally created this Subscription before any amendments. --></help>
+        <label><!-- Original Quote --></label>
+        <name>Original_Quote__c</name>
+        <relationshipLabel><!-- Subscriptions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Payment Method --></label>
+        <name>Payment_Method__c</name>
+    </fields>
+    <fields>
+        <help><!-- Used during the quoting process to determine how to set up pricing on products. This affects the frequency of charges. --></help>
+        <label><!-- Preferred Payment Schedule --></label>
+        <name>Preferred_Payment_Schedule__c</name>
+        <picklistValues>
+            <masterLabel>Annual</masterLabel>
+            <translation><!-- Annual --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Month</masterLabel>
+            <translation><!-- Month --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quarter</masterLabel>
+            <translation><!-- Quarter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Semi-Annual</masterLabel>
+            <translation><!-- Semi-Annual --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Product Line --></label>
+        <name>Product_Line__c</name>
+    </fields>
+    <fields>
+        <label><!-- RSD Id --></label>
+        <name>RSD_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- RenewalRepId --></label>
+        <name>RenewalRepId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Renewal Rep --></label>
+        <name>Renewal_Rep__c</name>
+        <relationshipLabel><!-- Subscriptions (Renewal Rep) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- ReportingRepId --></label>
+        <name>ReportingRepId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reporting Rep --></label>
+        <name>Reporting_Rep__c</name>
+        <relationshipLabel><!-- Subscriptions (Reporting Rep) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- SalesRepId --></label>
+        <name>SalesRepId__c</name>
+    </fields>
+    <fields>
+        <help><!-- Original Rep --></help>
+        <label><!-- Sales Rep --></label>
+        <name>Sales_Rep__c</name>
+        <relationshipLabel><!-- Subscriptions (Sales Rep) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Subscription Creator Salesforce ID --></label>
+        <name>SubscriptionCreatorSalesforceID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Subscription Creator --></label>
+        <name>SubscriptionCreator__c</name>
+    </fields>
+    <fields>
+        <label><!-- Subscription Type --></label>
+        <name>SubscriptionType__c</name>
+        <picklistValues>
+            <masterLabel>Concierge</masterLabel>
+            <translation><!-- Concierge --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Direct Mail</masterLabel>
+            <translation><!-- Direct Mail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Internet</masterLabel>
+            <translation><!-- Internet --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Print</masterLabel>
+            <translation><!-- Print --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- CSP-764 | Use this field for reporting on Subscription Status since the Status field provided by Zuora is not reliable. --></help>
+        <label><!-- True Subscription Status --></label>
+        <name>True_Subscription_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Zuora__Account__c</name>
+        <relationshipLabel><!-- Subscriptions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- AutoRenew? --></label>
+        <name>Zuora__AutoRenew__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cancelled Date --></label>
+        <name>Zuora__CancelledDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contract Acceptance Date --></label>
+        <name>Zuora__ContractAcceptanceDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contract Effective Date --></label>
+        <name>Zuora__ContractEffectiveDate__c</name>
+    </fields>
+    <fields>
+        <help><!-- The period type of the current subscription term. --></help>
+        <label><!-- Current Term Period Type --></label>
+        <name>Zuora__CurrentTermPeriodType__c</name>
+        <picklistValues>
+            <masterLabel>Day</masterLabel>
+            <translation><!-- Day --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Month</masterLabel>
+            <translation><!-- Month --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Week</masterLabel>
+            <translation><!-- Week --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Year</masterLabel>
+            <translation><!-- Year --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Current Term --></label>
+        <name>Zuora__CurrentTerm__c</name>
+    </fields>
+    <fields>
+        <label><!-- Billing Account --></label>
+        <name>Zuora__CustomerAccount__c</name>
+        <relationshipLabel><!-- Subscriptions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- External Id --></label>
+        <name>Zuora__External_Id__c</name>
+    </fields>
+    <fields>
+        <help><!-- The period type for the first subscription term. --></help>
+        <label><!-- Initial Term Period Type --></label>
+        <name>Zuora__InitialTermPeriodType__c</name>
+        <picklistValues>
+            <masterLabel>Day</masterLabel>
+            <translation><!-- Day --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Month</masterLabel>
+            <translation><!-- Month --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Week</masterLabel>
+            <translation><!-- Week --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Year</masterLabel>
+            <translation><!-- Year --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Initial Term --></label>
+        <name>Zuora__InitialTerm__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invoice Owner --></label>
+        <name>Zuora__InvoiceOwner__c</name>
+        <relationshipLabel><!-- Subscriptions (Invoice Owner) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- CMRR --></label>
+        <name>Zuora__MRR__c</name>
+    </fields>
+    <fields>
+        <label><!-- Next Charge Date --></label>
+        <name>Zuora__NextChargeDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Next Renewal Date --></label>
+        <name>Zuora__NextRenewalDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Notes --></label>
+        <name>Zuora__Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Close Date --></label>
+        <name>Zuora__OpportunityCloseDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Name --></label>
+        <name>Zuora__OpportunityName__c</name>
+    </fields>
+    <fields>
+        <help><!-- The date when the subscription was originally created. This value is the same as the CreatedDate value until the subscription is amended. --></help>
+        <label><!-- Original Created Date (Deprecated) --></label>
+        <name>Zuora__OriginalCreatedDate__c</name>
+    </fields>
+    <fields>
+        <help><!-- The date when the subscription was originally created. This value is the same as the CreatedDate value until the subscription is amended. --></help>
+        <label><!-- Original Created Date --></label>
+        <name>Zuora__OriginalCreated_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Original Id --></label>
+        <name>Zuora__OriginalId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Previous Subscription Id --></label>
+        <name>Zuora__PreviousSubscriptionId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quote Business Type --></label>
+        <name>Zuora__QuoteBusinessType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quote Number --></label>
+        <name>Zuora__QuoteNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quote Type --></label>
+        <name>Zuora__QuoteType__c</name>
+    </fields>
+    <fields>
+        <help><!-- The period type for the subscription renewal term. --></help>
+        <label><!-- Renewal Term Period Type --></label>
+        <name>Zuora__RenewalTermPeriodType__c</name>
+        <picklistValues>
+            <masterLabel>Day</masterLabel>
+            <translation><!-- Day --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Month</masterLabel>
+            <translation><!-- Month --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Week</masterLabel>
+            <translation><!-- Week --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Year</masterLabel>
+            <translation><!-- Year --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Renewal Term --></label>
+        <name>Zuora__RenewalTerm__c</name>
+    </fields>
+    <fields>
+        <label><!-- Service Activation Date --></label>
+        <name>Zuora__ServiceActivationDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Zuora__Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Subscription End Date --></label>
+        <name>Zuora__SubscriptionEndDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Subscription Number --></label>
+        <name>Zuora__SubscriptionNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Subscription Start Date --></label>
+        <name>Zuora__SubscriptionStartDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- TCV --></label>
+        <name>Zuora__TCV__c</name>
+    </fields>
+    <fields>
+        <label><!-- Term End Date --></label>
+        <name>Zuora__TermEndDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Term Setting Type --></label>
+        <name>Zuora__TermSettingType__c</name>
+        <picklistValues>
+            <masterLabel>EVERGREEN</masterLabel>
+            <translation><!-- EVERGREEN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TERMED</masterLabel>
+            <translation><!-- TERMED --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Term Start Date --></label>
+        <name>Zuora__TermStartDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Version --></label>
+        <name>Zuora__Version__c</name>
+    </fields>
+    <fields>
+        <help><!-- The Zuora Id (external primary key) of this Subscription. --></help>
+        <label><!-- Zuora Id (Deprecated) --></label>
+        <name>Zuora__Zuora_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- includeLess12Item --></label>
+        <name>includeLess12Item__c</name>
+    </fields>
+    <layouts>
+        <layout>Subscription Admin</layout>
+        <sections>
+            <label><!-- Billing and Payment Terms --></label>
+            <section>Billing and Payment Terms</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Subscription Z-Force Layout v2.6 - Clone</layout>
+        <sections>
+            <label><!-- Billing and Payment Terms --></label>
+            <section>Billing and Payment Terms</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <webLinks>
+        <label><!-- Reprocess_Fulfillment --></label>
+        <name>Reprocess_Fulfillment</name>
+    </webLinks>
+</CustomObjectTranslation>

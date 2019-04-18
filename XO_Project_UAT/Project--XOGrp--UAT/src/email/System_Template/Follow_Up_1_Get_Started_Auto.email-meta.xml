@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email template to inform customer that they have not scheduled a call with one of our onboarding specialists. CSP-2534</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Blank_LetterHead</letterhead>
+    <name>Follow Up 1 - Get Started Auto</name>
+    <style>freeForm</style>
+    <subject>Get Started With The Knot [{!Case.Thread_Id}]</subject>
+    <textOnly>Hi {!Contact.FirstName},
+
+Your Account Strategist team here at The Knot, reaching out! We’re your go-to support team, to help ensure your Storefront makes the best first impression with couples.
+
+I tried giving you a buzz today, but unfortunately we weren’t able to connect. I’d like to set up a quick call to help get your Storefront up and running, and go through the tools and resources you can use to manage your leads.
+
+To easily schedule a call at your convenience, I’ve included a link to schedule. Please pick the date/time that works best for you, or give us a call.
+
+Talk soon!</textOnly>
+    <type>html</type>
+</EmailTemplate>

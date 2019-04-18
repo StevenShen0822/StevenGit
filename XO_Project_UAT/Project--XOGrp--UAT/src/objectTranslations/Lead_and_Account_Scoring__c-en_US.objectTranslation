@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Lead and Account Scoring</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Lead and Account Scoring</value>
+    </caseValues>
+    <fields>
+        <label><!-- Apply to Account Score --></label>
+        <name>Apply_to_Account_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Apply to Lead Score --></label>
+        <name>Apply_to_Lead_Score__c</name>
+    </fields>
+    <fields>
+        <help><!-- Picklists aren&apos;t allowed in custom settings; valid values are &quot;Not Blank&quot;, &quot;Regex&quot;, &quot;Contains&quot;, &quot;Does Not Contain&quot;, &quot;Does Not Equal&quot;, and &quot;Equals&quot; (without quotation marks). --></help>
+        <label><!-- Comparison Type --></label>
+        <name>Comparison_Type__c</name>
+    </fields>
+    <fields>
+        <help><!-- Either the regex or string value the field will be evaluated against. Not required if the Comparison Type is &quot;Not Blank&quot;. --></help>
+        <label><!-- Comparison Value --></label>
+        <name>Comparison_Value__c</name>
+    </fields>
+    <fields>
+        <help><!-- The API name of the Lead/Account field to run the scoring rule against. Multiple rules can apply to a single field. --></help>
+        <label><!-- Field API Name --></label>
+        <name>Field_API_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Points --></label>
+        <name>Points__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

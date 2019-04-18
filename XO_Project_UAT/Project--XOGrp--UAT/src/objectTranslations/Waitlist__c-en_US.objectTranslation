@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Waitlist</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Waitlist</value>
+    </caseValues>
+    <fields>
+        <help><!-- The customer waiting on the product --></help>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- Waitlisted Products --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- I Am the Sales Rep --></label>
+        <name>I_Am_the_Sales_Rep__c</name>
+    </fields>
+    <fields>
+        <help><!-- The product (by market and category) that the customer is waitlisted for --></help>
+        <label><!-- Product Rate Plan --></label>
+        <lookupFilter>
+            <errorMessage><!-- Inventory is not managed for that Product Rate Plan, therefore it cannot have a waitlist. --></errorMessage>
+        </lookupFilter>
+        <name>Product_Rate_Plan__c</name>
+        <relationshipLabel><!-- Waitlist --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Sort Order Override --></label>
+        <name>Sort_Order_Override__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sort Order --></label>
+        <name>Sort_Order__c</name>
+    </fields>
+    <layouts>
+        <layout>Waitlist Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

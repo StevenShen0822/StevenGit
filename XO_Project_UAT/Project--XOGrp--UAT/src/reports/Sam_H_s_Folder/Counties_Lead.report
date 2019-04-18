@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>OWNER</field>
+    </columns>
+    <columns>
+        <field>COMPANY</field>
+    </columns>
+    <columns>
+        <field>STATUS</field>
+    </columns>
+    <columns>
+        <field>FK_NAME</field>
+    </columns>
+    <description>Fayette, Burleson, Madison, Robertson  County Lead</description>
+    <filter>
+        <criteriaItems>
+            <column>ZIP</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>77837,77856,77859,77867,77870,77882,77872,77864,77852,77879,77836,77878,77863,77838,78945,78940,78949,78941,78956,78963</value>
+        </criteriaItems>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>ZIP</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Counties Lead</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>LeadList@Lead.Local_Sales_Market__c</reportType>
+    <scope>org</scope>
+    <showDetails>true</showDetails>
+    <timeFrameFilter>
+        <dateColumn>CREATED_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

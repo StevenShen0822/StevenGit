@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Data Key --></label>
+        <name>zqu__Data_Key__c</name>
+    </fields>
+    <fields>
+        <label><!-- Effective Date --></label>
+        <name>zqu__Effective_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invalid Reason --></label>
+        <name>zqu__Invalid_Reason__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Processed --></label>
+        <name>zqu__Is_Processed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Valid --></label>
+        <name>zqu__Is_Valid__c</name>
+    </fields>
+    <fields>
+        <label><!-- Payment Amount --></label>
+        <name>zqu__Payment_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quote Number --></label>
+        <name>zqu__Quote_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Session Id --></label>
+        <name>zqu__Session_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Zuora Account Id --></label>
+        <name>zqu__Zuora_Account_Id__c</name>
+    </fields>
+</CustomObjectTranslation>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <decisions>
+        <description>We need to make sure we are not attempting to put a Null Value in a lookup since it will cause the code to fail</description>
+        <name>Is_Zip_Code_Found</name>
+        <label>Is Zip Code Found</label>
+        <locationX>192</locationX>
+        <locationY>399</locationY>
+        <defaultConnectorLabel>[Default Outcome]</defaultConnectorLabel>
+        <rules>
+            <name>Yes</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>ZipId</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_Lead_Zip_Lookup</targetReference>
+            </connector>
+            <label>Yes</label>
+        </rules>
+        <rules>
+            <name>No</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>ZipId</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_Zip_Lookup_To_Null</targetReference>
+            </connector>
+            <label>No</label>
+        </rules>
+    </decisions>
+    <description>This flow should fill in the Zip Code lookup on leads</description>
+    <interviewLabel>Update Zip Code Lookup on Lead {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Update Zip Code Lookup on Lead</label>
+    <processType>AutoLaunchedFlow</processType>
+    <recordLookups>
+        <description>This will find the related Zip Code based on searching for the Leads Zip Code to find the External ID on Zip Code</description>
+        <name>Find_Related_Zip_Code</name>
+        <label>Find Related Zip Code</label>
+        <locationX>191</locationX>
+        <locationY>289</locationY>
+        <assignNullValuesIfNoRecordsFound>true</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Is_Zip_Code_Found</targetReference>
+        </connector>
+        <filters>
+            <field>ZipCode__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>LeadZip</elementReference>
+            </value>
+        </filters>
+        <object>Zip__c</object>
+        <outputAssignments>
+            <assignToReference>ZipId</assignToReference>
+            <field>Id</field>
+        </outputAssignments>
+    </recordLookups>
+    <recordUpdates>
+        <description>Update the Lead records Zip Code Lookup to fill in the lookup</description>
+        <name>Update_Lead_Zip_Lookup</name>
+        <label>Update Lead Zip Lookup</label>
+        <locationX>193</locationX>
+        <locationY>527</locationY>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>LeadId</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>Zip__c</field>
+            <value>
+                <elementReference>ZipId</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Lead</object>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Update_Zip_Lookup_To_Null</name>
+        <label>Update Zip Lookup To Null</label>
+        <locationX>371</locationX>
+        <locationY>400</locationY>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>LeadId</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>Zip__c</field>
+            <value>
+                <stringValue></stringValue>
+            </value>
+        </inputAssignments>
+        <object>Lead</object>
+    </recordUpdates>
+    <startElementReference>Find_Related_Zip_Code</startElementReference>
+    <variables>
+        <description>The is the current Lead that is being worked</description>
+        <name>Lead</name>
+        <dataType>SObject</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+        <objectType>Lead</objectType>
+    </variables>
+    <variables>
+        <description>Id of the Lead that is being edited</description>
+        <name>LeadId</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+    </variables>
+    <variables>
+        <description>This is the Zip code of the lead that is being edited.</description>
+        <name>LeadZip</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+    </variables>
+    <variables>
+        <description>Id of the Zip Code to be added to the Lookup on Lead</description>
+        <name>ZipId</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+</Flow>

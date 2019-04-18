@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Account --></label>
+        <name>n2de__Account__c</name>
+        <relationshipLabel><!-- Distribution logs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Last action date --></label>
+        <name>n2de__Action_date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Actions complete --></label>
+        <name>n2de__Actions_complete__c</name>
+    </fields>
+    <fields>
+        <label><!-- Alert tip --></label>
+        <name>n2de__Alert_tip__c</name>
+    </fields>
+    <fields>
+        <label><!-- Assigned object Id --></label>
+        <name>n2de__Assigned_object_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Assigned object id index --></label>
+        <name>n2de__Assigned_object_id_index__c</name>
+    </fields>
+    <fields>
+        <label><!-- Name --></label>
+        <name>n2de__Assigned_object_record_name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Assignment date --></label>
+        <name>n2de__Assignment_date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Case --></label>
+        <name>n2de__Case__c</name>
+        <relationshipLabel><!-- Distribution logs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Contact --></label>
+        <name>n2de__Contact__c</name>
+        <relationshipLabel><!-- Distribution logs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Day --></label>
+        <name>n2de__Day__c</name>
+    </fields>
+    <fields>
+        <label><!-- Detail message --></label>
+        <name>n2de__Detail_message__c</name>
+    </fields>
+    <fields>
+        <label><!-- Team --></label>
+        <name>n2de__Distribution_Team__c</name>
+    </fields>
+    <fields>
+        <label><!-- Distribution number --></label>
+        <name>n2de__Distribution_number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Distribution sequence --></label>
+        <name>n2de__Distribution_sequence__c</name>
+    </fields>
+    <fields>
+        <label><!-- Team member --></label>
+        <name>n2de__Distribution_team_member__c</name>
+        <relationshipLabel><!-- Distribution logs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Distributor --></label>
+        <name>n2de__Distributor__c</name>
+        <relationshipLabel><!-- Distribution logs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Distributor name --></label>
+        <name>n2de__Distributor_name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Distributor schedule log --></label>
+        <name>n2de__Distributor_schedule_log__c</name>
+        <relationshipLabel><!-- Distribution logs (Schedule log) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Disable standard email notifications --></label>
+        <name>n2de__Email_notifications_disabled__c</name>
+    </fields>
+    <fields>
+        <label><!-- Error message --></label>
+        <name>n2de__Error_message__c</name>
+    </fields>
+    <fields>
+        <label><!-- In alert --></label>
+        <name>n2de__In_alert__c</name>
+    </fields>
+    <fields>
+        <label><!-- Error --></label>
+        <name>n2de__In_error__c</name>
+    </fields>
+    <fields>
+        <label><!-- Alert is enabled --></label>
+        <name>n2de__Is_alert_enabled_log__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last action complete --></label>
+        <name>n2de__Is_last_action_complete__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is lookup --></label>
+        <name>n2de__Is_lookup__c</name>
+    </fields>
+    <fields>
+        <label><!-- Re-assigned --></label>
+        <name>n2de__Is_reassigned_to_queue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is sticky --></label>
+        <name>n2de__Is_sticky__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is substitute --></label>
+        <name>n2de__Is_substitute__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last action sequence --></label>
+        <name>n2de__Last_action_sequence__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last alert date --></label>
+        <name>n2de__Last_alert_date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last alert sequence --></label>
+        <name>n2de__Last_alert_sequence__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead --></label>
+        <name>n2de__Lead__c</name>
+        <relationshipLabel><!-- Distribution logs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Opportunity --></label>
+        <name>n2de__Opportunity__c</name>
+        <relationshipLabel><!-- Distribution logs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Owner --></label>
+        <name>n2de__Owner__c</name>
+        <relationshipLabel><!-- Distribution logs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Re-assigned to id --></label>
+        <name>n2de__Reassigned_to_id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reassignment date --></label>
+        <name>n2de__Reassignment_date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Distribution reject log --></label>
+        <name>n2de__Reject_log__c</name>
+        <relationshipLabel><!-- Distribution logs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Status on assignment --></label>
+        <name>n2de__Status_on_assignment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sticky creator --></label>
+        <name>n2de__Sticky_creator__c</name>
+    </fields>
+    <fields>
+        <help><!-- The time taken between this object being distributed to a team member and being actioned, in minutes. --></help>
+        <label><!-- Time to action mins --></label>
+        <name>n2de__Time_to_action_mins__c</name>
+    </fields>
+</CustomObjectTranslation>

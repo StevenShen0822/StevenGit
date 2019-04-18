@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>NVMStatsSF__NVM_Agent_Summary__c.NVMStatsSF__Agent__c</field>
+    </columns>
+    <columns>
+        <field>NVMStatsSF__NVM_Agent_Summary__c.NVMStatsSF__Number_of_Inbound_Calls_FORMULA__c</field>
+    </columns>
+    <columns>
+        <field>NVMStatsSF__NVM_Agent_Summary__c.NVMStatsSF__Number_of_No_Answers__c</field>
+    </columns>
+    <format>Tabular</format>
+    <name>Inbound - Agent No Answers</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$NVMStatsSF__NVM_Agent_Summary__c</reportType>
+    <scope>user</scope>
+    <showDetails>true</showDetails>
+    <timeFrameFilter>
+        <dateColumn>NVMStatsSF__NVM_Agent_Summary__c.NVMStatsSF__First_Login_Time__c</dateColumn>
+        <endDate>2017-06-21</endDate>
+        <interval>INTERVAL_CUSTOM</interval>
+        <startDate>2017-06-19</startDate>
+    </timeFrameFilter>
+</Report>

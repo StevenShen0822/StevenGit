@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- ARR --></label>
+        <name>ARR__c</name>
+        <relationshipLabel><!-- Users (ARR) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Casesafe ID --></label>
+        <name>Casesafe_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Custom Signature --></label>
+        <name>Custom_Signature__c</name>
+    </fields>
+    <fields>
+        <label><!-- Disallow Sales Rep On Quotes --></label>
+        <name>Disallow_Sales_Rep_On_Quotes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email Template Calendly Link --></label>
+        <name>Email_Template_Calendly_Link__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email Template Name Card Link --></label>
+        <name>Email_Template_Name_Card_Link__c</name>
+    </fields>
+    <fields>
+        <label><!-- ExternalID --></label>
+        <name>ExternalID__c</name>
+    </fields>
+    <fields>
+        <label><!-- GoogleID --></label>
+        <name>GoogleID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Most Recent Call Event Timestamp --></label>
+        <name>NVMContactWorld__MostRecentCallEventTimestamp__c</name>
+    </fields>
+    <fields>
+        <label><!-- Most Recent Call Is Active --></label>
+        <name>NVMContactWorld__MostRecentCallIsActive__c</name>
+    </fields>
+    <fields>
+        <label><!-- Most Recent Call --></label>
+        <name>NVMContactWorld__MostRecentCall__c</name>
+    </fields>
+    <fields>
+        <help><!-- NVM Agent Id for Contact World for Salesforce. This should be set to the correct NVM Agent Id to make sure that call tasks are assigned to the correct Salesforce user. --></help>
+        <label><!-- NVM Agent Id --></label>
+        <name>NVMContactWorld__NVM_Agent_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Notes Collapsed --></label>
+        <name>NVMContactWorld__NotesCollapsed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Operative ID --></label>
+        <name>Operative_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Print Specialist --></label>
+        <name>Print_Specialist__c</name>
+        <relationshipLabel><!-- Users (Print Specialist) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- RSR --></label>
+        <name>RSR__c</name>
+        <relationshipLabel><!-- Users (RSR) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- System-generated ID that uniquely identifies the record --></help>
+        <label><!-- Reference ID --></label>
+        <name>Reference_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Regional Pooling NVM Identifier --></label>
+        <name>Regional_Pooling_NVM_Identifier__c</name>
+        <picklistValues>
+            <masterLabel>Beta</masterLabel>
+            <translation><!-- Beta --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>East</masterLabel>
+            <translation><!-- East --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>North</masterLabel>
+            <translation><!-- North --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>South</masterLabel>
+            <translation><!-- South --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>West</masterLabel>
+            <translation><!-- West --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- SOR --></label>
+        <name>SOR__c</name>
+        <relationshipLabel><!-- Users (SOR) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Sales Rep Id from External System --></help>
+        <label><!-- SalesRep ID --></label>
+        <name>SalesRepID__c</name>
+    </fields>
+    <fields>
+        <label><!-- SalesRep ID Duplicate --></label>
+        <name>SalesRep_ID_Duplicate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Planner --></label>
+        <name>Sales_Planner__c</name>
+        <relationshipLabel><!-- Users (Sales Planner) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Account Manager --></label>
+        <name>Strategy_Specialist__c</name>
+        <relationshipLabel><!-- Users (Account Manager) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Transfer Case --></label>
+        <name>Transfer_Case__c</name>
+    </fields>
+    <fields>
+        <label><!-- User Survey Link --></label>
+        <name>User_Survey_Link__c</name>
+    </fields>
+    <fields>
+        <help><!-- Check this box so that others in this Salesforce organization can send EchoSign agreements on behalf of this user. --></help>
+        <label><!-- Adobe Sign Allow Sending As Other Users --></label>
+        <name>echosign_dev1__EchoSign_Allow_Delegated_Sending__c</name>
+    </fields>
+    <fields>
+        <help><!-- This checkbox indicates that the user&apos;s email address has been validated in EchoSign API. --></help>
+        <label><!-- Adobe Sign Email Verified --></label>
+        <name>echosign_dev1__EchoSign_Email_Verified__c</name>
+    </fields>
+    <fields>
+        <help><!-- If checked, user has logged and is not available to receive distributions from the Distribution Engine --></help>
+        <label><!-- Is logged out --></label>
+        <name>n2de__Is_logged_out__c</name>
+    </fields>
+    <fields>
+        <label><!-- testJea --></label>
+        <name>testJea__c</name>
+        <picklistValues>
+            <masterLabel>1 - Cancels</masterLabel>
+            <translation><!-- 1 - Cancels --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2 - Onboarding</masterLabel>
+            <translation><!-- 2 - Onboarding --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3 - Reviews</masterLabel>
+            <translation><!-- 3 - Reviews --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Asset Collection</masterLabel>
+            <translation><!-- Asset Collection --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CB Inbound</masterLabel>
+            <translation><!-- CB Inbound --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Client Billing</masterLabel>
+            <translation><!-- Client Billing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In House Collections</masterLabel>
+            <translation><!-- In House Collections --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inbound</masterLabel>
+            <translation><!-- Inbound --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rep Billing</masterLabel>
+            <translation><!-- Rep Billing --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>User Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>User Profile Layout</layout>
+        <layoutType>UserAlt</layoutType>
+        <sections>
+            <label><!-- About --></label>
+            <section>About</section>
+        </sections>
+        <sections>
+            <label><!-- Contact --></label>
+            <section>Contact</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <webLinks>
+        <label><!-- Sync_EchoSign_User --></label>
+        <name>echosign_dev1__Sync_EchoSign_User</name>
+    </webLinks>
+</CustomObjectTranslation>

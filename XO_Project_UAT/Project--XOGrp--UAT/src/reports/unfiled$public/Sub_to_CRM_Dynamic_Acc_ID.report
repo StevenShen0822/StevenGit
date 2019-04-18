@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>CUST_NAME</field>
+    </columns>
+    <columns>
+        <field>FK_NAME</field>
+    </columns>
+    <columns>
+        <field>FK_$Account.DynamicsAccID__c</field>
+    </columns>
+    <filter>
+        <criteriaItems>
+            <column>CUST_NAME</column>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>A-S00054886,A-S00054436,A-S00054043,A-S00054647,A-S00055217,A-S00055183,A-S00055140,A-S00055192,A-S00054140,A-S00055321,A-S00055322,A-S00054872,A-S00055134,A-S00055339,A-S00055303,A-S00055333,A-S00055489,A-S00055154,A-S00054857,A-S00054431,A-S00055173,A-S00055126,A-S00055200,A-S00055645,A-S00055549,A-S00055202,A-S00055623,A-S00055111,A-S00053864,A-S00055725,A-S00053942,A-S00053667,A-S00055745,A-S00055788,A-S00055795</value>
+        </criteriaItems>
+    </filter>
+    <format>Tabular</format>
+    <name>Sub to CRM Dynamic Acc ID</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$Zuora__Subscription__c@Zuora__Subscription__c.Zuora__Account__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <timeFrameFilter>
+        <dateColumn>Zuora__Subscription__c.Zuora__ContractAcceptanceDate__c</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

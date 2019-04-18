@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Alert condition argument --></label>
+        <name>n2de__Alert_condition_argument__c</name>
+    </fields>
+    <fields>
+        <label><!-- Alert condition field name --></label>
+        <name>n2de__Alert_condition_field_name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Alert condition field type --></label>
+        <name>n2de__Alert_condition_field_type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Alert condition operator --></label>
+        <name>n2de__Alert_condition_operator__c</name>
+        <picklistValues>
+            <masterLabel>equals</masterLabel>
+            <translation><!-- equals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>greater or equal</masterLabel>
+            <translation><!-- greater or equal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>greater than</masterLabel>
+            <translation><!-- greater than --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>less or equal</masterLabel>
+            <translation><!-- less or equal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>less than</masterLabel>
+            <translation><!-- less than --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>not equal</masterLabel>
+            <translation><!-- not equal --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- If the DateTime in the field has passed, distribution will be put into alert --></help>
+        <label><!-- Alert datetime field --></label>
+        <name>n2de__Alert_datetime_field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Alert period --></label>
+        <name>n2de__Alert_period__c</name>
+    </fields>
+    <fields>
+        <help><!-- Alerts on distribution: If the alert period (from time of distribution) has passed and the condition is found to be true an alert will be raised. Alerts must be entered in the sequence they will occur. --></help>
+        <label><!-- Alert sequence --></label>
+        <name>n2de__Alert_sequence__c</name>
+    </fields>
+    <fields>
+        <label><!-- Alert unit --></label>
+        <name>n2de__Alert_unit__c</name>
+        <picklistValues>
+            <masterLabel>Days</masterLabel>
+            <translation><!-- Days --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hours</masterLabel>
+            <translation><!-- Hours --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Minutes</masterLabel>
+            <translation><!-- Minutes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Distribution team --></label>
+        <name>n2de__Team__c</name>
+        <relationshipLabel><!-- Distribution team alerts --></relationshipLabel>
+    </fields>
+</CustomObjectTranslation>

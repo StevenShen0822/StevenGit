@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help><!-- Weighting applied to team members if no weighting is created for their tag, or they do not have a tag from the selected collection. --></help>
+        <label><!-- Default weighting --></label>
+        <name>n2de__Default_weighting__c</name>
+    </fields>
+    <fields>
+        <help><!-- Collection of tags to set weightings for. --></help>
+        <label><!-- Tag collection --></label>
+        <name>n2de__Tag_collection__c</name>
+        <relationshipLabel><!-- Distribution tag weighting patterns --></relationshipLabel>
+    </fields>
+</CustomObjectTranslation>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help><!-- Call outcome mapping for automatically setting disposition codes. --></help>
+        <label><!-- Call outcome mapping --></label>
+        <name>NVMContactWorld__CallOutcomeMapping__c</name>
+    </fields>
+    <fields>
+        <help><!-- Value indicating whether the disposition code should result in the agent moving to the next entry. --></help>
+        <label><!-- Progress to next record --></label>
+        <name>NVMContactWorld__Connected__c</name>
+    </fields>
+    <fields>
+        <help><!-- Value indicating the mode of progression in the Connect dialler. --></help>
+        <label><!-- Progression Mode --></label>
+        <name>NVMContactWorld__ProgressionMode__c</name>
+    </fields>
+</CustomObjectTranslation>

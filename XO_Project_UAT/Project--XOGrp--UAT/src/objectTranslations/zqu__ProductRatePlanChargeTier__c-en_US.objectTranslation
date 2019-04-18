@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help><!-- The last time this tier was attempted to be updated to Zuora and failed. --></help>
+        <label><!-- Last Update Attempted --></label>
+        <name>Last_Update_Attempted__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field will immediately schedule this product to be updated to Zuora. --></help>
+        <label><!-- Update Zuora Immediately --></label>
+        <name>Update_Zuora_Immediately__c</name>
+    </fields>
+    <fields>
+        <help><!-- An update is either needed or currently being processed. --></help>
+        <label><!-- Zuora Update Pending --></label>
+        <name>Zuora_Update_Pending__c</name>
+    </fields>
+    <fields>
+        <label><!-- Active --></label>
+        <name>zqu__Active__c</name>
+    </fields>
+    <fields>
+        <help><!-- Product link to catalog sync history --></help>
+        <label><!-- Catalog Sync History --></label>
+        <name>zqu__Catalog_Sync_History__c</name>
+        <relationshipLabel><!-- Product Rate Plan Charge Tier --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Currency --></label>
+        <name>zqu__Currency2__c</name>
+        <picklistValues>
+            <masterLabel>CAD</masterLabel>
+            <translation><!-- CAD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EUR</masterLabel>
+            <translation><!-- EUR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GBP</masterLabel>
+            <translation><!-- GBP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JPY</masterLabel>
+            <translation><!-- JPY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>USD</masterLabel>
+            <translation><!-- USD --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Currency (Deprecated) --></label>
+        <name>zqu__Currency__c</name>
+    </fields>
+    <fields>
+        <help><!-- Flag for soft deletion --></help>
+        <label><!-- Deleted --></label>
+        <name>zqu__Deleted__c</name>
+    </fields>
+    <fields>
+        <label><!-- Discount Amount --></label>
+        <name>zqu__DiscountAmount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Discount Percentage --></label>
+        <name>zqu__DiscountPercentage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ending Unit --></label>
+        <name>zqu__EndingUnit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Entity ID --></label>
+        <name>zqu__EntityID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Overage Price --></label>
+        <name>zqu__IsOveragePrice__c</name>
+    </fields>
+    <fields>
+        <label><!-- Price Format --></label>
+        <name>zqu__PriceFormat2__c</name>
+        <picklistValues>
+            <masterLabel>Flat Fee</masterLabel>
+            <translation><!-- Flat Fee --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Per Unit</masterLabel>
+            <translation><!-- Per Unit --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Flat Fee vs. Per Unit --></help>
+        <label><!-- Price Format (Deprecated) --></label>
+        <name>zqu__PriceFormat__c</name>
+    </fields>
+    <fields>
+        <label><!-- Price --></label>
+        <name>zqu__Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- ProductRatePlanChargeId --></label>
+        <name>zqu__ProductRatePlanChargeId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Rate Plan Charge --></label>
+        <name>zqu__ProductRatePlanCharge__c</name>
+        <relationshipLabel><!-- Product Rate Plan Charge Tier --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Starting Unit --></label>
+        <name>zqu__StartingUnit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sync Message --></label>
+        <name>zqu__SyncMessage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sync Status --></label>
+        <name>zqu__SyncStatus__c</name>
+        <picklistValues>
+            <masterLabel>Failed</masterLabel>
+            <translation><!-- Failed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Synced</masterLabel>
+            <translation><!-- Synced --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Syncing</masterLabel>
+            <translation><!-- Syncing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Updated</masterLabel>
+            <translation><!-- Updated --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Tier --></label>
+        <name>zqu__Tier__c</name>
+    </fields>
+    <fields>
+        <label><!-- ZuoraId --></label>
+        <name>zqu__ZuoraId__c</name>
+    </fields>
+    <validationRules>
+        <errorMessage><!-- EndingUnit should be greater than StartingUnit --></errorMessage>
+        <name>zqu__Ending_Unit_Greater_Than_Starting_Unit</name>
+    </validationRules>
+</CustomObjectTranslation>

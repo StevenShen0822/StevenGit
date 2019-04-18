@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Collapsible --></label>
+        <name>zqu__Collapsible__c</name>
+    </fields>
+    <fields>
+        <label><!-- Field Set Name --></label>
+        <name>zqu__FieldSetName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Single Column --></label>
+        <name>zqu__IsSingleColumn__c</name>
+    </fields>
+    <fields>
+        <label><!-- Object Name --></label>
+        <name>zqu__ObjectName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Order --></label>
+        <name>zqu__Order__c</name>
+    </fields>
+    <fields>
+        <label><!-- Record Type --></label>
+        <name>zqu__RecordType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Show Header --></label>
+        <name>zqu__ShowHeader__c</name>
+    </fields>
+    <fields>
+        <label><!-- View Type --></label>
+        <name>zqu__ViewType__c</name>
+    </fields>
+</CustomObjectTranslation>

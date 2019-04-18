@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Cap value --></label>
+        <name>n2de__Cap_value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Capping Pattern --></label>
+        <name>n2de__Capping_pattern__c</name>
+        <relationshipLabel><!-- Tag Caps --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Tag value --></label>
+        <name>n2de__Tag_value__c</name>
+        <relationshipLabel><!-- Tag Caps --></relationshipLabel>
+    </fields>
+</CustomObjectTranslation>

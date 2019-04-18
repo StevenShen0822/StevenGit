@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Account --></label>
+        <name>Zuora__Account__c</name>
+        <relationshipLabel><!-- Subscription Rate Plans --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Amendment Id --></label>
+        <name>Zuora__AmendmentId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Amendment Subscription Rate Plan Id --></label>
+        <name>Zuora__AmendmentSubscriptionRatePlanId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Amendment Type --></label>
+        <name>Zuora__AmendmentType__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Id --></label>
+        <name>Zuora__External_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Original Product Rate Plan Id --></label>
+        <name>Zuora__OriginalProductRatePlanId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Original Subscription Rate Plan Id --></label>
+        <name>Zuora__OriginalSubscriptionRatePlanId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Rate Plan Id --></label>
+        <name>Zuora__ProductRatePlanId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Subscription Rate Plan Name (Long Name) --></label>
+        <name>Zuora__SubscriptionRatePlanName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Subscription --></label>
+        <name>Zuora__Subscription__c</name>
+        <relationshipLabel><!-- Subscription Rate Plans --></relationshipLabel>
+    </fields>
+</CustomObjectTranslation>

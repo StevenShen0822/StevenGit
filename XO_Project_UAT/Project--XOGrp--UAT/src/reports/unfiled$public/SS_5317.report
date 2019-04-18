@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>zqu__ZProduct__c$Name</field>
+    </columns>
+    <columns>
+        <field>zqu__ZProduct__c.zqu__ProductRatePlan__r$Name</field>
+    </columns>
+    <columns>
+        <field>zqu__ZProduct__c.zqu__ProductRatePlan__r.zqu__R00N40000001mFVKEA2__r$Name</field>
+    </columns>
+    <columns>
+        <field>zqu__ZProduct__c.zqu__ProductRatePlan__r.zqu__R00N40000001mFVKEA2__r.zqu__Product_RatePlan_Charge_Tier__r$Id</field>
+    </columns>
+    <columns>
+        <field>zqu__ZProduct__c.zqu__ProductRatePlan__r.zqu__R00N40000001mFVKEA2__r.zqu__Product_RatePlan_Charge_Tier__r$Name</field>
+    </columns>
+    <columns>
+        <field>zqu__ZProduct__c.zqu__ProductRatePlan__r.zqu__R00N40000001mFVKEA2__r.zqu__Product_RatePlan_Charge_Tier__r$zqu__Price__c</field>
+    </columns>
+    <columns>
+        <field>zqu__ZProduct__c.zqu__ProductRatePlan__r.zqu__R00N40000001mFVKEA2__r.zqu__Product_RatePlan_Charge_Tier__r$zqu__PriceFormat__c</field>
+    </columns>
+    <filter>
+        <criteriaItems>
+            <column>zqu__ZProduct__c$Name</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Local Select Email</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>zqu__ZProduct__c.zqu__ProductRatePlan__r$Name</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>contains</operator>
+            <value>Stage 1,Stage 3</value>
+        </criteriaItems>
+    </filter>
+    <format>Tabular</format>
+    <name>SS-5317</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>ZProduct_with_PRP_with_PRC_with_PRCT__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <timeFrameFilter>
+        <dateColumn>zqu__ZProduct__c$CreatedDate</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

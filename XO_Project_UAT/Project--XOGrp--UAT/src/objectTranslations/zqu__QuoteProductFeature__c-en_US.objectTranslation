@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- ChargeGroupId --></label>
+        <name>zqu__ChargeGroupId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>zqu__Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Feature Name --></label>
+        <name>zqu__FeatureName__c</name>
+    </fields>
+    <fields>
+        <label><!-- FeatureZuoraIdFormula --></label>
+        <name>zqu__FeatureZuoraIdFormula__c</name>
+    </fields>
+    <fields>
+        <label><!-- FeatureZuoraId --></label>
+        <name>zqu__FeatureZuoraId__c</name>
+    </fields>
+    <fields>
+        <label><!-- ProductRatePlanZuoraIdFormula --></label>
+        <name>zqu__ProductRatePlanZuoraIdFormula__c</name>
+    </fields>
+    <fields>
+        <label><!-- ProductRatePlanZuoraId --></label>
+        <name>zqu__ProductRatePlanZuoraId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Rate Plan --></label>
+        <name>zqu__ProductRatePlan__c</name>
+        <relationshipLabel><!-- Quote Product Features --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- ProductZuoraIdFormula --></label>
+        <name>zqu__ProductZuoraIdFormula__c</name>
+    </fields>
+    <fields>
+        <label><!-- ProductZuoraId --></label>
+        <name>zqu__ProductZuoraId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product --></label>
+        <name>zqu__Product__c</name>
+        <relationshipLabel><!-- Quote Product Features --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Full Name --></label>
+        <name>zqu__QuoteProductFeatureFullName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quote Rate Plan --></label>
+        <name>zqu__QuoteRatePlan__c</name>
+        <relationshipLabel><!-- Quote Product Features --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Quote --></label>
+        <name>zqu__Quote__c</name>
+        <relationshipLabel><!-- Quote Product Features --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- SubscriptionProductFeatureId --></label>
+        <name>zqu__SubscriptionProductFeatureId__c</name>
+    </fields>
+    <fields>
+        <label><!-- ZFeature --></label>
+        <name>zqu__ZFeature__c</name>
+        <relationshipLabel><!-- Quote Product Features --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- ZProduct --></label>
+        <name>zqu__ZProduct__c</name>
+        <relationshipLabel><!-- Quote Product Features --></relationshipLabel>
+    </fields>
+</CustomObjectTranslation>

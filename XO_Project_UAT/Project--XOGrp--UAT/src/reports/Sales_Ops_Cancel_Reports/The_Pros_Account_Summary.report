@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Account.Zuora__R00N40000001kyLcEAI__r.Zuora__Subscriptions__r.Zuora__Subscription_Product_Charges__r$Zuora__RatePlanName__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Account.Zuora__R00N40000001kyLcEAI__r.Zuora__Subscriptions__r.Zuora__Subscription_Product_Charges__r$Zuora__TotalContractValue__c</field>
+    </columns>
+    <columns>
+        <field>Account.Zuora__R00N40000001kyLcEAI__r.Zuora__Subscriptions__r$Zuora__TermStartDate__c</field>
+    </columns>
+    <columns>
+        <field>Account.Zuora__R00N40000001kyLcEAI__r.Zuora__Subscriptions__r$Zuora__TermEndDate__c</field>
+    </columns>
+    <columns>
+        <field>Account.Zuora__R00N40000001kyLcEAI__r.Zuora__Subscriptions__r.Zuora__Subscription_Product_Charges__r$Discount_Percentage__c</field>
+    </columns>
+    <columns>
+        <field>Account.Zuora__R00N40000001kyLcEAI__r.Zuora__Subscriptions__r$Zuora__Status__c</field>
+    </columns>
+    <columns>
+        <field>Account.Zuora__R00N40000001kyLcEAI__r.Zuora__Subscriptions__r$True_Subscription_Status__c</field>
+    </columns>
+    <filter>
+        <criteriaItems>
+            <column>Account$Name</column>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>The Pros,Bella Pictures c/o The Pros,Wedding Bug c/o The Pros,BeLoved Floral Artistry c/o The Pros</value>
+        </criteriaItems>
+    </filter>
+    <format>Matrix</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Account$Name</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Account.Zuora__R00N40000001kyLcEAI__r.Zuora__Subscriptions__r$Name</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>The Pros Account Summary</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Accounts_with_Billing_Account_and_Subscription__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <timeFrameFilter>
+        <dateColumn>Account$CreatedDate</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Account$CasesafeID__c</field>
+    </columns>
+    <columns>
+        <field>Account$Local_Paid_Status__c</field>
+    </columns>
+    <columns>
+        <field>Account$Name</field>
+    </columns>
+    <columns>
+        <field>Account.Opportunities$CreatedDate</field>
+    </columns>
+    <columns>
+        <field>Account.Opportunities$Type</field>
+    </columns>
+    <columns>
+        <field>Account.Opportunities$Name</field>
+    </columns>
+    <columns>
+        <field>Account.Opportunities$Campaign</field>
+    </columns>
+    <description>Excludes Reception Upsell Campaign</description>
+    <filter>
+        <criteriaItems>
+            <column>Account.Opportunities$StageName</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Prospecting,Qualifying,Developing,Quoting,Closing,Pending Internal Approval,Ready for Echo-Sign,Pending Client Approval,Client Approved</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.Opportunities$Campaign</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>notContain</operator>
+            <value>Unpaid Reception Venue Upsell Campaign - December 2017</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account$RecordType</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Account.AccConcierge</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account$Primary_Category__c</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>contains</operator>
+            <value>Reception Venue</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account$Charge_Back_Balance__c</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value></value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.Opportunities$Name</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>notContain</operator>
+            <value>OppConcierge</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account$Local_Paid_Status__c</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Unpaid,Expired</value>
+        </criteriaItems>
+    </filter>
+    <format>Tabular</format>
+    <name>VenSpot with open opps</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Accounts_with_Opportunities__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <sortColumn>Account.Opportunities$CreatedDate</sortColumn>
+    <sortOrder>Asc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>Account$CreatedDate</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

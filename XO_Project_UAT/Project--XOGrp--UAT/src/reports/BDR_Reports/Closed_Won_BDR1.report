@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <buckets>
+        <bucketType>text</bucketType>
+        <developerName>BucketField_36520184</developerName>
+        <masterLabel>BDR</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <otherBucketLabel>Other</otherBucketLabel>
+        <sourceColumnName>FULL_NAME</sourceColumnName>
+        <useOther>true</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>Kaitlyn Quenzer</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Mollie Cumiskey</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Kylee Orriss</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Tracy Ridgway</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Alexandria Teixeira</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Laura Gardner</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Marcy Palacios</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Denise Giorno</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Kristin Walsifer</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Courtney Carlesimo</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Jenna Legat</sourceValue>
+            </sourceValues>
+            <value>BDR</value>
+        </values>
+    </buckets>
+    <columns>
+        <field>BucketField_36520184</field>
+    </columns>
+    <columns>
+        <field>FULL_NAME</field>
+    </columns>
+    <columns>
+        <field>ACCOUNT_NAME</field>
+    </columns>
+    <columns>
+        <field>OPPORTUNITY_NAME</field>
+    </columns>
+    <columns>
+        <field>LEAD_SOURCE</field>
+    </columns>
+    <columns>
+        <field>Opportunity.Potential_Value_Internet__c</field>
+    </columns>
+    <columns>
+        <field>Opportunity.Potential_Value_Direct_Marketing__c</field>
+    </columns>
+    <columns>
+        <field>Opportunity.Potential_Value_Print__c</field>
+    </columns>
+    <columns>
+        <field>Opportunity.Total_Potential_Value__c</field>
+    </columns>
+    <columns>
+        <field>STAGE_NAME</field>
+    </columns>
+    <columns>
+        <field>CLOSE_DATE</field>
+    </columns>
+    <columns>
+        <field>TYPE</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>AMOUNT</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Average</aggregateTypes>
+        <field>AGE</field>
+    </columns>
+    <format>Tabular</format>
+    <name>Closed Won- BDR</name>
+    <params>
+        <name>open</name>
+        <value>closedwon</value>
+    </params>
+    <params>
+        <name>probability</name>
+        <value>&gt;0</value>
+    </params>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Opportunity</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <sortColumn>BucketField_36520184</sortColumn>
+    <sortOrder>Asc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>CLOSE_DATE</dateColumn>
+        <endDate>2016-07-31</endDate>
+        <interval>INTERVAL_CUSTOM</interval>
+        <startDate>2016-07-01</startDate>
+    </timeFrameFilter>
+</Report>

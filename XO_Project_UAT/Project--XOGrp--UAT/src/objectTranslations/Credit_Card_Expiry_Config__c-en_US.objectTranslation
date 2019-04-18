@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Credit Card Expiry Config</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Credit Card Expiry Config</value>
+    </caseValues>
+    <fields>
+        <label><!-- Create ARR Task --></label>
+        <name>Create_ARR_Task__c</name>
+    </fields>
+    <fields>
+        <label><!-- Days Before Expiry --></label>
+        <name>Days_Before_Expiry__c</name>
+    </fields>
+    <fields>
+        <label><!-- Send Email To Customer --></label>
+        <name>Send_Email_To_Customer__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

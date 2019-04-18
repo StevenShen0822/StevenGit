@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Accounting Code --></label>
+        <name>Zuora__AccountingCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Applied To Charge Number --></label>
+        <name>Zuora__AppliedToChargeNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Applied To Invoice Item --></label>
+        <name>Zuora__AppliedToInvoiceItem__c</name>
+        <relationshipLabel><!-- Invoice Items --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- External Id --></label>
+        <name>Zuora__External_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invoice --></label>
+        <name>Zuora__Invoice__c</name>
+        <relationshipLabel><!-- Invoice Items --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Processing Type --></label>
+        <name>Zuora__ProcessingType__c</name>
+        <picklistValues>
+            <masterLabel>Charge</masterLabel>
+            <translation><!-- Charge --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Discount</masterLabel>
+            <translation><!-- Discount --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prepayment</masterLabel>
+            <translation><!-- Prepayment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tax</masterLabel>
+            <translation><!-- Tax --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Product Description --></label>
+        <name>Zuora__ProductDescription__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Rate Plan Charge Id --></label>
+        <name>Zuora__ProductRatePlanChargeId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product --></label>
+        <name>Zuora__Product__c</name>
+        <relationshipLabel><!-- Invoice Items --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Quantity --></label>
+        <name>Zuora__Quantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Revenue Recognition Code --></label>
+        <name>Zuora__RevRecCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Revenue Recognition Start Date --></label>
+        <name>Zuora__RevRecStartDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Revenue Recognition Trigger Condition --></label>
+        <name>Zuora__RevRecTriggerCondition__c</name>
+    </fields>
+    <fields>
+        <label><!-- SKU --></label>
+        <name>Zuora__SKU__c</name>
+    </fields>
+    <fields>
+        <label><!-- Service End Date --></label>
+        <name>Zuora__ServiceEndDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Service Start Date --></label>
+        <name>Zuora__ServiceStartDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Subscription Rate Plan Charge --></label>
+        <name>Zuora__SubscriptionRatePlanCharge__c</name>
+        <relationshipLabel><!-- Invoice Items --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Subscription --></label>
+        <name>Zuora__Subscription__c</name>
+        <relationshipLabel><!-- Invoice Items --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Tax Amount --></label>
+        <name>Zuora__TaxAmount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tax Code --></label>
+        <name>Zuora__TaxCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tax Exempt Amount --></label>
+        <name>Zuora__TaxExemptAmount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tax Mode --></label>
+        <name>Zuora__TaxMode__c</name>
+        <picklistValues>
+            <masterLabel>Tax Exclusive</masterLabel>
+            <translation><!-- Tax Exclusive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tax Inclusive</masterLabel>
+            <translation><!-- Tax Inclusive --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Unit Of Measure --></label>
+        <name>Zuora__UOM__c</name>
+        <relationshipLabel><!-- Invoice Items --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Unit Price --></label>
+        <name>Zuora__UnitPrice__c</name>
+    </fields>
+</CustomObjectTranslation>

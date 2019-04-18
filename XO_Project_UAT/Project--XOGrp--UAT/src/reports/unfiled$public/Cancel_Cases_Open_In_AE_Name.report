@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>OWNER</field>
+    </columns>
+    <columns>
+        <field>SUBJECT</field>
+    </columns>
+    <columns>
+        <field>CREATED_DATE</field>
+    </columns>
+    <columns>
+        <field>AGE</field>
+    </columns>
+    <columns>
+        <field>OPEN</field>
+    </columns>
+    <columns>
+        <field>CLOSED</field>
+    </columns>
+    <columns>
+        <field>ACCOUNT.NAME</field>
+    </columns>
+    <filter>
+        <booleanFilter>1 AND 2 AND (3 OR 4)</booleanFilter>
+        <criteriaItems>
+            <column>RECORDTYPE</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Case.X1_Cancels</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>STATUS</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value>Closed,Closed Duplicate</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>OWNER</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Jessica Dillion,Lisa Hamilton,Krystal Sossaman,Stacy Brambila,Hillary Boyd,Elise (Wolff) Kneram,Kelly Workman-Flood,Jackie Ornellas,Mindi Middleton,Britt Shelby,Veronica Hatch,Melissa Arnold,Christina Jenkins,Maura Thomson,Amy Reynolds,Lisa MacDonald,George Proctor,Michele Hopkins,Betsy Anderson,Katrina Hayes,Lindsay Carroll,Ronni Ross,Tara Ritting,Alan Metzger,Margaret Fazio,Gayle Susser,Kimberley Feys,Jill Santom,Alex Huerter,Julie Johnston,Cecelia Groark,David Quatresols,Mark Pittman,Lauren Banister,Denise Bell,Sarah Rucinski,Karrie Ploss,Denise Hall-Green,Megan Guffey,Rochell Heininger,Litsa Monahas,Jessica Williams,Christie Manning,Karla Setser,Kylee Orris,Melina Walzer,Kaitlyn Quenzer,Eileen Frary,Anais Martinez-Ruane,Heather Dorsten,Jessica Smith,Tasha Carter,Audrey Groves,Tamara Crenshaw,Cindy Elley,Silver Varela,Mechelle Lobpries,Christina Emerson,Alexandria Teixeira,Briana Boyd,Briana Hayes,Caitlyn Ziobro,Kelsey Davidson,Cassandra Ettman,Chloe Wilson</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>OWNER</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Elizabeth Engrassia,Erica Barreto,Nicole Riordan,Donna Raimondi,Jade Govel,Kate LeLay,Katie Kuroski,Kelsey O&apos;Toole,Kylee Orriss,Laura Gardner,Madison Jones,Marcy Palacios,Mollie Cumiskey,Lauren Fazio,Susan Elwood,Victoria Zaino,Kristen Newquist,Leslie Karrer,Maria Catalano,Jill Rothman,Muthithar Vinson,Danielle Wilson</value>
+        </criteriaItems>
+    </filter>
+    <format>Tabular</format>
+    <name>Cancel Cases Open In AE Name</name>
+    <params>
+        <name>units</name>
+        <value>h</value>
+    </params>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CaseList</reportType>
+    <scope>organization</scope>
+    <showDetails>false</showDetails>
+    <timeFrameFilter>
+        <dateColumn>CREATED_DATEONLY</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

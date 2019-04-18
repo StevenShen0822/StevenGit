@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Distribution team member --></label>
+        <name>n2de__Distribution_team_member__c</name>
+        <relationshipLabel><!-- Distributor category team members --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Distributor --></label>
+        <name>n2de__Distributor__c</name>
+        <relationshipLabel><!-- Distributor category team members --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Distributor category --></label>
+        <name>n2de__Distributor_category__c</name>
+        <relationshipLabel><!-- Distributor category team members --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Username --></label>
+        <name>n2de__Username__c</name>
+    </fields>
+</CustomObjectTranslation>

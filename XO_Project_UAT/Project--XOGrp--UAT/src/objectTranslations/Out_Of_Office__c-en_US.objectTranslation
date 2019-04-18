@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Out Of Office</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Out Of Office</value>
+    </caseValues>
+    <fields>
+        <label><!-- Active --></label>
+        <name>Active__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field denotes the user who is OOO. --></help>
+        <label><!-- Assign From --></label>
+        <name>Assign_From__c</name>
+        <relationshipLabel><!-- Out Of Office (Assign From) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- This fields denotes the user who will own any new task that is assigned to the OOO user during the specified start and end date. --></help>
+        <label><!-- Assign Task To --></label>
+        <name>Assign_Task_To__c</name>
+        <relationshipLabel><!-- Out Of Office (Assign Task To) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- End date of OOO. --></help>
+        <label><!-- End Date --></label>
+        <name>End_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Start date of OOO. --></help>
+        <label><!-- Start Date --></label>
+        <name>Start_Date__c</name>
+    </fields>
+    <layouts>
+        <layout>Out Of Office Admin Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Out Of Office Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Vowel</startsWith>
+    <validationRules>
+        <errorMessage><!-- Please select any user other than you! --></errorMessage>
+        <name>AssignTo_N_AssignFrom_usr_cannot_be_same</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- End Date cannot be lesser than the Start Date! --></errorMessage>
+        <name>End_Date_Less_Than_Start_Date</name>
+    </validationRules>
+</CustomObjectTranslation>

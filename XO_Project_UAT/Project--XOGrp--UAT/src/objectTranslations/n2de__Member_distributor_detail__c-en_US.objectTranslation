@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Actual distribution sequence --></label>
+        <name>n2de__Actual_distribution_sequence__c</name>
+    </fields>
+    <fields>
+        <label><!-- Distribution control count --></label>
+        <name>n2de__Distribution_control_count__c</name>
+    </fields>
+    <fields>
+        <label><!-- Distribution sequence --></label>
+        <name>n2de__Distribution_sequence__c</name>
+    </fields>
+    <fields>
+        <label><!-- Distribution team member --></label>
+        <name>n2de__Distribution_team_member__c</name>
+        <relationshipLabel><!-- Member distributor details --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Distributor --></label>
+        <name>n2de__Distributor__c</name>
+        <relationshipLabel><!-- Member distributor details --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Distributor name --></label>
+        <name>n2de__Distributor_name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last assignment date --></label>
+        <name>n2de__Last_assignment_date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last count reset date --></label>
+        <name>n2de__Last_count_reset_date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Load balanced count --></label>
+        <name>n2de__Load_balanced_count__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rejections ih --></label>
+        <name>n2de__Rejections_ih__c</name>
+    </fields>
+    <fields>
+        <label><!-- Username --></label>
+        <name>n2de__Username__c</name>
+    </fields>
+    <fields>
+        <label><!-- Weighting ih --></label>
+        <name>n2de__Weighting_ih__c</name>
+    </fields>
+</CustomObjectTranslation>

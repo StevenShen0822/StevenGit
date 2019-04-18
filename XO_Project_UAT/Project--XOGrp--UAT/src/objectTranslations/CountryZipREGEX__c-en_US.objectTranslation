@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>CountryZipREGEX</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>CountryZipREGEX</value>
+    </caseValues>
+    <fields>
+        <label><!-- Active --></label>
+        <name>Active__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter in ALL CAPS --></help>
+        <label><!-- CountryCode --></label>
+        <name>CountryCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- RegExPattern --></label>
+        <name>RegExPattern__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

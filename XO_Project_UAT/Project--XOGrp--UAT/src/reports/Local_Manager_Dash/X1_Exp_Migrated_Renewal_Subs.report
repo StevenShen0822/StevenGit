@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <chart>
+        <backgroundColor1>#FF9966</backgroundColor1>
+        <backgroundColor2>#FFFFFF</backgroundColor2>
+        <backgroundFadeDir>Diagonal</backgroundFadeDir>
+        <chartSummaries>
+            <aggregate>Sum</aggregate>
+            <axisBinding>y</axisBinding>
+            <column>Zuora__Subscription__c.Zuora__TCV__c</column>
+        </chartSummaries>
+        <chartType>VerticalColumn</chartType>
+        <enableHoverLabels>true</enableHoverLabels>
+        <expandOthers>true</expandOthers>
+        <groupingColumn>Zuora__Subscription__c.Zuora__TermEndDate__c</groupingColumn>
+        <location>CHART_TOP</location>
+        <showAxisLabels>true</showAxisLabels>
+        <showPercentage>false</showPercentage>
+        <showTotal>false</showTotal>
+        <showValues>true</showValues>
+        <size>Large</size>
+        <summaryAxisRange>Auto</summaryAxisRange>
+        <textColor>#000000</textColor>
+        <textSize>12</textSize>
+        <titleColor>#000000</titleColor>
+        <titleSize>18</titleSize>
+    </chart>
+    <columns>
+        <field>CUST_NAME</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Zuora__Subscription__c.Zuora__TCV__c</field>
+    </columns>
+    <description>This report shows those subs expiring next month that should be renewing this month.  It doesn&apos;t account for proration and not all of these $$ will count this month.</description>
+    <filter>
+        <criteriaItems>
+            <column>Zuora__Subscription__c.Product_Line__c</column>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>migrated contract</value>
+        </criteriaItems>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Month</dateGranularity>
+        <field>Zuora__Subscription__c.Zuora__TermEndDate__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>1a. Migrated Renewal Subs w/Exp Next Mon</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$Zuora__Subscription__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <sortColumn>Zuora__Subscription__c.Zuora__TCV__c</sortColumn>
+    <sortOrder>Asc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>Zuora__Subscription__c.Zuora__TermEndDate__c</dateColumn>
+        <interval>INTERVAL_NEXTMONTH</interval>
+    </timeFrameFilter>
+</Report>

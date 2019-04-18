@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Compensation Role</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Compensation Roles</value>
+    </caseValues>
+    <fields>
+        <label><!-- Active --></label>
+        <name>Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- Compensation Type --></label>
+        <name>Compensation_Type__c</name>
+        <picklistValues>
+            <masterLabel>NSBB</masterLabel>
+            <translation><!-- NSBB --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- End Date --></label>
+        <name>End_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Rep --></label>
+        <name>Sales_Rep__c</name>
+        <relationshipLabel><!-- Compensation Roles --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Start Date --></label>
+        <name>Start_Date__c</name>
+    </fields>
+    <layouts>
+        <layout>Compensation Role Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Please fill valid Start Date or End Date --></errorMessage>
+        <name>Validate_Start_Date_And_End_Date</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Sales Rep is Required --></errorMessage>
+        <name>Validation_Sales_Rep_Require</name>
+    </validationRules>
+</CustomObjectTranslation>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Zuora Environment URL</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Zuora Environment URL</value>
+    </caseValues>
+    <fields>
+        <help><!-- The base URL of the Zuora environment tied to the designated Salesforce environment --></help>
+        <label><!-- Zuora Base URL --></label>
+        <name>Zuora_Base_URL__c</name>
+    </fields>
+    <fields>
+        <help><!-- CSP-1181 | The path of the Zuora REST endpoint. As of 9/7/16 the Zuora REST API Path for their production and apisandbox environments is &quot;/rest&quot; while for their services421 environment it is &quot;/apps&quot; --></help>
+        <label><!-- Zuora REST API Path --></label>
+        <name>Zuora_REST_API_Path__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

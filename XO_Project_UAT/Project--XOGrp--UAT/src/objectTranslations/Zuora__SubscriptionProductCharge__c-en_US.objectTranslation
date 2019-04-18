@@ -1,0 +1,692 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- SubscriptionCharges --></label>
+        <name>fields_for_select_billing_account_compon</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Category Taxonomy ID --></label>
+        <name>Category_Taxonomy_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Discount Price --></label>
+        <name>DiscountPrice__c</name>
+    </fields>
+    <fields>
+        <label><!-- Discount Percentage --></label>
+        <name>Discount_Percentage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Discount Reason --></label>
+        <name>Discount_Reason__c</name>
+        <picklistValues>
+            <masterLabel>Make Good</masterLabel>
+            <translation><!-- Make Good --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None-Autocalculated Discount</masterLabel>
+            <translation><!-- None-Autocalculated Discount --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PIF</masterLabel>
+            <translation><!-- PIF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RSD Discretionary Code</masterLabel>
+            <translation><!-- RSD Discretionary Code --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rate Freeze</masterLabel>
+            <translation><!-- Rate Freeze --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trade</masterLabel>
+            <translation><!-- Trade --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trade Show Discount</masterLabel>
+            <translation><!-- Trade Show Discount --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wedding Wire Switch Pitch</masterLabel>
+            <translation><!-- Wedding Wire Switch Pitch --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Discount total for each line item on the subscription. --></help>
+        <label><!-- Discount Total --></label>
+        <name>Discount_Total__c</name>
+    </fields>
+    <fields>
+        <help><!-- Typically if a rate plan has capacity, the charge would occupy an inventory slot.  By checking this (on record creation only), the inventory will not be created.  This is primarily for renewing migrated subscriptions. --></help>
+        <label><!-- Do not create inventory --></label>
+        <name>Do_not_create_inventory__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Effective Contract --></label>
+        <name>EffectiveContract__c</name>
+    </fields>
+    <fields>
+        <label><!-- FloaterRepID --></label>
+        <name>FloaterRepID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Floater Rep --></label>
+        <name>Floater_Rep__c</name>
+        <relationshipLabel><!-- Subscription Product &amp; Charges --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Gross total for each individual line item on the subscription. --></help>
+        <label><!-- Gross Total --></label>
+        <name>Gross_Total__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Possible Renewal --></label>
+        <name>Is_Possible_Renewal__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Job Type --></label>
+        <name>Job_Type__c</name>
+    </fields>
+    <fields>
+        <help><!-- LDE Email Launch Date on Subscription Product and Charge --></help>
+        <label><!-- LDE Email Launch Date --></label>
+        <name>LDE_Email_Launch_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Contract Id from Legacy CES --></help>
+        <label><!-- Legacy CES ContractId --></label>
+        <name>Legacy_CES_ContractId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Legacy_CES_EffectiveEndDate --></label>
+        <name>Legacy_CES_EffectiveEndDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Legacy_CES_EffectiveStartDate --></label>
+        <name>Legacy_CES_EffectiveStartDate__c</name>
+    </fields>
+    <fields>
+        <help><!-- Invoice Id from Legacy CES SF-1857 --></help>
+        <label><!-- Legacy CES InvoiceId --></label>
+        <name>Legacy_CES_InvoiceId__c</name>
+    </fields>
+    <fields>
+        <help><!-- Publication Id From Legacy CES. SF-1857 --></help>
+        <label><!-- Legacy CES PublicationId --></label>
+        <name>Legacy_CES_PublicationId__c</name>
+    </fields>
+    <fields>
+        <help><!-- RateId from Legacy CES. SF-1857 --></help>
+        <label><!-- Legacy CES RateId --></label>
+        <name>Legacy_CES_RateId__c</name>
+    </fields>
+    <fields>
+        <help><!-- Record ID from Legacy CES - SF-1857 --></help>
+        <label><!-- Legacy CES RecordId --></label>
+        <name>Legacy_CES_RecordId__c</name>
+    </fields>
+    <fields>
+        <help><!-- Service Id from Legacy CES : Sf-1857 --></help>
+        <label><!-- Legacy CES ServiceId --></label>
+        <name>Legacy_CES_ServiceId__c</name>
+    </fields>
+    <fields>
+        <help><!-- SpecId from Legacy CES- SF-1857 --></help>
+        <label><!-- Legacy CES SpecId --></label>
+        <name>Legacy_CES_SpecId__c</name>
+    </fields>
+    <fields>
+        <label><!-- List Price --></label>
+        <name>List_Price__c</name>
+    </fields>
+    <fields>
+        <help><!-- The external system GUID of the selected Location/Vendor Account that ties together Salesforce, Partners, Admin Panel, and any other systems. --></help>
+        <label><!-- LocationVendorDynamicsAccountID --></label>
+        <name>LocationVendorDynamicsAccountID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Market ID --></label>
+        <name>Market_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Print Issue Id --></label>
+        <name>Print_Issue_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Type --></label>
+        <name>ProductType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Category --></label>
+        <name>Product_Category__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Name Text --></label>
+        <name>Product_Name_Text__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product SKU - Rate Plan Name --></label>
+        <name>Product_SKU_Rate_Plan_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Type --></label>
+        <name>Product_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quote Rate Plan ID --></label>
+        <name>Quote_Rate_Plan_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- RSD ID --></label>
+        <name>RSD_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- RenewalRepID --></label>
+        <name>RenewalRepID__c</name>
+    </fields>
+    <fields>
+        <label><!-- SalesRepID --></label>
+        <name>SalesRepID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sub True Status --></label>
+        <name>Sub_True_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- TermLessThan12 --></label>
+        <name>TermLessThan12__c</name>
+    </fields>
+    <fields>
+        <label><!-- Zuora Id of Migrated Charge --></label>
+        <name>Zuora_Id_of_Migrated_Charge__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Zuora__Account__c</name>
+        <relationshipLabel><!-- Subscription Product &amp; Charges --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Accounting Code --></label>
+        <name>Zuora__AccountingCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Apply Discount To --></label>
+        <name>Zuora__ApplyDiscountTo__c</name>
+        <picklistValues>
+            <masterLabel>Null</masterLabel>
+            <translation><!-- Null --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>One Time</masterLabel>
+            <translation><!-- One Time --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>One Time Recurring</masterLabel>
+            <translation><!-- One Time Recurring --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>One Time Recurring Usage</masterLabel>
+            <translation><!-- One Time Recurring Usage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>One Time Usage</masterLabel>
+            <translation><!-- One Time Usage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recurring</masterLabel>
+            <translation><!-- Recurring --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recurring Usage</masterLabel>
+            <translation><!-- Recurring Usage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Usage</masterLabel>
+            <translation><!-- Usage --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Bill Cycle Day --></label>
+        <name>Zuora__BillCycleDay__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bill Cycle Type --></label>
+        <name>Zuora__BillCycleType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Billing Period Alignment --></label>
+        <name>Zuora__BillingPeriodAlignment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Period Start Day --></label>
+        <name>Zuora__BillingPeriodStartDay__c</name>
+    </fields>
+    <fields>
+        <label><!-- Period --></label>
+        <name>Zuora__BillingPeriod__c</name>
+    </fields>
+    <fields>
+        <label><!-- Billing Timing --></label>
+        <name>Zuora__BillingTiming__c</name>
+        <picklistValues>
+            <masterLabel>In Advance</masterLabel>
+            <translation><!-- In Advance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Arrears</masterLabel>
+            <translation><!-- In Arrears --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Charge Number --></label>
+        <name>Zuora__ChargeNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Charged Through Date --></label>
+        <name>Zuora__ChargedThroughDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- DMRC --></label>
+        <name>Zuora__DMRC__c</name>
+    </fields>
+    <fields>
+        <label><!-- DTCV --></label>
+        <name>Zuora__DTCV__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>Zuora__Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Discount Amount --></label>
+        <name>Zuora__DiscountAmount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Discount Level --></label>
+        <name>Zuora__DiscountLevel__c</name>
+    </fields>
+    <fields>
+        <label><!-- Discount Percentage --></label>
+        <name>Zuora__DiscountPercentage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Effective End Date --></label>
+        <name>Zuora__EffectiveEndDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Effective Start Date --></label>
+        <name>Zuora__EffectiveStartDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- End Date Condition --></label>
+        <name>Zuora__EndDateCondition__c</name>
+        <picklistValues>
+            <masterLabel>Fixed Period</masterLabel>
+            <translation><!-- Fixed Period --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>One Time</masterLabel>
+            <translation><!-- One Time --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Specific End Date</masterLabel>
+            <translation><!-- Specific End Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Subscription End Date</masterLabel>
+            <translation><!-- Subscription End Date --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Extended Amount --></label>
+        <name>Zuora__ExtendedAmount__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Id --></label>
+        <name>Zuora__External_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Included Units --></label>
+        <name>Zuora__IncludedUnits__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Last Segment --></label>
+        <name>Zuora__IsLastSegment__c</name>
+    </fields>
+    <fields>
+        <label><!-- List Price Base --></label>
+        <name>Zuora__ListPriceBase__c</name>
+        <picklistValues>
+            <masterLabel>Per Billing Period</masterLabel>
+            <translation><!-- Per Billing Period --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Per Month</masterLabel>
+            <translation><!-- Per Month --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Model --></label>
+        <name>Zuora__Model__c</name>
+    </fields>
+    <fields>
+        <label><!-- Monthly Recurring Revenue --></label>
+        <name>Zuora__MonthlyRecurringRevenue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number Of Periods --></label>
+        <name>Zuora__NumberOfPeriods__c</name>
+    </fields>
+    <fields>
+        <label><!-- Original Id --></label>
+        <name>Zuora__OriginalId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Original Product Rate Plan Charge Id --></label>
+        <name>Zuora__OriginalProductRatePlanChargeId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Overage Calculation Option --></label>
+        <name>Zuora__OverageCalculationOption__c</name>
+    </fields>
+    <fields>
+        <label><!-- Overage Price --></label>
+        <name>Zuora__OveragePrice__c</name>
+    </fields>
+    <fields>
+        <label><!-- Overage Unused Units Credit Option --></label>
+        <name>Zuora__OverageUnusedUnitsCreditOption__c</name>
+    </fields>
+    <fields>
+        <label><!-- Price Change Option --></label>
+        <name>Zuora__PriceChangeOption__c</name>
+    </fields>
+    <fields>
+        <label><!-- Price Increase Percentage --></label>
+        <name>Zuora__PriceIncreasePercentage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Price Table --></label>
+        <name>Zuora__PriceTable__c</name>
+    </fields>
+    <fields>
+        <label><!-- Price --></label>
+        <name>Zuora__Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Processed Through Date --></label>
+        <name>Zuora__ProcessedThroughDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Description --></label>
+        <name>Zuora__ProductDescription__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Effective End Date --></label>
+        <name>Zuora__ProductEffectiveEndDate_Product__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Effective End Date (Deprecated) --></label>
+        <name>Zuora__ProductEffectiveEndDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Name --></label>
+        <name>Zuora__ProductName_Product__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Name (Deprecated) --></label>
+        <name>Zuora__ProductName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product RatePlan Charge Id --></label>
+        <name>Zuora__ProductRatePlanChargeId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product SKU --></label>
+        <name>Zuora__ProductSKU_Product__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product SKU (Deprecated) --></label>
+        <name>Zuora__ProductSKU__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product (Deprecated) --></label>
+        <name>Zuora__Product__c</name>
+        <relationshipLabel><!-- Subscription Product &amp; Charges --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Quantity --></label>
+        <name>Zuora__Quantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rate Plan Description --></label>
+        <name>Zuora__RatePlanDescription__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rate Plan Effective End Date --></label>
+        <name>Zuora__RatePlanEffectiveEndDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- RatePlan Id --></label>
+        <name>Zuora__RatePlanId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rate Plan Name --></label>
+        <name>Zuora__RatePlanName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rev Rec Code --></label>
+        <name>Zuora__RevRecCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rev Rec Trigger Condition --></label>
+        <name>Zuora__RevRecTriggerCondition__c</name>
+    </fields>
+    <fields>
+        <label><!-- Segment --></label>
+        <name>Zuora__Segment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Specific Billing Period --></label>
+        <name>Zuora__SpecificBillingPeriod__c</name>
+    </fields>
+    <fields>
+        <label><!-- Specific End Date --></label>
+        <name>Zuora__SpecificEndDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Subscription Charge Number --></label>
+        <name>Zuora__SubscriptionChargeNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Subscription Rate Plan Charge Name --></label>
+        <name>Zuora__SubscriptionRatePlanChargeName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Subscription Rate Plan --></label>
+        <name>Zuora__SubscriptionRatePlan__c</name>
+        <relationshipLabel><!-- Subscription Product &amp; Charges --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Subscription --></label>
+        <name>Zuora__Subscription__c</name>
+        <relationshipLabel><!-- Subscription Product &amp; Charges --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Total Contract Value --></label>
+        <name>Zuora__TotalContractValue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Trigger Date --></label>
+        <name>Zuora__TriggerDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Trigger Event --></label>
+        <name>Zuora__TriggerEvent__c</name>
+        <picklistValues>
+            <masterLabel>Upon Contract Effective</masterLabel>
+            <translation><!-- Upon Contract Effective --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Upon Customer Acceptance</masterLabel>
+            <translation><!-- Upon Customer Acceptance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Upon Service Activation</masterLabel>
+            <translation><!-- Upon Service Activation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Upon a Specific Date</masterLabel>
+            <translation><!-- Upon a Specific Date --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>Zuora__Type__c</name>
+        <picklistValues>
+            <masterLabel>One-Time</masterLabel>
+            <translation><!-- One-Time --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recurring</masterLabel>
+            <translation><!-- Recurring --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Usage</masterLabel>
+            <translation><!-- Usage --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- UOM (Deprecated) --></label>
+        <name>Zuora__UOM__c</name>
+    </fields>
+    <fields>
+        <label><!-- UOM --></label>
+        <name>Zuora__UOM_formula__c</name>
+    </fields>
+    <fields>
+        <label><!-- UOM (Deprecated) --></label>
+        <name>Zuora__UnitOfMeasure__c</name>
+        <relationshipLabel><!-- Unit Of Measure --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Unused Units Credit Rates --></label>
+        <name>Zuora__UnusedUnitsCreditRates__c</name>
+    </fields>
+    <fields>
+        <label><!-- Up To Periods Type --></label>
+        <name>Zuora__UpToPeriodsType__c</name>
+        <picklistValues>
+            <masterLabel>Billing Periods</masterLabel>
+            <translation><!-- Billing Periods --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Days</masterLabel>
+            <translation><!-- Days --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Months</masterLabel>
+            <translation><!-- Months --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Weeks</masterLabel>
+            <translation><!-- Weeks --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Years</masterLabel>
+            <translation><!-- Years --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Up To How Many Periods --></label>
+        <name>Zuora__Upto_How_Many_Periods__c</name>
+    </fields>
+    <fields>
+        <label><!-- UsageRecordRatingOption --></label>
+        <name>Zuora__UsageRecordRatingOption__c</name>
+    </fields>
+    <fields>
+        <label><!-- UseDiscountSpecificAccountingCode --></label>
+        <name>Zuora__UseDiscountSpecificAccountingCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Version --></label>
+        <name>Zuora__Version__c</name>
+    </fields>
+    <fields>
+        <label><!-- Weekly Bill Cycle Day --></label>
+        <name>Zuora__WeeklyBillCycleDay__c</name>
+    </fields>
+    <fields>
+        <help><!-- The Zuora Id (external primary key) of this Subscription Product &amp; Charge. --></help>
+        <label><!-- Zuora Id --></label>
+        <name>Zuora__Zuora_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- testRay --></label>
+        <name>testRay__c</name>
+    </fields>
+    <fields>
+        <label><!-- test for account --></label>
+        <name>testforaccount__c</name>
+    </fields>
+    <fields>
+        <label><!-- test for field --></label>
+        <name>testforfield_del__c</name>
+    </fields>
+    <layouts>
+        <layout>Subscription Charge Admin</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Price Table --></label>
+            <section>Price Table</section>
+        </sections>
+        <sections>
+            <label><!-- Product --></label>
+            <section>Product</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Subscription Charge Z-Force Layout v2.9 - Clone</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Price Table --></label>
+            <section>Price Table</section>
+        </sections>
+        <sections>
+            <label><!-- Product --></label>
+            <section>Product</section>
+        </sections>
+    </layouts>
+    <validationRules>
+        <errorMessage><!-- $0 legacy charges are ignored when the Subscription has a TCV.  Only the initial charge (Charge #00) may be $0. --></errorMessage>
+        <name>Do_not_allow_0_dollar_TCV_charges</name>
+    </validationRules>
+</CustomObjectTranslation>

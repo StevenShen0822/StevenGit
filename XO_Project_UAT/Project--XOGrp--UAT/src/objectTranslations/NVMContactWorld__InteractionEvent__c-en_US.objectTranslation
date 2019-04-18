@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Additional Field Values --></label>
+        <name>NVMContactWorld__AdditionalFieldValues__c</name>
+    </fields>
+    <fields>
+        <label><!-- Agent --></label>
+        <name>NVMContactWorld__Agent__c</name>
+        <relationshipLabel><!-- Interaction Events --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- CallObjectIdentifier --></label>
+        <name>NVMContactWorld__CallObjectIdentifier__c</name>
+    </fields>
+    <fields>
+        <label><!-- Custom Object Id --></label>
+        <name>NVMContactWorld__CustomObjectId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Number --></label>
+        <name>NVMContactWorld__CustomerNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Disposition code --></label>
+        <name>NVMContactWorld__DispositionCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- IndexedCallObjectIdentifier --></label>
+        <name>NVMContactWorld__IndexedCallObjectIdentifier__c</name>
+    </fields>
+    <fields>
+        <label><!-- Initial Search Results --></label>
+        <name>NVMContactWorld__InitialSearchResults__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Pre Call Event --></label>
+        <name>NVMContactWorld__IsPreCallEvent__c</name>
+    </fields>
+    <fields>
+        <label><!-- Related Task --></label>
+        <name>NVMContactWorld__RelatedTask__c</name>
+    </fields>
+    <fields>
+        <label><!-- Related To --></label>
+        <name>NVMContactWorld__RelatedTo__c</name>
+    </fields>
+    <fields>
+        <label><!-- Time Stamp --></label>
+        <name>NVMContactWorld__TimeStamp__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>NVMContactWorld__Type__c</name>
+        <picklistValues>
+            <masterLabel>Consult</masterLabel>
+            <translation><!-- Consult --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deliver</masterLabel>
+            <translation><!-- Deliver --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transfer</masterLabel>
+            <translation><!-- Transfer --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- What --></label>
+        <name>NVMContactWorld__What__c</name>
+    </fields>
+    <fields>
+        <label><!-- Who --></label>
+        <name>NVMContactWorld__Who__c</name>
+    </fields>
+    <validationRules>
+        <errorMessage><!-- CallObjectIdentifier field is no longer used. Use IndexedCallObjectIdentifier. --></errorMessage>
+        <name>NVMContactWorld__Call_Object_Identifier_Deprecated</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Event type must be either &apos;Deliver&apos;, &apos;Transfer&apos; or &apos;Consult&apos; --></errorMessage>
+        <name>NVMContactWorld__Event_Type_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Event must have a timestamp, unless it&apos;s a pre-call event --></errorMessage>
+        <name>NVMContactWorld__In_Call_Events_Must_Have_a_Timestamp</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- A pre-call event must have a related object --></errorMessage>
+        <name>NVMContactWorld__Pre_Call_Events_Must_Have_a_RelatedTo</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The RelatedTo field is deprecated and has been replaced by the Who and What. --></errorMessage>
+        <name>NVMContactWorld__RelatedTo_Field_Is_Deprecated</name>
+    </validationRules>
+</CustomObjectTranslation>

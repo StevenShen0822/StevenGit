@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Associated Field Set --></label>
+        <name>zqu__Associated_Field_Set__c</name>
+    </fields>
+    <fields>
+        <label><!-- Associated Sub List --></label>
+        <name>zqu__Associated_Sub_List__c</name>
+        <relationshipLabel><!-- Lists --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Where is this being used? --></help>
+        <label><!-- Where is this used? --></label>
+        <name>zqu__Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- List Name --></label>
+        <name>zqu__List_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Page Size --></label>
+        <name>zqu__Page_Size__c</name>
+    </fields>
+    <fields>
+        <label><!-- Relationship Field Name --></label>
+        <name>zqu__Relationship_Field_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- SObject Name --></label>
+        <name>zqu__SObject_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Selection Cardinality --></label>
+        <name>zqu__Selection_Cardinality__c</name>
+        <picklistValues>
+            <masterLabel>Multi-Select</masterLabel>
+            <translation><!-- Multi-Select --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Single-Select</masterLabel>
+            <translation><!-- Single-Select --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- This option allows the administrator to control wether the QuickList component should be rendered locally (through JavaScript) or server-side (each action, e.g. changing page, sorting, requires a server call). --></help>
+        <label><!-- Use Server-Side Processing? --></label>
+        <name>zqu__Use_Server_Side_Processing__c</name>
+    </fields>
+    <validationRules>
+        <errorMessage><!-- The list name field must be alphanumeric only (no whitespace, no special characters, no dot, only numbers / letters / underscores). --></errorMessage>
+        <name>zqu__List_Name_Alphanumeric</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Back_to_Configuration_Settings --></label>
+        <name>zqu__Back_to_Configuration_Settings</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Restore_to_Defaults --></label>
+        <name>zqu__Restore_to_Defaults</name>
+    </webLinks>
+</CustomObjectTranslation>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>CSP-404 | automatically attached to Past Due Balance emails as part of the BatchAccountPastDueBalanceEmailsAndTasks nightly job</description>
+    <internalUseOnly>false</internalUseOnly>
+    <name>TheKnot CC ACH Authorization Form</name>
+    <public>false</public>
+</Document>

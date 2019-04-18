@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Format Currency --></label>
+        <name>zqu__Format_Currency__c</name>
+    </fields>
+    <fields>
+        <label><!-- Format Date --></label>
+        <name>zqu__Format_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Format Number --></label>
+        <name>zqu__Format_Number__c</name>
+    </fields>
+</CustomObjectTranslation>

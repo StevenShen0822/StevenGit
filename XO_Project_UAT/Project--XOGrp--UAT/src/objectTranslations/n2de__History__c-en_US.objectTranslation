@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Change datetime --></label>
+        <name>n2de__Change_datetime__c</name>
+    </fields>
+    <fields>
+        <help><!-- Change type e.g. update, add, remove --></help>
+        <label><!-- Change type --></label>
+        <name>n2de__Change_type__c</name>
+    </fields>
+    <fields>
+        <help><!-- Field whose value was altered. --></help>
+        <label><!-- Field --></label>
+        <name>n2de__Field__c</name>
+    </fields>
+    <fields>
+        <help><!-- Value of the field after change. --></help>
+        <label><!-- New value --></label>
+        <name>n2de__New_value__c</name>
+    </fields>
+    <fields>
+        <help><!-- Name of DE object this edit was for. --></help>
+        <label><!-- Object --></label>
+        <name>n2de__Object__c</name>
+    </fields>
+    <fields>
+        <help><!-- Id of edited object. --></help>
+        <label><!-- Object id --></label>
+        <name>n2de__Object_id__c</name>
+    </fields>
+    <fields>
+        <help><!-- Previous value of the field. --></help>
+        <label><!-- Old value --></label>
+        <name>n2de__Old_value__c</name>
+    </fields>
+    <fields>
+        <help><!-- Id of the parent object this change was part of. --></help>
+        <label><!-- Parent change id --></label>
+        <name>n2de__Parent_change_id__c</name>
+    </fields>
+    <fields>
+        <help><!-- Type of the parent object this change was part of. --></help>
+        <label><!-- Parent object type --></label>
+        <name>n2de__Parent_object__c</name>
+    </fields>
+    <fields>
+        <help><!-- Id of the user if this change relates to a user. --></help>
+        <label><!-- User id --></label>
+        <name>n2de__User_id__c</name>
+    </fields>
+</CustomObjectTranslation>

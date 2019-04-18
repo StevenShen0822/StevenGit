@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Entity ID --></label>
+        <name>zqu__EntityID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Price Summary --></label>
+        <name>zqu__PriceSummary__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Rate Plan Charge --></label>
+        <name>zqu__ProductRatePlanCharge__c</name>
+        <relationshipLabel><!-- Product Rate Plan Charge Price Summaries --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- The Zuora Id (external primary key) concatenated with the 3-digit currency code for this price summary. --></help>
+        <label><!-- Zuora Id --></label>
+        <name>zqu__ZuoraId__c</name>
+    </fields>
+</CustomObjectTranslation>

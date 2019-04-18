@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>CSP-3660</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Blank_LetterHead</letterhead>
+    <name>VIP Follow Up 2</name>
+    <style>freeForm</style>
+    <subject>Only 3 days left to schedule your call with The Knot!</subject>
+    <textOnly>Hi {!Case.Contact},
+
+I tried giving you a call today to schedule your storefront walk-through, but unfortunately, we weren’t able to connect.To easily schedule a call at your convenience, I’ve included a link to schedule. Please pick the date/time that works best for you, or give us a call.
+
+Talk soon!
+
+
+{!case.account.Strategy_Specialist__r.name}</textOnly>
+    <type>html</type>
+</EmailTemplate>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>zqu__ZProduct__c$Name</field>
+    </columns>
+    <columns>
+        <field>zqu__ZProduct__c.zqu__ProductRatePlan__r$Name</field>
+    </columns>
+    <columns>
+        <field>zqu__ZProduct__c.zqu__ProductRatePlan__r.Inventory__r$Name</field>
+    </columns>
+    <columns>
+        <field>zqu__ZProduct__c.zqu__ProductRatePlan__r.Inventory__r$Held_By__c</field>
+    </columns>
+    <columns>
+        <field>zqu__ZProduct__c.zqu__ProductRatePlan__r.Inventory__r$Held_By_Type__c</field>
+    </columns>
+    <columns>
+        <field>zqu__ZProduct__c.zqu__ProductRatePlan__r.Inventory__r$Quote_Rate_Plan__c</field>
+    </columns>
+    <columns>
+        <field>zqu__ZProduct__c.zqu__ProductRatePlan__r.Inventory__r$CreatedDate</field>
+    </columns>
+    <filter>
+        <criteriaItems>
+            <column>zqu__ZProduct__c.zqu__ProductRatePlan__r$Name</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Premium Featured Vendor | MI-Grand Rpds/Northern | Beauty,Full Page Preferred Position | IL-Chicago Suburbs | Reception Venues</value>
+        </criteriaItems>
+    </filter>
+    <format>Tabular</format>
+    <name>Inventory Weirdness</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>ZProducts_with_Product_Rate_Plans_with_Inventory__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <sortColumn>zqu__ZProduct__c.zqu__ProductRatePlan__r.Inventory__r$Held_By_Type__c</sortColumn>
+    <sortOrder>Asc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>zqu__ZProduct__c$CreatedDate</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

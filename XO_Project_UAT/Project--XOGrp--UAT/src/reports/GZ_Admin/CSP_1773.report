@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>CUST_ID</field>
+    </columns>
+    <columns>
+        <field>Zuora__SubscriptionProductCharge__c.Zuora__Product__c</field>
+    </columns>
+    <columns>
+        <field>Zuora__SubscriptionProductCharge__c.Zuora__ProductName__c</field>
+    </columns>
+    <filter>
+        <criteriaItems>
+            <column>Zuora__SubscriptionProductCharge__c.Zuora__ProductName_Product__c</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>contains</operator>
+            <value>Bridal Salon Referral Program-Bridal Party,Bridal Salon Referral Program-Gown,Jewelry Store Referral Program-Jewelry Search</value>
+        </criteriaItems>
+    </filter>
+    <format>Tabular</format>
+    <name>CSP-1773</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$Zuora__SubscriptionProductCharge__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <timeFrameFilter>
+        <dateColumn>Zuora__SubscriptionProductCharge__c.Zuora__EffectiveEndDate__c</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

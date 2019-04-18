@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Lead$Id</field>
+    </columns>
+    <columns>
+        <field>Lead$ConvertedAccount.Id</field>
+    </columns>
+    <filter>
+        <criteriaItems>
+            <column>Lead$Id</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>00Qj000000TQwDN,00Qj000000TR33V,00Qj000000TR3Ip,00Qj000000TRTOg</value>
+        </criteriaItems>
+    </filter>
+    <format>Tabular</format>
+    <name>leads from custom report type</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Leads_from_custom_report_type__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <timeFrameFilter>
+        <dateColumn>Lead$ConvertedDate</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

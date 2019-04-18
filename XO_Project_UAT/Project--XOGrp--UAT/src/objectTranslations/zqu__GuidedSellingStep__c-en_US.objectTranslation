@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help><!-- Whether to display the entire product catalog in this Guided Selling Step or filter products using list filters. --></help>
+        <label><!-- Filter Product Catalog --></label>
+        <name>zqu__FilterProductCatalog__c</name>
+    </fields>
+    <fields>
+        <help><!-- Whether or not to include product category navigation in this Guided Selling Step. --></help>
+        <label><!-- Include Product Category Navigation --></label>
+        <name>zqu__IncludeCategoryNavigation__c</name>
+    </fields>
+    <fields>
+        <help><!-- Whether or not to include context filters in this Guided Selling Step. --></help>
+        <label><!-- Include Context Filters --></label>
+        <name>zqu__IncludeContextFilters__c</name>
+    </fields>
+    <fields>
+        <help><!-- Whether or not to include a search box in this Guided Selling Step. --></help>
+        <label><!-- Include Search Box --></label>
+        <name>zqu__IncludeSearchBox__c</name>
+    </fields>
+    <fields>
+        <help><!-- Whether or not to include end user product filters in this Guided Selling Step. --></help>
+        <label><!-- Include End User Product Filters --></label>
+        <name>zqu__IncludeUserFilters__c</name>
+    </fields>
+    <fields>
+        <help><!-- The name of the field on the Product used in the context filtering of this Guided Selling Step. --></help>
+        <label><!-- Mapping Field Name --></label>
+        <name>zqu__ProductContextFieldName__c</name>
+    </fields>
+    <fields>
+        <help><!-- Whether to include only products selected in the current Guided Selling Flow or all products on the quote in the context for this Guided Selling Step. --></help>
+        <label><!-- Product Context --></label>
+        <name>zqu__ProductContext__c</name>
+        <picklistValues>
+            <masterLabel>Products Selected in Current Flow</masterLabel>
+            <translation><!-- Products Selected in Current Flow --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Products Selected in Current Quote</masterLabel>
+            <translation><!-- Products Selected in Current Quote --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- The title displayed for this Guided Selling Step. --></help>
+        <label><!-- Step Title --></label>
+        <name>zqu__StepTitle__c</name>
+    </fields>
+    <fields>
+        <help><!-- The Filter config object used to control the filters this list is linked to. --></help>
+        <label><!-- Filter --></label>
+        <name>zqu__ZFilter__c</name>
+        <relationshipLabel><!-- Guided Selling Steps --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- ZList --></label>
+        <name>zqu__ZList__c</name>
+        <relationshipLabel><!-- Guided Selling Steps --></relationshipLabel>
+    </fields>
+</CustomObjectTranslation>

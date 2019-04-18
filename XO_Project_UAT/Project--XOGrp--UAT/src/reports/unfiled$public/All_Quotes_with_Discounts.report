@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>CUST_NAME</field>
+    </columns>
+    <columns>
+        <field>zqu__Quote__c.zqu__SubscriptionType__c</field>
+    </columns>
+    <columns>
+        <field>zqu__Quote__c.zqu__Customer_Acceptance_Date__c</field>
+    </columns>
+    <columns>
+        <field>zqu__Quote__c.zqu__Previewed_TCV__c</field>
+    </columns>
+    <columns>
+        <field>zqu__Quote__c.Total_Contract_Discount__c</field>
+    </columns>
+    <columns>
+        <field>zqu__Quote__c.zqu__StartDate__c</field>
+    </columns>
+    <columns>
+        <field>zqu__Quote__c.zqu__ZuoraSubscriptionID__c</field>
+    </columns>
+    <columns>
+        <field>CUST_CREATED_NAME</field>
+    </columns>
+    <columns>
+        <field>zqu__Quote__c.SalesRepLookup__c</field>
+    </columns>
+    <columns>
+        <field>zqu__Quote__c.zqu__Opportunity__c</field>
+    </columns>
+    <columns>
+        <field>zqu__Quote__c.zqu__Account__c</field>
+    </columns>
+    <description>Report for business to track discounts</description>
+    <filter>
+        <criteriaItems>
+            <column>zqu__Quote__c.zqu__Status__c</column>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>Sent to Z-Billing</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>zqu__Quote__c.zqu__SubscriptionType__c</column>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>New Subscription,Amend Subscription,Renew Subscription</value>
+        </criteriaItems>
+    </filter>
+    <format>Tabular</format>
+    <name>All Quotes with Discounts</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$zqu__Quote__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <sortColumn>zqu__Quote__c.zqu__SubscriptionType__c</sortColumn>
+    <sortOrder>Asc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>zqu__Quote__c.zqu__CancellationDate__c</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

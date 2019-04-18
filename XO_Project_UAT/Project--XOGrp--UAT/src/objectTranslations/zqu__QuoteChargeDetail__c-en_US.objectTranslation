@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Exist Subscription Id --></label>
+        <name>Exist_Subscription_Id__c</name>
+    </fields>
+    <fields>
+        <help><!-- CSP-1543 | during Cancellation Quote creation, this checkbox is checked if the cancellation will free an Inventory slot --></help>
+        <label><!-- Inventory Freed By Cancellation --></label>
+        <name>Inventory_Freed_By_Cancellation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sent to Z-Billing --></label>
+        <name>Sent_to_ZBilling__c</name>
+    </fields>
+    <fields>
+        <label><!-- Subscription Type --></label>
+        <name>Subscription_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Discount --></label>
+        <name>zqu__BillingDiscount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Subtotal --></label>
+        <name>zqu__BillingSubtotal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tax --></label>
+        <name>zqu__BillingTax__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total --></label>
+        <name>zqu__BillingTotal__c</name>
+    </fields>
+    <fields>
+        <help><!-- A unique number that identifies the charge --></help>
+        <label><!-- Charge Number --></label>
+        <name>zqu__ChargeNumber__c</name>
+    </fields>
+    <fields>
+        <help><!-- The Contracted Delta Discount MRR value returned by previewing the Quote in Zuora --></help>
+        <label><!-- Delta Discount MRR --></label>
+        <name>zqu__DeltaDiscountMRR__c</name>
+    </fields>
+    <fields>
+        <help><!-- Tax on the Delta Discount TCB retrieved from previewing the Quote in Zuora --></help>
+        <label><!-- Delta Discount TCB Tax --></label>
+        <name>zqu__DeltaDiscountTCBTax__c</name>
+    </fields>
+    <fields>
+        <help><!-- Delta Discount TCB value retrieved from previewing the Quote in Zuora --></help>
+        <label><!-- Delta Discount TCB --></label>
+        <name>zqu__DeltaDiscountTCB__c</name>
+    </fields>
+    <fields>
+        <help><!-- Delta Discount TCV value retrieved from previewing the Quote in Zuora --></help>
+        <label><!-- Delta Discount TCV --></label>
+        <name>zqu__DeltaDiscountTCV__c</name>
+    </fields>
+    <fields>
+        <help><!-- Delta MRR value calculated by previewing the quote from Zuora --></help>
+        <label><!-- Delta MRR --></label>
+        <name>zqu__DeltaMRR__c</name>
+    </fields>
+    <fields>
+        <help><!-- Tax on the Delta TCB retrieved from previewing the Quote in Zuora --></help>
+        <label><!-- Delta TCB Tax --></label>
+        <name>zqu__DeltaTCBTax__c</name>
+    </fields>
+    <fields>
+        <help><!-- Delta TCB value retrieved from previewing the Quote in Zuora --></help>
+        <label><!-- Delta TCB --></label>
+        <name>zqu__DeltaTCB__c</name>
+    </fields>
+    <fields>
+        <help><!-- Delta TCV value calculated by previewing the quote from Zuora --></help>
+        <label><!-- Delta TCV --></label>
+        <name>zqu__DeltaTCV__c</name>
+    </fields>
+    <fields>
+        <help><!-- The Discount CMRR value returned by previewing the Quote in Zuora --></help>
+        <label><!-- Discount MRR --></label>
+        <name>zqu__DiscountMRR__c</name>
+    </fields>
+    <fields>
+        <help><!-- Tax on the Discount TCB retrieved from previewing the Quote in Zuora --></help>
+        <label><!-- Discount TCB Tax --></label>
+        <name>zqu__DiscountTCBTax__c</name>
+    </fields>
+    <fields>
+        <help><!-- Discount TCB value retrieved from previewing the Quote in Zuora --></help>
+        <label><!-- Discount TCB --></label>
+        <name>zqu__DiscountTCB__c</name>
+    </fields>
+    <fields>
+        <help><!-- Discount TCV value retrieved from previewing the Quote in Zuora --></help>
+        <label><!-- Discount TCV --></label>
+        <name>zqu__DiscountTCV__c</name>
+    </fields>
+    <fields>
+        <help><!-- MRR value calculated by previewing the quote from Zuora --></help>
+        <label><!-- MRR --></label>
+        <name>zqu__MRR__c</name>
+    </fields>
+    <fields>
+        <help><!-- The Zuora Id of the original Rate Plan Charge this charge corresponds to. --></help>
+        <label><!-- Original Id --></label>
+        <name>zqu__OriginalId__c</name>
+    </fields>
+    <fields>
+        <help><!-- The Zuora Id of the original Rate Plan this charge belongs to --></help>
+        <label><!-- Original Rate Plan Id --></label>
+        <name>zqu__OriginalRatePlanId__c</name>
+    </fields>
+    <fields>
+        <help><!-- The Product Rate Plan Charge this charge came from. --></help>
+        <label><!-- Product Rate Plan Charge --></label>
+        <name>zqu__ProductRatePlanCharge__c</name>
+        <relationshipLabel><!-- Quote Charge Details --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- The Product Rate Plan this charge comes from. --></help>
+        <label><!-- Product Rate Plan --></label>
+        <name>zqu__ProductRatePlan__c</name>
+        <relationshipLabel><!-- Quote Charge Details --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- The quote object this charge record belongs to. --></help>
+        <label><!-- Quote --></label>
+        <name>zqu__Quote__c</name>
+        <relationshipLabel><!-- Quote Charge Details --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Tax on the TCB calculated by previewing the quote from Zuora --></help>
+        <label><!-- TCB Tax --></label>
+        <name>zqu__TCBTax__c</name>
+    </fields>
+    <fields>
+        <help><!-- TCB value calculated by previewing the quote from Zuora --></help>
+        <label><!-- TCB --></label>
+        <name>zqu__TCB__c</name>
+    </fields>
+    <fields>
+        <help><!-- TCV value calculated by previewing the quote from Zuora --></help>
+        <label><!-- TCV --></label>
+        <name>zqu__TCV__c</name>
+    </fields>
+</CustomObjectTranslation>

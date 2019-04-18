@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Account$Name</field>
+    </columns>
+    <columns>
+        <field>Account.Zuora__Subscriptions__r$Name</field>
+    </columns>
+    <columns>
+        <field>Account.Zuora__Subscriptions__r$Zuora__Status__c</field>
+    </columns>
+    <columns>
+        <field>Account.Zuora__Subscriptions__r$Renewal_Rep__c</field>
+    </columns>
+    <columns>
+        <field>Account.Zuora__Subscriptions__r$Zuora__TermStartDate__c</field>
+    </columns>
+    <columns>
+        <field>Account.Zuora__Subscriptions__r$Zuora__TermEndDate__c</field>
+    </columns>
+    <filter>
+        <criteriaItems>
+            <column>Account.Zuora__Subscriptions__r$Sales_Rep__c</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>amy reynolds</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.Zuora__Subscriptions__r$Renewal_Rep__c</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value>amy reynolds</value>
+        </criteriaItems>
+    </filter>
+    <format>Tabular</format>
+    <name>AR Q1 2018 Renewals in Wrong Rep Name</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Account_Subscription_and_Product_Charges__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <sortColumn>Account.Zuora__Subscriptions__r$Zuora__TermEndDate__c</sortColumn>
+    <sortOrder>Asc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>Account.Zuora__Subscriptions__r$Zuora__TermEndDate__c</dateColumn>
+        <interval>INTERVAL_CURRENT</interval>
+    </timeFrameFilter>
+</Report>

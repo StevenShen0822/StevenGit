@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help><!-- This shows Away Time in Hours --></help>
+        <label><!-- Away Time Hours --></label>
+        <name>Away_Time_Hours__c</name>
+    </fields>
+    <fields>
+        <help><!-- This shows the Away Time in Minutes --></help>
+        <label><!-- Away Time Minutes --></label>
+        <name>Away_Time_Minutes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Extened Away Time Hours --></label>
+        <name>Extened_Away_Time_Hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- Extened Away Time Minutes --></label>
+        <name>Extened_Away_Time_Minutes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fault Time Hours --></label>
+        <name>Fault_Time_Hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fault Time Minutes --></label>
+        <name>Fault_Time_Minutes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inbound Call Time Hours --></label>
+        <name>Inbound_Call_Time_Hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inbound Call Time Minutes --></label>
+        <name>Inbound_Call_Time_Minutes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inbound Transfer Time Hours --></label>
+        <name>Inbound_Transfer_Time_Hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inbound Transfer Time Minutes --></label>
+        <name>Inbound_Transfer_Time_Minutes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Line Busy Time Hours --></label>
+        <name>Line_Busy_Time_Hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- Line Busy Time Minutes --></label>
+        <name>Line_Busy_Time_Minutes__c</name>
+    </fields>
+    <fields>
+        <label><!-- AgentID --></label>
+        <name>NVMStatsSF__AgentID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Agent --></label>
+        <name>NVMStatsSF__Agent__c</name>
+        <relationshipLabel><!-- NVM Agent Summaries --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Away Time in seconds --></help>
+        <label><!-- Away Time --></label>
+        <name>NVMStatsSF__Away_Time__c</name>
+    </fields>
+    <fields>
+        <help><!-- Away Time rounded to nearest minute --></help>
+        <label><!-- Away Time (hh:mm) --></label>
+        <name>NVMStatsSF__Away_Time_hh_mm_ss__c</name>
+    </fields>
+    <fields>
+        <label><!-- ChkStr --></label>
+        <name>NVMStatsSF__ChkStr__c</name>
+    </fields>
+    <fields>
+        <help><!-- UTC Date --></help>
+        <label><!-- UTC Date --></label>
+        <name>NVMStatsSF__Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Day numbering from Monday=1, based on Local Date, defaulting to UTC Date if Local Date Absent --></help>
+        <label><!-- Day of Week --></label>
+        <name>NVMStatsSF__Day_of_Week__c</name>
+    </fields>
+    <fields>
+        <help><!-- Extended Away Time in seconds --></help>
+        <label><!-- Extended Away Time --></label>
+        <name>NVMStatsSF__Extended_Away_Time__c</name>
+    </fields>
+    <fields>
+        <help><!-- Extended Away Time rounded to nearest minute --></help>
+        <label><!-- Extended Away Time (hh:mm) --></label>
+        <name>NVMStatsSF__Extended_Away_Time_hh_mm_ss__c</name>
+    </fields>
+    <fields>
+        <help><!-- Sum of times in Fault on Line and Network Congestion states in seconds --></help>
+        <label><!-- Fault Time --></label>
+        <name>NVMStatsSF__Fault_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- First Activity DateTime --></label>
+        <name>NVMStatsSF__First_Login_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fiscal Quarter --></label>
+        <name>NVMStatsSF__Fiscal_Quarter__c</name>
+    </fields>
+    <fields>
+        <help><!-- Inbound Transfer Time rounded to the nearest minute --></help>
+        <label><!-- Inbound Transfer Time (hh:mm) --></label>
+        <name>NVMStatsSF__Inbond_Xfer_Call_Time_hh_mm__c</name>
+    </fields>
+    <fields>
+        <help><!-- Inbound Call Time in seconds --></help>
+        <label><!-- Inbound Call Time --></label>
+        <name>NVMStatsSF__Inbound_Call_Time__c</name>
+    </fields>
+    <fields>
+        <help><!-- Inbound Call Time rounded to the nearest minute --></help>
+        <label><!-- Inbound Call Time (hh:mm) --></label>
+        <name>NVMStatsSF__Inbound_Call_Time_hh_mm_ss__c</name>
+    </fields>
+    <fields>
+        <help><!-- Inbound Transfer Time in seconds --></help>
+        <label><!-- Inbound Transfer Time --></label>
+        <name>NVMStatsSF__Inbound_Transfer_Time__c</name>
+    </fields>
+    <fields>
+        <help><!-- Reserved for System Use; field for tracking Agent State Event Stream --></help>
+        <label><!-- Key Event String --></label>
+        <name>NVMStatsSF__Key_Event_String__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Activity DateTime --></label>
+        <name>NVMStatsSF__Last_Logout_DateTime__c</name>
+    </fields>
+    <fields>
+        <help><!-- Total amount of time in seconds spent in Line Busy --></help>
+        <label><!-- Line Busy Time --></label>
+        <name>NVMStatsSF__Line_Busy_Time__c</name>
+    </fields>
+    <fields>
+        <help><!-- Total Line Busy Time rounded to the nearest minute --></help>
+        <label><!-- Line Busy Time (hh:mm) --></label>
+        <name>NVMStatsSF__Line_Busy_Time_hh_mm__c</name>
+    </fields>
+    <fields>
+        <help><!-- Date from the Agent&apos;s perspective, respecting local DST --></help>
+        <label><!-- Local Date --></label>
+        <name>NVMStatsSF__Local_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Week number in ISO8601 form of the Agent&apos;s local time --></help>
+        <label><!-- Local ISO8601 Week --></label>
+        <name>NVMStatsSF__Local_ISO8601_Week__c</name>
+    </fields>
+    <fields>
+        <help><!-- Total State Time for this Agent Day rounded to the nearest minute --></help>
+        <label><!-- Total State Time (hh:mm) --></label>
+        <name>NVMStatsSF__Logged_in_Time_hh_mm_ss__c</name>
+    </fields>
+    <fields>
+        <help><!-- Longest time in seconds the agent spent in a single state --></help>
+        <label><!-- Longest State Time --></label>
+        <name>NVMStatsSF__Longest_State__c</name>
+    </fields>
+    <fields>
+        <label><!-- Month of Year --></label>
+        <name>NVMStatsSF__Month_of_Year__c</name>
+    </fields>
+    <fields>
+        <help><!-- Total time in seconds that the Agent spent in No Answer state --></help>
+        <label><!-- No Answer Time --></label>
+        <name>NVMStatsSF__No_Answer_Time__c</name>
+    </fields>
+    <fields>
+        <help><!-- Number of times this Agent was invited to a Consultation but did not answer --></help>
+        <label><!-- No Answers to Consult --></label>
+        <name>NVMStatsSF__No_Answers_to_Consult__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Aways --></label>
+        <name>NVMStatsSF__Number_of_Aways__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Extended Aways --></label>
+        <name>NVMStatsSF__Number_of_Extended_Away__c</name>
+    </fields>
+    <fields>
+        <help><!-- All calls inbound to this agent including ones delivered via ACD or transfer --></help>
+        <label><!-- Number of Inbound Calls --></label>
+        <name>NVMStatsSF__Number_of_Inbound_Calls_FORMULA__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Agent Selected --></label>
+        <name>NVMStatsSF__Number_of_Inbound_Calls__c</name>
+    </fields>
+    <fields>
+        <help><!-- Number of Calls transferred to the agent directly from another Agent (not through a queue transfer) --></help>
+        <label><!-- Number of Inbound Transfers --></label>
+        <name>NVMStatsSF__Number_of_Inbound_Transfers__c</name>
+    </fields>
+    <fields>
+        <help><!-- Number of times the agent went Line Busy --></help>
+        <label><!-- Number of Line Busy --></label>
+        <name>NVMStatsSF__Number_of_Line_Busy__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Logins --></label>
+        <name>NVMStatsSF__Number_of_Logins__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Logouts --></label>
+        <name>NVMStatsSF__Number_of_Logouts__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of No Answers --></label>
+        <name>NVMStatsSF__Number_of_No_Answers__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Outbound Calls --></label>
+        <name>NVMStatsSF__Number_of_Outbound_Calls__c</name>
+    </fields>
+    <fields>
+        <help><!-- Number of times this Agent was invited to a consultation on an Interaction --></help>
+        <label><!-- Number of Times Consulted --></label>
+        <name>NVMStatsSF__Number_of_Times_Consulted__c</name>
+    </fields>
+    <fields>
+        <help><!-- Counts a series of consecutive wraps (e.g. Auto then Manual Wrap) as a single Wrap phase --></help>
+        <label><!-- Number of Wrap Phases --></label>
+        <name>NVMStatsSF__Number_of_Wrap_Phases__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Wraps --></label>
+        <name>NVMStatsSF__Number_of_Wraps__c</name>
+    </fields>
+    <fields>
+        <label><!-- Numeric Week of Year --></label>
+        <name>NVMStatsSF__Numeric_Week_of_Year__c</name>
+    </fields>
+    <fields>
+        <help><!-- Outbound Call Time in seconds --></help>
+        <label><!-- Outbound Call Time --></label>
+        <name>NVMStatsSF__Outbound_Call_Time__c</name>
+    </fields>
+    <fields>
+        <help><!-- Outbound Call Time rounded to the nearest minute --></help>
+        <label><!-- Outbound Call Time (hh:mm) --></label>
+        <name>NVMStatsSF__Outbound_Call_Time_hh_mm_ss__c</name>
+    </fields>
+    <fields>
+        <help><!-- Ready For Outbound Time rounded to the nearest minute --></help>
+        <label><!-- Ready For Outbound Time (hh:mm) --></label>
+        <name>NVMStatsSF__Ready_Outbound_Time_hh_mm_ss__c</name>
+    </fields>
+    <fields>
+        <help><!-- Ready Time in seconds --></help>
+        <label><!-- Ready Time --></label>
+        <name>NVMStatsSF__Ready_Time__c</name>
+    </fields>
+    <fields>
+        <help><!-- Ready Time rounded to the nearest minute --></help>
+        <label><!-- Ready Time (hh:mm) --></label>
+        <name>NVMStatsSF__Ready_Time_hh_mm_ss__c</name>
+    </fields>
+    <fields>
+        <help><!-- Ready for Outbound Time in seconds --></help>
+        <label><!-- Ready For Outbound Time --></label>
+        <name>NVMStatsSF__Ready_for_Outbound_Time__c</name>
+    </fields>
+    <fields>
+        <help><!-- User&apos;s role on the day this summary was created --></help>
+        <label><!-- Role --></label>
+        <name>NVMStatsSF__Role__c</name>
+    </fields>
+    <fields>
+        <help><!-- Delimited list of re-labelled States and durations in the format [State]-[Duration(s)], [State]-[Duration(s)],... --></help>
+        <label><!-- State List --></label>
+        <name>NVMStatsSF__State_List__c</name>
+    </fields>
+    <fields>
+        <help><!-- Total State time for this Agent Day in seconds excluding Logged Out state --></help>
+        <label><!-- Total State Time --></label>
+        <name>NVMStatsSF__Time_Logged_In__c</name>
+    </fields>
+    <fields>
+        <help><!-- Time Zone of this Agent - inherited from the User Record carrying the same NVM Agent ID or defaulted to the Time Zone of the Channel transaction which fetched the data --></help>
+        <label><!-- Time Zone --></label>
+        <name>NVMStatsSF__Time_Zone__c</name>
+    </fields>
+    <fields>
+        <help><!-- Week number in ISO8601 form of the date in UTC --></help>
+        <label><!-- UTC ISO8601 Week --></label>
+        <name>NVMStatsSF__UTC_ISO8601_Week__c</name>
+    </fields>
+    <fields>
+        <label><!-- Week of Year --></label>
+        <name>NVMStatsSF__Week_of_Year__c</name>
+    </fields>
+    <fields>
+        <help><!-- Wrap Time rounded to the nearest minute --></help>
+        <label><!-- Wrap Time (hh:mm) --></label>
+        <name>NVMStatsSF__Wrap_Time_hh_mm__c</name>
+    </fields>
+    <fields>
+        <help><!-- Total Wrap Time in seconds --></help>
+        <label><!-- Wrap Up Time --></label>
+        <name>NVMStatsSF__Wrap_Up_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- dateAgentId --></label>
+        <name>NVMStatsSF__dateAgentId__c</name>
+    </fields>
+    <fields>
+        <label><!-- No Answer Time Hours --></label>
+        <name>No_Answer_Time_Hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- No Answer Time Minutes --></label>
+        <name>No_Answer_Time_Minutes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Outbound Call Time Hours --></label>
+        <name>Outbound_Call_Time_Hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- Outbound Call Time Minutes --></label>
+        <name>Outbound_Call_Time_Minutes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ready For Outbound Call Hours --></label>
+        <name>Ready_For_Outbound_Call_Hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ready For Outbound Call Minutes --></label>
+        <name>Ready_For_Outbound_Call_Minutes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ready Time Hours --></label>
+        <name>Ready_Time_Hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ready Time Minutes --></label>
+        <name>Ready_Time_Minutes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total State Time Hours --></label>
+        <name>Total_State_Time_Hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total State Time Minutes --></label>
+        <name>Total_State_Time_Minutes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Wrap Up Time Hours --></label>
+        <name>Wrap_Up_Time_Hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- Wrap Up Time Minutes --></label>
+        <name>Wrap_Up_Time_Minutes__c</name>
+    </fields>
+</CustomObjectTranslation>

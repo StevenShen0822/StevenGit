@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Zuora__SubscriptionProductCharge__c.Zuora__Account__c</field>
+    </columns>
+    <columns>
+        <field>FK_NAME</field>
+    </columns>
+    <columns>
+        <field>FK_$Zuora__Subscription__c.Sales_Rep__c</field>
+    </columns>
+    <columns>
+        <field>FK_$Zuora__Subscription__c.Zuora__SubscriptionStartDate__c</field>
+    </columns>
+    <columns>
+        <field>FK_$Zuora__Subscription__c.Zuora__SubscriptionEndDate__c</field>
+    </columns>
+    <columns>
+        <field>Zuora__SubscriptionProductCharge__c.Zuora__TotalContractValue__c</field>
+    </columns>
+    <columns>
+        <field>Zuora__SubscriptionProductCharge__c.Zuora__RatePlanName__c</field>
+    </columns>
+    <columns>
+        <field>Zuora__SubscriptionProductCharge__c.LocationVendorDynamicsAccountID__c</field>
+    </columns>
+    <filter>
+        <criteriaItems>
+            <column>FK_$Zuora__Subscription__c.True_Subscription_Status__c</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>active</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Zuora__SubscriptionProductCharge__c.Zuora__Account__c</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Lancer Management</value>
+        </criteriaItems>
+    </filter>
+    <format>Tabular</format>
+    <name>Lancer Subscriptions</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$Zuora__SubscriptionProductCharge__c@Zuora__SubscriptionProductCharge__c.Zuora__Subscription__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <sortColumn>FK_NAME</sortColumn>
+    <sortOrder>Asc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>Zuora__SubscriptionProductCharge__c.Zuora__EffectiveEndDate__c</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

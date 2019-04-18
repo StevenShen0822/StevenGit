@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Daily assignment count --></label>
+        <name>n2de__Daily_assignment_count__c</name>
+    </fields>
+    <fields>
+        <label><!-- Distribution hours --></label>
+        <name>n2de__Distribution_hours__c</name>
+        <relationshipLabel><!-- Distribution team members --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Half hour assignment count --></label>
+        <name>n2de__Half_hour_assignment_count__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hourly assignment count --></label>
+        <name>n2de__Hourly_assignment_count__c</name>
+    </fields>
+    <fields>
+        <label><!-- Active --></label>
+        <name>n2de__Is_active__c</name>
+    </fields>
+    <fields>
+        <label><!-- Enable member distribution hours --></label>
+        <name>n2de__Is_member_distribution_hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last assignment date --></label>
+        <name>n2de__Last_assignment_date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last count reset date --></label>
+        <name>n2de__Last_count_reset_date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last edited by --></label>
+        <name>n2de__Last_edited_by__c</name>
+        <relationshipLabel><!-- Distribution team members (Last edited by) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Last edited date --></label>
+        <name>n2de__Last_edited_date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last load balance reset --></label>
+        <name>n2de__Last_load_balance_reset__c</name>
+    </fields>
+    <fields>
+        <label><!-- Load balanced count --></label>
+        <name>n2de__Load_balanced_count__c</name>
+    </fields>
+    <fields>
+        <label><!-- Member cap --></label>
+        <name>n2de__Member_cap__c</name>
+    </fields>
+    <fields>
+        <label><!-- Monthly assignment count --></label>
+        <name>n2de__Monthly_assignment_count__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of active objects --></label>
+        <name>n2de__Number_of_active_objects__c</name>
+    </fields>
+    <fields>
+        <label><!-- Queue --></label>
+        <name>n2de__Queue_id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quota --></label>
+        <name>n2de__Quota__c</name>
+    </fields>
+    <fields>
+        <label><!-- Suspend from date --></label>
+        <name>n2de__Suspend_from_date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Suspend to date --></label>
+        <name>n2de__Suspend_to_date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Distribution team --></label>
+        <name>n2de__Team__c</name>
+        <relationshipLabel><!-- Distribution team members --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- User --></label>
+        <name>n2de__User__c</name>
+        <relationshipLabel><!-- Distribution team members (User) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Username --></label>
+        <name>n2de__Username__c</name>
+    </fields>
+    <fields>
+        <label><!-- Weighting --></label>
+        <name>n2de__Weighting__c</name>
+    </fields>
+</CustomObjectTranslation>

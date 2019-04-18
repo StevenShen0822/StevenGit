@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <filter>
+        <criteriaItems>
+            <column>Account.Region__c</column>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>Los Angeles,Orange / Inland,Sacramento/Tahoe/Northern,San Diego,San Francisco/Bay Area/Wine Country,Orange/Inland,Central East FL,Central FL,North East FL,North West FL,South East FL,South West FL,The Keys,Atlanta,Central Georgia,Savannah Georgia,Coastal area,High Country,Lake Region,Outer Banks,Piedmont,Triad Area,Triangle,Lowcountry,Midlands,Upcountry,Austin,​Dallas/Fort Worth​,Dallas/Fort Worth,Far West Texas,Houston Proper,Northeast Texas,Panhandle,West Texas,Appalachian Plateau,Blue Ridge,Coastal Plain,Hampton Roads,Outer Maryland,Valley &amp; Ridge,Central DC,East DC,West DC</value>
+        </criteriaItems>
+    </filter>
+    <format>Matrix</format>
+    <groupingsAcross>
+        <dateGranularity>Day</dateGranularity>
+        <field>STAGE_NAME</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsAcross>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>FULL_NAME</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Opp Stages: Group 2 Active Areas</name>
+    <params>
+        <name>open</name>
+        <value>all</value>
+    </params>
+    <params>
+        <name>probability</name>
+        <value>&gt;0</value>
+    </params>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Opportunity</reportType>
+    <scope>organization</scope>
+    <showDetails>false</showDetails>
+    <timeFrameFilter>
+        <dateColumn>CLOSE_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

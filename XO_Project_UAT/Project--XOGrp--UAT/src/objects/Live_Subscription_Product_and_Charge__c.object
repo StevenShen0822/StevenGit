@@ -1,0 +1,856 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Follow</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>Amement_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Amendment Type</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BoB_Value__c</fullName>
+        <description>CSP-3384</description>
+        <externalId>false</externalId>
+        <formula>CASE(Product_Type__c,
+ &apos;Internet&apos;, Zuora_MonthlyRecurringRevenue__c, 
+ &apos;Print&apos;, Zuora_TotalContractValue__c,
+ &apos;Direct Mail&apos;,Zuora_TotalContractValue__c,
+ 0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>BoB Value</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Category_Taxonomy_ID__c</fullName>
+        <externalId>false</externalId>
+        <label>Category Taxonomy ID</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Commission_Line_Item_Status__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(OR(CONTAINS(Name,&apos;#&apos; ),Name=&apos;CES Charge Migrated&apos;),
+  &apos;Migrated&apos;,
+  IF(NOT(Live_Subscription__r.Post_Is_Valid_Subscription__c), 
+    &apos;Invalid&apos;,
+    IF(Product_Type__c=&apos;Internet&apos;,
+    If( And(Amement_Type__c=&apos;Remove Product&apos;,Zuora_EffectiveStartDate__c &gt;= Zuora_EffectiveEndDate__c),
+      &apos;Removed&apos;,
+      If(today()&lt;Zuora_EffectiveStartDate__c, 
+        &apos;Pending&apos;,
+        If(today()&lt;Zuora_EffectiveEndDate__c, 
+          &apos;Live&apos;,
+          If(Live_Subscription__r.Post_Zuora_Status__c=&apos;Cancelled&apos;, 
+            &apos;Cancelled&apos;, 
+            If( Amement_Type__c=&apos;Remove Product&apos;, 
+              &apos;Removed&apos;,
+              &apos;Expired&apos;
+            ) 
+          )
+        )
+      )
+    ),    
+      IF(Product_Type__c=&apos;Direct Mail&apos;,
+        If(Live_Subscription__r.Post_Zuora_Status__c=&apos;Cancelled&apos;,
+            &apos;Cancelled&apos;, 
+      IF(Amement_Type__c=&apos;Remove Product&apos;, 
+        &apos;Removed&apos;,
+        If( OR(
+            And(year(LDE_Email_Launch_Date__c)= year(today()),month(LDE_Email_Launch_Date__c)= month(today()),day(today())&gt;=2, day(LDE_Email_Launch_Date__c)&gt;1),
+            And(year(AddMonths(LDE_Email_Launch_Date__c,1))= year(today()),month(AddMonths(LDE_Email_Launch_Date__c,1))= month(today()),day(today())=1,day(LDE_Email_Launch_Date__c)&gt;1 ),
+            And(today()= LDE_Email_Launch_Date__c, day(LDE_Email_Launch_Date__c)=1),
+            And(year(AddMonths(LDE_Email_Launch_Date__c,-1))= year(today()),month(AddMonths(LDE_Email_Launch_Date__c,-1))= month(today()),day(today())&gt;1,day(LDE_Email_Launch_Date__c)=1 )
+          ), 
+          &apos;Live&apos;,
+          If( today() &lt; LDE_Email_Launch_Date__c, 
+            &apos;Pending&apos;,
+            &apos;Expired&apos;
+          )
+        )
+      )
+        ),
+        IF(Product_Type__c =&apos;Print&apos;,
+           IF(Live_Subscription__r.Post_Zuora_Status__c=&apos;Cancelled&apos;,
+              &apos;Cancelled&apos;, 
+        IF(Amement_Type__c=&apos;Remove Product&apos;, 
+        &apos;Removed&apos;,
+        If( OR(
+            And(year(X1st_Cover_Date__c)= year(today()),month(X1st_Cover_Date__c)= month(today()),day(today())&gt;=2, day(X1st_Cover_Date__c)&gt;1),
+            And(year(AddMonths(X1st_Cover_Date__c,1))= year(today()),month(AddMonths(X1st_Cover_Date__c,1))= month(today()),day(today())=1,day(X1st_Cover_Date__c)&gt;1 ),
+            And(today()= X1st_Cover_Date__c, day(X1st_Cover_Date__c)=1),
+            And(year(AddMonths(X1st_Cover_Date__c,-1))= year(today()),month(AddMonths(X1st_Cover_Date__c,-1))= month(today()),day(today())&gt;1,day(X1st_Cover_Date__c)=1 )
+          ), 
+          &apos;Live&apos;,
+          IF(today() &lt; X1st_Cover_Date__c, 
+          &apos;Pending&apos;,
+          &apos;Expired&apos;
+          )
+        )
+        )
+          )
+          ,&quot;Unknown&quot;
+        )
+      )
+    )
+  )
+)</formula>
+        <label>Commission Line Item Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Discount_Percentage__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(
+AND(
+TODAY()&lt;Switch_Date__c, Amement_Type__c!=&apos;Add Product&apos;),
+Pre_Discount_Percentage__c, 
+Post_Discount_Percentage__c)</formula>
+        <label>Discount Percentage</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Discount_Reason__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(AND(TODAY()&lt;Switch_Date__c, Amement_Type__c!=&apos;Add Product&apos;),
+TEXT(Pre_Discount_Reason__c), 
+TEXT(Post_Discount_Reason__c))</formula>
+        <label>Discount Reason</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Error_Email_Notification_Flag__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Error Email Notification Flag</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>LDE_Email_Launch_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>LDE Email Launch Date</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>List_Price__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(AND(TODAY()&lt;Switch_Date__c,Amement_Type__c!=&apos;Add Product&apos;), Pre_List_Price__c, Post_List_Price__c)</formula>
+        <label>List Price</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Live_Price__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(Commission_Line_Item_Status__c=&apos;Live&apos;,
+  IF(Product_Type__c =&apos;Internet&apos;, 
+      Zuora_MonthlyRecurringRevenue__c,
+      Zuora_TotalContractValue__c),
+     null)</formula>
+        <label>Live $</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Live_Subscription__c</fullName>
+        <externalId>false</externalId>
+        <label>Live Subscription</label>
+        <referenceTo>Live_Subscription__c</referenceTo>
+        <relationshipLabel>Live Subscription Product and Charges</relationshipLabel>
+        <relationshipName>Live_Subscription_Product_and_Charges</relationshipName>
+        <relationshipOrder>1</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>Market_ID__c</fullName>
+        <externalId>false</externalId>
+        <label>Market ID</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Mock_Status__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(OR(CONTAINS(Name,&apos;#&apos; ),Name=&apos;CES Charge Migrated&apos;),
+  &apos;Migrated&apos;,
+  IF(NOT(Live_Subscription__r.Post_Is_Valid_Subscription__c), 
+    &apos;Invalid&apos;,
+    IF(Product_Type__c=&apos;Internet&apos;,
+      If(Mock_Today__c&lt;Zuora_EffectiveStartDate__c, 
+        &apos;Pending&apos;,
+        If(Mock_Today__c&lt;Zuora_EffectiveEndDate__c, 
+      &apos;Live&apos;,
+      If(Live_Subscription__r.Post_Zuora_Status__c=&apos;Cancelled&apos;, 
+        &apos;Cancelled&apos;, 
+        If( Amement_Type__c=&apos;Remove Product&apos;, 
+          &apos;Removed&apos;,
+          &apos;Expired&apos;
+        ) 
+      )
+        )
+      ),  
+      IF(Product_Type__c=&apos;Direct Mail&apos;,
+        If(Live_Subscription__r.Post_Zuora_Status__c=&apos;Cancelled&apos;,
+            &apos;Cancelled&apos;, 
+      IF(Amement_Type__c=&apos;Remove Product&apos;, 
+        &apos;Removed&apos;,
+        If( OR(
+            And(year(LDE_Email_Launch_Date__c)= year(Mock_Today__c),month(LDE_Email_Launch_Date__c)= month(Mock_Today__c),day(Mock_Today__c)&gt;=2, day(LDE_Email_Launch_Date__c)&gt;1),
+            And(year(AddMonths(LDE_Email_Launch_Date__c,1))= year(Mock_Today__c),month(AddMonths(LDE_Email_Launch_Date__c,1))= month(Mock_Today__c),day(Mock_Today__c)=1,day(LDE_Email_Launch_Date__c)&gt;1 ),
+            And(Mock_Today__c= LDE_Email_Launch_Date__c, day(LDE_Email_Launch_Date__c)=1),
+            And(year(AddMonths(LDE_Email_Launch_Date__c,-1))= year(Mock_Today__c),month(AddMonths(LDE_Email_Launch_Date__c,-1))= month(Mock_Today__c),day(Mock_Today__c)&gt;1,day(LDE_Email_Launch_Date__c)=1 )
+          ), 
+          &apos;Live&apos;,
+          If( Mock_Today__c &lt; LDE_Email_Launch_Date__c, 
+            &apos;Pending&apos;,
+            &apos;Expired&apos;
+          )
+        )
+      )
+        ),
+        IF(Product_Type__c =&apos;Print&apos;,
+           IF(Live_Subscription__r.Post_Zuora_Status__c=&apos;Cancelled&apos;,
+              &apos;Cancelled&apos;, 
+        IF(Amement_Type__c=&apos;Remove Product&apos;, 
+        &apos;Removed&apos;,
+        If( OR(
+            And(year(X1st_Cover_Date__c)= year(Mock_Today__c),month(X1st_Cover_Date__c)= month(Mock_Today__c),day(Mock_Today__c)&gt;=2, day(X1st_Cover_Date__c)&gt;1),
+            And(year(AddMonths(X1st_Cover_Date__c,1))= year(Mock_Today__c),month(AddMonths(X1st_Cover_Date__c,1))= month(Mock_Today__c),day(Mock_Today__c)=1,day(X1st_Cover_Date__c)&gt;1 ),
+            And(Mock_Today__c= X1st_Cover_Date__c, day(X1st_Cover_Date__c)=1),
+            And(year(AddMonths(X1st_Cover_Date__c,-1))= year(Mock_Today__c),month(AddMonths(X1st_Cover_Date__c,-1))= month(Mock_Today__c),day(Mock_Today__c)&gt;1,day(X1st_Cover_Date__c)=1 )
+          ), 
+          &apos;Live&apos;,
+          IF(Mock_Today__c &lt; X1st_Cover_Date__c, 
+          &apos;Pending&apos;,
+          &apos;Expired&apos;
+          )
+        )
+        )
+          )
+          ,&quot;Unknown&quot;
+        )
+      )
+    )
+  )
+)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Mock Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Mock_Today__c</fullName>
+        <externalId>false</externalId>
+        <label>Mock Today</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Post_Discount_Percentage__c</fullName>
+        <externalId>false</externalId>
+        <label>Post Discount Percentage</label>
+        <precision>8</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Post_Discount_Reason__c</fullName>
+        <externalId>false</externalId>
+        <label>Post Discount Reason</label>
+        <picklist>
+            <picklistValues>
+                <fullName>None-Autocalculated Discount</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Trade</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Make Good</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Rate Freeze</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>PIF</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>RSD Discretionary Code</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Trade Show Discount</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Wedding Wire Switch Pitch</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Blitz</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Post_List_Price__c</fullName>
+        <externalId>false</externalId>
+        <label>Post List Price</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Post_RSD_Id__c</fullName>
+        <externalId>false</externalId>
+        <label>Post RSD Id</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Post_SalesRepID__c</fullName>
+        <externalId>false</externalId>
+        <label>Post SalesRepID</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Post_Zuora_MonthlyRecurringRevenue__c</fullName>
+        <externalId>false</externalId>
+        <label>Post Zuora MonthlyRecurringRevenue</label>
+        <precision>16</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Post_Zuora_Price__c</fullName>
+        <externalId>false</externalId>
+        <label>Post Zuora Price</label>
+        <precision>16</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Post_Zuora_TotalContractValue__c</fullName>
+        <externalId>false</externalId>
+        <label>Post Zuora TotalContractValue</label>
+        <precision>16</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Pre_Discount_Percentage__c</fullName>
+        <externalId>false</externalId>
+        <label>Pre Discount Percentage</label>
+        <precision>8</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Pre_Discount_Reason__c</fullName>
+        <externalId>false</externalId>
+        <label>Pre Discount Reason</label>
+        <picklist>
+            <picklistValues>
+                <fullName>None-Autocalculated Discount</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Trade</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Make Good</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Rate Freeze</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>PIF</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>RSD Discretionary Code</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Trade Show Discount</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Wedding Wire Switch Pitch</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Blitz</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Pre_List_Price__c</fullName>
+        <externalId>false</externalId>
+        <label>Pre List Price</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Pre_RSD_Id__c</fullName>
+        <externalId>false</externalId>
+        <label>Pre RSD Id</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Pre_SalesRepID__c</fullName>
+        <externalId>false</externalId>
+        <label>Pre SalesRepID</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Pre_Zuora_MonthlyRecurringRevenue__c</fullName>
+        <externalId>false</externalId>
+        <label>Pre Zuora MonthlyRecurringRevenue</label>
+        <precision>16</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Pre_Zuora_Price__c</fullName>
+        <externalId>false</externalId>
+        <label>Pre Zuora Price</label>
+        <precision>16</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Pre_Zuora_TotalContractValue__c</fullName>
+        <externalId>false</externalId>
+        <label>Pre Zuora TotalContractValue</label>
+        <precision>16</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Print_Issue__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Print Issue</label>
+        <referenceTo>Print_Issue__c</referenceTo>
+        <relationshipLabel>PrintIssue1</relationshipLabel>
+        <relationshipName>PrintIssue1</relationshipName>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Product_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Product Type</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>RSDId__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(AND(TODAY()&lt;Switch_Date__c,Amement_Type__c!=&apos;Add Product&apos;), Pre_RSD_Id__c, Post_RSD_Id__c)</formula>
+        <label>RSD Id</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Rate_Plan_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>Rate Plan Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Sales_Rep_ID__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(AND(TODAY()&lt;Switch_Date__c,Amement_Type__c!=&apos;Add Product&apos;), Pre_SalesRepID__c, Post_SalesRepID__c)</formula>
+        <label>Sales Rep ID</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Subscription_Product_and_Charge__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Subscription Product and Charge</label>
+        <referenceTo>Zuora__SubscriptionProductCharge__c</referenceTo>
+        <relationshipLabel>Live Subscription Product and Charges</relationshipLabel>
+        <relationshipName>Live_Subscription_Product_and_Charges</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Subscription_Version__c</fullName>
+        <externalId>false</externalId>
+        <label>Subscription Version</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Switch_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Switch Date</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>X1st_Cover_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>1st cover date</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Zuora_Account__c</fullName>
+        <externalId>false</externalId>
+        <label>Account</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Live Charges</relationshipLabel>
+        <relationshipName>Live_Subscription_Product_and_Charges</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>Zuora_CancelledDate__c</fullName>
+        <externalId>false</externalId>
+        <formula>Live_Subscription__r.Zuora_CancelledDate__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Cancelled Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Zuora_ChargeNumber__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <externalId>true</externalId>
+        <label>Zuora Charge Number</label>
+        <length>255</length>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>Zuora_EffectiveEndDate__c</fullName>
+        <externalId>false</externalId>
+        <label>Zuora EffectiveEndDate</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Zuora_EffectiveStartDate__c</fullName>
+        <externalId>false</externalId>
+        <label>Zuora EffectiveStartDate</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Zuora_MonthlyRecurringRevenue__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(AND(TODAY()&lt;Switch_Date__c,Amement_Type__c!=&apos;Add Product&apos;), Pre_Zuora_MonthlyRecurringRevenue__c, Post_Zuora_MonthlyRecurringRevenue__c)</formula>
+        <label>Zuora MonthlyRecurringRevenue</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Zuora_Price__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(AND(TODAY()&lt;Switch_Date__c,Amement_Type__c!=&apos;Add Product&apos;), Pre_Zuora_Price__c, Post_Zuora_Price__c)</formula>
+        <label>Zuora Price</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Zuora_Product_Name_Test__c</fullName>
+        <externalId>false</externalId>
+        <formula>Zuora_Product_Name__c</formula>
+        <label>Zuora Product Name Test</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Zuora_Product_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>Zuora Product Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Zuora_TotalContractValue__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(AND(TODAY()&lt;Switch_Date__c,Amement_Type__c!=&apos;Add Product&apos;), Pre_Zuora_TotalContractValue__c ,Post_Zuora_TotalContractValue__c)</formula>
+        <label>Zuora TotalContractValue</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <label>Live Subscription Product and Charge</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>X1st_Cover_Date__c</columns>
+        <columns>Zuora_Account__c</columns>
+        <columns>Amement_Type__c</columns>
+        <columns>Category_Taxonomy_ID__c</columns>
+        <columns>Commission_Line_Item_Status__c</columns>
+        <columns>Discount_Percentage__c</columns>
+        <columns>Discount_Reason__c</columns>
+        <columns>List_Price__c</columns>
+        <columns>Live_Price__c</columns>
+        <columns>Live_Subscription__c</columns>
+        <columns>Pre_List_Price__c</columns>
+        <columns>Print_Issue__c</columns>
+        <columns>UPDATEDBY_USER</columns>
+        <columns>LAST_UPDATE</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <label>Live Subscription Product and Charge</label>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Live Subscription Product and Charges</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+</CustomObject>

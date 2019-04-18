@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Account.Zuora__R00N40000001kyLcEAI__r.Zuora__Subscriptions__r$Sales_Rep__c</field>
+    </columns>
+    <columns>
+        <field>Account.Zuora__R00N40000001kyLcEAI__r.Zuora__Subscriptions__r.Zuora__Subscription_Product_Charges__r$SalesRepID__c</field>
+    </columns>
+    <columns>
+        <field>Account$Name</field>
+    </columns>
+    <columns>
+        <field>Account.Zuora__R00N40000001kyLcEAI__r.Zuora__Subscriptions__r$Name</field>
+    </columns>
+    <columns>
+        <field>Account.Zuora__R00N40000001kyLcEAI__r.Zuora__Subscriptions__r.Zuora__Subscription_Product_Charges__r$Zuora__RatePlanName__c</field>
+    </columns>
+    <columns>
+        <field>Account.Zuora__R00N40000001kyLcEAI__r.Zuora__Subscriptions__r$Zuora__SubscriptionEndDate__c</field>
+    </columns>
+    <columns>
+        <field>Account.Zuora__R00N40000001kyLcEAI__r.Zuora__Subscriptions__r$CreatedDate</field>
+    </columns>
+    <filter>
+        <booleanFilter>((((((((((((1 OR 2 OR 3 OR 4 OR 5 OR 6 OR 7 OR 8 OR 9 OR 10 OR 13 OR 14 OR 15 OR 16 OR 17 OR 18 OR 19 OR 20) ) AND 11) AND 12)))))))))</booleanFilter>
+        <criteriaItems>
+            <column>Account.Zuora__R00N40000001kyLcEAI__r.Zuora__Subscriptions__r$Sales_Rep__c</column>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>Alexandria Teixeira</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.Zuora__R00N40000001kyLcEAI__r.Zuora__Subscriptions__r$Sales_Rep__c</column>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>Laura Gardner</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.Zuora__R00N40000001kyLcEAI__r.Zuora__Subscriptions__r$Sales_Rep__c</column>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>Kaitlyn Quenzer</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.Zuora__R00N40000001kyLcEAI__r.Zuora__Subscriptions__r$Sales_Rep__c</column>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>Kylee Orriss</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.Zuora__R00N40000001kyLcEAI__r.Zuora__Subscriptions__r$Sales_Rep__c</column>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>Mollie Cumiskey</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.Zuora__R00N40000001kyLcEAI__r.Zuora__Subscriptions__r$Sales_Rep__c</column>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>Marcy Palacios</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.Zuora__R00N40000001kyLcEAI__r.Zuora__Subscriptions__r$Sales_Rep__c</column>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>Kelsey O&apos;Toole</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.Zuora__R00N40000001kyLcEAI__r.Zuora__Subscriptions__r$Sales_Rep__c</column>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>Cassandra Ettman</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.Zuora__R00N40000001kyLcEAI__r.Zuora__Subscriptions__r$Sales_Rep__c</column>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>Christina Jenkins</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.Zuora__R00N40000001kyLcEAI__r.Zuora__Subscriptions__r$Sales_Rep__c</column>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>Briana Boyd</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.Zuora__R00N40000001kyLcEAI__r.Zuora__Subscriptions__r$True_Subscription_Status__c</column>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>Cancelled</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account$Customer_Type__c</column>
+            <isUnlocked>false</isUnlocked>
+            <operator>notEqual</operator>
+            <value>CNCXLD BAD PAY</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.Zuora__R00N40000001kyLcEAI__r.Zuora__Subscriptions__r$Sales_Rep__c</column>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>Katie Kuroski</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.Zuora__R00N40000001kyLcEAI__r.Zuora__Subscriptions__r$Sales_Rep__c</column>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>Susan Elwood</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.Zuora__R00N40000001kyLcEAI__r.Zuora__Subscriptions__r$Sales_Rep__c</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Hannah Gilbertson</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.Zuora__R00N40000001kyLcEAI__r.Zuora__Subscriptions__r$Sales_Rep__c</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Erica Barreto</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.Zuora__R00N40000001kyLcEAI__r.Zuora__Subscriptions__r$Sales_Rep__c</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Jade Govel</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.Zuora__R00N40000001kyLcEAI__r.Zuora__Subscriptions__r$Sales_Rep__c</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Cameron Kirksey</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.Zuora__R00N40000001kyLcEAI__r.Zuora__Subscriptions__r$Sales_Rep__c</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Chloe Wilson</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.Zuora__R00N40000001kyLcEAI__r.Zuora__Subscriptions__r$Sales_Rep__c</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Caitlyn Ziobro,Paisley Bittner,Madison Jones</value>
+        </criteriaItems>
+    </filter>
+    <format>Tabular</format>
+    <name>BDR Future Cancel Report</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Accounts_with_Billing_Account_and_Subscription__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <timeFrameFilter>
+        <dateColumn>Account.Zuora__R00N40000001kyLcEAI__r.Zuora__Subscriptions__r$Zuora__SubscriptionEndDate__c</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+        <startDate>2017-04-01</startDate>
+    </timeFrameFilter>
+</Report>

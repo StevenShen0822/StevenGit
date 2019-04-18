@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Account Owner --></label>
+        <name>Acc_Owner__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Owner --></label>
+        <name>Account_Owner__c</name>
+        <relationshipLabel><!-- Invoices --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Bill To Contact Email --></label>
+        <name>Bill_To_Contact_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bill To Contact Name --></label>
+        <name>Bill_To_Contact_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- CES Migration Data --></label>
+        <name>CES_Migration_Data__c</name>
+    </fields>
+    <fields>
+        <label><!-- Past Due --></label>
+        <name>Past_Due__c</name>
+    </fields>
+    <fields>
+        <label><!-- Promise to Pay Amount --></label>
+        <name>Promise_To_Pay_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Promise to Pay Date --></label>
+        <name>Promise_to_Pay_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- The CRM account that the invoice is associated to. --></help>
+        <label><!-- Account --></label>
+        <name>Zuora__Account__c</name>
+        <relationshipLabel><!-- Invoices --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- The currency amount of the adjustment applied to the invoice. --></help>
+        <label><!-- Adjustment Amount --></label>
+        <name>Zuora__AdjustmentAmount__c</name>
+    </fields>
+    <fields>
+        <help><!-- Age Buckets for Aging Reports --></help>
+        <label><!-- Age Bucket --></label>
+        <name>Zuora__Age_Bucket__c</name>
+    </fields>
+    <fields>
+        <help><!-- The total of the invoice before any taxes are applied. --></help>
+        <label><!-- Amount Without Tax --></label>
+        <name>Zuora__AmountWithoutTax__c</name>
+    </fields>
+    <fields>
+        <help><!-- The balance due on the invoice after the value for the Amount field is applied. --></help>
+        <label><!-- Balance --></label>
+        <name>Zuora__Balance2__c</name>
+    </fields>
+    <fields>
+        <help><!-- Zuora Invoice Balance.  This field is deprecated. --></help>
+        <label><!-- Balance (Deprecated) --></label>
+        <name>Zuora__Balance__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bill To Contact Id --></label>
+        <name>Zuora__BillToId__c</name>
+    </fields>
+    <fields>
+        <help><!-- The Zuora billing account that the invoice is for. --></help>
+        <label><!-- Billing Account --></label>
+        <name>Zuora__BillingAccount__c</name>
+        <relationshipLabel><!-- Invoices --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Credit Balance Adjustment Amount --></label>
+        <name>Zuora__CreditBalanceAdjustmentAmount__c</name>
+    </fields>
+    <fields>
+        <help><!-- Invoice Description. --></help>
+        <label><!-- Description --></label>
+        <name>Zuora__Description__c</name>
+    </fields>
+    <fields>
+        <help><!-- The date by which the payment for this invoice is due. --></help>
+        <label><!-- Due Date --></label>
+        <name>Zuora__DueDate__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field holds the Zuora object ID, and is used as external ID for data synchronization between Salesforce and Zuora. --></help>
+        <label><!-- External Id --></label>
+        <name>Zuora__External_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Generated On Date (Deprecated) --></label>
+        <name>Zuora__GeneratedDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Generated On Date --></label>
+        <name>Zuora__Generated_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- The generation date of the invoice. --></help>
+        <label><!-- Invoice Date --></label>
+        <name>Zuora__InvoiceDate__c</name>
+    </fields>
+    <fields>
+        <help><!-- The amount of payments applied to the invoice. --></help>
+        <label><!-- Payment Amount --></label>
+        <name>Zuora__PaymentAmount__c</name>
+    </fields>
+    <fields>
+        <help><!-- The payment term of the associated billing account. --></help>
+        <label><!-- Payment Term --></label>
+        <name>Zuora__PaymentTerm__c</name>
+    </fields>
+    <fields>
+        <label><!-- Payment Term --></label>
+        <name>Zuora__Payment_Term__c</name>
+        <relationshipLabel><!-- Invoices --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- The date when the invoice was posted. --></help>
+        <label><!-- Posted On Date (Deprecated) --></label>
+        <name>Zuora__PostedDate__c</name>
+    </fields>
+    <fields>
+        <help><!-- The date when the invoice was posted. --></help>
+        <label><!-- Posted On Date --></label>
+        <name>Zuora__Posted_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Specifies the amount of a refund that applied against a payment on an earlier the invoice. --></help>
+        <label><!-- Refunded Amount --></label>
+        <name>Zuora__RefundedAmount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sold To Contact Id --></label>
+        <name>Zuora__SoldToId__c</name>
+    </fields>
+    <fields>
+        <help><!-- The status of the invoice in the system. This status is not the status of the payment of the invoice, just the status of the invoice itself. --></help>
+        <label><!-- Status --></label>
+        <name>Zuora__Status__c</name>
+    </fields>
+    <fields>
+        <help><!-- The date you want the invoice generated on. --></help>
+        <label><!-- Target Date --></label>
+        <name>Zuora__TargetDate__c</name>
+    </fields>
+    <fields>
+        <help><!-- The total amount of the taxes applied to the invoice. --></help>
+        <label><!-- Tax Amount --></label>
+        <name>Zuora__TaxAmount__c</name>
+    </fields>
+    <fields>
+        <help><!-- The total amount of the invoice that is exempt from taxation. --></help>
+        <label><!-- Tax Exempt Amount --></label>
+        <name>Zuora__TaxExemptAmount__c</name>
+    </fields>
+    <fields>
+        <help><!-- The amount of the invoice. --></help>
+        <label><!-- Total Amount --></label>
+        <name>Zuora__TotalAmount__c</name>
+    </fields>
+    <fields>
+        <help><!-- The Invoice ID in the Zuora system. --></help>
+        <label><!-- Invoice ID --></label>
+        <name>Zuora__ZuoraId__c</name>
+    </fields>
+    <fields>
+        <help><!-- The Zuora ID of the invoice. --></help>
+        <label><!-- Zuora Id --></label>
+        <name>Zuora__Zuora_Id__c</name>
+    </fields>
+    <layouts>
+        <layout>Copy of ZInvoice Z-Force Layout v2.9 - Admin</layout>
+        <sections>
+            <label><!-- Account Information --></label>
+            <section>Account Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label><!-- General Information --></label>
+            <section>General Information</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>ZInvoice Z-Force Layout v2.9 - Clone</layout>
+        <sections>
+            <label><!-- Account Information --></label>
+            <section>Account Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label><!-- General Information --></label>
+            <section>General Information</section>
+        </sections>
+    </layouts>
+    <validationRules>
+        <errorMessage><!-- Promise to pay date cannot be less than or equal to today! --></errorMessage>
+        <name>PromiseToPay_cannot_be_lesser_than_Today</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please ensure a promise to pay date has been entered and it is greater than today and the promise to pay amount is equal to the amount owed on the invoice. Note:The invoice outstanding balance must have a value greater than $0 in order to assign a promise --></errorMessage>
+        <name>Required_Field_Rule_for_Promise_to_Pay</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- InvoicePDF --></label>
+        <name>Zuora__InvoicePDF</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Invoice_PDF --></label>
+        <name>Zuora__Invoice_PDF</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- View_Invoice_PDF --></label>
+        <name>Zuora__View_Invoice_PDF</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- View_Invoice_PDF_Link --></label>
+        <name>Zuora__View_Invoice_PDF_Link</name>
+    </webLinks>
+</CustomObjectTranslation>

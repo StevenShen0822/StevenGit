@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Created --></label>
+        <name>Zuora__Number_Created__c</name>
+    </fields>
+    <fields>
+        <label><!-- Deleted --></label>
+        <name>Zuora__Number_Deleted__c</name>
+    </fields>
+    <fields>
+        <label><!-- Failed --></label>
+        <name>Zuora__Number_Failed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Updated --></label>
+        <name>Zuora__Number_Updated__c</name>
+    </fields>
+    <fields>
+        <label><!-- Object Type --></label>
+        <name>Zuora__Object_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sync History --></label>
+        <name>Zuora__Sync_History__c</name>
+        <relationshipLabel><!-- CrmId Change Results --></relationshipLabel>
+    </fields>
+</CustomObjectTranslation>

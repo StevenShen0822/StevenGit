@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>OWNER_FULL_NAME</field>
+    </columns>
+    <columns>
+        <field>ACCOUNT.NAME</field>
+    </columns>
+    <columns>
+        <field>Account.Local_Paid_Status__c</field>
+    </columns>
+    <columns>
+        <field>FK_NAME</field>
+    </columns>
+    <description>Fayette, Burleson, Madison, Robertson  County Account</description>
+    <filter>
+        <booleanFilter>(1 OR 2) AND 3</booleanFilter>
+        <criteriaItems>
+            <column>ACCOUNT.ADDRESS2_ZIP</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>77837,77856,77859,77867,77870,77882,77872,77864,77852,77879,77836,77878,77863,77838,78945,78940,78949,78941,78956,78963</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>ACCOUNT.ADDRESS1_ZIP</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>77837,77856,77859,77867,77870,77882,77872,77864,77852,77879,77836,77878,77863,77838,78945,78940,78949,78941,78956,78963</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>ACCOUNT.NAME</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>notContain</operator>
+            <value>OOB</value>
+        </criteriaItems>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>ADDRESS2_ZIP</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Counties Account</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>ContactList@Account.Local_Sales_Market__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <timeFrameFilter>
+        <dateColumn>LAST_ACTIVITY</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>CREATED_DATE</field>
+    </columns>
+    <columns>
+        <field>OWNER</field>
+    </columns>
+    <columns>
+        <field>COMPANY</field>
+    </columns>
+    <columns>
+        <field>PHONE</field>
+    </columns>
+    <columns>
+        <field>EMAIL</field>
+    </columns>
+    <columns>
+        <field>CONVERTED</field>
+    </columns>
+    <columns>
+        <field>Lead.Primary_Category__c</field>
+    </columns>
+    <columns>
+        <field>Lead.Local_Sales_Market__c</field>
+    </columns>
+    <description>all paid media not in BDR rep names</description>
+    <filter>
+        <criteriaItems>
+            <column>Lead.Primary_Category__c</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>contains</operator>
+            <value>CAL,DEC,DST,ENS,FAV,PHB,SPV,TRA,DES,BAR,BPH,DNC,LIT,NLW,REG,SVS,TEC,VHV,VAR,MEN,FIT,WJW,ALP,ACC</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>OWNER</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>notContain</operator>
+            <value>Carlesimo,Gardner,Quenzer,Legat,Cumiskey,Palacios,O&apos;Toole,Orriss,Walisfer,Boyd,Gilbertson,Ettman,Elwood,Jenkins,Kuroski,Teixeira</value>
+        </criteriaItems>
+    </filter>
+    <format>Summary</format>
+    <name>Paid Media Leads 2nd Categories</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>LeadList</reportType>
+    <scope>org</scope>
+    <showDetails>true</showDetails>
+    <timeFrameFilter>
+        <dateColumn>CREATED_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+        <startDate>2016-10-01</startDate>
+    </timeFrameFilter>
+</Report>

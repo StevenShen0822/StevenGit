@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Currency --></label>
+        <name>zqu__Currency__c</name>
+        <picklistValues>
+            <masterLabel>CAD</masterLabel>
+            <translation><!-- CAD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EUR</masterLabel>
+            <translation><!-- EUR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GBP</masterLabel>
+            <translation><!-- GBP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JPY</masterLabel>
+            <translation><!-- JPY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>USD</masterLabel>
+            <translation><!-- USD --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Deleted --></label>
+        <name>zqu__Deleted__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ending Unit --></label>
+        <name>zqu__EndingUnit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Overage Price --></label>
+        <name>zqu__IsOveragePrice__c</name>
+    </fields>
+    <fields>
+        <label><!-- Price Format --></label>
+        <name>zqu__PriceFormat__c</name>
+        <picklistValues>
+            <masterLabel>Flat Fee</masterLabel>
+            <translation><!-- Flat Fee --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Per Unit</masterLabel>
+            <translation><!-- Per Unit --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Price --></label>
+        <name>zqu__Price__c</name>
+    </fields>
+    <fields>
+        <help><!-- The parent ProductRatePlanChargeOption --></help>
+        <label><!-- Product Rate Plan Charge Option --></label>
+        <name>zqu__ProductRatePlanChargeOption__c</name>
+        <relationshipLabel><!-- Product Rate Plan Charge Tier Option --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Starting Unit --></label>
+        <name>zqu__StartingUnit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tier --></label>
+        <name>zqu__Tier__c</name>
+    </fields>
+    <recordTypes>
+        <label><!-- Default --></label>
+        <name>Default</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Snapshot --></label>
+        <name>Snapshot</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Ending Unit should be larger than Starting Unit --></errorMessage>
+        <name>zqu__Ending_Unit_Larger_Than_Starting_Unit</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Ending Unit should not be less than 0 --></errorMessage>
+        <name>zqu__Ending_Unit_Rule</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Starting Unit should not be less than 0 --></errorMessage>
+        <name>zqu__Starting_Unit_Rule</name>
+    </validationRules>
+</CustomObjectTranslation>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <filter>
+        <booleanFilter>1 OR 2 OR 3 OR 4 OR 5</booleanFilter>
+        <criteriaItems>
+            <column>Opportunity.Region__c</column>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>,Appalachian Plateau,Atlanta,Austin,Baltimore Suburb,Blue Ridge,Boston,Boston Suburbs,Bronx,Brooklyn,Capital District,Central California,Central DC,Central East FL,Central FL,Central Georgia,Central Jersey,Central MA,Central ME,Central NH,Central NY</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>CREATED</column>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>,Central VT,Central West FL,Chesapeake Bay,Coastal area,Coastal Plain,Dallas/Fort Worth,DC - Piedmont,Delaware,Desert Area,Downtown Baltimore,East DC,Far West Texas,Finger Lakes,Gulf Coast,Hampton Roads,Harbor,High Country,Houston Proper,Hudson Valley,Islands</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.Region__c</column>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>,Lake Region,Lehigh Valley/Poconos,Long Island,Los Angeles,Lowcountry,Manhattan,Midlands,Newport area,North Central Pennsylvania,North Eastern CT,North East FL,Northeast Texas,Northern CT,Northern Georgia,Northern Jersey Shore,Northern NH,Northern VT,North Jersey,North West FL,Northwest Pennsylvania</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.Region__c</column>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>,Orange/Inland,Outer Banks,Outer Maryland,Panhandle,Philadelphia,Pittsburgh,Providence area,Queens,Sacramento/Tahoe/Northern,San Antonio,San Diego,San Francisco/Bay Area/Wine Country,Santa Barbara/Ventura,Savannah Georgia,South Central Pennsylvania,South Eastern CT,South East FL,Southern CT,Southern Georgia,Southern Jersey Shore</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.Region__c</column>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>Southern ME,Southern NH,Southern VT,South Jersey,South West FL,Southwest Pennsylvania,Staten Island,Texas Hill Country,The Adirondacks,The Catskills,The Keys,Triad Area,Triangle,Upcountry,Valley &amp; Ridge,VA - Piedmont,Westchester,West DC,Western MA,Western NY,West Maryland,West Texas</value>
+        </criteriaItems>
+    </filter>
+    <format>Matrix</format>
+    <groupingsAcross>
+        <dateGranularity>Day</dateGranularity>
+        <field>STAGE_NAME</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsAcross>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>FULL_NAME</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Opp Stages: Active Areas</name>
+    <params>
+        <name>open</name>
+        <value>all</value>
+    </params>
+    <params>
+        <name>probability</name>
+        <value>&gt;0</value>
+    </params>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Opportunity</reportType>
+    <scope>organization</scope>
+    <showDetails>false</showDetails>
+    <timeFrameFilter>
+        <dateColumn>CLOSE_DATE</dateColumn>
+        <endDate>2015-06-19</endDate>
+        <interval>INTERVAL_CUSTOM</interval>
+        <startDate>2015-06-12</startDate>
+    </timeFrameFilter>
+</Report>

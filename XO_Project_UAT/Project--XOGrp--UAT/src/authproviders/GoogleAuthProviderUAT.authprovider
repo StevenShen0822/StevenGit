@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AuthProvider xmlns="http://soap.sforce.com/2006/04/metadata">
+    <authorizeUrl>https://accounts.google.com/o/oauth2/auth</authorizeUrl>
+    <consumerKey>285753712116-6le3jmopudlhr603056i7si31iqae0es.apps.googleusercontent.com</consumerKey>
+    <consumerSecret>rEcr2+AiEdfdaX1nxNvYoXTV3CJ8xmR4cEEY92ILatc=</consumerSecret>
+    <defaultScopes>email</defaultScopes>
+    <executionUser>sfdcintegrationsvc@xogrp.com.uat</executionUser>
+    <friendlyName>XO Login (UAT)</friendlyName>
+    <includeOrgIdInIdentifier>false</includeOrgIdInIdentifier>
+    <providerType>OpenIdConnect</providerType>
+    <registrationHandler>GoogleInternalRegHandler</registrationHandler>
+    <sendAccessTokenInHeader>true</sendAccessTokenInHeader>
+    <sendClientCredentialsInHeader>false</sendClientCredentialsInHeader>
+    <tokenUrl>https://accounts.google.com/o/oauth2/token</tokenUrl>
+    <userInfoUrl>https://www.googleapis.com/oauth2/v3/userinfo</userInfoUrl>
+</AuthProvider>

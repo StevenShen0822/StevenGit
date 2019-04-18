@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>FK_$Opportunity.Contract_Signer__c</field>
+    </columns>
+    <columns>
+        <field>FK_ACC_NAME</field>
+    </columns>
+    <columns>
+        <field>FK_OPP_OWNER_NAME</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>FK_$Opportunity.Total_Potential_Value__c</field>
+    </columns>
+    <columns>
+        <field>FK_OPP_CLOSE_DATE</field>
+    </columns>
+    <columns>
+        <field>echosign_dev1__SIGN_Agreement__c.echosign_dev1__DateSigned__c</field>
+    </columns>
+    <description>All renewal opps, signed internally this month</description>
+    <filter>
+        <criteriaItems>
+            <column>FK_OPP_OWNER_NAME</column>
+            <isUnlocked>false</isUnlocked>
+            <operator>notEqual</operator>
+            <value>Shannon Davis,Eamon Bourque,Mindy Krupp,Testing RSD</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>FK_OPP_STAGE_NAME</column>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>Closed Won</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>echosign_dev1__SIGN_Agreement__c.echosign_dev1__Status__c</column>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>Signed</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>FK_OPP_TYPE</column>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>Renewal</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>FK_$Opportunity.Contract_Signer__c</column>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>Chelsea Collins,Gina Skarzynski,Austin Slovak,Ashley Umbarger,Jennifer Jones,Naomi Carlson,Jessica Howell,Cathy Sindelar,Georgina Skarzynksi,Skylar Wright,Renee Scornavacca,Jenn Gomez,Mary McGinty,David Papson</value>
+        </criteriaItems>
+    </filter>
+    <format>Summary</format>
+    <name>Auto Renewals Signed</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$echosign_dev1__SIGN_Agreement__c@echosign_dev1__SIGN_Agreement__c.echosign_dev1__Opportunity__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <sortColumn>FK_$Opportunity.Contract_Signer__c</sortColumn>
+    <sortOrder>Asc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>echosign_dev1__SIGN_Agreement__c.echosign_dev1__DateSignedDate__c</dateColumn>
+        <interval>INTERVAL_THISMONTH</interval>
+    </timeFrameFilter>
+</Report>

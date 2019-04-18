@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <filter>
+        <criteriaItems>
+            <column>STATUS</column>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>Signed</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>CONTRACT_OWNER</column>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>Abby Corrigan,Alexandria Teixeira,Amanda Johnson,Arielle Asher,Christina McNerney,Courtney Carlesimo,Elizabeth Freeman,Kaitlyn Quenzer,Kevin John,Kristin Walsifer,Laura Gardner,Meaghan McNamee,Monica Robinson,Rita Belitzky,Serenity Crump,Tori Parker,Tracy Ridgway,Vida Soleimanzadeh</value>
+        </criteriaItems>
+    </filter>
+    <format>Matrix</format>
+    <groupingsAcross>
+        <dateGranularity>Day</dateGranularity>
+        <field>STATUS</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsAcross>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>CONTRACT_OWNER</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Signed Contracts Per Person - LAST WEEK</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>ContractList</reportType>
+    <showDetails>false</showDetails>
+    <timeFrameFilter>
+        <dateColumn>Contract.CustomerSignedDateTime__c</dateColumn>
+        <interval>INTERVAL_LASTWEEK</interval>
+    </timeFrameFilter>
+</Report>

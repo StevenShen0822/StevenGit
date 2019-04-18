@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help><!-- The CRM Account that this payment is related to. --></help>
+        <label><!-- Account --></label>
+        <name>Zuora__Account__c</name>
+        <relationshipLabel><!-- Refunds --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Zuora will automatically populate the accounting code for the refund for the payment or invoice line item that it applies to. If there was no AccountingCode, then this remains Null. --></help>
+        <label><!-- Accounting Code --></label>
+        <name>Zuora__AccountingCode__c</name>
+    </fields>
+    <fields>
+        <help><!-- The amount the refund. Cannot exceed the amount of the payment the refund is applied to. --></help>
+        <label><!-- Amount --></label>
+        <name>Zuora__Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Billing Account --></label>
+        <name>Zuora__BillingAccount__c</name>
+        <relationshipLabel><!-- Refunds --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Use this optional field to add a note to the refund. --></help>
+        <label><!-- Comment --></label>
+        <name>Zuora__Comment__c</name>
+    </fields>
+    <fields>
+        <help><!-- The Zuora system automatically generates the ID of the user who created the object. --></help>
+        <label><!-- Created By --></label>
+        <name>Zuora__CreatedById__c</name>
+    </fields>
+    <fields>
+        <help><!-- The Zuora system automatically generates this value, which records when the object was created. --></help>
+        <label><!-- Created On --></label>
+        <name>Zuora__CreatedDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- External_Id --></label>
+        <name>Zuora__External_Id__c</name>
+    </fields>
+    <fields>
+        <help><!-- The code returned from the payment gateway for the payment. This code is gateway-dependent. --></help>
+        <label><!-- Gateway Response Code --></label>
+        <name>Zuora__GatewayResponseCode__c</name>
+    </fields>
+    <fields>
+        <help><!-- The message returned from the payment gateway for a given payment, if any. This is gateway dependent. --></help>
+        <label><!-- Gateway Response --></label>
+        <name>Zuora__GatewayResponse__c</name>
+    </fields>
+    <fields>
+        <help><!-- A valid PaymentMethod ID indicating the method being used to make the payment. --></help>
+        <label><!-- Payment Method --></label>
+        <name>Zuora__PaymentMethod__c</name>
+        <picklistValues>
+            <masterLabel>ACH,</masterLabel>
+            <translation><!-- ACH, --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BankTransfer</masterLabel>
+            <translation><!-- BankTransfer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CreditCard,</masterLabel>
+            <translation><!-- CreditCard, --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CreditCardReferenceTransaction,</masterLabel>
+            <translation><!-- CreditCardReferenceTransaction, --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DebitCard,</masterLabel>
+            <translation><!-- DebitCard, --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PayPal,</masterLabel>
+            <translation><!-- PayPal, --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- The reference of a previous payment to which a refund is applied. --></help>
+        <label><!-- Payment --></label>
+        <name>Zuora__Payment__c</name>
+        <relationshipLabel><!-- Refunds --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Reason for refund --></help>
+        <label><!-- Reason Code Name --></label>
+        <name>Zuora__ReasonCodeName__c</name>
+    </fields>
+    <fields>
+        <help><!-- The reference of the gateway transaction. This field is returned by the gateway for electronic refunds. --></help>
+        <label><!-- Reference ID --></label>
+        <name>Zuora__ReferenceId__c</name>
+    </fields>
+    <fields>
+        <help><!-- The date of the refund. The date of the refund cannot be before the Payment date. --></help>
+        <label><!-- Refund Date (Deprecated) --></label>
+        <name>Zuora__RefundDate__c</name>
+    </fields>
+    <fields>
+        <help><!-- Denotes how an external refund was issued (paid out) to a customer.
+This field is required if you are using external refunds. --></help>
+        <label><!-- Refund Method Type --></label>
+        <name>Zuora__RefundMethodType__c</name>
+        <picklistValues>
+            <masterLabel>ACH,</masterLabel>
+            <translation><!-- ACH, --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BankTransfer</masterLabel>
+            <translation><!-- BankTransfer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cash,</masterLabel>
+            <translation><!-- Cash, --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Check,</masterLabel>
+            <translation><!-- Check, --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CreditCard,</masterLabel>
+            <translation><!-- CreditCard, --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CreditCardReferenceTransaction</masterLabel>
+            <translation><!-- CreditCardReferenceTransaction --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DebitCard,</masterLabel>
+            <translation><!-- DebitCard, --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PayPal,</masterLabel>
+            <translation><!-- PayPal, --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WireTransfer,</masterLabel>
+            <translation><!-- WireTransfer, --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- The date and time when the refund was issued. --></help>
+        <label><!-- Refund Transaction Time --></label>
+        <name>Zuora__RefundTransactionTime__c</name>
+    </fields>
+    <fields>
+        <help><!-- The date of the refund. The date of the refund cannot be before the Payment date. --></help>
+        <label><!-- Refund Date --></label>
+        <name>Zuora__Refund_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Soft Descriptor Phone --></label>
+        <name>Zuora__SoftDescriptorPhone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Soft Descriptor --></label>
+        <name>Zuora__SoftDescriptor__c</name>
+    </fields>
+    <fields>
+        <help><!-- Specifies whether the refund is a refund payment or a credit balance. --></help>
+        <label><!-- Source Type --></label>
+        <name>Zuora__SourceType__c</name>
+        <picklistValues>
+            <masterLabel>CreditBalance</masterLabel>
+            <translation><!-- CreditBalance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment</masterLabel>
+            <translation><!-- Payment --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- The status of the refund. These statuses are determined by the system. --></help>
+        <label><!-- Status --></label>
+        <name>Zuora__Status__c</name>
+        <picklistValues>
+            <masterLabel>Canceled</masterLabel>
+            <translation><!-- Canceled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Error</masterLabel>
+            <translation><!-- Error --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Processed</masterLabel>
+            <translation><!-- Processed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Processing</masterLabel>
+            <translation><!-- Processing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Voided</masterLabel>
+            <translation><!-- Voided --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Specifies whether or not the object has been transferred to an external accounting system. --></help>
+        <label><!-- Transferred to Accounting --></label>
+        <name>Zuora__TransferredToAccounting__c</name>
+        <picklistValues>
+            <masterLabel>Error</masterLabel>
+            <translation><!-- Error --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ignore</masterLabel>
+            <translation><!-- Ignore --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Processing</masterLabel>
+            <translation><!-- Processing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Specifies if the refund is electronic or external. --></help>
+        <label><!-- Type --></label>
+        <name>Zuora__Type__c</name>
+        <picklistValues>
+            <masterLabel>Electronic</masterLabel>
+            <translation><!-- Electronic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>External</masterLabel>
+            <translation><!-- External --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- The Zuora system automatically generates this ID of the user who last updated the object. --></help>
+        <label><!-- Updated By --></label>
+        <name>Zuora__UpdatedById__c</name>
+    </fields>
+    <fields>
+        <help><!-- The Zuora system automatically generates this to record when the object was last updated. --></help>
+        <label><!-- Updated On --></label>
+        <name>Zuora__UpdatedDate__c</name>
+    </fields>
+</CustomObjectTranslation>

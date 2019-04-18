@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help><!-- Indicates whether chatter for Subscriptions is disabled. --></help>
+        <label><!-- Disable chatter for subscriptions --></label>
+        <name>Zuora__DisableSubscriptionTrigger__c</name>
+    </fields>
+    <fields>
+        <help><!-- Failed callouts will send logs to this email address. --></help>
+        <label><!-- Notification Email Address --></label>
+        <name>Zuora__NotificationEmailAddress__c</name>
+    </fields>
+    <fields>
+        <help><!-- Indicates whether the Z360 package is installed. The value is set by the package installation script and should not be changed elsewhere. --></help>
+        <label><!-- Zuora 360 Installed --></label>
+        <name>Zuora__Z360Installed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Zuora 360 Major Version --></label>
+        <name>Zuora__Z360MajorVersion__c</name>
+    </fields>
+    <fields>
+        <label><!-- Zuora 360 Minor Version --></label>
+        <name>Zuora__Z360MinorVersion__c</name>
+    </fields>
+    <fields>
+        <help><!-- Indicates whether the Z-Quotes package is installed. The value is set by the package installation script and should not be changed elsewhere. --></help>
+        <label><!-- Zuora Quotes Installed --></label>
+        <name>Zuora__ZQuotesInstalled__c</name>
+    </fields>
+    <fields>
+        <label><!-- Zuora Quotes Major Version --></label>
+        <name>Zuora__ZQuotesMajorVersion__c</name>
+    </fields>
+    <fields>
+        <label><!-- Zuora Quotes Minor Version --></label>
+        <name>Zuora__ZQuotesMinorVersion__c</name>
+    </fields>
+</CustomObjectTranslation>

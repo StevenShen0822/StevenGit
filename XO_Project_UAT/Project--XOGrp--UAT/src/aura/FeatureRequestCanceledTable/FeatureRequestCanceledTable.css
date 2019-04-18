@@ -1,0 +1,46 @@
+.THIS {
+}
+
+.THIS .heading-text {
+    width: 100%;
+}
+
+.THIS .slds-scrollable {
+    max-height: 500px;
+}
+
+@media (max-width: 800px) {
+    .THIS div#FRCdiv {
+        width: 600px !important;
+        height: auto;
+    }       
+}
+@media screen and (max-width:1300px) and (min-width:800px){
+    .THIS div#FRCdiv {
+        width: 970px !important;
+        height: auto;
+    }
+}
+@media screen and (max-width:2000px) and (min-width:1300px){
+    .THIS div#FRCdiv {
+        width: 1600px !important;
+        height: auto;
+    }
+}
+
+.THIS td.select-cell {
+    padding-top: 4px;
+    padding-bottom: 0;
+}
+
+.THIS .slds-select {
+    height: 27px;
+}
+
+.THIS .slds-table thead th {
+    background-color: #fafaf9;
+}
+
+.THIS .slds-form-element__label {
+    display: none;
+}

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>zqu__ProductRatePlan__c$Name</field>
+    </columns>
+    <columns>
+        <field>zqu__ProductRatePlan__c.Inventory__r$Name</field>
+    </columns>
+    <columns>
+        <field>zqu__ProductRatePlan__c.Inventory__r$Held_By__c</field>
+    </columns>
+    <columns>
+        <field>zqu__ProductRatePlan__c.Inventory__r$Available__c</field>
+    </columns>
+    <columns>
+        <field>zqu__ProductRatePlan__c.Inventory__r$Subscription_Product_Charge__c.CreatedDate</field>
+    </columns>
+    <columns>
+        <field>zqu__ProductRatePlan__c.Inventory__r$Subscription_Product_Charge__c.Market_ID__c</field>
+    </columns>
+    <columns>
+        <field>zqu__ProductRatePlan__c.Inventory__r$Subscription_Product_Charge__c.Category_Taxonomy_ID__c</field>
+    </columns>
+    <filter>
+        <criteriaItems>
+            <column>zqu__ProductRatePlan__c$Name</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>contains</operator>
+            <value>Premium Banner</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>zqu__ProductRatePlan__c$Name</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>contains</operator>
+            <value>NY-Manh</value>
+        </criteriaItems>
+    </filter>
+    <format>Tabular</format>
+    <name>Inventory Slots</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Inventory__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <timeFrameFilter>
+        <dateColumn>zqu__ProductRatePlan__c$CreatedDate</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>
