@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>USERS.NAME</field>
+    </columns>
+    <columns>
+        <field>ACCOUNT_SOURCE</field>
+    </columns>
+    <columns>
+        <field>ACCOUNT.NAME</field>
+    </columns>
+    <columns>
+        <field>Account.DynamicsAccID__c</field>
+    </columns>
+    <columns>
+        <field>Account.Local_Sales_Market__c</field>
+    </columns>
+    <columns>
+        <field>Account.Primary_Category__c</field>
+    </columns>
+    <filter>
+        <criteriaItems>
+            <column>Account.DynamicsAccID__c</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>B0396C37-D207-46D5-A726-4C5B25540D0A,b30bbbc6-4106-4356-86fd-508a8323cd5a,881A9D5C-44C8-E511-95D2-0050568835C0,83C4FA24-50DB-E111-8BEC-78E3B50834E7,540FA7E9-C4E4-409F-99F1-79B81F6A6843,F17352A6-44C8-E511-95D2-0050568835C0</value>
+        </criteriaItems>
+    </filter>
+    <format>Tabular</format>
+    <name>Accounts from lead for BOW</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>AccountList</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <timeFrameFilter>
+        <dateColumn>CREATED_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

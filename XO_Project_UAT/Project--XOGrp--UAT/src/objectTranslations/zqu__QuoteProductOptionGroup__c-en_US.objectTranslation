@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help><!-- The maximum number of Quote Options that can be selected from this group. Inherited from Product Option Group. --></help>
+        <label><!-- Max Option --></label>
+        <name>zqu__Max_Option__c</name>
+    </fields>
+    <fields>
+        <help><!-- The minimum number of Quote Options that must be selected from this group. Inherited from Product Option Group. --></help>
+        <label><!-- Min Option --></label>
+        <name>zqu__Min_Option__c</name>
+    </fields>
+    <fields>
+        <help><!-- A reference to the product that contains this group. --></help>
+        <label><!-- Parent Product --></label>
+        <name>zqu__ParentProduct__c</name>
+        <relationshipLabel><!-- Quote Product Option Groups --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- A reference to the original Product Option Group from the Product Catalog. --></help>
+        <label><!-- Product Option Group --></label>
+        <name>zqu__ProductOptionGroup__c</name>
+        <relationshipLabel><!-- Quote Product Option Groups --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- The quote that contains this Quote Option Group. --></help>
+        <label><!-- Quote --></label>
+        <name>zqu__Quote__c</name>
+        <relationshipLabel><!-- Quote Product Option Groups --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- The top-level product in the bundle that contains this group. --></help>
+        <label><!-- Root Product --></label>
+        <name>zqu__RootProduct__c</name>
+        <relationshipLabel><!-- Quote Product Option Groups (Root Product) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- The Id of the top level Quote Rate Plan in the bundle. --></help>
+        <label><!-- Root Quote Rate Plan Id --></label>
+        <name>zqu__RootQrpId__c</name>
+    </fields>
+    <validationRules>
+        <errorMessage><!-- Max Option cannot be less than 0. --></errorMessage>
+        <name>zqu__Max_Option_Rule</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Min Option should be equal or less  than Max Option --></errorMessage>
+        <name>zqu__Min_Option_Less_Than_Max</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Min Option cannot be less than 0 --></errorMessage>
+        <name>zqu__Min_Option_Rule</name>
+    </validationRules>
+</CustomObjectTranslation>

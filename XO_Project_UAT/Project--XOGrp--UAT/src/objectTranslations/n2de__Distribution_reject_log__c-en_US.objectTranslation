@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help><!-- Approve the rejection of this assignment --></help>
+        <label><!-- Approved --></label>
+        <name>n2de__Approved__c</name>
+    </fields>
+    <fields>
+        <label><!-- Assigned object id --></label>
+        <name>n2de__Assigned_object_id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reason --></label>
+        <name>n2de__Reason__c</name>
+    </fields>
+    <fields>
+        <label><!-- Request datetime --></label>
+        <name>n2de__Request_datetime__c</name>
+    </fields>
+    <fields>
+        <label><!-- Requested by --></label>
+        <name>n2de__Requested_by__c</name>
+        <relationshipLabel><!-- Distribution reject logs (Requested by) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Review datetime --></label>
+        <name>n2de__Review_datetime__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reviewed by --></label>
+        <name>n2de__Reviewed_by__c</name>
+        <relationshipLabel><!-- Distribution reject logs (Reviewed by) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Team --></label>
+        <name>n2de__Team__c</name>
+        <relationshipLabel><!-- Distribution reject logs --></relationshipLabel>
+    </fields>
+</CustomObjectTranslation>

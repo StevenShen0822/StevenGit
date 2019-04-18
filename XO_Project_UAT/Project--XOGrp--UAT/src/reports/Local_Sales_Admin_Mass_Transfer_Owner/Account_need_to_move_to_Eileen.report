@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>USERS.NAME</field>
+    </columns>
+    <columns>
+        <field>ACCOUNT.NAME</field>
+    </columns>
+    <columns>
+        <field>Account.Local_Sales_Market__c</field>
+    </columns>
+    <columns>
+        <field>ADDRESS1_ZIP</field>
+    </columns>
+    <columns>
+        <field>ADDRESS2_ZIP</field>
+    </columns>
+    <filter>
+        <criteriaItems>
+            <column>Account.Local_Sales_Market__c</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>contains</operator>
+            <value>FL - North</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.Primary_Category__c</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Reception Venues - REC,Rentals - RNT,Videographers - VID,Wedding Bands - BDS,Wedding Cakes - WCK,Wedding Photographers - WPH,Wedding Planners - PLN,Caterers - CAT,Ceremony Venues - CER,Florists - FLO,Invitations + Paper Goods - INV,Officiants + Premarital Counseling - OPC</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>ADDRESS1_ZIP</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value></value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>ADDRESS2_ZIP</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>32501,32502,32503,32504,32505,32506,32507,32508,32509,32511,32512,32513,32514,32516,32520,32521,32522,32523,32524,32526,32533,32534,32535,32559,32560,32568,32577,32590,32591,32592,32530,32561,32562,32563,32565,32566,32570,32571,32572,32583,32531,32536,32537,32539,32540,32541,32542,32544,32547,32548,32549,32564,32567,32569,32578,32579,32580,32588,32422,32433,32434,32435,32439,32454,32455,32459,32461,32538,32550,32425,32452,32464,32401,32402,32403,32404,32405,32406,32407,32408,32409,32410,32411,32412,32413,32417,32438,32444,32466,32420,32423,32426,32431,32432,32440,32442,32443,32445,32446,32447,32448,32460,32421,32424,32430,32449,32456,32457,32465,32324,32330,32332,32333,32343,32351,32352,32353,32320,32322,32323,32328,32329</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>USERS.NAME</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>notContain</operator>
+            <value>Rhonda,Eileen</value>
+        </criteriaItems>
+    </filter>
+    <format>Tabular</format>
+    <name>Account need to move to Eileen</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>AccountList</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <sortColumn>ADDRESS2_ZIP</sortColumn>
+    <sortOrder>Desc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>CREATED_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

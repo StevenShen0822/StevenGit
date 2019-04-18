@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help><!-- The date when the corresponding Quote Rate Plan will expire. --></help>
+        <label><!-- Effective End Date --></label>
+        <name>zqu__EffectiveEndDate__c</name>
+    </fields>
+    <fields>
+        <help><!-- The date when the Quote Rate Plan becomes available. --></help>
+        <label><!-- Effective Start Date --></label>
+        <name>zqu__EffectiveStartDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Original Product Rate Plan Option Id --></label>
+        <name>zqu__OriginalPrpoId__c</name>
+    </fields>
+    <fields>
+        <help><!-- A reference to the initial Product Rate Plan Option from the Product Catalog. --></help>
+        <label><!-- Product Rate Plan Option --></label>
+        <name>zqu__ProductRatePlanOption__c</name>
+        <relationshipLabel><!-- Quote Rate Plan Options --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- The product rate plan being overridden. --></help>
+        <label><!-- Product Rate Plan --></label>
+        <name>zqu__ProductRatePlan__c</name>
+        <relationshipLabel><!-- Quote Rate Plan Options --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- The product contains the overridden product rate plan. --></help>
+        <label><!-- Product --></label>
+        <name>zqu__Product__c</name>
+        <relationshipLabel><!-- Quote Rate Plan Options --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Quote Product Option --></label>
+        <name>zqu__QuoteProductOption__c</name>
+        <relationshipLabel><!-- Quote Rate Plan Options --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- A reference to the Quote Rate Plan that this option overrides. --></help>
+        <label><!-- Quote Rate Plan --></label>
+        <name>zqu__QuoteRatePlan__c</name>
+        <relationshipLabel><!-- Quote Rate Plan Options --></relationshipLabel>
+    </fields>
+    <validationRules>
+        <errorMessage><!-- Effective End Date cannot be before Effective Start Date --></errorMessage>
+        <name>zqu__Effective_Date_Rule</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Overridden ProductRatePlan should belong to the Quote Product Option&apos;s child product --></errorMessage>
+        <name>zqu__Override_Rule</name>
+    </validationRules>
+</CustomObjectTranslation>

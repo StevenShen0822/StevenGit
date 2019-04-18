@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- External Id --></label>
+        <name>zqu__External_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Failure Log --></label>
+        <name>zqu__Failure_Log__c</name>
+    </fields>
+    <fields>
+        <label><!-- Finished On --></label>
+        <name>zqu__Finished_On__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Async --></label>
+        <name>zqu__Is_Async__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Cancel --></label>
+        <name>zqu__Is_Cancel__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Incremental --></label>
+        <name>zqu__Is_Incremental__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Success --></label>
+        <name>zqu__Is_Success__c</name>
+    </fields>
+    <fields>
+        <label><!-- Job State Id --></label>
+        <name>zqu__Job_State_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- CRMID Processing Status --></label>
+        <name>zqu__Process_For_CrmId_Change__c</name>
+        <picklistValues>
+            <masterLabel>Finished</masterLabel>
+            <translation><!-- Finished --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Data</masterLabel>
+            <translation><!-- No Data --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Processing</masterLabel>
+            <translation><!-- Processing --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Sync By --></label>
+        <name>zqu__Sync_By__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sync Error --></label>
+        <name>zqu__Sync_Error__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sync On --></label>
+        <name>zqu__Sync_On__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sync Target --></label>
+        <name>zqu__Sync_Target__c</name>
+        <picklistValues>
+            <masterLabel>ACCOUNTS_AND_RELATED_OBJECTS</masterLabel>
+            <translation><!-- ACCOUNTS_AND_RELATED_OBJECTS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PRODUCT_CATALOG</masterLabel>
+            <translation><!-- PRODUCT_CATALOG --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Sync To --></label>
+        <name>zqu__Sync_To__c</name>
+    </fields>
+    <fields>
+        <label><!-- Target Id --></label>
+        <name>zqu__Target_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tenant Id --></label>
+        <name>zqu__Tenant_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Zuora Hostname --></label>
+        <name>zqu__Zuora_Hostname__c</name>
+    </fields>
+</CustomObjectTranslation>

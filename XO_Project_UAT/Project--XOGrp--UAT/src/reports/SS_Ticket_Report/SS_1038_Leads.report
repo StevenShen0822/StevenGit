@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>LEAD_ID</field>
+    </columns>
+    <columns>
+        <field>Lead.DynamicsLeadID__c</field>
+    </columns>
+    <columns>
+        <field>Lead.Reference_ID__c</field>
+    </columns>
+    <columns>
+        <field>COMPANY</field>
+    </columns>
+    <columns>
+        <field>Lead.Primary_Category__c</field>
+    </columns>
+    <columns>
+        <field>ZIP</field>
+    </columns>
+    <columns>
+        <field>Lead.Local_Sales_Market__c</field>
+    </columns>
+    <columns>
+        <field>OWNER</field>
+    </columns>
+    <filter>
+        <criteriaItems>
+            <column>OWNER</column>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>Courtney Carlesimo,Laura Gardner,Marcy Palacios,Mollie Cumiskey,Kate Traverson,Jenna Garcia,Kylee Orriss,Kristin Walsifier,Jenna Goldstein</value>
+        </criteriaItems>
+    </filter>
+    <format>Tabular</format>
+    <name>SS-1038 (priority1) Leads</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>LeadList</reportType>
+    <scope>org</scope>
+    <showDetails>true</showDetails>
+    <timeFrameFilter>
+        <dateColumn>CREATED_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

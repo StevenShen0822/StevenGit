@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Additional Fields --></label>
+        <name>NVMContactWorld__AdditionalFields__c</name>
+    </fields>
+    <fields>
+        <label><!-- Custom Behaviour Class Name --></label>
+        <name>NVMContactWorld__HandlerClassName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Search Class Name --></label>
+        <name>NVMContactWorld__SearchClassName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Auto Presented CLID Apex Class Name --></label>
+        <name>NVMContactWorld__SelectPresentedClidClassName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Show Notes Panel --></label>
+        <name>NVMContactWorld__ShowNotesPanel__c</name>
+    </fields>
+</CustomObjectTranslation>

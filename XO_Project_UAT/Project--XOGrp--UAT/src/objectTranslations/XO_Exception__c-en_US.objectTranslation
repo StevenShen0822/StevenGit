@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>XO Exception</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>XO Exception</value>
+    </caseValues>
+    <fields>
+        <label><!-- Contact --></label>
+        <name>Contact__c</name>
+        <relationshipLabel><!-- XO Exception --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Failure Area --></label>
+        <name>Failure_Area__c</name>
+        <picklistValues>
+            <masterLabel>Account</masterLabel>
+            <translation><!-- Account --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Case</masterLabel>
+            <translation><!-- Case --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lead</masterLabel>
+            <translation><!-- Lead --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Local Partners</masterLabel>
+            <translation><!-- Local Partners --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Operative.One</masterLabel>
+            <translation><!-- Operative.One --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Opportunity</masterLabel>
+            <translation><!-- Opportunity --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PDF Generation</masterLabel>
+            <translation><!-- PDF Generation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quote to Cash</masterLabel>
+            <translation><!-- Quote to Cash --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TCV Calculation</masterLabel>
+            <translation><!-- TCV Calculation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Zuora Sync</masterLabel>
+            <translation><!-- Zuora Sync --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Line Number --></label>
+        <name>Line_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Message --></label>
+        <name>Message__c</name>
+    </fields>
+    <fields>
+        <label><!-- Related Object Id --></label>
+        <name>Related_Object_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Severity --></label>
+        <name>Severity__c</name>
+        <picklistValues>
+            <masterLabel>Critical</masterLabel>
+            <translation><!-- Critical --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Major</masterLabel>
+            <translation><!-- Major --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Minor</masterLabel>
+            <translation><!-- Minor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trivial</masterLabel>
+            <translation><!-- Trivial --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Stack Trace --></label>
+        <name>Stack_Trace__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>Type__c</name>
+    </fields>
+    <layouts>
+        <layout>XO Exception Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

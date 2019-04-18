@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Account --></label>
+        <name>Zuora__Account__c</name>
+        <relationshipLabel><!-- Subscription Product Features --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- External_Id --></label>
+        <name>Zuora__External_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Feature Code --></label>
+        <name>Zuora__FeatureCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Feature Description --></label>
+        <name>Zuora__FeatureDescription__c</name>
+    </fields>
+    <fields>
+        <label><!-- Feature Name --></label>
+        <name>Zuora__FeatureName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Description --></label>
+        <name>Zuora__ProductDescription__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Effective End Date --></label>
+        <name>Zuora__ProductEffectiveEndDate_Product__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Effective End Date --></label>
+        <name>Zuora__ProductEffectiveEndDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Name --></label>
+        <name>Zuora__ProductNameProduct__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Name --></label>
+        <name>Zuora__ProductName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product SKU --></label>
+        <name>Zuora__ProductSKU_Product__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product SKU --></label>
+        <name>Zuora__ProductSKU__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product ZuoraId --></label>
+        <name>Zuora__ProductZuoraId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product --></label>
+        <name>Zuora__Product__c</name>
+        <relationshipLabel><!-- Subscription Product Features --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- RatePlan Description --></label>
+        <name>Zuora__RatePlanDescription__c</name>
+    </fields>
+    <fields>
+        <label><!-- RatePlan Effective End Date --></label>
+        <name>Zuora__RatePlanEffectiveEndDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- RatePlan Name --></label>
+        <name>Zuora__RatePlanName__c</name>
+    </fields>
+    <fields>
+        <label><!-- RatePlan ZuoraId --></label>
+        <name>Zuora__RatePlanZuoraId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Subscription --></label>
+        <name>Zuora__Subscription__c</name>
+        <relationshipLabel><!-- Subscription Product Features --></relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>SubscriptionProductFeature Layout - Clone</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

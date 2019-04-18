@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- ACD --></label>
+        <name>NVMContactWorld__ACD__c</name>
+    </fields>
+    <fields>
+        <label><!-- CW Call End Reason --></label>
+        <name>NVMContactWorld__CW_Call_End_Reason__c</name>
+    </fields>
+    <fields>
+        <label><!-- CW Call End Time --></label>
+        <name>NVMContactWorld__CW_Call_End_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- CW Call Start Time --></label>
+        <name>NVMContactWorld__CW_Call_Start_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Call Duration --></label>
+        <name>NVMContactWorld__CallDurationInSeconds__c</name>
+    </fields>
+    <fields>
+        <label><!-- Call Leg Info --></label>
+        <name>NVMContactWorld__CallLegInfoJson__c</name>
+    </fields>
+    <fields>
+        <label><!-- Call Object Identifier --></label>
+        <name>NVMContactWorld__CallObject__c</name>
+    </fields>
+    <fields>
+        <label><!-- Call Ring Time --></label>
+        <name>NVMContactWorld__CallRingTimeInSeconds__c</name>
+    </fields>
+    <fields>
+        <label><!-- Call Talk Time --></label>
+        <name>NVMContactWorld__CallTalkTimeInSeconds__c</name>
+    </fields>
+    <fields>
+        <label><!-- Call Type --></label>
+        <name>NVMContactWorld__CallType__c</name>
+        <picklistValues>
+            <masterLabel>Inbound</masterLabel>
+            <translation><!-- Inbound --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Outbound</masterLabel>
+            <translation><!-- Outbound --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- ContactWorld Number --></label>
+        <name>NVMContactWorld__ContactWorld_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Number --></label>
+        <name>NVMContactWorld__Customer_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Related object --></label>
+        <name>NVMContactWorld__RelatedTo__c</name>
+    </fields>
+    <fields>
+        <label><!-- Service Name --></label>
+        <name>NVMContactWorld__Service_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Subject --></label>
+        <name>NVMContactWorld__Subject__c</name>
+    </fields>
+    <fields>
+        <label><!-- Call Was Recorded --></label>
+        <name>NVMContactWorld__Was_Call_Recorded__c</name>
+    </fields>
+</CustomObjectTranslation>

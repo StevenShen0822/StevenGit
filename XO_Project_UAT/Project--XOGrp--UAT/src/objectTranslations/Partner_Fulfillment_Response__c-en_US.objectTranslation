@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Partner Fulfillment Response</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Partner Fulfillment Responses</value>
+    </caseValues>
+    <fields>
+        <label><!-- Event Type --></label>
+        <name>Event_Type__c</name>
+        <picklistValues>
+            <masterLabel>Add Transaction</masterLabel>
+            <translation><!-- Add Transaction --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancel Transaction</masterLabel>
+            <translation><!-- Cancel Transaction --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancellation</masterLabel>
+            <translation><!-- Cancellation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Subscription Created</masterLabel>
+            <translation><!-- New Subscription Created --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NewProduct</masterLabel>
+            <translation><!-- NewProduct --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RemoveProduct</masterLabel>
+            <translation><!-- RemoveProduct --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Renewal</masterLabel>
+            <translation><!-- Renewal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service Activation Date</masterLabel>
+            <translation><!-- Service Activation Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Subscription Expired</masterLabel>
+            <translation><!-- Subscription Expired --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Subscription Start Date</masterLabel>
+            <translation><!-- Subscription Start Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Term End Date</masterLabel>
+            <translation><!-- Term End Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Term Start Date</masterLabel>
+            <translation><!-- Term Start Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TermsAndConditions</masterLabel>
+            <translation><!-- TermsAndConditions --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Object Type --></label>
+        <name>Object_Type__c</name>
+        <picklistValues>
+            <masterLabel>Account</masterLabel>
+            <translation><!-- Account --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lead</masterLabel>
+            <translation><!-- Lead --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Response JSON --></label>
+        <name>Response_JSON__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>Type__c</name>
+        <picklistValues>
+            <masterLabel>Account Update</masterLabel>
+            <translation><!-- Account Update --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Storefront Fulfillment</masterLabel>
+            <translation><!-- Storefront Fulfillment --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>Partner Fulfillment Response Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Activity$Subject</field>
+    </columns>
+    <filter>
+        <criteriaItems>
+            <column>Activity$CreatedBy</column>
+            <isUnlocked>false</isUnlocked>
+            <operator>startsWith</operator>
+            <value>Cliff</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Activity$Subject</column>
+            <isUnlocked>false</isUnlocked>
+            <operator>startsWith</operator>
+            <value>Error sending a quote</value>
+        </criteriaItems>
+    </filter>
+    <format>Tabular</format>
+    <name>Bad zuora activities</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Activities__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <timeFrameFilter>
+        <dateColumn>Activity$CreatedDate</dateColumn>
+        <endDate>2016-02-24</endDate>
+        <interval>INTERVAL_CUSTOM</interval>
+        <startDate>2016-02-24</startDate>
+    </timeFrameFilter>
+</Report>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Account --></label>
+        <name>Zuora__Account__c</name>
+        <relationshipLabel><!-- Subscription Rate Plan Charge Tiers --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Ending Unit --></label>
+        <name>Zuora__EndingUnit__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Id --></label>
+        <name>Zuora__External_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Overage Price --></label>
+        <name>Zuora__IsOveragePrice__c</name>
+    </fields>
+    <fields>
+        <label><!-- Price Format --></label>
+        <name>Zuora__PriceFormat__c</name>
+    </fields>
+    <fields>
+        <label><!-- Price --></label>
+        <name>Zuora__Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Starting Unit --></label>
+        <name>Zuora__StartingUnit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Subscription Product &amp; Charge --></label>
+        <name>Zuora__SubscriptionProductCharge__c</name>
+        <relationshipLabel><!-- Subscription Rate Plan Charge Tiers --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Tier --></label>
+        <name>Zuora__Tier__c</name>
+    </fields>
+</CustomObjectTranslation>

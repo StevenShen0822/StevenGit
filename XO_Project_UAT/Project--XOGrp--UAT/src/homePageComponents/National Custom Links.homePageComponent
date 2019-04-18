@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<HomePageComponent xmlns="http://soap.sforce.com/2006/04/metadata">
+    <links>My_Tasks</links>
+    <links>Tasks_Missing_Due_Dates</links>
+    <links>Renewal_Opportunity_Report</links>
+    <links>Expired_Open_Opportunities</links>
+    <links>Renewal_Dashboard</links>
+    <pageComponentType>links</pageComponentType>
+</HomePageComponent>

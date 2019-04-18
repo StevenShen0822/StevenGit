@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help><!-- The Product that the Quote Product Option includes as part of the bundle or product group. --></help>
+        <label><!-- Product --></label>
+        <lookupFilter>
+            <errorMessage><!-- Value does not exist or does not match filter criteria.
+Note:
+* A Bundle typed Product cannot set to Child Product field --></errorMessage>
+        </lookupFilter>
+        <name>zqu__ChildProduct__c</name>
+        <relationshipLabel><!-- Quote Product Options (Product) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- The type of the Quote Product Option. --></help>
+        <label><!-- Option Type --></label>
+        <name>zqu__OptionType__c</name>
+        <picklistValues>
+            <masterLabel>Included</masterLabel>
+            <translation><!-- Included --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Optional</masterLabel>
+            <translation><!-- Optional --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recommended</masterLabel>
+            <translation><!-- Recommended --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Required</masterLabel>
+            <translation><!-- Required --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- The product which contains this Quote Product Option. --></help>
+        <label><!-- Parent Product --></label>
+        <name>zqu__ParentProduct__c</name>
+        <relationshipLabel><!-- Quote Product Options --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- A lookup to the original Product Option in the Product Catalog. --></help>
+        <label><!-- Product Option --></label>
+        <name>zqu__ProductOption__c</name>
+        <relationshipLabel><!-- Quote Product Options --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- The Quote Product Option Group which contains this Quote Product Option. --></help>
+        <label><!-- Quote Product Option Group --></label>
+        <name>zqu__QuoteProductOptionGroup__c</name>
+        <relationshipLabel><!-- Quote Product Options --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- The quote that contains this Quote Product Option. --></help>
+        <label><!-- Quote --></label>
+        <name>zqu__Quote__c</name>
+        <relationshipLabel><!-- Quote Product Options --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- A reference to the root product in the bundle. --></help>
+        <label><!-- Root Product --></label>
+        <name>zqu__RootProduct__c</name>
+        <relationshipLabel><!-- Quote Product Options (Root Product) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- The Id of the top level Quote Rate Plan in the bundle. --></help>
+        <label><!-- Root Quote Rate Plan Id --></label>
+        <name>zqu__RootQrpId__c</name>
+    </fields>
+    <validationRules>
+        <errorMessage><!-- Child Product type cannot be Bundle --></errorMessage>
+        <name>zqu__Child_Product_Cannot_Be_Bundle</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Child Product cannot be null --></errorMessage>
+        <name>zqu__Child_Product_Not_Blank</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The parent product cannot be the same as the child product. --></errorMessage>
+        <name>zqu__Parent_Not_Same_As_Child</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- A Product Option should belong to either a Parent Product or a Product Option Group --></errorMessage>
+        <name>zqu__Should_have_one_parent</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- A Standalone typed Product cannot have an &quot;IncludedTyped&quot; Product Option --></errorMessage>
+        <name>zqu__Standalone_Prod_Cannot_Have_Included_PO</name>
+    </validationRules>
+</CustomObjectTranslation>

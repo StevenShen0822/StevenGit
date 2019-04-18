@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help><!-- The name of the FieldSet used to display features in a Guided Selling Section (for Guided Selling Sections of type List only). --></help>
+        <label><!-- Feature Field Set --></label>
+        <name>zqu__FeatureFieldSet__c</name>
+    </fields>
+    <fields>
+        <help><!-- The Guided Selling Step that contains this part. --></help>
+        <label><!-- Guided Selling Step --></label>
+        <name>zqu__GuidedSellingStep__c</name>
+        <relationshipLabel><!-- Guided Selling Sections --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- The header text of the product category navigation section of this Guided Selling Part (for Guided Selling Sections of type Navigation only). --></help>
+        <label><!-- Navigation Header Text --></label>
+        <name>zqu__NavigationHeaderText__c</name>
+    </fields>
+    <fields>
+        <help><!-- The field of the Product object to be used in this Guided Selling Step (for Guided Selling Sections of Type Navigation only). --></help>
+        <label><!-- Product Grouping Field --></label>
+        <name>zqu__ProductGroupingField__c</name>
+    </fields>
+    <fields>
+        <help><!-- The name of the field set displayed in the list of Product Rate Plans for this Guided Selling Section (for Guided Selling Sections of type List only). --></help>
+        <label><!-- Rate Plan Field Set --></label>
+        <name>zqu__RatePlanFieldSet__c</name>
+    </fields>
+    <recordTypes>
+        <label><!-- Filter --></label>
+        <name>Filter</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- List --></label>
+        <name>List</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Navigation --></label>
+        <name>Navigation</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Search --></label>
+        <name>Search</name>
+    </recordTypes>
+</CustomObjectTranslation>

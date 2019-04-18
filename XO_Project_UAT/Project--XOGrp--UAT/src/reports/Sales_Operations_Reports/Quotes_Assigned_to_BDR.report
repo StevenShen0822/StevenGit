@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>FK_ACC_ID</field>
+    </columns>
+    <columns>
+        <field>FK_ACC_NAME</field>
+    </columns>
+    <columns>
+        <field>FK_OPP_ID</field>
+    </columns>
+    <columns>
+        <field>FK_NAME</field>
+    </columns>
+    <columns>
+        <field>FK_OPP_OWNER_NAME</field>
+    </columns>
+    <columns>
+        <field>CUST_ID</field>
+    </columns>
+    <columns>
+        <field>CUST_NAME</field>
+    </columns>
+    <columns>
+        <field>zqu__Quote__c.SalesRepId__c</field>
+    </columns>
+    <columns>
+        <field>zqu__Quote__c.SalesRepLookup__c</field>
+    </columns>
+    <columns>
+        <field>zqu__Quote__c.RenewalRepId__c</field>
+    </columns>
+    <columns>
+        <field>zqu__Quote__c.RenewalRepLookup__c</field>
+    </columns>
+    <filter>
+        <booleanFilter>1 OR 2</booleanFilter>
+        <criteriaItems>
+            <column>zqu__Quote__c.SalesRepLookup__c</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Courtney Carlesimo,Laura Gardner,Marcy Palacios,Mollie Cumiskey,Kaitlyn Quenzer,Jenna Legat,Kylee Orriss,Tracy Ridgway,Kristin Walsifer,Denise Giorno,Alexandria Teixeira,Danielle Candela</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>zqu__Quote__c.RenewalRepLookup__c</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Courtney Carlesimo,Laura Gardner,Marcy Palacios,Mollie Cumiskey,Kaitlyn Quenzer,Jenna Legat,Kylee Orriss,Tracy Ridgway,Kristin Walsifer,Denise Giorno,Alexandria Teixeira,Danielle Candela</value>
+        </criteriaItems>
+    </filter>
+    <format>Tabular</format>
+    <name>Quotes Assigned to BDR</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$zqu__Quote__c@zqu__Quote__c.zqu__Opportunity__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <timeFrameFilter>
+        <dateColumn>zqu__Quote__c.zqu__CancellationDate__c</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

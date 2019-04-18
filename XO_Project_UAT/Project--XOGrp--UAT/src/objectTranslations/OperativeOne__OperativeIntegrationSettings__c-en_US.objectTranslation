@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help><!-- We recommend using the enclosed account trigger to ping Operative.One anytime an account is created or modified so that a sync process can be run. Uncheck this box to prevent the trigger from calling out to Operative.One. --></help>
+        <label><!-- Account Trigger Enabled --></label>
+        <name>OperativeOne__Account_Trigger_Enabled__c</name>
+    </fields>
+    <fields>
+        <help><!-- We recommend using the enclosed contact trigger to ping Operative.One anytime a contact is created or modified so that a sync process can be run. Uncheck this box to prevent the trigger from calling out to Operative.One. --></help>
+        <label><!-- Contact Trigger Enabled --></label>
+        <name>OperativeOne__Contact_Trigger_Enabled__c</name>
+    </fields>
+    <fields>
+        <help><!-- The ID of the CRM system that has been configured in the Operative.One network. Example: 2 --></help>
+        <label><!-- Operative.One CRM System ID --></label>
+        <name>OperativeOne__O1CRMSystemID__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter the credentials of an Operative.One API user on the publishers network. Format is: 
+username:password. For example supportops@mm.com:pwd123 --></help>
+        <label><!-- O1 Credentials --></label>
+        <name>OperativeOne__O1Credentials__c</name>
+    </fields>
+    <fields>
+        <help><!-- The name of the Operative.One publisher network. --></help>
+        <label><!-- Operative.One Network Name --></label>
+        <name>OperativeOne__O1Network__c</name>
+    </fields>
+    <fields>
+        <help><!-- The URL to be used for integration communication. --></help>
+        <label><!-- Operative.One URL --></label>
+        <name>OperativeOne__O1URL__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter the API name of the Account field to be used for Operative Eligible. --></help>
+        <label><!-- Account Eligible API Name --></label>
+        <name>OperativeOne__O1_Account_Eligible_API_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter the API name of the Contact field to be used for Operative Eligible. --></help>
+        <label><!-- Contact Eligible API Name --></label>
+        <name>OperativeOne__O1_Contact_Eligible_API_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- O1_password --></label>
+        <name>OperativeOne__O1_password__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Eligible API Name --></label>
+        <name>OperativeOne__Opportunity_Eligible_API_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- We recommend using the enclosed opportunity trigger to ping Operative.One anytime an opportunity is created or modified so that a sync process can be run. Uncheck this box to prevent the trigger from calling out to Operative.One. --></help>
+        <label><!-- Opportunity Trigger Enabled --></label>
+        <name>OperativeOne__Opportunity_Trigger_Enabled__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter the username of the user that will be used for API communication with Salesforce.com. This will ensure that the trigger does not fire immediately following write actions from Operative.One to Salesforce.com. --></help>
+        <label><!-- Salesforce API Username --></label>
+        <name>OperativeOne__Salesforce_API_Username__c</name>
+    </fields>
+</CustomObjectTranslation>

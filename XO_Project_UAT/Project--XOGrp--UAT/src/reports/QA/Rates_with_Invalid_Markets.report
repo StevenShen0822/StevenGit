@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>CUST_NAME</field>
+    </columns>
+    <columns>
+        <field>FK_NAME</field>
+    </columns>
+    <columns>
+        <field>FK_$zqu__ProductRatePlan__c.Market__c</field>
+    </columns>
+    <filter>
+        <criteriaItems>
+            <column>FK_$zqu__ProductRatePlan__c.Market__c</column>
+            <isUnlocked>false</isUnlocked>
+            <operator>notEqual</operator>
+            <value>AK-Alaska,AL-Alabama,AR-Arkansas,AZ-Phoenix,AZ-Tucson,CA-Central CA,CA-Los Angeles,CA-Orange County,CA-Palm Springs,CA-Sacramento/Tahoe/Reno,CA-San Diego,CA-San Fran/Bay Area,CA-Santa Barbara/Ventura,CAN-Toronto,CO-Colorado,CT-Connecticut</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>FK_$zqu__ProductRatePlan__c.Market__c</column>
+            <isUnlocked>false</isUnlocked>
+            <operator>notEqual</operator>
+            <value>DC-DC/MD/Northern VA,FL-Central,FL-Northern,FL-South,FL-West Coast,GA-Georgia,GA-Savannah/Coastal Area,HI-Hawaii,IA-Iowa,ID-Idaho,IL-Central Illinois,IL-Chicago,IL-Chicago Suburbs,IN-Indiana,KY-Kentucky,LA-All Other Areas,LA-New Orleans,MA-Boston</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>FK_$zqu__ProductRatePlan__c.Market__c</column>
+            <isUnlocked>false</isUnlocked>
+            <operator>notEqual</operator>
+            <value>MA-Cape Cod,MD-Baltimore,ME-Maine,MI-Detroit,MI-Grand Rpds/Northern,MI-Lansing/Tri-Cities,MN-Minnesota,MO-Kansas City,MO-St. Louis,MS-Mississippi,MT-Montana,NC-North Carolina,ND-North Dakota,NE-Nebraska,NH-New Hampshire,NJ-North/Central,NJ-South</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>FK_$zqu__ProductRatePlan__c.Market__c</column>
+            <isUnlocked>false</isUnlocked>
+            <operator>notEqual</operator>
+            <value>NM-New Mexico,NV-Las Vegas/Southern NV,NY-Hudson Valley,NY-Long Island,NY-Manhattan,NY-Outer Boroughs,NY-Wstrn/Cent/Upstate,OH-Cincinnati,OH-Cleveland/NE Ohio,OH-Columbus,OH-Toledo,OK-Oklahoma,OR-Oregon,PA-Central,PA-Lehigh Valley/Poconos</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>FK_$zqu__ProductRatePlan__c.Market__c</column>
+            <isUnlocked>false</isUnlocked>
+            <operator>notEqual</operator>
+            <value>PA-Philadelphia,PA-Pittsburgh,RI-Rhode Island,SC-South Carolina,SD-South Dakota,TN-Tennessee,TX-Austin,TX-Dallas,TX-Houston,TX-San Antonio,TX-West Texas,UT-Utah,VA-Virginia,VT-Vermont,WA-Washington,WI-Wisconsin,WV-West Virginia,WY-Wyoming</value>
+        </criteriaItems>
+    </filter>
+    <format>Tabular</format>
+    <name>Rates with Invalid Markets</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$zqu__ProductRatePlanCharge__c@zqu__ProductRatePlanCharge__c.zqu__ProductRatePlan__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <timeFrameFilter>
+        <dateColumn>CUST_CREATED_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

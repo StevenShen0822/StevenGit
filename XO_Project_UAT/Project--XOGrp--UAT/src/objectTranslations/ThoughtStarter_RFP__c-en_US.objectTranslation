@@ -1,0 +1,584 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>ThoughtStarter / RFP</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>ThoughtStarters / RFPs</value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- Required RFP Fields --></label>
+        <name>Required_RFP_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Required ThoughtStarter Fields --></label>
+        <name>Required_ThoughtStarter_Fields</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Account Manager --></label>
+        <name>Account_Strategist__c</name>
+        <relationshipLabel><!-- ThoughtStarters / RFPs (Account Manager) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Action(s) Explanation: --></label>
+        <name>Action_Explanation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Advertiser Goals --></label>
+        <name>Advertiser_Goals__c</name>
+    </fields>
+    <fields>
+        <label><!-- Brand Exposure --></label>
+        <name>Brand_Exposure__c</name>
+    </fields>
+    <fields>
+        <label><!-- Budget Questionable --></label>
+        <name>Budget_Questionable__c</name>
+    </fields>
+    <fields>
+        <label><!-- Budget --></label>
+        <name>Budget__c</name>
+    </fields>
+    <fields>
+        <label><!-- CTR (%) --></label>
+        <name>CTR__c</name>
+    </fields>
+    <fields>
+        <label><!-- Campaign Category --></label>
+        <name>Campaign_Category__c</name>
+        <picklistValues>
+            <masterLabel>Agency &gt; Agency &gt; Agency</masterLabel>
+            <translation><!-- Agency &gt; Agency &gt; Agency --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Automotive &gt; Automotive &gt; Non-Endemic</masterLabel>
+            <translation><!-- Automotive &gt; Automotive &gt; Non-Endemic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fashion &gt; Accessories &gt; Bridal Endemic</masterLabel>
+            <translation><!-- Fashion &gt; Accessories &gt; Bridal Endemic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fashion &gt; Baby Fashion &gt; Baby Endemic</masterLabel>
+            <translation><!-- Fashion &gt; Baby Fashion &gt; Baby Endemic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fashion &gt; Bridal Fashion &gt; Bridal Endemic</masterLabel>
+            <translation><!-- Fashion &gt; Bridal Fashion &gt; Bridal Endemic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fashion &gt; Children&apos;s Clothing &gt; Baby Endemic</masterLabel>
+            <translation><!-- Fashion &gt; Children&apos;s Clothing &gt; Baby Endemic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fashion &gt; General Fashion &gt; Non-Endemic</masterLabel>
+            <translation><!-- Fashion &gt; General Fashion &gt; Non-Endemic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fashion &gt; Jewelry &gt; Bridal Endemic</masterLabel>
+            <translation><!-- Fashion &gt; Jewelry &gt; Bridal Endemic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fashion &gt; Maternity Fashion &gt; Baby Endemic</masterLabel>
+            <translation><!-- Fashion &gt; Maternity Fashion &gt; Baby Endemic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fashion &gt; Shoes &gt; Bridal Endemic</masterLabel>
+            <translation><!-- Fashion &gt; Shoes &gt; Bridal Endemic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fashion &gt; Shoes &gt; Non-Endemic</masterLabel>
+            <translation><!-- Fashion &gt; Shoes &gt; Non-Endemic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Finance and Insurance &gt; Finance and Insurance &gt; Non-Endemic</masterLabel>
+            <translation><!-- Finance and Insurance &gt; Finance and Insurance &gt; Non-Endemic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Floral &gt; Floral &gt; Bridal Endemic</masterLabel>
+            <translation><!-- Floral &gt; Floral &gt; Bridal Endemic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Food and Beverage &gt; Baby Food &gt; Baby Endemic</masterLabel>
+            <translation><!-- Food and Beverage &gt; Baby Food &gt; Baby Endemic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Food and Beverage &gt; General Food &gt; Non-Endemic</masterLabel>
+            <translation><!-- Food and Beverage &gt; General Food &gt; Non-Endemic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Food and Beverage &gt; Wine and Spirits &gt; Non-Endemic</masterLabel>
+            <translation><!-- Food and Beverage &gt; Wine and Spirits &gt; Non-Endemic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Health and Beauty &gt; Baby Health &gt; Baby Endemic</masterLabel>
+            <translation><!-- Health and Beauty &gt; Baby Health &gt; Baby Endemic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Health and Beauty &gt; Beauty &gt; Non-Endemic</masterLabel>
+            <translation><!-- Health and Beauty &gt; Beauty &gt; Non-Endemic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Health and Beauty &gt; General Health &gt; Non-Endemic</masterLabel>
+            <translation><!-- Health and Beauty &gt; General Health &gt; Non-Endemic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Health and Beauty &gt; Hospital &gt; Baby Endemic</masterLabel>
+            <translation><!-- Health and Beauty &gt; Hospital &gt; Baby Endemic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Health and Beauty &gt; Pharmaceutical &gt; Non-Endemic</masterLabel>
+            <translation><!-- Health and Beauty &gt; Pharmaceutical &gt; Non-Endemic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Home &gt; Baby Gear &gt; Baby Endemic</masterLabel>
+            <translation><!-- Home &gt; Baby Gear &gt; Baby Endemic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Home &gt; Electronics &gt; Non-Endemic</masterLabel>
+            <translation><!-- Home &gt; Electronics &gt; Non-Endemic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Home &gt; Furnishings &gt; Home Endemic</masterLabel>
+            <translation><!-- Home &gt; Furnishings &gt; Home Endemic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Home &gt; General Home &gt; Home Endemic</masterLabel>
+            <translation><!-- Home &gt; General Home &gt; Home Endemic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Home &gt; Home Improvement &gt; Home Endemic</masterLabel>
+            <translation><!-- Home &gt; Home Improvement &gt; Home Endemic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Home &gt; Real Estate &gt;</masterLabel>
+            <translation><!-- Home &gt; Real Estate &gt; --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Home &gt; Registry &gt; Baby Endemic</masterLabel>
+            <translation><!-- Home &gt; Registry &gt; Baby Endemic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Home &gt; Registry &gt; Bridal Endemic</masterLabel>
+            <translation><!-- Home &gt; Registry &gt; Bridal Endemic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Home &gt; Tabletop &gt; Bridal Endemic</masterLabel>
+            <translation><!-- Home &gt; Tabletop &gt; Bridal Endemic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Media and Entertainment &gt; Media and Entertainment &gt; Baby Endemic</masterLabel>
+            <translation><!-- Media and Entertainment &gt; Media and Entertainment &gt; Baby Endemic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Media and Entertainment &gt; Media and Entertainment &gt; Non-Endemic</masterLabel>
+            <translation><!-- Media and Entertainment &gt; Media and Entertainment &gt; Non-Endemic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Photography &gt; Photography &gt; Baby Endemic</masterLabel>
+            <translation><!-- Photography &gt; Photography &gt; Baby Endemic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Photography &gt; Photography &gt; Bridal Endemic</masterLabel>
+            <translation><!-- Photography &gt; Photography &gt; Bridal Endemic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Remnant &gt; Ad Network &gt; Non-Endemic</masterLabel>
+            <translation><!-- Remnant &gt; Ad Network &gt; Non-Endemic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Remnant &gt; Internal &gt; Non-Endemic</masterLabel>
+            <translation><!-- Remnant &gt; Internal &gt; Non-Endemic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Stationery and Favors &gt; Stationery and Favors &gt; Bridal Endemic</masterLabel>
+            <translation><!-- Stationery and Favors &gt; Stationery and Favors &gt; Bridal Endemic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Travel and Leisure &gt; Airlines &gt; Bridal Endemic</masterLabel>
+            <translation><!-- Travel and Leisure &gt; Airlines &gt; Bridal Endemic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Travel and Leisure &gt; Cruises &gt; Bridal Endemic</masterLabel>
+            <translation><!-- Travel and Leisure &gt; Cruises &gt; Bridal Endemic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Travel and Leisure &gt; Hotels and Resorts &gt; Bridal Endemic</masterLabel>
+            <translation><!-- Travel and Leisure &gt; Hotels and Resorts &gt; Bridal Endemic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Travel and Leisure &gt; Restaurants and Venues &gt; Bridal Endemic</masterLabel>
+            <translation><!-- Travel and Leisure &gt; Restaurants and Venues &gt; Bridal Endemic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Travel and Leisure &gt; Restaurants and Venues &gt; Non-Endemic</masterLabel>
+            <translation><!-- Travel and Leisure &gt; Restaurants and Venues &gt; Non-Endemic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Travel and Leisure &gt; Tourism Bureau &gt; Bridal Endemic</masterLabel>
+            <translation><!-- Travel and Leisure &gt; Tourism Bureau &gt; Bridal Endemic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Travel and Leisure &gt; Travel Agency &gt; Bridal Endemic</masterLabel>
+            <translation><!-- Travel and Leisure &gt; Travel Agency &gt; Bridal Endemic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wireless and Telecom &gt; Wireless and Telecom &gt; Non-Endemic</masterLabel>
+            <translation><!-- Wireless and Telecom &gt; Wireless and Telecom &gt; Non-Endemic --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Campaign End Date --></label>
+        <name>Campaign_End_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Campaign Start Date --></label>
+        <name>Campaign_Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Campaign Timing/Flight --></label>
+        <name>Campaign_Timing_Flight__c</name>
+    </fields>
+    <fields>
+        <label><!-- Clicks --></label>
+        <name>Clicks__c</name>
+    </fields>
+    <fields>
+        <label><!-- Client Objectives --></label>
+        <name>Client_Objectives__c</name>
+    </fields>
+    <fields>
+        <label><!-- Close Date --></label>
+        <name>Close_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cost Per Action --></label>
+        <name>Cost_Per_Action__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cost Per Click --></label>
+        <name>Cost_Per_Click__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cost Per Lead --></label>
+        <name>Cost_Per_Lead__c</name>
+    </fields>
+    <fields>
+        <label><!-- Custom Content --></label>
+        <name>Custom_Content__c</name>
+    </fields>
+    <fields>
+        <label><!-- Deliverable --></label>
+        <name>Deliverable__c</name>
+        <picklistValues>
+            <masterLabel>PowerPoint (.ppt)</masterLabel>
+            <translation><!-- PowerPoint (.ppt) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Word (.doc)</masterLabel>
+            <translation><!-- Word (.doc) --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Desired Due Date --></label>
+        <name>Desired_Due_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Due to Client --></label>
+        <name>Due_to_Client__c</name>
+    </fields>
+    <fields>
+        <label><!-- End Actions --></label>
+        <name>End_Actions__c</name>
+    </fields>
+    <fields>
+        <label><!-- Geo-Targeting Details --></label>
+        <name>Geo_Targeting_Details__c</name>
+    </fields>
+    <fields>
+        <label><!-- Internal Due Date --></label>
+        <name>Internal_Due_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Leads --></label>
+        <name>Leads__c</name>
+    </fields>
+    <fields>
+        <label><!-- Marketing Channel --></label>
+        <name>Marketing_Channel__c</name>
+        <picklistValues>
+            <masterLabel>Online</masterLabel>
+            <translation><!-- Online --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Print</masterLabel>
+            <translation><!-- Print --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Maximum Budget --></label>
+        <name>Maximum_Budget__c</name>
+    </fields>
+    <fields>
+        <label><!-- Multiple Spends --></label>
+        <name>Multiple_Spends__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Next Step --></label>
+        <name>Next_Step__c</name>
+    </fields>
+    <fields>
+        <label><!-- # of Actions --></label>
+        <name>No_of_Actions__c</name>
+    </fields>
+    <fields>
+        <label><!-- # of Op-ins --></label>
+        <name>No_of_Op_ins__c</name>
+    </fields>
+    <fields>
+        <label><!-- # of Sales --></label>
+        <name>No_of_Sales__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity --></label>
+        <name>Opportunity__c</name>
+        <relationshipLabel><!-- ThoughtStarters / RFPs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Order Type --></label>
+        <name>Order_Type__c</name>
+        <picklistValues>
+            <masterLabel>Agency Buy</masterLabel>
+            <translation><!-- Agency Buy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Barter</masterLabel>
+            <translation><!-- Barter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Direct to Advertiser</masterLabel>
+            <translation><!-- Direct to Advertiser --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>House</masterLabel>
+            <translation><!-- House --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Outside Sales Team</masterLabel>
+            <translation><!-- Outside Sales Team --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Remnant</masterLabel>
+            <translation><!-- Remnant --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Other --></label>
+        <name>Other__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reference ID --></label>
+        <name>Reference_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Related ThoughtStarter --></label>
+        <name>Related_ThoughtStarter__c</name>
+        <relationshipLabel><!-- ThoughtStarters / RFPs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Request Type --></label>
+        <name>Request_Type__c</name>
+        <picklistValues>
+            <masterLabel>Formal RFP</masterLabel>
+            <translation><!-- Formal RFP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Proactive RFP</masterLabel>
+            <translation><!-- Proactive RFP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ThoughtStarter</masterLabel>
+            <translation><!-- ThoughtStarter --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Sales Dev Needed --></label>
+        <name>Sales_Dev_Needed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Developer --></label>
+        <name>Sales_Developer__c</name>
+        <relationshipLabel><!-- ThoughtStarters / RFPs (Sales Developer) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Sales Planner --></label>
+        <name>Sales_Planner__c</name>
+        <relationshipLabel><!-- ThoughtStarters / RFPs (Sales Planner) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Spend Type --></label>
+        <name>Spend_Type__c</name>
+        <picklistValues>
+            <masterLabel>Incremental</masterLabel>
+            <translation><!-- Incremental --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New</masterLabel>
+            <translation><!-- New --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Renewal</masterLabel>
+            <translation><!-- Renewal --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Check this if you are ready to submit the ThoughtStarter/RFP for materials development --></help>
+        <label><!-- Submitted for Production --></label>
+        <name>Submitted_for_Production__c</name>
+    </fields>
+    <fields>
+        <label><!-- Target Audience --></label>
+        <name>Target_Audience__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Sales --></label>
+        <name>Total_Sales__c</name>
+    </fields>
+    <fields>
+        <label><!-- User Targeting --></label>
+        <name>User_Targeting__c</name>
+        <picklistValues>
+            <masterLabel>Geographic Targeting</masterLabel>
+            <translation><!-- Geographic Targeting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Member Stage Targeting</masterLabel>
+            <translation><!-- Member Stage Targeting --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>RFP Layout</layout>
+        <sections>
+            <label><!-- Campaign Details --></label>
+            <section>Campaign Details</section>
+        </sections>
+        <sections>
+            <label><!-- Campaign Personnel --></label>
+            <section>Campaign Personnel</section>
+        </sections>
+        <sections>
+            <label><!-- Client Objectives --></label>
+            <section>Client Objectives</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Success Metrics - Clicks --></label>
+            <section>Success Metrics - Clicks</section>
+        </sections>
+        <sections>
+            <label><!-- Success Metrics - End Actions --></label>
+            <section>Success Metrics - End Actions</section>
+        </sections>
+        <sections>
+            <label><!-- Success Metrics - Leads --></label>
+            <section>Success Metrics - Leads</section>
+        </sections>
+        <sections>
+            <label><!-- Success Metrics - Others --></label>
+            <section>Success Metrics - Others</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>ThoughtStarter Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Success Metrics - Clicks --></label>
+            <section>Success Metrics - Clicks</section>
+        </sections>
+        <sections>
+            <label><!-- Success Metrics - End Actions --></label>
+            <section>Success Metrics - End Actions</section>
+        </sections>
+        <sections>
+            <label><!-- Success Metrics - Leads --></label>
+            <section>Success Metrics - Leads</section>
+        </sections>
+        <sections>
+            <label><!-- Success Metrics - Others --></label>
+            <section>Success Metrics - Others</section>
+        </sections>
+        <sections>
+            <label><!-- ThoughtStarter --></label>
+            <section>ThoughtStarter</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- RFP --></label>
+        <name>RFP</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- ThoughtStarter --></label>
+        <name>ThoughtStarter</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Related Opportunity must have an Account Strategist! --></errorMessage>
+        <name>Account_Strategist_Required_in_Opp</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Campaign Start Date can&apos;t be after Campaign End Date --></errorMessage>
+        <name>Campaign_Start_Date_and_End_Date</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Cannot choose a date within 24 hrs --></errorMessage>
+        <name>Internal_Due_Date_validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Related Opportunity must have a pricebook selected before an RFP can be created --></errorMessage>
+        <name>Opportunity_must_have_product</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please fill in the details for Clicks, End Actions, Leads or Brand Exposure Success Metric, if the relating checkbox is selected! --></errorMessage>
+        <name>Please_fill_in_a_Success_Metric</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Sales Dev Needed is required if an RFP needs Custom Content --></errorMessage>
+        <name>Sales_Dev_Needed_for_Custom_Content</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please fill in a Success Metric to give Account Strategist more details! --></errorMessage>
+        <name>Success_Metric_Required</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Change_Request --></label>
+        <name>Change_Request</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Create_RFP --></label>
+        <name>Create_RFP</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Submit_for_Production --></label>
+        <name>Submit_for_Production</name>
+    </webLinks>
+</CustomObjectTranslation>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>CSP-3660</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Blank_LetterHead</letterhead>
+    <name>VIP Follow-Up 3</name>
+    <style>freeForm</style>
+    <subject>Let’s Get You Started!</subject>
+    <textOnly>Hi {!Case.Contact},
+
+
+It’s {!Case.Account_Strategist_First_Name__c} again - reaching out to help make the most of your partnership with The Knot, starting with your Storefront!
+
+
+I tried giving you a buzz today, but unfortunately, we weren’t able to connect. I’d like to help optimize your Storefront to connect you with the couples that are best for your business.
+
+
+To easily schedule the best time to chat, I’ve included a link to schedule. Please pick the date/time that works best for you, or give us a call.
+
+Hope to talk to you soon!
+
+{!case.account.Strategy_Specialist__r.name}</textOnly>
+    <type>html</type>
+</EmailTemplate>

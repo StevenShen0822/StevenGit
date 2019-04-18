@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- AgentId --></label>
+        <name>NVMStatsSF__AgentId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Call Key --></label>
+        <name>NVMStatsSF__Call_Key__c</name>
+    </fields>
+    <fields>
+        <label><!-- DateTime --></label>
+        <name>NVMStatsSF__DateTime__c</name>
+    </fields>
+    <fields>
+        <label><!-- Duration --></label>
+        <name>NVMStatsSF__Duration__c</name>
+    </fields>
+    <fields>
+        <label><!-- Explanation --></label>
+        <name>NVMStatsSF__Explanation__c</name>
+    </fields>
+    <fields>
+        <label><!-- MinorState --></label>
+        <name>NVMStatsSF__MinorState__c</name>
+    </fields>
+    <fields>
+        <label><!-- State --></label>
+        <name>NVMStatsSF__State__c</name>
+    </fields>
+    <fields>
+        <help><!-- Edit the formula to include state names for wrap or after call work and call completed states --></help>
+        <label><!-- isWrapAndComplete --></label>
+        <name>NVMStatsSF__isWrapAndComplete__c</name>
+    </fields>
+</CustomObjectTranslation>

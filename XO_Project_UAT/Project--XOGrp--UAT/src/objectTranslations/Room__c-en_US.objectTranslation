@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Room</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Rooms</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- Rooms --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Additional Fees Total --></label>
+        <name>AdditionalFeeTotal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Capacity Max --></label>
+        <name>CapacityMax__c</name>
+    </fields>
+    <fields>
+        <label><!-- Capacity Min --></label>
+        <name>CapacityMin__c</name>
+    </fields>
+    <fields>
+        <label><!-- Capacity --></label>
+        <name>Capacity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Catering Price Off Max --></label>
+        <name>CateringPriceOffMax__c</name>
+    </fields>
+    <fields>
+        <label><!-- Catering Price Off Min --></label>
+        <name>CateringPriceOffMin__c</name>
+    </fields>
+    <fields>
+        <label><!-- Catering Price On Max --></label>
+        <name>CateringPriceOnMax__c</name>
+    </fields>
+    <fields>
+        <label><!-- Catering Price On Min --></label>
+        <name>CateringPriceOnMin__c</name>
+    </fields>
+    <fields>
+        <label><!-- Catering Price --></label>
+        <name>CateringPrice__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parent Room --></label>
+        <name>Parent_Room__c</name>
+        <relationshipLabel><!-- Rooms --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Price --></label>
+        <name>Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rental Price Off Max --></label>
+        <name>RentalPriceOffMax__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rental Price Off Min --></label>
+        <name>RentalPriceOffMin__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rental Price On Max --></label>
+        <name>RentalPriceOnMax__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rental Price On Min --></label>
+        <name>RentalPriceOnMin__c</name>
+    </fields>
+    <fields>
+        <help><!-- The type of room --></help>
+        <label><!-- Setting --></label>
+        <name>Setting__c</name>
+        <picklistValues>
+            <masterLabel>Backyard</masterLabel>
+            <translation><!-- Backyard --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ballroom</masterLabel>
+            <translation><!-- Ballroom --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Banquet Hall</masterLabel>
+            <translation><!-- Banquet Hall --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Barn</masterLabel>
+            <translation><!-- Barn --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Beach</masterLabel>
+            <translation><!-- Beach --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brewery</masterLabel>
+            <translation><!-- Brewery --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Castle</masterLabel>
+            <translation><!-- Castle --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Church</masterLabel>
+            <translation><!-- Church --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>City Hall</masterLabel>
+            <translation><!-- City Hall --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Community Center</masterLabel>
+            <translation><!-- Community Center --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Country Club</masterLabel>
+            <translation><!-- Country Club --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cruise</masterLabel>
+            <translation><!-- Cruise --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Estate</masterLabel>
+            <translation><!-- Estate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Farm + Ranch</masterLabel>
+            <translation><!-- Farm + Ranch --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Garden</masterLabel>
+            <translation><!-- Garden --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Golf Club</masterLabel>
+            <translation><!-- Golf Club --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Historic Venue</masterLabel>
+            <translation><!-- Historic Venue --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hotel</masterLabel>
+            <translation><!-- Hotel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inn</masterLabel>
+            <translation><!-- Inn --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Library</masterLabel>
+            <translation><!-- Library --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lodge</masterLabel>
+            <translation><!-- Lodge --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Loft</masterLabel>
+            <translation><!-- Loft --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mansion</masterLabel>
+            <translation><!-- Mansion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mosque</masterLabel>
+            <translation><!-- Mosque --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mountain</masterLabel>
+            <translation><!-- Mountain --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Museum</masterLabel>
+            <translation><!-- Museum --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open Space</masterLabel>
+            <translation><!-- Open Space --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Park</masterLabel>
+            <translation><!-- Park --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Religious Setting</masterLabel>
+            <translation><!-- Religious Setting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Restaurant</masterLabel>
+            <translation><!-- Restaurant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rooftop</masterLabel>
+            <translation><!-- Rooftop --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Temple</masterLabel>
+            <translation><!-- Temple --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>University</masterLabel>
+            <translation><!-- University --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vineyard</masterLabel>
+            <translation><!-- Vineyard --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Waterfront</masterLabel>
+            <translation><!-- Waterfront --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Winery</masterLabel>
+            <translation><!-- Winery --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Style Notes --></label>
+        <name>Style_Notes__c</name>
+    </fields>
+    <layouts>
+        <layout>Room Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

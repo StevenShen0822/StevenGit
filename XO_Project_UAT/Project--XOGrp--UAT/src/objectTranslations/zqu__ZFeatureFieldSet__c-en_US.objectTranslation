@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- FeatureZuoraId --></label>
+        <name>zqu__FeatureZuoraId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Field Set API Name --></label>
+        <name>zqu__Field_Set_API_Name__c</name>
+    </fields>
+</CustomObjectTranslation>

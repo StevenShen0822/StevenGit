@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Apple Brides</fullName>
+        <default>false</default>
+        <label>Apple Brides</label>
+    </customValue>
+    <customValue>
+        <fullName>Best Bridal St Louis</fullName>
+        <default>false</default>
+        <label>Best Bridal St Louis</label>
+    </customValue>
+    <customValue>
+        <fullName>Black Hills Bride</fullName>
+        <default>false</default>
+        <label>Black Hills Bride</label>
+    </customValue>
+    <customValue>
+        <fullName>Borrowed &amp; Blue</fullName>
+        <default>false</default>
+        <label>Borrowed &amp; Blue</label>
+    </customValue>
+    <customValue>
+        <fullName>BOW</fullName>
+        <default>false</default>
+        <label>BOW</label>
+    </customValue>
+    <customValue>
+        <fullName>Bridal Show</fullName>
+        <default>false</default>
+        <label>Bridal Show</label>
+    </customValue>
+    <customValue>
+        <fullName>Bride Canada</fullName>
+        <default>false</default>
+        <label>Bride Canada</label>
+    </customValue>
+    <customValue>
+        <fullName>Bride Wants</fullName>
+        <default>false</default>
+        <label>Bride Wants</label>
+    </customValue>
+    <customValue>
+        <fullName>Canada Bride</fullName>
+        <default>false</default>
+        <label>Canada Bride</label>
+    </customValue>
+    <customValue>
+        <fullName>Canada Weds</fullName>
+        <default>false</default>
+        <label>Canada Weds</label>
+    </customValue>
+    <customValue>
+        <fullName>Category Blitz</fullName>
+        <default>false</default>
+        <label>Category Blitz</label>
+    </customValue>
+    <customValue>
+        <fullName>Concierge</fullName>
+        <default>false</default>
+        <label>Concierge</label>
+    </customValue>
+    <customValue>
+        <fullName>Contact Us</fullName>
+        <default>false</default>
+        <label>Contact Us</label>
+    </customValue>
+    <customValue>
+        <fullName>Designer</fullName>
+        <default>false</default>
+        <label>Designer</label>
+    </customValue>
+    <customValue>
+        <fullName>Editorial</fullName>
+        <default>false</default>
+        <label>Editorial</label>
+    </customValue>
+    <customValue>
+        <fullName>Eventective</fullName>
+        <default>false</default>
+        <label>Eventective</label>
+    </customValue>
+    <customValue>
+        <fullName>EventSource</fullName>
+        <default>false</default>
+        <label>EventSource</label>
+    </customValue>
+    <customValue>
+        <fullName>Facebook</fullName>
+        <default>false</default>
+        <label>Facebook</label>
+    </customValue>
+    <customValue>
+        <fullName>Featured</fullName>
+        <default>false</default>
+        <label>Featured</label>
+    </customValue>
+    <customValue>
+        <fullName>Freemium</fullName>
+        <default>false</default>
+        <label>Freemium</label>
+    </customValue>
+    <customValue>
+        <fullName>Google</fullName>
+        <default>false</default>
+        <label>Google</label>
+    </customValue>
+    <customValue>
+        <fullName>Here Comes the Guide</fullName>
+        <default>false</default>
+        <label>Here Comes the Guide</label>
+    </customValue>
+    <customValue>
+        <fullName>Hitched</fullName>
+        <default>false</default>
+        <label>Hitched</label>
+    </customValue>
+    <customValue>
+        <fullName>Hubspot_Paid Advertising-A</fullName>
+        <default>false</default>
+        <label>Hubspot_Paid Advertising-A</label>
+    </customValue>
+    <customValue>
+        <fullName>Hubspot_Paid Advertising-B</fullName>
+        <default>false</default>
+        <label>Hubspot_Paid Advertising-B</label>
+    </customValue>
+    <customValue>
+        <fullName>Instagram</fullName>
+        <default>false</default>
+        <label>Instagram</label>
+    </customValue>
+    <customValue>
+        <fullName>LinkedIn</fullName>
+        <default>false</default>
+        <label>LinkedIn</label>
+    </customValue>
+    <customValue>
+        <fullName>Mailer Promo</fullName>
+        <default>false</default>
+        <label>Mailer Promo</label>
+    </customValue>
+    <customValue>
+        <fullName>Market Party</fullName>
+        <default>false</default>
+        <label>Market Party</label>
+    </customValue>
+    <customValue>
+        <fullName>My Account</fullName>
+        <default>false</default>
+        <label>My Account</label>
+    </customValue>
+    <customValue>
+        <fullName>MyWedding</fullName>
+        <default>false</default>
+        <label>MyWedding</label>
+    </customValue>
+    <customValue>
+        <fullName>Networking Event</fullName>
+        <default>false</default>
+        <label>Networking Event</label>
+    </customValue>
+    <customValue>
+        <fullName>Offbeat Bride</fullName>
+        <default>false</default>
+        <label>Offbeat Bride</label>
+    </customValue>
+    <customValue>
+        <fullName>Organic</fullName>
+        <default>false</default>
+        <label>Organic</label>
+    </customValue>
+    <customValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </customValue>
+    <customValue>
+        <fullName>Paid Search Page</fullName>
+        <default>false</default>
+        <label>Paid Search Page</label>
+    </customValue>
+    <customValue>
+        <fullName>Paid SEM Ad</fullName>
+        <default>false</default>
+        <label>Paid SEM Ad</label>
+    </customValue>
+    <customValue>
+        <fullName>Partner</fullName>
+        <default>false</default>
+        <label>Partner</label>
+    </customValue>
+    <customValue>
+        <fullName>Party Slate</fullName>
+        <default>false</default>
+        <label>Party Slate</label>
+    </customValue>
+    <customValue>
+        <fullName>PartySpace</fullName>
+        <default>false</default>
+        <label>PartySpace</label>
+    </customValue>
+    <customValue>
+        <fullName>Pinterest</fullName>
+        <default>false</default>
+        <label>Pinterest</label>
+    </customValue>
+    <customValue>
+        <fullName>realweddings CAN</fullName>
+        <default>false</default>
+        <label>realweddings CAN</label>
+    </customValue>
+    <customValue>
+        <fullName>Rustic Wedding Guide</fullName>
+        <default>false</default>
+        <label>Rustic Wedding Guide</label>
+    </customValue>
+    <customValue>
+        <fullName>Sash and Satin</fullName>
+        <default>false</default>
+        <label>Sash and Satin</label>
+    </customValue>
+    <customValue>
+        <fullName>Standard</fullName>
+        <default>false</default>
+        <label>Standard</label>
+    </customValue>
+    <customValue>
+        <fullName>Style Me Pretty</fullName>
+        <default>false</default>
+        <label>Style Me Pretty</label>
+    </customValue>
+    <customValue>
+        <fullName>The List</fullName>
+        <default>false</default>
+        <label>The List</label>
+    </customValue>
+    <customValue>
+        <fullName>TKR</fullName>
+        <default>false</default>
+        <label>TKR</label>
+    </customValue>
+    <customValue>
+        <fullName>Tradeshow</fullName>
+        <default>false</default>
+        <label>Tradeshow</label>
+    </customValue>
+    <customValue>
+        <fullName>Twitter</fullName>
+        <default>false</default>
+        <label>Twitter</label>
+    </customValue>
+    <customValue>
+        <fullName>Two Bright Lights</fullName>
+        <default>false</default>
+        <label>Two Bright Lights</label>
+    </customValue>
+    <customValue>
+        <fullName>Unveil</fullName>
+        <default>false</default>
+        <label>Unveil</label>
+    </customValue>
+    <customValue>
+        <fullName>Vendor Workshop</fullName>
+        <default>false</default>
+        <label>Vendor Workshop</label>
+    </customValue>
+    <customValue>
+        <fullName>Wedding Bells</fullName>
+        <default>false</default>
+        <label>Wedding Bells</label>
+    </customValue>
+    <customValue>
+        <fullName>Wedding Spot</fullName>
+        <default>false</default>
+        <label>Wedding Spot</label>
+    </customValue>
+    <customValue>
+        <fullName>Wedding Website</fullName>
+        <default>false</default>
+        <label>Wedding Website</label>
+    </customValue>
+    <customValue>
+        <fullName>WeddingWire</fullName>
+        <default>false</default>
+        <label>WeddingWire</label>
+    </customValue>
+    <customValue>
+        <fullName>Zagat</fullName>
+        <default>false</default>
+        <label>Zagat</label>
+    </customValue>
+    <description>Lead and Campaign Sub Sources</description>
+    <masterLabel>Lead Sub Source</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

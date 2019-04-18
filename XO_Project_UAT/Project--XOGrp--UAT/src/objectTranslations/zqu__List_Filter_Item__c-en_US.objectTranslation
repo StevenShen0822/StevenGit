@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Field Name --></label>
+        <name>zqu__Field_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fixed Value --></label>
+        <name>zqu__Fixed_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Left Field Type --></label>
+        <name>zqu__Left_Field_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Left Object Name --></label>
+        <name>zqu__Left_Object_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Left Object Type --></label>
+        <name>zqu__Left_Object_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- List Filter --></label>
+        <name>zqu__List_Filter__c</name>
+        <relationshipLabel><!-- List Filter Items --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Operator --></label>
+        <name>zqu__Operator__c</name>
+        <picklistValues>
+            <masterLabel>contains</masterLabel>
+            <translation><!-- contains --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>equals</masterLabel>
+            <translation><!-- equals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>greater or equal</masterLabel>
+            <translation><!-- greater or equal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>greater than</masterLabel>
+            <translation><!-- greater than --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>lower or equal</masterLabel>
+            <translation><!-- lower or equal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>lower than</masterLabel>
+            <translation><!-- lower than --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>not equals</masterLabel>
+            <translation><!-- not equals --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Right Object Context Key --></label>
+        <name>zqu__Right_Object_Context_Key__c</name>
+    </fields>
+    <fields>
+        <label><!-- Right Object Name --></label>
+        <name>zqu__Right_Object_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Right Object Type --></label>
+        <name>zqu__Right_Object_Type__c</name>
+    </fields>
+    <fields>
+        <help><!-- The segment ID this item is associated with. --></help>
+        <label><!-- Segment Id --></label>
+        <name>zqu__Segment_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Value --></label>
+        <name>zqu__Value__c</name>
+    </fields>
+</CustomObjectTranslation>

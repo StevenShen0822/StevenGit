@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>USERS.NAME</field>
+    </columns>
+    <columns>
+        <field>ACCOUNT.NAME</field>
+    </columns>
+    <columns>
+        <field>LAST_UPDATE</field>
+    </columns>
+    <columns>
+        <field>ADDRESS1_STATE_CODE</field>
+    </columns>
+    <columns>
+        <field>Account.Neighborhood__c</field>
+    </columns>
+    <columns>
+        <field>Account.Region__c</field>
+    </columns>
+    <columns>
+        <field>Account.ConciergeState__c</field>
+    </columns>
+    <columns>
+        <field>CREATED</field>
+    </columns>
+    <columns>
+        <field>CREATED_DATE</field>
+    </columns>
+    <filter>
+        <criteriaItems>
+            <column>Account.Neighborhood__c</column>
+            <isUnlocked>false</isUnlocked>
+            <operator>notEqual</operator>
+            <value>Bergen County Area,Morris County Area,Warren County Area,Princeton area,Trenton area,Monmouth County Area,Ocean County Area,Cherry Hill Area,Gloucester County Area,Atlantic City Area,Cape May Area,East Hampton,Montauk,Nassau County,North Fork,Sag Harbor,Southampton,Suffolk County,Downtown,Harlem,Midtown East,Midtown West,Upper East Side,Upper West Side,Astoria,Long Island City,Hunter,Woodstock,Albany,Saratoga Springs,Lake George,Lake Placid,Alexandria Bay</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.Neighborhood__c</column>
+            <isUnlocked>false</isUnlocked>
+            <operator>notEqual</operator>
+            <value>Watertown,Binghamton,Cooperstown,Utica,Syracuse,Rochester,Ithaca,Niagara Falls,Buffalo,Hamburg,Jamestown,Newport,Burlington,St. Johnsbury,Montpelier,Middlebury,Rutland,Springfield,Brattleboro,Bennington,Coaticook,Berlin,Littleton,North Conway,Laconia,Lebanon,Claremont,Concord,Hampton,Nashua,Keene,Caribou,Bethel,Bangor,Augusta,Bar Harbor,Brunswick,Portland,Alfred,Fairfield County,New Haven County,Litchfield County,Hartford County,Tolland County,Windham County</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.Neighborhood__c</column>
+            <isUnlocked>false</isUnlocked>
+            <operator>notEqual</operator>
+            <value>Middlesex County,New London County,Berkshires,Franklin,Downtown Boston,Cambridge,Brookline area,Cape Cod,Martha&apos;s Vineyard,Nantucket,Worchester,North Shore,South Shore,Downtown Providence,Warwick,Westerly,Charleston,Narragansett,Middletown,Mifflin,Kimberton,Lansdale,Norristown,Phoenixville,Pottstown,Quakertown,Warminster,Wynnewood,Abington,Doylestown,Allentown,Bensalem,Fort Washington,Horsham,Jenkintown,Lambertville,N. Philly,Darby,Newtown,Wayne,S. Philly</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.Neighborhood__c</column>
+            <isUnlocked>false</isUnlocked>
+            <operator>notEqual</operator>
+            <value>Conshohocken,Center City,Chestnut Hill/Germantown,Kensington,Manayunk,W. Philly,New Castle,Erie,Butler,Cranberry Township,Fox Chapel,Harwick,Hermitage,Meadville,Ross Township,Monroeville,Johnstown,Blairsville,Greensburg,Leechburg,Robinson,Crafton,Farmington,Mckeesport,Mt. Lebanon,Mt Oliver,Mt Washington,Seven Springs,Somerset,Washington,Beaver Falls,Oakland,Lock Haven,Hershey,Lancaster,Harrisburg,York,Altoona,Chambersburg,Dawson,King of Prussia,Lewistown</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.Neighborhood__c</column>
+            <isUnlocked>false</isUnlocked>
+            <operator>notEqual</operator>
+            <value>Montrose,Muncy,Northern Cambria,Reading,State College,Sunbury,Williamsport,Wilkes-Barre,Nicholson,Port Jervis,Scranton,Stroudsburg,Westchester,Bethany Beach,Dewey Beach,Dover,Fenwick Island,Milford,Rehoboth Beach,Wilmington,Capitol Hill,Dupont Circle,Adams Morgan,Shaw,Downtown DC,Central Waterfront,Anacostia,Brookland,Foggy Bottom,West Waterfront,Upper Northwest,Georgetown,Rockville-Bethesda,Chesapeake Beach,Lexington Park,Ellicott City,Reisterstown</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.Neighborhood__c</column>
+            <isUnlocked>false</isUnlocked>
+            <operator>notEqual</operator>
+            <value>Calvert Peninsula,Annapolis,Bel Air,Delmarva Peninsula,Frederick,Fairfax,Gainesville,Greensboro,High Point,Winston-Salem,Lake Norman/Cornelius,Charlotte,Lake Wylie,Raleigh,Durham,Chapel HIll,Fayetteville,Elizabethtown,Jacksonville,Bald Head island,Kill Devil Hills,Other Islands,Asheville,Boone,Blowing Rock,Newberry,Lexington County,Richland County/Columbia,Spartanburg,Florence,Myrtle Beach,Pawleys Island,Hilton Head,Historic Charleston,Mount Pleasant</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.Neighborhood__c</column>
+            <isUnlocked>false</isUnlocked>
+            <operator>notEqual</operator>
+            <value>Sullivan&apos;s &amp; Isle of Palms,Beaufort &amp; Port Royal,Edisto Island,Wadmalaw,Kiawah &amp; Seabrook Island,Buckhead GA,Outside GA,Downtown GA,Midtown GA,Northwest GA,Northeast GA,Georgia Mountains,Three Rivers GA,Heart of Georgia,Middle Georgia,River Valley GA,Central Savannah River Area,Coastal GA,Southwest GA,Southeast GA,Historical District,Chatham GA,Austin City Limits,Bastrop County,Burnet County,Blanco County,Caldwell/ Hays County,Mason County,Milam County</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.Neighborhood__c</column>
+            <isUnlocked>false</isUnlocked>
+            <operator>notEqual</operator>
+            <value>Travis County/ Williamson County,Brazoria/ Fort Bend County,Calhoun County,Dewitt County,Galveston,Jefferson/ Orange County,Liberty/Chambers County,Victoria Area,Waller/Washington/Fayette County,Wharton County Area,Downtown Houston,Beltway of Houston,Inner Loop of Houston,Kemah,North Area of Houston,North-East Area of Houston,North-West Area of Houston,South Area of Houston,South-East Area of Houston,South-West Area of Houston,West Area of Houston</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.Neighborhood__c</column>
+            <isUnlocked>false</isUnlocked>
+            <operator>notEqual</operator>
+            <value>Angelina/Tyler County,Austin County,Bowie County,Burleson/Brazos/Madison County,Collin County,Colorado County,Montgomery County,Van Zandt County,Wood County,Inner San Antonio,Outer San Antonio,Middle San Antonio,Downtown San Antonio,Cameron county,Hidalgo County,Jim Wells County,Medina County,&quot;Nueces County, Aransas County, San Patricio County&quot;,Uvalde County,Webb County,Bell County,Bexar County/ Kendall County/Bandera County,Coryell County,Gillespie County</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.Neighborhood__c</column>
+            <isUnlocked>false</isUnlocked>
+            <operator>notEqual</operator>
+            <value>Guadalupe county/ Comal County,Kerr County,McCulloch County/ San Saba County,San Benito County,Brewster County,​Arlington,Arlington,Plano,Irving,Grapevine,Denton,Carrollton,Fort Worth,Dallas,McKinney,Waco,Frisco,Greenville,W​ichita Falls,Wichita Falls,Longview,Mt. Pleasant,Paris,​Amarillo​,Amarillo,Lubbock,Midland,San Angelo,Abilene,Odessa,El Paso​,El Paso,Pensacola,Destin,Panama City,Santa Rosa Beach,Tallahassee,St. Augustine (Beach),Palm Coast,Jacksonville Beach,Ocala,Ponte Vedra Beach</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.Neighborhood__c</column>
+            <isUnlocked>false</isUnlocked>
+            <operator>notEqual</operator>
+            <value>Orlando,Kissimmee,Winter Park,Altamonte Springs,Lake Buena Vista,Haines City,Palm Bay,Daytona Beach,Melbourne,Vero Beach,Titusville,Fort Pierce,Port St. Lucie,Cocoa Beach,Tampa,Spring Hill,Clear Water,Palm Harbor,St. Petersburg,Lakeland,Tarpon Springs,Ft. Myers,Naples,Bradenton,Sarasota,Port Charlotte,Marco Island,Homestead,Miami,Ft. Lauderdale,Pompano Beach,Boca Raton,W. Palm Beach,Hollywood,Hialeah,Key Largo,Key West,Islamorada,Marathon,North Sacramento Valley</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.Neighborhood__c</column>
+            <isUnlocked>false</isUnlocked>
+            <operator>notEqual</operator>
+            <value>Sacramento Metro,North San Joaquin,South San Joaquin,Sierra Nevada,Tahoe,Monterey,San Luis Obispo,North Bay,East Bay,South Bay,San Francisco,San Jose,Napa,Sonoma,Beach Neighborhoods,Beverly Hills,Catalina Islands,Central Los Angeles,Downtown L.A.,Northern L.A.,San Gabriel Valley,The Westside,Temecula,Southern Coast,Diamond Bar,Orange,Anaheim,Irvine,San Bernardino,Moreno Valley,Central San Diego,Eastern San Diego,Northeastern San Diego,Northern San Diego</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.Neighborhood__c</column>
+            <isUnlocked>false</isUnlocked>
+            <operator>notEqual</operator>
+            <value>Southern San Diego,Western San Diego,Santa Monica,Santa Barbara,Ventura,Thousand Oaks,Palm Springs,Barclay,Cross Keys,Mount Vernon,Pigtown,Canton,Federal Hill,Fells Point,Harbor East,Inner Harbor,Locust Point,Norton,Richlands,Leesburg,RIchmond,WIlliamsburg,Chesapeake,Newport News,Norfolk,Virginia Beach,Austinville,Charlottesville,Harrisonburg,Lynchburg,Roanoke,Winchester,Anderson,Clemson,Rock Hill,Greenwood,Fredericksburg,Warrington,Sterling,Towson</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.Neighborhood__c</column>
+            <isUnlocked>false</isUnlocked>
+            <operator>notEqual</operator>
+            <value>Burlington County Area,Hunterdon County Area,Mercer County Area,Middlesex County Area,Somerset County Area,Aberdeen,Essex County Area,Hudson County Area,Passaic County Area,Sussex County Area,Union County Area,Palmyra,​Arlington,Arlington,Alexandria,Santa Maria,Camden County Area,Cumberland County Area,Salem County Area,Lexington</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.Neighborhood__c</column>
+            <isUnlocked>false</isUnlocked>
+            <operator>notEqual</operator>
+            <value></value>
+        </criteriaItems>
+    </filter>
+    <format>Tabular</format>
+    <name>Accounts- Neighborhood- Bad data-1</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>AccountList</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <sortColumn>Account.Neighborhood__c</sortColumn>
+    <sortOrder>Asc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>CREATED_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

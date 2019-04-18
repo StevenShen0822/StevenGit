@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help><!-- This Case Status will be set when an Agent releases a Case. --></help>
+        <label><!-- Case Status to set on Agent release --></label>
+        <name>NVMContactWorld__Case_Status_to_set_on_Agent_release__c</name>
+    </fields>
+    <fields>
+        <help><!-- This Case Status will be set when a Case is assigned to an Agent. --></help>
+        <label><!-- Case Status to set on assign to Agent --></label>
+        <name>NVMContactWorld__Case_Status_to_set_on_assign_to_Agent__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter one Case Status per line for Statuses that should cause a Case to be released. --></help>
+        <label><!-- Case Statuses to Release --></label>
+        <name>NVMContactWorld__Case_Statuses_to_Release__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter one Case Status per line for Statuses that should cause a Case to be routed to an agent. --></help>
+        <label><!-- Case Statuses to Route --></label>
+        <name>NVMContactWorld__Case_Statuses_to_Route__c</name>
+    </fields>
+    <fields>
+        <help><!-- Time in seconds that we will attempt to route a case to the case owner when they are logged in. --></help>
+        <label><!-- Case owner routing timeout (Logged in) --></label>
+        <name>NVMContactWorld__Case_owner_routing_timeout_Logged_in__c</name>
+    </fields>
+    <fields>
+        <help><!-- Time in seconds that we will attempt to route a case to the case owner when they are logged out. --></help>
+        <label><!-- Case owner routing timeout (Logged out) --></label>
+        <name>NVMContactWorld__Case_owner_routing_timeout_Logged_out__c</name>
+    </fields>
+    <fields>
+        <help><!-- When set, NewVoiceMedia will attempt to route new Cases to the Case owner. This does not affect updating cases, where NewVoiceMedia will always attempt to route to the Case owner. --></help>
+        <label><!-- TryRouteNewCaseToCaseOwner --></label>
+        <name>NVMContactWorld__TryRouteNewCaseToCaseOwner__c</name>
+    </fields>
+</CustomObjectTranslation>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help><!-- The Guided Selling Section being mapped to. --></help>
+        <label><!-- Guided Selling Step --></label>
+        <name>zqu__GuidedSellingStep__c</name>
+        <relationshipLabel><!-- Step To Filter Map --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- The list filter being mapped to. --></help>
+        <label><!-- List Filter --></label>
+        <name>zqu__ListFilter__c</name>
+        <relationshipLabel><!-- Step To Filter Maps --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- The order of the List Filter in the Guided Selling Step. --></help>
+        <label><!-- Order --></label>
+        <name>zqu__Order__c</name>
+    </fields>
+</CustomObjectTranslation>

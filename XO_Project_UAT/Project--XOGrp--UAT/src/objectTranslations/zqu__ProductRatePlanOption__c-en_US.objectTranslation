@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- Edit Product Rate Plan Option --></label>
+        <name>EditProductRatePlanOption</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- New Product Rate Plan Option --></label>
+        <name>NewProductRatePlanOption</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Effective End Date --></label>
+        <name>zqu__EffectiveEndDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Effective Start Date --></label>
+        <name>zqu__EffectiveStartDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Original Option --></label>
+        <name>zqu__Origin__c</name>
+        <relationshipLabel><!-- Product Rate Plan Options --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Original Product Rate Plan Option ID --></label>
+        <name>zqu__OriginalPrpoId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Option --></label>
+        <name>zqu__ProductOption__c</name>
+        <relationshipLabel><!-- Product Rate Plan Options --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Product Rate Plan --></label>
+        <name>zqu__ProductRatePlan__c</name>
+        <relationshipLabel><!-- Product Rate Plan Options --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Product --></label>
+        <name>zqu__Product__c</name>
+        <relationshipLabel><!-- Product Rate Plan Options --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Quote Rate Plan --></label>
+        <name>zqu__QuoteRatePlan__c</name>
+        <relationshipLabel><!-- Snapshot Product Rate Plan Options --></relationshipLabel>
+    </fields>
+    <recordTypes>
+        <label><!-- Default --></label>
+        <name>Default</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Snapshot --></label>
+        <name>Snapshot</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Effective End Date cannot be before Effective Start Date --></errorMessage>
+        <name>zqu__Effective_Date_Rule</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Override ProductRatePlan should belong to the Product Option&apos;s child product --></errorMessage>
+        <name>zqu__Override_Rule</name>
+    </validationRules>
+</CustomObjectTranslation>

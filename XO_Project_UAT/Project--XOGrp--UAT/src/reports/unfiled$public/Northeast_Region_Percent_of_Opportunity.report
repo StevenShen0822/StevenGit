@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <aggregates>
+        <calculatedFormula>Case.Saved_Monthly_Revenue__c:SUM/Case.Monthly_Budget__c:SUM</calculatedFormula>
+        <datatype>percent</datatype>
+        <developerName>FORMULA1</developerName>
+        <isActive>true</isActive>
+        <isCrossBlock>false</isCrossBlock>
+        <masterLabel>Percent of Opportunity</masterLabel>
+        <scale>2</scale>
+    </aggregates>
+    <buckets>
+        <bucketType>picklist</bucketType>
+        <developerName>BucketField_39147854</developerName>
+        <masterLabel>Outcome</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <sourceColumnName>Case.Outcome__c</sourceColumnName>
+        <useOther>false</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>Cancelled</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Max attempts no contact</sourceValue>
+            </sourceValues>
+            <value>Cancelled</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Saved Hard Concessions</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Saved No Concessions</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Saved Soft Concessions</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Max Attempts - No Written Request</sourceValue>
+            </sourceValues>
+            <value>Saved</value>
+        </values>
+    </buckets>
+    <columns>
+        <field>CREATED_DATE</field>
+    </columns>
+    <columns>
+        <field>SUBJECT</field>
+    </columns>
+    <columns>
+        <field>ACCOUNT.NAME</field>
+    </columns>
+    <columns>
+        <field>Case.Monthly_Budget__c</field>
+    </columns>
+    <columns>
+        <field>Case.Saved_Monthly_Revenue__c</field>
+    </columns>
+    <filter>
+        <booleanFilter>1 AND 3 AND 4 AND (2 OR (5 AND 6) OR (8 AND 9)) AND 7</booleanFilter>
+        <criteriaItems>
+            <column>RECORDTYPE</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Case.X1_Cancels</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>OWNER</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Christopher Kellogg,Elayne Hoover,Gigi Bridges</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>STATUS</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Closed</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Case.Outcome__c</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Cancelled,Saved Hard Concessions,Saved No Concessions,Saved Soft Concessions,Max Attempts - No Written Request,Max attempts no contact</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>OWNER</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Jessie Reinsch</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>CREATED_DATE</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>greaterOrEqual</operator>
+            <value>10/31/2017 12:00 AM</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>ACCOUNT.OWNER</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Amy Reynolds,Lisa MacDonald,George Proctor,Michele Hopkins,Betsy Anderson,Katrina Hayes,Lindsay Carroll,Ronni Ross,Tara Ritting,Alan Metzger,Margaret Fazio,Gayle Susser,Kimberley Feys</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>OWNER</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Cailin Soliz</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>CREATED_DATE</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>greaterOrEqual</operator>
+            <value>11/30/2017 12:00 AM</value>
+        </criteriaItems>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>ACCOUNT.OWNER</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>BucketField_39147854</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Northeast Region Percent of Opportunity</name>
+    <params>
+        <name>units</name>
+        <value>h</value>
+    </params>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CaseList</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <sortColumn>CREATED_DATE</sortColumn>
+    <sortOrder>Asc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>CLOSED_DATEONLY</dateColumn>
+        <interval>INTERVAL_THISMONTH</interval>
+    </timeFrameFilter>
+</Report>

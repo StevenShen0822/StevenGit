@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>FK_OPP_OWNER_NAME</field>
+    </columns>
+    <columns>
+        <field>FK_ACC_NAME</field>
+    </columns>
+    <columns>
+        <field>FK_NAME</field>
+    </columns>
+    <columns>
+        <field>FK_OPP_STAGE_NAME</field>
+    </columns>
+    <columns>
+        <field>FK_OPP_CLOSE_DATE</field>
+    </columns>
+    <columns>
+        <field>zqu__Quote__c.zqu__Previewed_Delta_TCV__c</field>
+    </columns>
+    <filter>
+        <criteriaItems>
+            <column>FK_OPP_OWNER_TITLE</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>contains</operator>
+            <value>Account Strategist,VIP Client Manager</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>FK_OPP_TYPE</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>contains</operator>
+            <value>Upsell,Upsell Internet,Upsell Print,Winback</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>FK_OPP_STAGE_NAME</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Closed Won</value>
+        </criteriaItems>
+    </filter>
+    <format>Tabular</format>
+    <name>Amendment Upsell Report</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$zqu__Quote__c@zqu__Quote__c.zqu__Opportunity__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <timeFrameFilter>
+        <dateColumn>FK_OPP_CLOSE_DATE</dateColumn>
+        <endDate>2017-12-31</endDate>
+        <interval>INTERVAL_CUSTOM</interval>
+        <startDate>2017-10-01</startDate>
+    </timeFrameFilter>
+</Report>

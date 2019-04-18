@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Back Button Text --></label>
+        <name>zqu__BackButtonText__c</name>
+    </fields>
+    <fields>
+        <label><!-- Next Button Text --></label>
+        <name>zqu__NextButtonText__c</name>
+    </fields>
+    <fields>
+        <label><!-- Visual Force Page --></label>
+        <name>zqu__PageName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Progress Bar Text --></label>
+        <name>zqu__ProgressBarText__c</name>
+    </fields>
+    <fields>
+        <label><!-- Step # --></label>
+        <name>zqu__StepNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Subscription Type --></label>
+        <name>zqu__SubscriptionType__c</name>
+        <picklistValues>
+            <masterLabel>Amend Subscription</masterLabel>
+            <translation><!-- Amend Subscription --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancel Subscription</masterLabel>
+            <translation><!-- Cancel Subscription --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Subscription</masterLabel>
+            <translation><!-- New Subscription --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Renew Subscription</masterLabel>
+            <translation><!-- Renew Subscription --></translation>
+        </picklistValues>
+    </fields>
+</CustomObjectTranslation>

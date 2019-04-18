@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Callback</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Callbacks</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- Callbacks --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Callback Date --></label>
+        <name>Callback_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Category --></label>
+        <name>Category__c</name>
+        <relationshipLabel><!-- Callbacks --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- If &quot;Yes&quot; this means the creating Opportunity had a Type of &quot;Renewal&quot;, so this Callback record may be for a Subscription Renewal. --></help>
+        <label><!-- Is Possible Renewal --></label>
+        <name>Is_Possible_Renewal__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Market --></label>
+        <name>Market__c</name>
+        <relationshipLabel><!-- Callbacks --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- *However the OOB functionality works is fine; main goal is to just keep track of all notes, and not delete them --></help>
+        <label><!-- Notes --></label>
+        <name>Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Cancelled</masterLabel>
+            <translation><!-- Cancelled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Complete</masterLabel>
+            <translation><!-- Complete --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Materials In</masterLabel>
+            <translation><!-- Materials In --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New</masterLabel>
+            <translation><!-- New --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Proof Out</masterLabel>
+            <translation><!-- Proof Out --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Renewal Follow Up</masterLabel>
+            <translation><!-- Renewal Follow Up --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vendor Contacted</masterLabel>
+            <translation><!-- Vendor Contacted --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Subscription Charge Number --></label>
+        <name>Subscription_Charge_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Subscription Name --></label>
+        <name>Subscription_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Subscription Product &amp; Charge --></label>
+        <name>Subscription_Product_Charge__c</name>
+        <relationshipLabel><!-- Callbacks --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Account is a VIP Account --></help>
+        <label><!-- VIP Account --></label>
+        <name>VIP_Account__c</name>
+    </fields>
+    <fields>
+        <label><!-- Vendor Contact --></label>
+        <name>Vendor_Contact__c</name>
+        <relationshipLabel><!-- Callbacks --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Vendor Email --></label>
+        <name>Vendor_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Vendor Phone --></label>
+        <name>Vendor_Phone__c</name>
+    </fields>
+    <layouts>
+        <layout>Callback Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Callback Layout Admin</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

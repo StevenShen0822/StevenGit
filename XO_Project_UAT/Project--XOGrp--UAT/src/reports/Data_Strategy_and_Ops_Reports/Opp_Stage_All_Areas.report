@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>includes not currently active areas</description>
+    <filter>
+        <criteriaItems>
+            <column>Account.Region__c</column>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>,Appalachian Plateau,Atlanta,Blue Ridge,Boston,Bronx,Brooklyn,Capital District,Central DC,Central East FL,Central FL,Central Jersey,Central NH,Central NY,Central PA,Central VT,Central West FL,Coastal area,Coastal Plain,​Dallas/Fort Worth​,Dallas/Fort Worth,East DC,Finger Lakes,Hampton Roads,High Country,Houston Proper,Hudson Valley,Lake Region,Long Island,Lowcountry,Manhattan,Midlands,North East FL,North Eastern CT,North Jersey,North Philly/Downtown,North West FL,Northeast Philly,Northern CT,Northern Jersey Shore,Northern NH,Northern VT,Orange County,Outer Banks,Outer Maryland,Palm Springs,Piedmont,Queens,San Diego,San Francisco/Bay Area,Savannah Georgia,South Eastern CT,South Jersey,Southern CT,Southern Jersey Shore,Southern NH,Southern VT,Southwest Philly,Staten Island,The Adirondacks,The Catskills,Triad Area,Triangle,Upcountry,Valley &amp; Ridge,West DC,West Texas,Westchester,Western NY</value>
+        </criteriaItems>
+    </filter>
+    <format>Matrix</format>
+    <groupingsAcross>
+        <dateGranularity>Day</dateGranularity>
+        <field>STAGE_NAME</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsAcross>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>FULL_NAME</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Opp Stage: All Areas</name>
+    <params>
+        <name>open</name>
+        <value>all</value>
+    </params>
+    <params>
+        <name>probability</name>
+        <value>&gt;0</value>
+    </params>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Opportunity</reportType>
+    <scope>organization</scope>
+    <showDetails>false</showDetails>
+    <timeFrameFilter>
+        <dateColumn>CLOSE_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

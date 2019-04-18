@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>CUST_NAME</field>
+    </columns>
+    <columns>
+        <field>Zuora__Subscription__c.Zuora__Account__c</field>
+    </columns>
+    <columns>
+        <field>CUST_CREATED_DATE</field>
+    </columns>
+    <columns>
+        <field>Zuora__Subscription__c.True_Subscription_Status__c</field>
+    </columns>
+    <description>The list of Subscriptions with were erroneously created on 8/22 and 8/23</description>
+    <filter>
+        <criteriaItems>
+            <column>Zuora__Subscription__c.Zuora__Account__c</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>contains</operator>
+            <value>Wagner</value>
+        </criteriaItems>
+    </filter>
+    <format>Tabular</format>
+    <name>Bad Subscriptions</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$Zuora__Subscription__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <sortColumn>CUST_NAME</sortColumn>
+    <sortOrder>Asc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>CUST_CREATED_DATE</dateColumn>
+        <endDate>2017-08-23</endDate>
+        <interval>INTERVAL_CUSTOM</interval>
+        <startDate>2017-08-22</startDate>
+    </timeFrameFilter>
+</Report>

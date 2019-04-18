@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- Custom Quote Product Feature Fields --></label>
+        <name>CustomSentToZuoraFields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Guided Selling Feature Fields --></label>
+        <name>GuidedSellingFeatureFields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Popup Window List Column --></label>
+        <name>Popup_Window_List_Column</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Billing Entity --></label>
+        <name>zqu__BillingEntity__c</name>
+        <relationshipLabel><!-- Features --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Product link to catalog sync history --></help>
+        <label><!-- Catalog Sync History --></label>
+        <name>zqu__Catalog_Sync_History__c</name>
+        <relationshipLabel><!-- ZFeatures --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Code --></label>
+        <name>zqu__Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Deleted --></label>
+        <name>zqu__Deleted__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>zqu__Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- EntityID --></label>
+        <name>zqu__EntityID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Full Name --></label>
+        <name>zqu__FeatureName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>zqu__Status2__c</name>
+        <picklistValues>
+            <masterLabel>Active</masterLabel>
+            <translation><!-- Active --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inactive</masterLabel>
+            <translation><!-- Inactive --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Status(Deprecated) --></label>
+        <name>zqu__Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sync Message --></label>
+        <name>zqu__SyncMessage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sync Status --></label>
+        <name>zqu__SyncStatus__c</name>
+        <picklistValues>
+            <masterLabel>Failed</masterLabel>
+            <translation><!-- Failed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Synced</masterLabel>
+            <translation><!-- Synced --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Syncing</masterLabel>
+            <translation><!-- Syncing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Updated</masterLabel>
+            <translation><!-- Updated --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Zuora Id --></label>
+        <name>zqu__ZuoraId__c</name>
+    </fields>
+    <recordTypes>
+        <label><!-- Default --></label>
+        <name>Default</name>
+    </recordTypes>
+    <webLinks>
+        <label><!-- Back_To_Feature_List --></label>
+        <name>zqu__Back_To_Feature_List</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Mark_for_Delete --></label>
+        <name>zqu__Mark_for_Delete</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- sync_to_zuora --></label>
+        <name>zqu__sync_to_zuora</name>
+    </webLinks>
+</CustomObjectTranslation>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>CUST_NAME</field>
+    </columns>
+    <columns>
+        <field>Zuora__SubscriptionProductCharge__c.Zuora__Account__c</field>
+    </columns>
+    <columns>
+        <field>Zuora__SubscriptionProductCharge__c.Zuora__RatePlanName__c</field>
+    </columns>
+    <columns>
+        <field>FK_$Zuora__Subscription__c.Sales_Rep__c</field>
+    </columns>
+    <columns>
+        <field>FK_$Zuora__Subscription__c.Zuora__ContractEffectiveDate__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>FK_$Zuora__Subscription__c.Zuora__TCV__c</field>
+    </columns>
+    <columns>
+        <field>FK_$Zuora__Subscription__c.Zuora__Status__c</field>
+    </columns>
+    <filter>
+        <criteriaItems>
+            <column>Zuora__SubscriptionProductCharge__c.Zuora__RatePlanName__c</column>
+            <isUnlocked>false</isUnlocked>
+            <operator>contains</operator>
+            <value>best of weddings-email sponsorship</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>FK_CREATED_DATE</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>greaterOrEqual</operator>
+            <value>11/1/2017 12:00 AM</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>CUST_NAME</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>contains</operator>
+            <value>Recurring Charge,20% Down</value>
+        </criteriaItems>
+    </filter>
+    <format>Summary</format>
+    <name>2018 BOW email sponsorships</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$Zuora__SubscriptionProductCharge__c@Zuora__SubscriptionProductCharge__c.Zuora__Subscription__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <sortColumn>Zuora__SubscriptionProductCharge__c.Zuora__RatePlanName__c</sortColumn>
+    <sortOrder>Asc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>FK_CREATED_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

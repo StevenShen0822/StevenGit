@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>CUST_NAME</field>
+    </columns>
+    <columns>
+        <field>Category__c.Category_ID__c</field>
+    </columns>
+    <columns>
+        <field>Category__c.Category_Code__c</field>
+    </columns>
+    <columns>
+        <field>Category__c.Active__c</field>
+    </columns>
+    <columns>
+        <field>Category__c.Taxonomy_ID__c</field>
+    </columns>
+    <filter>
+        <criteriaItems>
+            <column>Category__c.Active__c</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>1</value>
+        </criteriaItems>
+    </filter>
+    <format>Tabular</format>
+    <name>Active Cats</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$Category__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <timeFrameFilter>
+        <dateColumn>CUST_CREATED_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>CREATED_DATE</field>
+    </columns>
+    <columns>
+        <field>ACCOUNT_OWNER</field>
+    </columns>
+    <columns>
+        <field>ACCOUNT.NAME</field>
+    </columns>
+    <columns>
+        <field>Account.Primary_Category__c</field>
+    </columns>
+    <columns>
+        <field>ACCOUNT_ADDRESS1_ZIP</field>
+    </columns>
+    <columns>
+        <field>Account.Local_Sales_Market__c</field>
+    </columns>
+    <columns>
+        <field>Account.Local_Paid_Status__c</field>
+    </columns>
+    <description>Ownership moved from Maria to Sarah</description>
+    <filter>
+        <criteriaItems>
+            <column>CREATED</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Minnie Zhao</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>ACCOUNT_OWNER</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Sarah Rucinski</value>
+        </criteriaItems>
+    </filter>
+    <format>Tabular</format>
+    <name>Sarah Rucinski&apos;s Accounts</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>AccountAuditHistory</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <timeFrameFilter>
+        <dateColumn>CREATED_DATE</dateColumn>
+        <endDate>2017-08-24</endDate>
+        <interval>INTERVAL_CUSTOM</interval>
+        <startDate>2017-08-23</startDate>
+    </timeFrameFilter>
+</Report>

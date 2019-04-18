@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>ACCOUNT_ID</field>
+    </columns>
+    <columns>
+        <field>Account.Google_Doc_ID__c</field>
+    </columns>
+    <columns>
+        <field>Account.Reference_ID__c</field>
+    </columns>
+    <columns>
+        <field>USERS.NAME</field>
+    </columns>
+    <columns>
+        <field>ACCOUNT.NAME</field>
+    </columns>
+    <description>This list should always be empty</description>
+    <filter>
+        <criteriaItems>
+            <column>Account.Region__c</column>
+            <isUnlocked>false</isUnlocked>
+            <operator>notEqual</operator>
+            <value></value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.Region__c</column>
+            <isUnlocked>false</isUnlocked>
+            <operator>notEqual</operator>
+            <value>Long Island,Manhattan,North Jersey,Central Jersey,Northern Jersey Shore,South Jersey,Southern Jersey Shore,Bronx,Brooklyn,Hudson Valley,Queens,Staten Island,Westchester,The Catskills,Capital District,The Adirondacks,Central NY,Finger Lakes,Western NY,Northern VT,Central VT,Southern VT,Northern NH,Central NH,Southern NH,Northern ME,Central ME,Southern ME,Southern CT,Northern CT,North Eastern CT,South Eastern CT,Western MA,Boston,Islands,Central MA,Boston Suburbs</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.Region__c</column>
+            <isUnlocked>false</isUnlocked>
+            <operator>notEqual</operator>
+            <value>Providence area,Southern RI,Newport area,Northeast Philly,Southwest Philly,North Philly/Downtown,North Pittsburgh,East Pittsburgh,South Pittsburgh,Central Pittsburgh,Central PA,Poconos,Delaware,Central DC,East DC,West DC,Outer Maryland,Baltimore Suburb,Chesapeake Bay,West Maryland,Piedmont,Triad Area,Lake Region,Triangle,Coastal area,Outer Banks,High Country,Midlands,Lowcountry,Atlanta,Northern Georgia,Central Georgia</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.Region__c</column>
+            <isUnlocked>false</isUnlocked>
+            <operator>notEqual</operator>
+            <value>Southern Georgia,Savannah Georgia,Austin,Gulf Coast,Houston Proper,Northeast Texas,San Antonio,South Texas Plains,Texas Hill Country,​Dallas/Fort Worth​,Dallas/Fort Worth,Panhandle,West Texas,Far West Texas,North West FL,North East FL,Central FL,Central East FL,Central West FL,South West FL,South East FL,The Keys,Central Valley,Central Coast,San Francisco/Bay Area,Wine Country,Greater Los Angeles,Orange County,Palm Springs,San Diego,Santa Barbara/Ventura,Downtown Baltimore,Harbor</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.Region__c</column>
+            <isUnlocked>false</isUnlocked>
+            <operator>notEqual</operator>
+            <value>Appalachian Plateau,Blue Ridge,Coastal Plain,Hampton Roads,Valley &amp; Ridge,Upcountry</value>
+        </criteriaItems>
+    </filter>
+    <format>Summary</format>
+    <name>Accounts with bad Regions</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>AccountList</reportType>
+    <scope>organization</scope>
+    <showDetails>false</showDetails>
+    <timeFrameFilter>
+        <dateColumn>CREATED_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

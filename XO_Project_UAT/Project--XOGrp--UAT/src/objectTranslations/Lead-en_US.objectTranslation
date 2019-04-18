@@ -1,0 +1,3992 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- Qualify Lead Fields --></label>
+        <name>Qualify_Lead_Fields</name>
+    </fieldSets>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Reason for not including - Notes</value>
+        </caseValues>
+        <name>description_lead</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <label><!-- Alternate Email --></label>
+        <name>Alternate_Email__c</name>
+    </fields>
+    <fields>
+        <help><!-- The average number of pages a contact sees. This is automatically set by HubSpot for each contact. --></help>
+        <label><!-- Average Page Views Per Visit --></label>
+        <name>Average_Page_Views__c</name>
+    </fields>
+    <fields>
+        <label><!-- BDR BP Test Text --></label>
+        <name>BDR_BP_Test_Text__c</name>
+    </fields>
+    <fields>
+        <label><!-- BDR BP test --></label>
+        <name>BDR_BP_test__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field is being used as a Score field for the BDR testing that is happening. This field is manual and has no automation around it. --></help>
+        <label><!-- BDR Test Score --></label>
+        <name>BDR_Test_Score__c</name>
+    </fields>
+    <fields>
+        <help><!-- The number of clicks on published social messages. This is set automatically by HubSpot for each contact. --></help>
+        <label><!-- Broadcast Clicks --></label>
+        <name>Broadcast_Links__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field is the 18 DIgit ID field for Lead. --></help>
+        <label><!-- CasesafeID --></label>
+        <name>CasesafeID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Category Group --></label>
+        <name>Category_Group__c</name>
+    </fields>
+    <fields>
+        <label><!-- Claim Upon Conversion --></label>
+        <name>Claim_Upon_Conversion__c</name>
+    </fields>
+    <fields>
+        <label><!-- Concierge program qualification --></label>
+        <name>ConciergePrgQua__c</name>
+        <picklistValues>
+            <masterLabel>Awaiting Qualification</masterLabel>
+            <translation><!-- Awaiting Qualification --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Disqualified from Program</masterLabel>
+            <translation><!-- Disqualified from Program --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Qualified for Program</masterLabel>
+            <translation><!-- Qualified for Program --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Concierge State --></label>
+        <name>ConciergeState__c</name>
+        <picklistValues>
+            <masterLabel>California</masterLabel>
+            <translation><!-- California --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Connecticut</masterLabel>
+            <translation><!-- Connecticut --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Delaware</masterLabel>
+            <translation><!-- Delaware --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Florida</masterLabel>
+            <translation><!-- Florida --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Georgia</masterLabel>
+            <translation><!-- Georgia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maine</masterLabel>
+            <translation><!-- Maine --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Massachusetts</masterLabel>
+            <translation><!-- Massachusetts --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Hampshire</masterLabel>
+            <translation><!-- New Hampshire --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Jersey</masterLabel>
+            <translation><!-- New Jersey --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New York</masterLabel>
+            <translation><!-- New York --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>North Carolina</masterLabel>
+            <translation><!-- North Carolina --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pennsylvania</masterLabel>
+            <translation><!-- Pennsylvania --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rhode Island</masterLabel>
+            <translation><!-- Rhode Island --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>South Carolina</masterLabel>
+            <translation><!-- South Carolina --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Texas</masterLabel>
+            <translation><!-- Texas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vermont</masterLabel>
+            <translation><!-- Vermont --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Washington DC</masterLabel>
+            <translation><!-- Washington DC --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Current Generators --></label>
+        <name>CurrentGenerators__c</name>
+    </fields>
+    <fields>
+        <label><!-- DE Backlog --></label>
+        <name>DE_Backlog__c</name>
+    </fields>
+    <fields>
+        <label><!-- DE Stealth --></label>
+        <name>DE_Stealth__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>Desc__c</name>
+    </fields>
+    <fields>
+        <label><!-- Disqualification Reason --></label>
+        <name>Disqualification_Reason__c</name>
+        <picklistValues>
+            <masterLabel>Cannot Contact</masterLabel>
+            <translation><!-- Cannot Contact --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Do Not Contact</masterLabel>
+            <translation><!-- Do Not Contact --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Duplicate</masterLabel>
+            <translation><!-- Duplicate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Budget</masterLabel>
+            <translation><!-- No Budget --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Need</masterLabel>
+            <translation><!-- No Need --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Timeline</masterLabel>
+            <translation><!-- No Timeline --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Interested</masterLabel>
+            <translation><!-- Not Interested --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Out of Business</masterLabel>
+            <translation><!-- Out of Business --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wrong Industry</masterLabel>
+            <translation><!-- Wrong Industry --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Do Not Bulk Email --></label>
+        <name>DoNotBulkEmail__c</name>
+    </fields>
+    <fields>
+        <help><!-- SF-1412. Only reason this field exists is we want to make the &quot;Do Not Bulk Email&quot; field map to both Accounts and Contacts on Lead conversion, and Salesforce only allows 1-to-1 mapping out of the box. This field is literally just mirrors the value of the &quot; --></help>
+        <label><!-- DoNotBulkEmail_mirror --></label>
+        <name>DoNotBulkEmail_mirror__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dynamics Lead ID --></label>
+        <name>DynamicsLeadID__c</name>
+    </fields>
+    <fields>
+        <label><!-- EmailAccount --></label>
+        <name>EmailAccount__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field is synced with the Hubspot field &quot;Suppression Reason&quot; and can only be modified by the Hubspot sync. --></help>
+        <label><!-- Email Opt Out Reason --></label>
+        <name>Email_Opt_Out_Reason__c</name>
+        <picklistValues>
+            <masterLabel>Bad Email Address</masterLabel>
+            <translation><!-- Bad Email Address --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Disqualified Lead</masterLabel>
+            <translation><!-- Disqualified Lead --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hard Bounced</masterLabel>
+            <translation><!-- Hard Bounced --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Invalid Contact</masterLabel>
+            <translation><!-- Invalid Contact --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spam Complaint</masterLabel>
+            <translation><!-- Spam Complaint --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unsubscribed</masterLabel>
+            <translation><!-- Unsubscribed --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- The number of emails a contact has received. This is automatically set by HubSpot for each contact. --></help>
+        <label><!-- Emails Bounced --></label>
+        <name>Emails_Bounced__c</name>
+    </fields>
+    <fields>
+        <help><!-- The number of Marketing emails a contact has clicked, automatically set by HubSpot for each contact. This does not include emails sent or tracked in the CRM. --></help>
+        <label><!-- Emails Clicked --></label>
+        <name>Emails_Clicked__c</name>
+    </fields>
+    <fields>
+        <help><!-- The number of emails a contact has received. This is automatically set by HubSpot for each contact. --></help>
+        <label><!-- Emails Delivered --></label>
+        <name>Emails_Delivered__c</name>
+    </fields>
+    <fields>
+        <help><!-- The number of Marketing emails a contact has opened, automatically set by HubSpot for each contact. This does not include emails sent or tracked in the CRM. --></help>
+        <label><!-- Emails Opened --></label>
+        <name>Emails_Opened__c</name>
+    </fields>
+    <fields>
+        <help><!-- Description When the contact has attended an event --></help>
+        <label><!-- Last Attended Event --></label>
+        <name>Event_Attended__c</name>
+    </fields>
+    <fields>
+        <help><!-- Description of the event that is rsvp&apos;ed --></help>
+        <label><!-- Last Registered Event --></label>
+        <name>Event_RSVP__c</name>
+    </fields>
+    <fields>
+        <help><!-- The number clicks on links shared on Facebook --></help>
+        <label><!-- Facebook Clicks --></label>
+        <name>Facebook_Clicks__c</name>
+    </fields>
+    <fields>
+        <help><!-- The date of the first click from any Marketing email to this contact. This does not include emails sent or tracked in the CRM. --></help>
+        <label><!-- First Email Clicked Date --></label>
+        <name>First_Clicked_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- The date of the first open from any Marketing email to this contact. This does not include emails sent or tracked in the CRM. --></help>
+        <label><!-- First Email Open Date --></label>
+        <name>First_Open_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- First Referrer --></label>
+        <name>First_Referrer__c</name>
+    </fields>
+    <fields>
+        <help><!-- The date of the first email sent to this contact. --></help>
+        <label><!-- First Email Send Date --></label>
+        <name>First_Send_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- The first time a contact has been seen. This is automatically set by HubSpot for each contact. --></help>
+        <label><!-- First Timestamp --></label>
+        <name>First_Timestamp__c</name>
+    </fields>
+    <fields>
+        <help><!-- The first time a contact visited your website. This is automatically set by HubSpot for each contact. --></help>
+        <label><!-- First Visit Timestamp --></label>
+        <name>First_Visit_Timestamp__c</name>
+    </fields>
+    <fields>
+        <label><!-- Follow Up Date --></label>
+        <name>Follow_Up_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fulfill Storefront --></label>
+        <name>Fulfill_Storefront__c</name>
+    </fields>
+    <fields>
+        <help><!-- Checked if the Storefront has been fulfilled in Partners. --></help>
+        <label><!-- Fulfilled --></label>
+        <name>Fulfilled__c</name>
+    </fields>
+    <fields>
+        <help><!-- Fulfillment data received from Partners --></help>
+        <label><!-- Fulfillment Data --></label>
+        <name>Fulfillment_Data__c</name>
+    </fields>
+    <fields>
+        <label><!-- Google Doc ID --></label>
+        <name>Google_Doc_ID__c</name>
+    </fields>
+    <fields>
+        <help><!-- The number clicks on links shared on Google Plus --></help>
+        <label><!-- Google Plus Clicks --></label>
+        <name>Google_Plus_Clicks__c</name>
+    </fields>
+    <fields>
+        <label><!-- Home --></label>
+        <name>HomePhone__c</name>
+    </fields>
+    <fields>
+        <label><!-- HubSpot Score --></label>
+        <name>HubSpot_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- HubSpot Temperature --></label>
+        <name>HubSpot_Temperature__c</name>
+        <picklistValues>
+            <masterLabel>Cold</masterLabel>
+            <translation><!-- Cold --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hot</masterLabel>
+            <translation><!-- Hot --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Super Hot</masterLabel>
+            <translation><!-- Super Hot --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Warm</masterLabel>
+            <translation><!-- Warm --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- If Other, please specify: --></label>
+        <name>IfOtherpleasespecify__c</name>
+    </fields>
+    <fields>
+        <label><!-- Import Set --></label>
+        <name>Import_Set__c</name>
+    </fields>
+    <fields>
+        <label><!-- Interest in Adv in Multiple Categories --></label>
+        <name>Interest_in_Adv_in_Multiple_Categories__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invalid Reason Test --></label>
+        <name>Invalid_Reason_Test__c</name>
+        <picklistValues>
+            <masterLabel>Cannot Contact</masterLabel>
+            <translation><!-- Cannot Contact --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cannot Verify</masterLabel>
+            <translation><!-- Cannot Verify --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Out of Business</masterLabel>
+            <translation><!-- Out of Business --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Invalid Reason --></label>
+        <name>Invalid_Reason__c</name>
+        <picklistValues>
+            <masterLabel>Duplicate</masterLabel>
+            <translation><!-- Duplicate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>National</masterLabel>
+            <translation><!-- National --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No contact information</masterLabel>
+            <translation><!-- No contact information --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Out of Business</masterLabel>
+            <translation><!-- Out of Business --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wrong Industry</masterLabel>
+            <translation><!-- Wrong Industry --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- A contact&apos;s Klout score, a measure of Internet influeence --></help>
+        <label><!-- Klout Score --></label>
+        <name>Klout_Score__c</name>
+    </fields>
+    <fields>
+        <help><!-- The date of the most recent click from any Marketing email to this contact. This does not include emails sent or tracked in the CRM. --></help>
+        <label><!-- Last Email Clicked Date --></label>
+        <name>Last_Clicked_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Contacted Date --></label>
+        <name>Last_Contacted_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- The name of the last Marketing email sent to this contact. This does not include emails sent or tracked in the CRM. --></help>
+        <label><!-- Last Email Sent Name --></label>
+        <name>Last_Email_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- The date of the most recent open from any Marketing email to this contact. This does not include emails sent or tracked in the CRM. --></help>
+        <label><!-- Last Email Open Date --></label>
+        <name>Last_Open_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- The last website that referred a contact to your website. This is automatically set by HubSpot for each contact. --></help>
+        <label><!-- Last Referrer --></label>
+        <name>Last_Referrer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Registered Event Date --></label>
+        <name>Last_Registered_Event_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Result Date --></label>
+        <name>Last_Result_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Result --></label>
+        <name>Last_Result__c</name>
+    </fields>
+    <fields>
+        <help><!-- The date of the last email sent to this contact. --></help>
+        <label><!-- Last Email Send Date --></label>
+        <name>Last_Send_Date_del__c</name>
+    </fields>
+    <fields>
+        <help><!-- The date of the most recent click on a published social message. This is set automatically by HubSpot for each contact. --></help>
+        <label><!-- Last Social Engagement Date --></label>
+        <name>Last_Social_Engagement_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- The last time and date a contact has viewed a page on your website. --></help>
+        <label><!-- Last Timestamp --></label>
+        <name>Last_Timestamp__c</name>
+    </fields>
+    <fields>
+        <help><!-- The last time and date a contact visited your website. --></help>
+        <label><!-- Last Visit Timestamp --></label>
+        <name>Last_Visit_Timestamp__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead BU --></label>
+        <name>LeadBU__c</name>
+        <picklistValues>
+            <masterLabel>Local</masterLabel>
+            <translation><!-- Local --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>National</masterLabel>
+            <translation><!-- National --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- LeadSourceAcc --></label>
+        <name>LeadSourceAcc__c</name>
+    </fields>
+    <fields>
+        <label><!-- LeadToAccountConversionFlag__c --></label>
+        <name>LeadToAccountConversionFlag_c__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead Creator Type --></label>
+        <name>Lead_Creator_Type__c</name>
+        <picklistValues>
+            <masterLabel>Skip Assignment Rule</masterLabel>
+            <translation><!-- Skip Assignment Rule --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Lead Status Formula --></label>
+        <name>Lead_Status_Formula__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead Sub Source --></label>
+        <name>Lead_Sub_Source__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead Temperature --></label>
+        <name>Lead_Temperature__c</name>
+        <picklistValues>
+            <masterLabel>Cold</masterLabel>
+            <translation><!-- Cold --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hot</masterLabel>
+            <translation><!-- Hot --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Warm</masterLabel>
+            <translation><!-- Warm --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- The number clicks on links shared on LinkedIn --></help>
+        <label><!-- Linkedin Clicks --></label>
+        <name>Linkedin_Clicks__c</name>
+    </fields>
+    <fields>
+        <label><!-- Local Account Executive --></label>
+        <name>LocalAccExec__c</name>
+        <relationshipLabel><!-- Leads (Local Account Executive) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Local Sales Market --></label>
+        <name>LocalSalesMarket__c</name>
+        <picklistValues>
+            <masterLabel>AK - Alaska</masterLabel>
+            <translation><!-- AK - Alaska --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AL - Alabama</masterLabel>
+            <translation><!-- AL - Alabama --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AR - Arkansas</masterLabel>
+            <translation><!-- AR - Arkansas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AZ - Phoenix</masterLabel>
+            <translation><!-- AZ - Phoenix --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AZ - Tucson</masterLabel>
+            <translation><!-- AZ - Tucson --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA - Central CA</masterLabel>
+            <translation><!-- CA - Central CA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA - Los Angeles</masterLabel>
+            <translation><!-- CA - Los Angeles --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA - Orange County</masterLabel>
+            <translation><!-- CA - Orange County --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA - Palm Springs</masterLabel>
+            <translation><!-- CA - Palm Springs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA - San Diego</masterLabel>
+            <translation><!-- CA - San Diego --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA - San Fran/Bay Area</masterLabel>
+            <translation><!-- CA - San Fran/Bay Area --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA - Santa Barbara/Ventura</masterLabel>
+            <translation><!-- CA - Santa Barbara/Ventura --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAN - Toronto</masterLabel>
+            <translation><!-- CAN - Toronto --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CO - Colorado</masterLabel>
+            <translation><!-- CO - Colorado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CT - Connecticut</masterLabel>
+            <translation><!-- CT - Connecticut --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DC - DC/MD/Northern VA</masterLabel>
+            <translation><!-- DC - DC/MD/Northern VA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FL - Central</masterLabel>
+            <translation><!-- FL - Central --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FL - Northern</masterLabel>
+            <translation><!-- FL - Northern --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FL - South</masterLabel>
+            <translation><!-- FL - South --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FL - West Coast</masterLabel>
+            <translation><!-- FL - West Coast --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GA - Georgia</masterLabel>
+            <translation><!-- GA - Georgia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GA - Savannah/Coastal Area</masterLabel>
+            <translation><!-- GA - Savannah/Coastal Area --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HI - Hawaii</masterLabel>
+            <translation><!-- HI - Hawaii --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IA - Iowa</masterLabel>
+            <translation><!-- IA - Iowa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ID - Idaho</masterLabel>
+            <translation><!-- ID - Idaho --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IL - Central Illinois</masterLabel>
+            <translation><!-- IL - Central Illinois --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IL - Chicago</masterLabel>
+            <translation><!-- IL - Chicago --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IL - Chicago Suburbs</masterLabel>
+            <translation><!-- IL - Chicago Suburbs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IN - Indiana</masterLabel>
+            <translation><!-- IN - Indiana --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KY - Kentucky</masterLabel>
+            <translation><!-- KY - Kentucky --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LA - All Other Areas</masterLabel>
+            <translation><!-- LA - All Other Areas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LA - New Orleans</masterLabel>
+            <translation><!-- LA - New Orleans --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MA - Boston</masterLabel>
+            <translation><!-- MA - Boston --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MA - Cape Cod</masterLabel>
+            <translation><!-- MA - Cape Cod --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MD - Baltimore</masterLabel>
+            <translation><!-- MD - Baltimore --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ME - Maine</masterLabel>
+            <translation><!-- ME - Maine --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MI - Detroit</masterLabel>
+            <translation><!-- MI - Detroit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MI - Grand Rpds/Northern</masterLabel>
+            <translation><!-- MI - Grand Rpds/Northern --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MI - Lansing/Tri - Cities</masterLabel>
+            <translation><!-- MI - Lansing/Tri - Cities --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MN - Minnesota</masterLabel>
+            <translation><!-- MN - Minnesota --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MO - Kansas City</masterLabel>
+            <translation><!-- MO - Kansas City --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MO - St. Louis</masterLabel>
+            <translation><!-- MO - St. Louis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MS - Mississippi</masterLabel>
+            <translation><!-- MS - Mississippi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MT - Montana</masterLabel>
+            <translation><!-- MT - Montana --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NC - North Carolina</masterLabel>
+            <translation><!-- NC - North Carolina --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ND - North Dakota</masterLabel>
+            <translation><!-- ND - North Dakota --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NE - Nebraska</masterLabel>
+            <translation><!-- NE - Nebraska --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NH - New Hampshire</masterLabel>
+            <translation><!-- NH - New Hampshire --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NJ - North/Central</masterLabel>
+            <translation><!-- NJ - North/Central --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NJ - South</masterLabel>
+            <translation><!-- NJ - South --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NM - New Mexico</masterLabel>
+            <translation><!-- NM - New Mexico --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NV - Las Vegas/Southern NV</masterLabel>
+            <translation><!-- NV - Las Vegas/Southern NV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NY - Hudson Valley</masterLabel>
+            <translation><!-- NY - Hudson Valley --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NY - Long Island</masterLabel>
+            <translation><!-- NY - Long Island --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NY - Manhattan</masterLabel>
+            <translation><!-- NY - Manhattan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NY - Outer Boroughs</masterLabel>
+            <translation><!-- NY - Outer Boroughs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NY - Wstrn/Cent/Upstate</masterLabel>
+            <translation><!-- NY - Wstrn/Cent/Upstate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OH - Cincinnati</masterLabel>
+            <translation><!-- OH - Cincinnati --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OH - Cleveland/NE Ohio</masterLabel>
+            <translation><!-- OH - Cleveland/NE Ohio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OH - Columbus</masterLabel>
+            <translation><!-- OH - Columbus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OH - Toledo</masterLabel>
+            <translation><!-- OH - Toledo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OK - Oklahoma</masterLabel>
+            <translation><!-- OK - Oklahoma --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OR - Oregon</masterLabel>
+            <translation><!-- OR - Oregon --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PA - Central</masterLabel>
+            <translation><!-- PA - Central --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PA - Lehigh Valley/Poconos</masterLabel>
+            <translation><!-- PA - Lehigh Valley/Poconos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PA - Philadelphia</masterLabel>
+            <translation><!-- PA - Philadelphia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PA - Pittsburgh</masterLabel>
+            <translation><!-- PA - Pittsburgh --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RI - Rhode Island</masterLabel>
+            <translation><!-- RI - Rhode Island --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SC - South Carolina</masterLabel>
+            <translation><!-- SC - South Carolina --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SD - South Dakota</masterLabel>
+            <translation><!-- SD - South Dakota --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TN - Tennessee</masterLabel>
+            <translation><!-- TN - Tennessee --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TX - Austin</masterLabel>
+            <translation><!-- TX - Austin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TX - Dallas</masterLabel>
+            <translation><!-- TX - Dallas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TX - Houston</masterLabel>
+            <translation><!-- TX - Houston --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TX - San Antonio</masterLabel>
+            <translation><!-- TX - San Antonio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TX - West Texas</masterLabel>
+            <translation><!-- TX - West Texas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UT - Utah</masterLabel>
+            <translation><!-- UT - Utah --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VA - Virginia</masterLabel>
+            <translation><!-- VA - Virginia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VT - Vermont</masterLabel>
+            <translation><!-- VT - Vermont --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WA - Washington</masterLabel>
+            <translation><!-- WA - Washington --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WI - Wisconsin</masterLabel>
+            <translation><!-- WI - Wisconsin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WV - West Virginia</masterLabel>
+            <translation><!-- WV - West Virginia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WY - Wyoming</masterLabel>
+            <translation><!-- WY - Wyoming --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Local Partners Claiming --></label>
+        <name>Local_Partners_Claiming__c</name>
+    </fields>
+    <fields>
+        <label><!-- Local Sales Market Hubspot Formula --></label>
+        <name>Local_Sales_Market_Hubspot_Formula__c</name>
+    </fields>
+    <fields>
+        <label><!-- Local Sales Market --></label>
+        <lookupFilter>
+            <errorMessage><!-- You may only select active Markets within the Primary Brand --></errorMessage>
+        </lookupFilter>
+        <name>Local_Sales_Market__c</name>
+        <relationshipLabel><!-- Leads --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Marketplace Health Color --></label>
+        <name>Marketplace_Health_Color__c</name>
+    </fields>
+    <fields>
+        <label><!-- Marketplace Health (Number) --></label>
+        <name>Marketplace_Health_Number__c</name>
+    </fields>
+    <fields>
+        <help><!-- Indicates traffic health
+Excellent:Sustains many new vendors. Proactive sale
+Good:Sustains some new vendors. Proactive sale
+Balanced:Sustains paid vendors. Reactive sale
+Minimal:Cannot sustain paid vendors. Reactive sale
+Unknown:Insufficient data --></help>
+        <label><!-- Marketplace Health --></label>
+        <name>Marketplace_Health_Text__c</name>
+    </fields>
+    <fields>
+        <label><!-- Negative Disposition Reason --></label>
+        <name>Negative_Disposition_Reason__c</name>
+        <picklistValues>
+            <masterLabel>Bad Contact</masterLabel>
+            <translation><!-- Bad Contact --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cannot Connect</masterLabel>
+            <translation><!-- Cannot Connect --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cannot Verify Online</masterLabel>
+            <translation><!-- Cannot Verify Online --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Do Not Contact</masterLabel>
+            <translation><!-- Do Not Contact --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Duplicate</masterLabel>
+            <translation><!-- Duplicate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ecommerce</masterLabel>
+            <translation><!-- Ecommerce --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Failed Claim Request</masterLabel>
+            <translation><!-- Failed Claim Request --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Missing Required Information</masterLabel>
+            <translation><!-- Missing Required Information --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>National</masterLabel>
+            <translation><!-- National --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Authority</masterLabel>
+            <translation><!-- No Authority --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Budget</masterLabel>
+            <translation><!-- No Budget --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Need</masterLabel>
+            <translation><!-- No Need --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Timeline</masterLabel>
+            <translation><!-- No Timeline --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No contact information</masterLabel>
+            <translation><!-- No contact information --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Out of Business</masterLabel>
+            <translation><!-- Out of Business --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vendor outside US</masterLabel>
+            <translation><!-- Vendor outside US --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wrong Industry</masterLabel>
+            <translation><!-- Wrong Industry --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Neighborhood --></label>
+        <name>Neighborhood__c</name>
+        <picklistValues>
+            <masterLabel>Abilene</masterLabel>
+            <translation><!-- Abilene --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Abington</masterLabel>
+            <translation><!-- Abington --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Adams Morgan</masterLabel>
+            <translation><!-- Adams Morgan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Albany</masterLabel>
+            <translation><!-- Albany --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Alexandria Bay</masterLabel>
+            <translation><!-- Alexandria Bay --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Alfred</masterLabel>
+            <translation><!-- Alfred --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Allentown</masterLabel>
+            <translation><!-- Allentown --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Altamonte Springs</masterLabel>
+            <translation><!-- Altamonte Springs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Altoona</masterLabel>
+            <translation><!-- Altoona --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Anacostia</masterLabel>
+            <translation><!-- Anacostia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Anaheim</masterLabel>
+            <translation><!-- Anaheim --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Angelina/ Tyler County</masterLabel>
+            <translation><!-- Angelina/ Tyler County --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Annapolis</masterLabel>
+            <translation><!-- Annapolis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Asheville</masterLabel>
+            <translation><!-- Asheville --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Astoria</masterLabel>
+            <translation><!-- Astoria --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Atlantic City Area</masterLabel>
+            <translation><!-- Atlantic City Area --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Augusta</masterLabel>
+            <translation><!-- Augusta --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Austin City Limits</masterLabel>
+            <translation><!-- Austin City Limits --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Austin County</masterLabel>
+            <translation><!-- Austin County --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bald Head island</masterLabel>
+            <translation><!-- Bald Head island --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bangor</masterLabel>
+            <translation><!-- Bangor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bar Harbor</masterLabel>
+            <translation><!-- Bar Harbor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bastrop County</masterLabel>
+            <translation><!-- Bastrop County --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Beach Neighborhoods</masterLabel>
+            <translation><!-- Beach Neighborhoods --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Beaufort &amp; Port Royal</masterLabel>
+            <translation><!-- Beaufort &amp; Port Royal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Beaver Falls</masterLabel>
+            <translation><!-- Beaver Falls --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bel Air</masterLabel>
+            <translation><!-- Bel Air --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bell County</masterLabel>
+            <translation><!-- Bell County --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Beltway of Houston</masterLabel>
+            <translation><!-- Beltway of Houston --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bennington</masterLabel>
+            <translation><!-- Bennington --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bensalem</masterLabel>
+            <translation><!-- Bensalem --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bergen County Area</masterLabel>
+            <translation><!-- Bergen County Area --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Berkshires</masterLabel>
+            <translation><!-- Berkshires --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Berlin</masterLabel>
+            <translation><!-- Berlin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bethany Beach</masterLabel>
+            <translation><!-- Bethany Beach --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bethel</masterLabel>
+            <translation><!-- Bethel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Beverly Hills</masterLabel>
+            <translation><!-- Beverly Hills --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bexar County/ Kendall County/Bandera County</masterLabel>
+            <translation><!-- Bexar County/ Kendall County/Bandera County --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Binghamton</masterLabel>
+            <translation><!-- Binghamton --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Blairsville</masterLabel>
+            <translation><!-- Blairsville --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Blanco County</masterLabel>
+            <translation><!-- Blanco County --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Blowing Rock</masterLabel>
+            <translation><!-- Blowing Rock --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Boca Raton</masterLabel>
+            <translation><!-- Boca Raton --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Boone</masterLabel>
+            <translation><!-- Boone --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bowie County</masterLabel>
+            <translation><!-- Bowie County --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bradenton</masterLabel>
+            <translation><!-- Bradenton --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brattleboro</masterLabel>
+            <translation><!-- Brattleboro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brazoria/ Fort Bend County</masterLabel>
+            <translation><!-- Brazoria/ Fort Bend County --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brewster County</masterLabel>
+            <translation><!-- Brewster County --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brookland</masterLabel>
+            <translation><!-- Brookland --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brookline area</masterLabel>
+            <translation><!-- Brookline area --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brunswick</masterLabel>
+            <translation><!-- Brunswick --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Buckhead GA</masterLabel>
+            <translation><!-- Buckhead GA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Buffalo</masterLabel>
+            <translation><!-- Buffalo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Burleson/Brazos/Madison County</masterLabel>
+            <translation><!-- Burleson/Brazos/Madison County --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Burlington</masterLabel>
+            <translation><!-- Burlington --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Burnet County</masterLabel>
+            <translation><!-- Burnet County --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Butler</masterLabel>
+            <translation><!-- Butler --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Caldwell/ Hays County</masterLabel>
+            <translation><!-- Caldwell/ Hays County --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Calhoun County</masterLabel>
+            <translation><!-- Calhoun County --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Calvert Peninsula</masterLabel>
+            <translation><!-- Calvert Peninsula --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cambridge</masterLabel>
+            <translation><!-- Cambridge --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cameron county</masterLabel>
+            <translation><!-- Cameron county --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cape Cod</masterLabel>
+            <translation><!-- Cape Cod --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cape May Area</masterLabel>
+            <translation><!-- Cape May Area --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Capitol Hill</masterLabel>
+            <translation><!-- Capitol Hill --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Caribou</masterLabel>
+            <translation><!-- Caribou --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Carrollton</masterLabel>
+            <translation><!-- Carrollton --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Catalina Islands</masterLabel>
+            <translation><!-- Catalina Islands --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Center City</masterLabel>
+            <translation><!-- Center City --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Central Los Angeles</masterLabel>
+            <translation><!-- Central Los Angeles --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Central San Diego</masterLabel>
+            <translation><!-- Central San Diego --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Central Savannah River Area</masterLabel>
+            <translation><!-- Central Savannah River Area --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Central Waterfront</masterLabel>
+            <translation><!-- Central Waterfront --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chambersburg</masterLabel>
+            <translation><!-- Chambersburg --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chapel HIll</masterLabel>
+            <translation><!-- Chapel HIll --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Charleston</masterLabel>
+            <translation><!-- Charleston --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Charlotte</masterLabel>
+            <translation><!-- Charlotte --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chatham GA</masterLabel>
+            <translation><!-- Chatham GA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cherry Hill Area</masterLabel>
+            <translation><!-- Cherry Hill Area --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chesapeake Beach</masterLabel>
+            <translation><!-- Chesapeake Beach --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chestnut Hill/Germantown</masterLabel>
+            <translation><!-- Chestnut Hill/Germantown --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Claremont</masterLabel>
+            <translation><!-- Claremont --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Clear Water</masterLabel>
+            <translation><!-- Clear Water --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Coastal GA</masterLabel>
+            <translation><!-- Coastal GA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Coaticook</masterLabel>
+            <translation><!-- Coaticook --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cocoa Beach</masterLabel>
+            <translation><!-- Cocoa Beach --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Collin County</masterLabel>
+            <translation><!-- Collin County --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Colorado County</masterLabel>
+            <translation><!-- Colorado County --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Concord</masterLabel>
+            <translation><!-- Concord --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Conshohocken</masterLabel>
+            <translation><!-- Conshohocken --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cooperstown</masterLabel>
+            <translation><!-- Cooperstown --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Coryell County</masterLabel>
+            <translation><!-- Coryell County --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Crafton</masterLabel>
+            <translation><!-- Crafton --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cranberry Township</masterLabel>
+            <translation><!-- Cranberry Township --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dallas</masterLabel>
+            <translation><!-- Dallas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Darby</masterLabel>
+            <translation><!-- Darby --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dawson</masterLabel>
+            <translation><!-- Dawson --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Daytona Beach</masterLabel>
+            <translation><!-- Daytona Beach --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Delmarva Peninsula</masterLabel>
+            <translation><!-- Delmarva Peninsula --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Denton</masterLabel>
+            <translation><!-- Denton --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Destin</masterLabel>
+            <translation><!-- Destin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dewey Beach</masterLabel>
+            <translation><!-- Dewey Beach --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dewitt County</masterLabel>
+            <translation><!-- Dewitt County --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Diamond Bar</masterLabel>
+            <translation><!-- Diamond Bar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dover</masterLabel>
+            <translation><!-- Dover --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Downtown</masterLabel>
+            <translation><!-- Downtown --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Downtown Boston</masterLabel>
+            <translation><!-- Downtown Boston --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Downtown DC</masterLabel>
+            <translation><!-- Downtown DC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Downtown GA</masterLabel>
+            <translation><!-- Downtown GA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Downtown Houston</masterLabel>
+            <translation><!-- Downtown Houston --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Downtown L.A.</masterLabel>
+            <translation><!-- Downtown L.A. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Downtown Providence</masterLabel>
+            <translation><!-- Downtown Providence --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Downtown San Antonio</masterLabel>
+            <translation><!-- Downtown San Antonio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Doylestown</masterLabel>
+            <translation><!-- Doylestown --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dupont Circle</masterLabel>
+            <translation><!-- Dupont Circle --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Durham</masterLabel>
+            <translation><!-- Durham --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>East Bay</masterLabel>
+            <translation><!-- East Bay --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>East Hampton</masterLabel>
+            <translation><!-- East Hampton --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Eastern San Diego</masterLabel>
+            <translation><!-- Eastern San Diego --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Edisto Island</masterLabel>
+            <translation><!-- Edisto Island --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>El Paso​</masterLabel>
+            <translation><!-- El Paso​ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Elizabethtown</masterLabel>
+            <translation><!-- Elizabethtown --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ellicott City</masterLabel>
+            <translation><!-- Ellicott City --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Erie</masterLabel>
+            <translation><!-- Erie --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fairfax</masterLabel>
+            <translation><!-- Fairfax --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fairfield County</masterLabel>
+            <translation><!-- Fairfield County --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Farmington</masterLabel>
+            <translation><!-- Farmington --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fayetteville</masterLabel>
+            <translation><!-- Fayetteville --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fenwick Island</masterLabel>
+            <translation><!-- Fenwick Island --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Florence</masterLabel>
+            <translation><!-- Florence --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Foggy Bottom</masterLabel>
+            <translation><!-- Foggy Bottom --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fort Pierce</masterLabel>
+            <translation><!-- Fort Pierce --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fort Washington</masterLabel>
+            <translation><!-- Fort Washington --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fort Worth</masterLabel>
+            <translation><!-- Fort Worth --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fox Chapel</masterLabel>
+            <translation><!-- Fox Chapel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Franklin</masterLabel>
+            <translation><!-- Franklin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Frederick</masterLabel>
+            <translation><!-- Frederick --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Frisco</masterLabel>
+            <translation><!-- Frisco --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ft. Lauderdale</masterLabel>
+            <translation><!-- Ft. Lauderdale --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ft. Myers</masterLabel>
+            <translation><!-- Ft. Myers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gainesville</masterLabel>
+            <translation><!-- Gainesville --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Galveston</masterLabel>
+            <translation><!-- Galveston --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Georgetown</masterLabel>
+            <translation><!-- Georgetown --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Georgia Mountains</masterLabel>
+            <translation><!-- Georgia Mountains --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gillespie County</masterLabel>
+            <translation><!-- Gillespie County --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gloucester County Area</masterLabel>
+            <translation><!-- Gloucester County Area --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Grapevine</masterLabel>
+            <translation><!-- Grapevine --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Greensboro</masterLabel>
+            <translation><!-- Greensboro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Greensburg</masterLabel>
+            <translation><!-- Greensburg --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Greenville</masterLabel>
+            <translation><!-- Greenville --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Guadalupe county/ Comal County</masterLabel>
+            <translation><!-- Guadalupe county/ Comal County --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Haines City</masterLabel>
+            <translation><!-- Haines City --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hamburg</masterLabel>
+            <translation><!-- Hamburg --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hampton</masterLabel>
+            <translation><!-- Hampton --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Harlem</masterLabel>
+            <translation><!-- Harlem --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Harrisburg</masterLabel>
+            <translation><!-- Harrisburg --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hartford County</masterLabel>
+            <translation><!-- Hartford County --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Harwick</masterLabel>
+            <translation><!-- Harwick --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Heart of Georgia</masterLabel>
+            <translation><!-- Heart of Georgia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hermitage</masterLabel>
+            <translation><!-- Hermitage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hershey</masterLabel>
+            <translation><!-- Hershey --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hialeah</masterLabel>
+            <translation><!-- Hialeah --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hidalgo County</masterLabel>
+            <translation><!-- Hidalgo County --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>High Point</masterLabel>
+            <translation><!-- High Point --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hilton Head</masterLabel>
+            <translation><!-- Hilton Head --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Historic Charleston</masterLabel>
+            <translation><!-- Historic Charleston --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Historical District</masterLabel>
+            <translation><!-- Historical District --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hollywood</masterLabel>
+            <translation><!-- Hollywood --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Homestead</masterLabel>
+            <translation><!-- Homestead --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Horsham</masterLabel>
+            <translation><!-- Horsham --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hunter</masterLabel>
+            <translation><!-- Hunter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inner Loop of Houston</masterLabel>
+            <translation><!-- Inner Loop of Houston --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inner San Antonio</masterLabel>
+            <translation><!-- Inner San Antonio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Irvine</masterLabel>
+            <translation><!-- Irvine --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Irving</masterLabel>
+            <translation><!-- Irving --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Islamorada</masterLabel>
+            <translation><!-- Islamorada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ithaca</masterLabel>
+            <translation><!-- Ithaca --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jacksonville</masterLabel>
+            <translation><!-- Jacksonville --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jacksonville Beach</masterLabel>
+            <translation><!-- Jacksonville Beach --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jamestown</masterLabel>
+            <translation><!-- Jamestown --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jefferson/ Orange County</masterLabel>
+            <translation><!-- Jefferson/ Orange County --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jenkintown</masterLabel>
+            <translation><!-- Jenkintown --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jim Wells County</masterLabel>
+            <translation><!-- Jim Wells County --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Johnstown</masterLabel>
+            <translation><!-- Johnstown --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Keene</masterLabel>
+            <translation><!-- Keene --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kemah</masterLabel>
+            <translation><!-- Kemah --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kensington</masterLabel>
+            <translation><!-- Kensington --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kerr County</masterLabel>
+            <translation><!-- Kerr County --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Key Largo</masterLabel>
+            <translation><!-- Key Largo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Key West</masterLabel>
+            <translation><!-- Key West --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kiawah &amp; Seabrook Island</masterLabel>
+            <translation><!-- Kiawah &amp; Seabrook Island --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kill Devil Hills</masterLabel>
+            <translation><!-- Kill Devil Hills --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kimberton</masterLabel>
+            <translation><!-- Kimberton --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>King of Prussia</masterLabel>
+            <translation><!-- King of Prussia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kissimmee</masterLabel>
+            <translation><!-- Kissimmee --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Laconia</masterLabel>
+            <translation><!-- Laconia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lake Buena Vista</masterLabel>
+            <translation><!-- Lake Buena Vista --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lake George</masterLabel>
+            <translation><!-- Lake George --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lake Norman/Cornelius</masterLabel>
+            <translation><!-- Lake Norman/Cornelius --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lake Placid</masterLabel>
+            <translation><!-- Lake Placid --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lake Wylie</masterLabel>
+            <translation><!-- Lake Wylie --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lakeland</masterLabel>
+            <translation><!-- Lakeland --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lambertville</masterLabel>
+            <translation><!-- Lambertville --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lancaster</masterLabel>
+            <translation><!-- Lancaster --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lansdale</masterLabel>
+            <translation><!-- Lansdale --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lebanon</masterLabel>
+            <translation><!-- Lebanon --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Leechburg</masterLabel>
+            <translation><!-- Leechburg --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lewistown</masterLabel>
+            <translation><!-- Lewistown --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lexington County</masterLabel>
+            <translation><!-- Lexington County --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lexington Park</masterLabel>
+            <translation><!-- Lexington Park --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Liberty/Chambers County</masterLabel>
+            <translation><!-- Liberty/Chambers County --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Litchfield County</masterLabel>
+            <translation><!-- Litchfield County --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Littleton</masterLabel>
+            <translation><!-- Littleton --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lock Haven</masterLabel>
+            <translation><!-- Lock Haven --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Long Island City</masterLabel>
+            <translation><!-- Long Island City --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Longview</masterLabel>
+            <translation><!-- Longview --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lubbock</masterLabel>
+            <translation><!-- Lubbock --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manayunk</masterLabel>
+            <translation><!-- Manayunk --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marathon</masterLabel>
+            <translation><!-- Marathon --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marco Island</masterLabel>
+            <translation><!-- Marco Island --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Martha&apos;s Vineyard</masterLabel>
+            <translation><!-- Martha&apos;s Vineyard --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mason County</masterLabel>
+            <translation><!-- Mason County --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>McCulloch County/ San Saba County</masterLabel>
+            <translation><!-- McCulloch County/ San Saba County --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>McKinney</masterLabel>
+            <translation><!-- McKinney --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mckeesport</masterLabel>
+            <translation><!-- Mckeesport --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Meadville</masterLabel>
+            <translation><!-- Meadville --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medina County</masterLabel>
+            <translation><!-- Medina County --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Melbourne</masterLabel>
+            <translation><!-- Melbourne --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Miami</masterLabel>
+            <translation><!-- Miami --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Middle Georgia</masterLabel>
+            <translation><!-- Middle Georgia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Middle San Antonio</masterLabel>
+            <translation><!-- Middle San Antonio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Middlebury</masterLabel>
+            <translation><!-- Middlebury --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Middlesex County</masterLabel>
+            <translation><!-- Middlesex County --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Middletown</masterLabel>
+            <translation><!-- Middletown --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Midland</masterLabel>
+            <translation><!-- Midland --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Midtown East</masterLabel>
+            <translation><!-- Midtown East --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Midtown GA</masterLabel>
+            <translation><!-- Midtown GA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Midtown West</masterLabel>
+            <translation><!-- Midtown West --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mifflin</masterLabel>
+            <translation><!-- Mifflin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Milam County</masterLabel>
+            <translation><!-- Milam County --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Milford</masterLabel>
+            <translation><!-- Milford --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Monmouth County Area</masterLabel>
+            <translation><!-- Monmouth County Area --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Monroeville</masterLabel>
+            <translation><!-- Monroeville --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Montauk</masterLabel>
+            <translation><!-- Montauk --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Monterey</masterLabel>
+            <translation><!-- Monterey --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Montgomery County</masterLabel>
+            <translation><!-- Montgomery County --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Montpelier</masterLabel>
+            <translation><!-- Montpelier --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Montrose</masterLabel>
+            <translation><!-- Montrose --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Moreno Valley</masterLabel>
+            <translation><!-- Moreno Valley --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Morris County Area</masterLabel>
+            <translation><!-- Morris County Area --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mount Pleasant</masterLabel>
+            <translation><!-- Mount Pleasant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mt Oliver</masterLabel>
+            <translation><!-- Mt Oliver --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mt Washington</masterLabel>
+            <translation><!-- Mt Washington --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mt. Lebanon</masterLabel>
+            <translation><!-- Mt. Lebanon --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mt. Pleasant</masterLabel>
+            <translation><!-- Mt. Pleasant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Muncy</masterLabel>
+            <translation><!-- Muncy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Myrtle Beach</masterLabel>
+            <translation><!-- Myrtle Beach --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N. Philly</masterLabel>
+            <translation><!-- N. Philly --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nantucket</masterLabel>
+            <translation><!-- Nantucket --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Napa</masterLabel>
+            <translation><!-- Napa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Naples</masterLabel>
+            <translation><!-- Naples --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Narragansett</masterLabel>
+            <translation><!-- Narragansett --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nashua</masterLabel>
+            <translation><!-- Nashua --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nassau County</masterLabel>
+            <translation><!-- Nassau County --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Castle</masterLabel>
+            <translation><!-- New Castle --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Haven County</masterLabel>
+            <translation><!-- New Haven County --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New London County</masterLabel>
+            <translation><!-- New London County --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Newberry</masterLabel>
+            <translation><!-- Newberry --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Newport</masterLabel>
+            <translation><!-- Newport --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Newtown</masterLabel>
+            <translation><!-- Newtown --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Niagara Falls</masterLabel>
+            <translation><!-- Niagara Falls --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nicholson</masterLabel>
+            <translation><!-- Nicholson --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Norristown</masterLabel>
+            <translation><!-- Norristown --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>North Area of Houston</masterLabel>
+            <translation><!-- North Area of Houston --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>North Bay</masterLabel>
+            <translation><!-- North Bay --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>North Conway</masterLabel>
+            <translation><!-- North Conway --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>North Fork</masterLabel>
+            <translation><!-- North Fork --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>North Sacramento Valley</masterLabel>
+            <translation><!-- North Sacramento Valley --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>North San Joaquin</masterLabel>
+            <translation><!-- North San Joaquin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>North Shore</masterLabel>
+            <translation><!-- North Shore --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>North-East Area of Houston</masterLabel>
+            <translation><!-- North-East Area of Houston --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>North-West Area of Houston</masterLabel>
+            <translation><!-- North-West Area of Houston --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Northeast GA</masterLabel>
+            <translation><!-- Northeast GA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Northeastern San Diego</masterLabel>
+            <translation><!-- Northeastern San Diego --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Northern Cambria</masterLabel>
+            <translation><!-- Northern Cambria --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Northern L.A.</masterLabel>
+            <translation><!-- Northern L.A. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Northern San Diego</masterLabel>
+            <translation><!-- Northern San Diego --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Northwest GA</masterLabel>
+            <translation><!-- Northwest GA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nueces County, Aransas County, San Patricio County</masterLabel>
+            <translation><!-- Nueces County, Aransas County, San Patricio County --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oakland</masterLabel>
+            <translation><!-- Oakland --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ocala</masterLabel>
+            <translation><!-- Ocala --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ocean County Area</masterLabel>
+            <translation><!-- Ocean County Area --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Odessa</masterLabel>
+            <translation><!-- Odessa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Orange</masterLabel>
+            <translation><!-- Orange --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Orlando</masterLabel>
+            <translation><!-- Orlando --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Islands</masterLabel>
+            <translation><!-- Other Islands --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Outer San Antonio</masterLabel>
+            <translation><!-- Outer San Antonio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Outside GA</masterLabel>
+            <translation><!-- Outside GA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Palm Bay</masterLabel>
+            <translation><!-- Palm Bay --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Palm Coast</masterLabel>
+            <translation><!-- Palm Coast --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Palm Harbor</masterLabel>
+            <translation><!-- Palm Harbor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Palm Springs</masterLabel>
+            <translation><!-- Palm Springs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Panama City</masterLabel>
+            <translation><!-- Panama City --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Paris</masterLabel>
+            <translation><!-- Paris --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pawleys Island</masterLabel>
+            <translation><!-- Pawleys Island --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pensacola</masterLabel>
+            <translation><!-- Pensacola --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Phoenixville</masterLabel>
+            <translation><!-- Phoenixville --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Plano</masterLabel>
+            <translation><!-- Plano --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pompano Beach</masterLabel>
+            <translation><!-- Pompano Beach --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ponte Vedra Beach</masterLabel>
+            <translation><!-- Ponte Vedra Beach --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Port Charlotte</masterLabel>
+            <translation><!-- Port Charlotte --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Port Jervis</masterLabel>
+            <translation><!-- Port Jervis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Port St. Lucie</masterLabel>
+            <translation><!-- Port St. Lucie --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Portland</masterLabel>
+            <translation><!-- Portland --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pottstown</masterLabel>
+            <translation><!-- Pottstown --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Princeton area</masterLabel>
+            <translation><!-- Princeton area --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quakertown</masterLabel>
+            <translation><!-- Quakertown --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Raleigh</masterLabel>
+            <translation><!-- Raleigh --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reading</masterLabel>
+            <translation><!-- Reading --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rehoboth Beach</masterLabel>
+            <translation><!-- Rehoboth Beach --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reisterstown</masterLabel>
+            <translation><!-- Reisterstown --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Richland County/Columbia</masterLabel>
+            <translation><!-- Richland County/Columbia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>River Valley GA</masterLabel>
+            <translation><!-- River Valley GA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Robinson</masterLabel>
+            <translation><!-- Robinson --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rochester</masterLabel>
+            <translation><!-- Rochester --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rockville-Bethesda</masterLabel>
+            <translation><!-- Rockville-Bethesda --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ross Township</masterLabel>
+            <translation><!-- Ross Township --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rutland</masterLabel>
+            <translation><!-- Rutland --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S. Philly</masterLabel>
+            <translation><!-- S. Philly --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sacramento Metro</masterLabel>
+            <translation><!-- Sacramento Metro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sag Harbor</masterLabel>
+            <translation><!-- Sag Harbor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>San Angelo</masterLabel>
+            <translation><!-- San Angelo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>San Benito County</masterLabel>
+            <translation><!-- San Benito County --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>San Bernardino</masterLabel>
+            <translation><!-- San Bernardino --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>San Francisco</masterLabel>
+            <translation><!-- San Francisco --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>San Gabriel Valley</masterLabel>
+            <translation><!-- San Gabriel Valley --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>San Jose</masterLabel>
+            <translation><!-- San Jose --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>San Luis Obispo</masterLabel>
+            <translation><!-- San Luis Obispo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Santa Barbara</masterLabel>
+            <translation><!-- Santa Barbara --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Santa Monica</masterLabel>
+            <translation><!-- Santa Monica --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Santa Rosa Beach</masterLabel>
+            <translation><!-- Santa Rosa Beach --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sarasota</masterLabel>
+            <translation><!-- Sarasota --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Saratoga Springs</masterLabel>
+            <translation><!-- Saratoga Springs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Scranton</masterLabel>
+            <translation><!-- Scranton --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Seven Springs</masterLabel>
+            <translation><!-- Seven Springs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shaw</masterLabel>
+            <translation><!-- Shaw --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sierra Nevada</masterLabel>
+            <translation><!-- Sierra Nevada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Somerset</masterLabel>
+            <translation><!-- Somerset --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sonoma</masterLabel>
+            <translation><!-- Sonoma --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>South Area of Houston</masterLabel>
+            <translation><!-- South Area of Houston --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>South Bay</masterLabel>
+            <translation><!-- South Bay --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>South San Joaquin</masterLabel>
+            <translation><!-- South San Joaquin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>South Shore</masterLabel>
+            <translation><!-- South Shore --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>South-East Area of Houston</masterLabel>
+            <translation><!-- South-East Area of Houston --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>South-West Area of Houston</masterLabel>
+            <translation><!-- South-West Area of Houston --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Southampton</masterLabel>
+            <translation><!-- Southampton --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Southeast GA</masterLabel>
+            <translation><!-- Southeast GA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Southern Coast</masterLabel>
+            <translation><!-- Southern Coast --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Southern San Diego</masterLabel>
+            <translation><!-- Southern San Diego --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Southwest GA</masterLabel>
+            <translation><!-- Southwest GA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spartanburg</masterLabel>
+            <translation><!-- Spartanburg --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spring Hill</masterLabel>
+            <translation><!-- Spring Hill --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Springfield</masterLabel>
+            <translation><!-- Springfield --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>St. Augustine (Beach)</masterLabel>
+            <translation><!-- St. Augustine (Beach) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>St. Johnsbury</masterLabel>
+            <translation><!-- St. Johnsbury --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>St. Petersburg</masterLabel>
+            <translation><!-- St. Petersburg --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>State College</masterLabel>
+            <translation><!-- State College --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Stroudsburg</masterLabel>
+            <translation><!-- Stroudsburg --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Suffolk County</masterLabel>
+            <translation><!-- Suffolk County --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sullivan&apos;s &amp; Isle of Palms</masterLabel>
+            <translation><!-- Sullivan&apos;s &amp; Isle of Palms --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sunbury</masterLabel>
+            <translation><!-- Sunbury --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Syracuse</masterLabel>
+            <translation><!-- Syracuse --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tahoe</masterLabel>
+            <translation><!-- Tahoe --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tallahassee</masterLabel>
+            <translation><!-- Tallahassee --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tampa</masterLabel>
+            <translation><!-- Tampa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tarpon Springs</masterLabel>
+            <translation><!-- Tarpon Springs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Temecula</masterLabel>
+            <translation><!-- Temecula --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>The Westside</masterLabel>
+            <translation><!-- The Westside --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Thousand Oaks</masterLabel>
+            <translation><!-- Thousand Oaks --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Three Rivers GA</masterLabel>
+            <translation><!-- Three Rivers GA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Titusville</masterLabel>
+            <translation><!-- Titusville --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tolland County</masterLabel>
+            <translation><!-- Tolland County --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Travis County/ Williamson County</masterLabel>
+            <translation><!-- Travis County/ Williamson County --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trenton area</masterLabel>
+            <translation><!-- Trenton area --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Upper East Side</masterLabel>
+            <translation><!-- Upper East Side --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Upper Northwest</masterLabel>
+            <translation><!-- Upper Northwest --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Upper West Side</masterLabel>
+            <translation><!-- Upper West Side --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Utica</masterLabel>
+            <translation><!-- Utica --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Uvalde County</masterLabel>
+            <translation><!-- Uvalde County --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Van Zandt County</masterLabel>
+            <translation><!-- Van Zandt County --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ventura</masterLabel>
+            <translation><!-- Ventura --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vero Beach</masterLabel>
+            <translation><!-- Vero Beach --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Victoria Area</masterLabel>
+            <translation><!-- Victoria Area --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>W. Palm Beach</masterLabel>
+            <translation><!-- W. Palm Beach --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>W. Philly</masterLabel>
+            <translation><!-- W. Philly --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Waco</masterLabel>
+            <translation><!-- Waco --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wadmalaw</masterLabel>
+            <translation><!-- Wadmalaw --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Waller/Washington/Fayette County</masterLabel>
+            <translation><!-- Waller/Washington/Fayette County --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Warington</masterLabel>
+            <translation><!-- Warington --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Warminster</masterLabel>
+            <translation><!-- Warminster --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Warren County Area</masterLabel>
+            <translation><!-- Warren County Area --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Warwick</masterLabel>
+            <translation><!-- Warwick --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Washington</masterLabel>
+            <translation><!-- Washington --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Watertown</masterLabel>
+            <translation><!-- Watertown --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wayne</masterLabel>
+            <translation><!-- Wayne --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Webb County</masterLabel>
+            <translation><!-- Webb County --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>West Area of Houston</masterLabel>
+            <translation><!-- West Area of Houston --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>West Waterfront</masterLabel>
+            <translation><!-- West Waterfront --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Westchester</masterLabel>
+            <translation><!-- Westchester --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Westerly</masterLabel>
+            <translation><!-- Westerly --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Western San Diego</masterLabel>
+            <translation><!-- Western San Diego --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wharton County Area</masterLabel>
+            <translation><!-- Wharton County Area --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wilkes-Barre</masterLabel>
+            <translation><!-- Wilkes-Barre --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Williamsport</masterLabel>
+            <translation><!-- Williamsport --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wilmington</masterLabel>
+            <translation><!-- Wilmington --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Windham County</masterLabel>
+            <translation><!-- Windham County --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Winston-Salem</masterLabel>
+            <translation><!-- Winston-Salem --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Winter Park</masterLabel>
+            <translation><!-- Winter Park --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wood County</masterLabel>
+            <translation><!-- Wood County --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Woodstock</masterLabel>
+            <translation><!-- Woodstock --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Worchester</masterLabel>
+            <translation><!-- Worchester --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wynnewood</masterLabel>
+            <translation><!-- Wynnewood --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>W​ichita Falls</masterLabel>
+            <translation><!-- W​ichita Falls --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>York</masterLabel>
+            <translation><!-- York --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>​Amarillo​</masterLabel>
+            <translation><!-- ​Amarillo​ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>​Arlington</masterLabel>
+            <translation><!-- ​Arlington --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Notes for not including --></label>
+        <name>NoteNotIn__c</name>
+    </fields>
+    <fields>
+        <help><!-- The sum of all events a contact has experienced. This is automatically set by HubSpot for each contact. --></help>
+        <label><!-- Number Of Event Completions --></label>
+        <name>Number_Of_Event_Completions__c</name>
+    </fields>
+    <fields>
+        <help><!-- The sum of all pages a contact has seen on your website. This is automatically set by HubSpot for each contact. --></help>
+        <label><!-- Number of Page Views --></label>
+        <name>Number_of_Page_Views__c</name>
+    </fields>
+    <fields>
+        <help><!-- The sum of all visits a contact has made to your website. This is automatically set by HubSpot for each contact. --></help>
+        <label><!-- Number of Page Visits --></label>
+        <name>Number_of_Visits__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ownership Age --></label>
+        <name>Ownership_Age__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ownership Changed Date --></label>
+        <name>Ownership_Changed_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- PartnersAccountId --></label>
+        <name>PartnersAccountId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Partners Profile Status --></label>
+        <name>PartnersProfileStatus__c</name>
+        <picklistValues>
+            <masterLabel>Freemium</masterLabel>
+            <translation><!-- Freemium --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Paid</masterLabel>
+            <translation><!-- Paid --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unclaimed</masterLabel>
+            <translation><!-- Unclaimed --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Partners Metadata --></label>
+        <name>Partners_Metadata__c</name>
+    </fields>
+    <fields>
+        <label><!-- Phone Extension --></label>
+        <name>Phone_Extension__c</name>
+    </fields>
+    <fields>
+        <label><!-- Portfolio --></label>
+        <name>Portfolio__c</name>
+    </fields>
+    <fields>
+        <label><!-- Potential Duplicates --></label>
+        <name>Potential_Duplicates__c</name>
+    </fields>
+    <fields>
+        <label><!-- Previous Owner --></label>
+        <name>PreviousOwner__c</name>
+    </fields>
+    <fields>
+        <label><!-- Primary Category Formula --></label>
+        <name>Primary_Category_Formula__c</name>
+    </fields>
+    <fields>
+        <label><!-- Primary Category --></label>
+        <lookupFilter>
+            <errorMessage><!-- Select an active Category --></errorMessage>
+        </lookupFilter>
+        <name>Primary_Category__c</name>
+        <relationshipLabel><!-- Leads --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Product Interest --></label>
+        <name>ProductInterest__c</name>
+        <picklistValues>
+            <masterLabel>Custom Content</masterLabel>
+            <translation><!-- Custom Content --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Digital</masterLabel>
+            <translation><!-- Digital --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Event Activation</masterLabel>
+            <translation><!-- Event Activation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Galleries</masterLabel>
+            <translation><!-- Galleries --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Print</masterLabel>
+            <translation><!-- Print --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Programmatic</masterLabel>
+            <translation><!-- Programmatic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Social</masterLabel>
+            <translation><!-- Social --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tentpole</masterLabel>
+            <translation><!-- Tentpole --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>The Knot Couture Show</masterLabel>
+            <translation><!-- The Knot Couture Show --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Video</masterLabel>
+            <translation><!-- Video --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- ProfileID --></label>
+        <name>Profile__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reason Details --></label>
+        <name>Reason_Details__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reason for not including --></label>
+        <name>ReasonnotIn__c</name>
+        <picklistValues>
+            <masterLabel>Bad reviews</masterLabel>
+            <translation><!-- Bad reviews --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chain</masterLabel>
+            <translation><!-- Chain --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chain, bad reviews</masterLabel>
+            <translation><!-- Chain, bad reviews --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Duplicate</masterLabel>
+            <translation><!-- Duplicate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No reviews</masterLabel>
+            <translation><!-- No reviews --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not a good fit</masterLabel>
+            <translation><!-- Not a good fit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Out of business</masterLabel>
+            <translation><!-- Out of business --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Religious organization</masterLabel>
+            <translation><!-- Religious organization --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Record Type Name --></label>
+        <name>Record_Type_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- A system-generated id that uniquely identifies the record --></help>
+        <label><!-- Reference ID --></label>
+        <name>Reference_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Concierge Region --></label>
+        <name>Region__c</name>
+        <picklistValues>
+            <masterLabel>Atlanta</masterLabel>
+            <translation><!-- Atlanta --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Austin</masterLabel>
+            <translation><!-- Austin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Baltimore Suburb</masterLabel>
+            <translation><!-- Baltimore Suburb --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Boston</masterLabel>
+            <translation><!-- Boston --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Boston Suburbs</masterLabel>
+            <translation><!-- Boston Suburbs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bronx</masterLabel>
+            <translation><!-- Bronx --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brooklyn</masterLabel>
+            <translation><!-- Brooklyn --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Capital District</masterLabel>
+            <translation><!-- Capital District --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Central Coast</masterLabel>
+            <translation><!-- Central Coast --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Central DC</masterLabel>
+            <translation><!-- Central DC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Central East FL</masterLabel>
+            <translation><!-- Central East FL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Central FL</masterLabel>
+            <translation><!-- Central FL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Central Georgia</masterLabel>
+            <translation><!-- Central Georgia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Central Jersey</masterLabel>
+            <translation><!-- Central Jersey --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Central MA</masterLabel>
+            <translation><!-- Central MA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Central ME</masterLabel>
+            <translation><!-- Central ME --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Central NH</masterLabel>
+            <translation><!-- Central NH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Central NY</masterLabel>
+            <translation><!-- Central NY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Central PA</masterLabel>
+            <translation><!-- Central PA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Central Pittsburgh</masterLabel>
+            <translation><!-- Central Pittsburgh --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Central VT</masterLabel>
+            <translation><!-- Central VT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Central Valley</masterLabel>
+            <translation><!-- Central Valley --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Central West FL</masterLabel>
+            <translation><!-- Central West FL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chesapeake Bay</masterLabel>
+            <translation><!-- Chesapeake Bay --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Coastal area</masterLabel>
+            <translation><!-- Coastal area --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Delaware</masterLabel>
+            <translation><!-- Delaware --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>East DC</masterLabel>
+            <translation><!-- East DC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>East Pittsburgh</masterLabel>
+            <translation><!-- East Pittsburgh --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Far West Texas</masterLabel>
+            <translation><!-- Far West Texas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Finger Lakes</masterLabel>
+            <translation><!-- Finger Lakes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Greater Los Angeles</masterLabel>
+            <translation><!-- Greater Los Angeles --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gulf Coast</masterLabel>
+            <translation><!-- Gulf Coast --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>High Country</masterLabel>
+            <translation><!-- High Country --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Houston Proper</masterLabel>
+            <translation><!-- Houston Proper --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hudson Valley</masterLabel>
+            <translation><!-- Hudson Valley --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Islands</masterLabel>
+            <translation><!-- Islands --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lake Region</masterLabel>
+            <translation><!-- Lake Region --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Long Island</masterLabel>
+            <translation><!-- Long Island --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lowcountry</masterLabel>
+            <translation><!-- Lowcountry --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manhattan</masterLabel>
+            <translation><!-- Manhattan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Midlands</masterLabel>
+            <translation><!-- Midlands --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Newport area</masterLabel>
+            <translation><!-- Newport area --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>North East FL</masterLabel>
+            <translation><!-- North East FL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>North Eastern CT</masterLabel>
+            <translation><!-- North Eastern CT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>North Jersey</masterLabel>
+            <translation><!-- North Jersey --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>North Philly/Downtown</masterLabel>
+            <translation><!-- North Philly/Downtown --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>North Pittsburgh</masterLabel>
+            <translation><!-- North Pittsburgh --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>North West FL</masterLabel>
+            <translation><!-- North West FL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>North-East Texas</masterLabel>
+            <translation><!-- North-East Texas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Northeast Philly</masterLabel>
+            <translation><!-- Northeast Philly --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Northern CT</masterLabel>
+            <translation><!-- Northern CT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Northern Georgia</masterLabel>
+            <translation><!-- Northern Georgia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Northern Jersey Shore</masterLabel>
+            <translation><!-- Northern Jersey Shore --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Northern ME</masterLabel>
+            <translation><!-- Northern ME --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Northern NH</masterLabel>
+            <translation><!-- Northern NH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Northern VT</masterLabel>
+            <translation><!-- Northern VT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Northwest Philly</masterLabel>
+            <translation><!-- Northwest Philly --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Orange County</masterLabel>
+            <translation><!-- Orange County --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Outer Banks</masterLabel>
+            <translation><!-- Outer Banks --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Outer Maryland</masterLabel>
+            <translation><!-- Outer Maryland --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Palm Springs</masterLabel>
+            <translation><!-- Palm Springs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Panhandle</masterLabel>
+            <translation><!-- Panhandle --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Piedmont</masterLabel>
+            <translation><!-- Piedmont --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Poconos</masterLabel>
+            <translation><!-- Poconos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Providence area</masterLabel>
+            <translation><!-- Providence area --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Queens</masterLabel>
+            <translation><!-- Queens --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>San Antonio</masterLabel>
+            <translation><!-- San Antonio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>San Diego</masterLabel>
+            <translation><!-- San Diego --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>San Francisco/Bay Area</masterLabel>
+            <translation><!-- San Francisco/Bay Area --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Santa Barbara/Ventura</masterLabel>
+            <translation><!-- Santa Barbara/Ventura --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Savannah Georgia</masterLabel>
+            <translation><!-- Savannah Georgia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>South East FL</masterLabel>
+            <translation><!-- South East FL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>South Eastern CT</masterLabel>
+            <translation><!-- South Eastern CT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>South Jersey</masterLabel>
+            <translation><!-- South Jersey --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>South Pittsburgh</masterLabel>
+            <translation><!-- South Pittsburgh --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>South Texas Plains</masterLabel>
+            <translation><!-- South Texas Plains --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>South West FL</masterLabel>
+            <translation><!-- South West FL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Southern CT</masterLabel>
+            <translation><!-- Southern CT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Southern Georgia</masterLabel>
+            <translation><!-- Southern Georgia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Southern Jersey Shore</masterLabel>
+            <translation><!-- Southern Jersey Shore --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Southern ME</masterLabel>
+            <translation><!-- Southern ME --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Southern NH</masterLabel>
+            <translation><!-- Southern NH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Southern RI</masterLabel>
+            <translation><!-- Southern RI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Southern VT</masterLabel>
+            <translation><!-- Southern VT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Southwest Philly</masterLabel>
+            <translation><!-- Southwest Philly --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Staten Island</masterLabel>
+            <translation><!-- Staten Island --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Texas Hill Country</masterLabel>
+            <translation><!-- Texas Hill Country --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>The Adirondacks</masterLabel>
+            <translation><!-- The Adirondacks --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>The Catskills</masterLabel>
+            <translation><!-- The Catskills --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>The Keys</masterLabel>
+            <translation><!-- The Keys --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Triad Area</masterLabel>
+            <translation><!-- Triad Area --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Triangle</masterLabel>
+            <translation><!-- Triangle --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>West DC</masterLabel>
+            <translation><!-- West DC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>West Maryland</masterLabel>
+            <translation><!-- West Maryland --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>West Pittsburgh</masterLabel>
+            <translation><!-- West Pittsburgh --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>West Texas</masterLabel>
+            <translation><!-- West Texas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Westchester</masterLabel>
+            <translation><!-- Westchester --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Western MA</masterLabel>
+            <translation><!-- Western MA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Western NY</masterLabel>
+            <translation><!-- Western NY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wine Country</masterLabel>
+            <translation><!-- Wine Country --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>​Dallas/Fort Worth​</masterLabel>
+            <translation><!-- ​Dallas/Fort Worth​ --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Regional Pooling NVM Identifier --></label>
+        <name>Regional_Pooling_NVM_Identifier__c</name>
+    </fields>
+    <fields>
+        <label><!-- Related to Paid Media? --></label>
+        <name>Related_to_Paid_Media__c</name>
+    </fields>
+    <fields>
+        <label><!-- Salesforce Generated GUID --></label>
+        <name>Salesforce_Generated_GUID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Score --></label>
+        <name>Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Setting --></label>
+        <name>Setting__c</name>
+        <picklistValues>
+            <masterLabel>Backyard</masterLabel>
+            <translation><!-- Backyard --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ballroom</masterLabel>
+            <translation><!-- Ballroom --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Banquet Hall</masterLabel>
+            <translation><!-- Banquet Hall --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Barn</masterLabel>
+            <translation><!-- Barn --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Beach</masterLabel>
+            <translation><!-- Beach --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brewery</masterLabel>
+            <translation><!-- Brewery --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Castle</masterLabel>
+            <translation><!-- Castle --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Church</masterLabel>
+            <translation><!-- Church --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>City Hall</masterLabel>
+            <translation><!-- City Hall --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Community Center</masterLabel>
+            <translation><!-- Community Center --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Country Club</masterLabel>
+            <translation><!-- Country Club --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cruise</masterLabel>
+            <translation><!-- Cruise --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Estate</masterLabel>
+            <translation><!-- Estate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Farm + Ranch</masterLabel>
+            <translation><!-- Farm + Ranch --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Garden</masterLabel>
+            <translation><!-- Garden --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Golf Club</masterLabel>
+            <translation><!-- Golf Club --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Historic Venue</masterLabel>
+            <translation><!-- Historic Venue --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hotel</masterLabel>
+            <translation><!-- Hotel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inn</masterLabel>
+            <translation><!-- Inn --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Library</masterLabel>
+            <translation><!-- Library --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lodge</masterLabel>
+            <translation><!-- Lodge --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Loft</masterLabel>
+            <translation><!-- Loft --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mansion</masterLabel>
+            <translation><!-- Mansion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mosque</masterLabel>
+            <translation><!-- Mosque --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mountain</masterLabel>
+            <translation><!-- Mountain --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Museum</masterLabel>
+            <translation><!-- Museum --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open Space</masterLabel>
+            <translation><!-- Open Space --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Park</masterLabel>
+            <translation><!-- Park --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Religious Setting</masterLabel>
+            <translation><!-- Religious Setting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Restaurant</masterLabel>
+            <translation><!-- Restaurant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rooftop</masterLabel>
+            <translation><!-- Rooftop --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Temple</masterLabel>
+            <translation><!-- Temple --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>University</masterLabel>
+            <translation><!-- University --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vineyard</masterLabel>
+            <translation><!-- Vineyard --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Waterfront</masterLabel>
+            <translation><!-- Waterfront --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Winery</masterLabel>
+            <translation><!-- Winery --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Storefront Status --></label>
+        <name>Storefront_Status__c</name>
+        <picklistValues>
+            <masterLabel>Claimed</masterLabel>
+            <translation><!-- Claimed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unclaimed</masterLabel>
+            <translation><!-- Unclaimed --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Account Strategist --></label>
+        <name>Strategy_Specialist__c</name>
+        <relationshipLabel><!-- Leads (Account Strategist) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Subcategory --></label>
+        <name>Subcategory__c</name>
+        <relationshipLabel><!-- Leads (Subcategory) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- TK Storefront --></label>
+        <name>TKStorefront__c</name>
+    </fields>
+    <fields>
+        <label><!-- Temperature --></label>
+        <name>Temperature__c</name>
+        <picklistValues>
+            <masterLabel>Cold</masterLabel>
+            <translation><!-- Cold --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hot</masterLabel>
+            <translation><!-- Hot --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Warm</masterLabel>
+            <translation><!-- Warm --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Tier --></label>
+        <name>Tier__c</name>
+    </fields>
+    <fields>
+        <help><!-- The contact&apos;s Twitter bio. This is set by HubSpot using the contact&apos;s email address. --></help>
+        <label><!-- Twitter Bio --></label>
+        <name>Twitter_Bio__c</name>
+    </fields>
+    <fields>
+        <help><!-- The number of times a contact clicked on links you shared on Twitter through HubSpot. This is set automatically by HubSpot and can be used for segmentation. --></help>
+        <label><!-- Twitter Clicks --></label>
+        <name>Twitter_Clicks__c</name>
+    </fields>
+    <fields>
+        <help><!-- The contact&apos;s Twitter handle. This is set by HubSpot using the contact&apos;s email address. --></help>
+        <label><!-- Twitter Handle --></label>
+        <name>Twitter_Handle__c</name>
+    </fields>
+    <fields>
+        <help><!-- The contact&apos;s Twitter profile photo. This is set by HubSpot using the contact&apos;s email address. --></help>
+        <label><!-- Twitter Profile Photo --></label>
+        <name>Twitter_Profile_Photo__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>Type__c</name>
+        <picklistValues>
+            <masterLabel>Advertiser</masterLabel>
+            <translation><!-- Advertiser --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Agency</masterLabel>
+            <translation><!-- Agency --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Valid Status Time Stamp --></label>
+        <name>Valid_Status_Time_Stamp__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field will be used to check for valid zipcodes. Will be false if Zipcode is any length other than 0, 5 or 10 --></help>
+        <label><!-- Valid US ZipCode --></label>
+        <name>Valid_US_ZipCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Zip --></label>
+        <name>Zip__c</name>
+        <relationshipLabel><!-- Leads --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- createdbyProfilename --></label>
+        <name>createdbyProfilename__c</name>
+    </fields>
+    <fields>
+        <label><!-- Distribution action --></label>
+        <name>n2de__Action__c</name>
+        <picklistValues>
+            <masterLabel>Contacted</masterLabel>
+            <translation><!-- Contacted --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- The number of times this record has been assigned via Distribution Engine --></help>
+        <label><!-- Distribution count --></label>
+        <name>n2de__Distribution_count__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is archived --></label>
+        <name>n2de__Is_archived__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is distributed --></label>
+        <name>n2de__Is_distributed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is auto reassigned --></label>
+        <name>n2de__Is_reassigned__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is rejected --></label>
+        <name>n2de__Is_rejected__c</name>
+    </fields>
+    <fields>
+        <label><!-- Trigger enabled --></label>
+        <name>n2de__Is_trigger_enabled__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is triggered --></label>
+        <name>n2de__Is_triggered__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last archive date --></label>
+        <name>n2de__Last_archive_date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last distributed --></label>
+        <name>n2de__Last_distributed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last reassigned --></label>
+        <name>n2de__Last_reassigned__c</name>
+    </fields>
+    <fields>
+        <help><!-- Date &amp; time that the DE assignment of this lead was last rejected --></help>
+        <label><!-- Last rejected --></label>
+        <name>n2de__Last_rejected__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source queue --></label>
+        <name>n2de__Source_queue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Time to action (mins) --></label>
+        <name>n2de__Time_to_action_mins__c</name>
+    </fields>
+    <fields>
+        <label><!-- testRay --></label>
+        <name>testRay__c</name>
+    </fields>
+    <layouts>
+        <layout>Lead Concierge</layout>
+        <sections>
+            <label><!-- Address Information --></label>
+            <section>Address Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Lead Layout</layout>
+        <sections>
+            <label><!-- Lead Detail --></label>
+            <section>Lead Detail</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Lead Local</layout>
+        <sections>
+            <label><!-- Address Information --></label>
+            <section>Address Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Hubspot Information --></label>
+            <section>Hubspot Information</section>
+        </sections>
+        <sections>
+            <label><!-- Hubspot Intelligence --></label>
+            <section>Hubspot Intelligence</section>
+        </sections>
+        <sections>
+            <label><!-- Lead Detail --></label>
+            <section>Lead Detail</section>
+        </sections>
+        <sections>
+            <label><!-- Lead Information --></label>
+            <section>Lead Information</section>
+        </sections>
+        <sections>
+            <label><!-- Storefront Detail --></label>
+            <section>Storefront Detail</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Lead Local Admin</layout>
+        <sections>
+            <label><!-- Address Information --></label>
+            <section>Address Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Hubspot Information --></label>
+            <section>Hubspot Information</section>
+        </sections>
+        <sections>
+            <label><!-- Hubspot Intelligence --></label>
+            <section>Hubspot Intelligence</section>
+        </sections>
+        <sections>
+            <label><!-- Lead Detail --></label>
+            <section>Lead Detail</section>
+        </sections>
+        <sections>
+            <label><!-- Lead Information --></label>
+            <section>Lead Information</section>
+        </sections>
+        <sections>
+            <label><!-- Storefront Detail --></label>
+            <section>Storefront Detail</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Lead Local Core</layout>
+        <sections>
+            <label><!-- Address Information --></label>
+            <section>Address Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Hubspot Information --></label>
+            <section>Hubspot Information</section>
+        </sections>
+        <sections>
+            <label><!-- Hubspot Intelligence --></label>
+            <section>Hubspot Intelligence</section>
+        </sections>
+        <sections>
+            <label><!-- Lead Detail --></label>
+            <section>Lead Detail</section>
+        </sections>
+        <sections>
+            <label><!-- Lead Information --></label>
+            <section>Lead Information</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Lead National</layout>
+        <sections>
+            <label><!-- Address Information --></label>
+            <section>Address Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Description Information --></label>
+            <section>Description Information</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Test Lead Local Console</layout>
+        <sections>
+            <label><!-- Address Information --></label>
+            <section>Address Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Hubspot Information --></label>
+            <section>Hubspot Information</section>
+        </sections>
+        <sections>
+            <label><!-- Hubspot Intelligence --></label>
+            <section>Hubspot Intelligence</section>
+        </sections>
+        <sections>
+            <label><!-- Lead Detail --></label>
+            <section>Lead Detail</section>
+        </sections>
+        <sections>
+            <label><!-- Lead Information --></label>
+            <section>Lead Information</section>
+        </sections>
+        <sections>
+            <label><!-- Storefront Detail --></label>
+            <section>Storefront Detail</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <description><!-- Phase 1 - Recordtype for Concierge --></description>
+        <label><!-- Concierge --></label>
+        <name>LeadConcierge</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Local --></label>
+        <name>Local</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Phase 1 of National --></description>
+        <label><!-- National --></label>
+        <name>National</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Test --></label>
+        <name>Test</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- TestData --></label>
+        <name>TestData</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- You can&apos;t Qualify and and Claim a Lead at the same time. Please use the Convert feature to Qualify and Claim a lead. --></errorMessage>
+        <name>Access_to_Lead_Auto_Convert</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please select a &apos;Negative Disposition Reason&apos; when the Lead Status is &apos;Disqualified&apos;. --></errorMessage>
+        <name>Allowed_DisqualificationReason_Values</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please select a &apos;Negative Disposition Reason&apos; when the Lead Status is &apos;Invalid&apos;. --></errorMessage>
+        <name>Allowed_Invalid_Reason_Picklist_Values</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- &apos;Reason Details&apos; are required when a lead status is &apos;Invalid&apos; and Negative Disposition Reason is &apos;Other&apos; --></errorMessage>
+        <name>DetailsRequired_For_NegativeReason_Other</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Disqualification reason with the value of &apos;Other&apos; requires the user to enter additional details under &apos;Reason Details&apos;. --></errorMessage>
+        <name>Details_Is_Required_For_Other</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Reason details is required only for Negative Disposition Reason of &apos;Other&apos; for Invalid and Disqualified leads --></errorMessage>
+        <name>Details_Required_Only_For_Inv_Disqual</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Lead cannot be created without Company Name, Phone or Email or Website, First Name and Last name. --></errorMessage>
+        <name>Lead_Creation_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- First Name is Required --></errorMessage>
+        <name>Lead_First_Name_is_required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You can&apos;t change the GUID of a Lead! --></errorMessage>
+        <name>Lead_GUID_change_validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The Lead Source cannot be modified once a value is set. --></errorMessage>
+        <name>Lead_Source_Access_Limitation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Lead with status &apos;Unknown&apos; requires the user to select Negative_Disposition_Reason__c
+from the following possible values: Cannot verify online, Ecommerce, Vendor outside US --></errorMessage>
+        <name>Lead_Status_Unknown_Possible_Values</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The lead cannot be distributed without Lead Source, Postal Code, Primary Category, Local Sales Market and Country Code. --></errorMessage>
+        <name>Lead_Valid_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- In order to convert this lead to a Concierge Account, you must include the zip code --></errorMessage>
+        <name>Lead_must_have_address_info_to_convert</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Only Local AEs, RSRs/RSDs,  Data Team and System Administrators can change the Status to Qualified or Disqualified and change the reason --></errorMessage>
+        <name>LocalAE_RSR_RSD_SysAdmin_Qualified_Disq</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Only Local Core Sales Operations and System Administrators can change the Status to Valid, Invalid, or Unknown and change the reason --></errorMessage>
+        <name>LocalCore_And_SalesAdmin_CanChangeStatus</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You must create an opportunity when converting leads. --></errorMessage>
+        <name>Local_Enforce_Opportunity_Lead_Convert</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- If Local Lead has a Status of Disqualified, a Disqualification Reason must be selected. --></errorMessage>
+        <name>Local_Lead_Disqualification_Reason</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Your profile is not allowed to change the owner of a lead. Please contact one of your Sales Operations team members to update the owner of this record. --></errorMessage>
+        <name>Preventing_Owner_Changes_on_Local</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You cannot set the value of Merged for the Lead Status. --></errorMessage>
+        <name>Setting_Lead_Status_to_Merged</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Partners can&apos;t fulfill an Unclaimed Storefront without a (Phone or Email or Website), (PostalCode), First Name, Last Name, Local Sales Market, Primary Category. Status must equal &apos;Qualified&apos; and Storefront Status must equal &apos;Unclaimed&apos;. --></errorMessage>
+        <name>Storefront_Fulfillment_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Only a Lead with the Status &apos;Valid&apos; or &apos;Working&apos; can be moved to &apos;Qualified&apos; --></errorMessage>
+        <name>VLC_Move_to_Qualified_Enforcement</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Only a Lead with the Status of &apos;Valid&apos; can be moved to a Status of &apos;Working&apos; --></errorMessage>
+        <name>VLC_Validate_Working_Status</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please change the Concierge program qualification value --></errorMessage>
+        <name>VR_LeadConcProQua</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- If Lead Source is Other, please specify. --></errorMessage>
+        <name>VR_LeadSourceOther</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- AltavistaNews --></label>
+        <name>AltavistaNews</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Facebook_Search --></label>
+        <name>Facebook_Search</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Fulfill_Unclaimed_Storefront --></label>
+        <name>Fulfill_Unclaimed_Storefront</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleMaps --></label>
+        <name>GoogleMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleNews --></label>
+        <name>GoogleNews</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleSearch --></label>
+        <name>GoogleSearch</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- HooversProfile --></label>
+        <name>HooversProfile</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Local_Lead_Convert --></label>
+        <name>Local_Lead_Convert</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Select_Lead_Source --></label>
+        <name>Select_Lead_Source</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- SendGmail --></label>
+        <name>SendGmail</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- TestConvertButton --></label>
+        <name>TestConvertButton</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Email_with_Tout --></label>
+        <name>ToutApp__Email_with_Tout</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Push_to_Tout --></label>
+        <name>ToutApp__Push_to_Tout</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- WW_Search --></label>
+        <name>WW_Search</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- YahooMaps --></label>
+        <name>YahooMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Yelp_Search --></label>
+        <name>Yelp_Search</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_to_EchoSign --></label>
+        <name>echosign_dev1__Send_to_EchoSign</name>
+    </webLinks>
+    <workflowTasks>
+        <description><!-- A new lead has been assigned to you. --></description>
+        <name>A_new_lead_has_been_assigned_to_you</name>
+        <subject><!-- A new lead has been assigned to you. --></subject>
+    </workflowTasks>
+</CustomObjectTranslation>

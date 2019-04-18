@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>CUST_NAME</field>
+    </columns>
+    <columns>
+        <field>FK_NAME</field>
+    </columns>
+    <columns>
+        <field>FK_$Zip__c.Local_Market__c</field>
+    </columns>
+    <columns>
+        <field>Local_Sales_Rep_Assignment__c.Sales_Rep__c</field>
+    </columns>
+    <filter>
+        <criteriaItems>
+            <column>FK_$Zip__c.Local_Market__c</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>contains</operator>
+            <value>Boston</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Local_Sales_Rep_Assignment__c.Sales_Rep__c</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Katrina Hayes</value>
+        </criteriaItems>
+    </filter>
+    <format>Summary</format>
+    <name>Katrina&apos;s REC &amp; CER assignments</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$Local_Sales_Rep_Assignment__c@Local_Sales_Rep_Assignment__c.Zip_Code__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <sortColumn>FK_NAME</sortColumn>
+    <sortOrder>Asc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>CUST_CREATED_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>USERS.NAME</field>
+    </columns>
+    <columns>
+        <field>ACCOUNT.NAME</field>
+    </columns>
+    <columns>
+        <field>Account.Past_Due_Invoice__c</field>
+    </columns>
+    <columns>
+        <field>Account.Past_Due_Balance__c</field>
+    </columns>
+    <columns>
+        <field>Account.Longest_Past_Due_Date__c</field>
+    </columns>
+    <crossFilters>
+        <criteriaItems>
+            <column>Subject</column>
+            <isUnlocked>false</isUnlocked>
+            <operator>contains</operator>
+            <value>75 days past Due date</value>
+        </criteriaItems>
+        <operation>without</operation>
+        <primaryTableColumn>ACCOUNT_ID</primaryTableColumn>
+        <relatedTable>Activity</relatedTable>
+        <relatedTableJoinColumn>Account</relatedTableJoinColumn>
+    </crossFilters>
+    <filter>
+        <criteriaItems>
+            <column>Account.Longest_Past_Due_Date__c</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>lessOrEqual</operator>
+            <value>12/15/2016</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.Longest_Past_Due_Date__c</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>greaterThan</operator>
+            <value>12/1/2016</value>
+        </criteriaItems>
+    </filter>
+    <format>Tabular</format>
+    <name>Accounts past due with no TASK</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>AccountList</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <timeFrameFilter>
+        <dateColumn>CREATED_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

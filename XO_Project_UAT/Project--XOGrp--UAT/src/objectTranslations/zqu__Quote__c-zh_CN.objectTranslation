@@ -1,0 +1,2577 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Quote --></value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- Acceptance and Activation Date --></label>
+        <name>Acceptance_Activation_Date</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Customer Account Details --></label>
+        <name>Account_Details</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Customer Account Details --></label>
+        <name>Account_Details_Mirror</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Additional Terms --></label>
+        <name>Additional_Terms</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Customer Account Details --></label>
+        <name>Amend_Edit_Account_Details</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Quote Details --></label>
+        <name>Amend_Edit_Quote_Details</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Subscription Terms and Conditions --></label>
+        <name>Amend_Edit_Subscription_Terms</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Customer Account Details --></label>
+        <name>Amend_Quote_Customer_Account_Details</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Customer Account Details_Mirror --></label>
+        <name>Amend_Quote_Customer_Account_Details_Mir</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Quote Metrics --></label>
+        <name>Amend_Quote_Detail_Metrics</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Quote Metrics_Amend_Mirror --></label>
+        <name>Amend_Quote_Detail_Metrics_Mirror</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Quote Details --></label>
+        <name>Amend_Quote_Details</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Quote Details --></label>
+        <name>Amend_Quote_Details_Info</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Subscription Terms and Conditions --></label>
+        <name>Amend_Quote_Subscription_Terms</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Amend Subscription Terms and Conditions --></label>
+        <name>Amend_Quote_Subscription_Terms_Mirror</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Subscription Terms and Conditions Detail Page --></label>
+        <name>Amend_Quote_Subscription_Terms_Q_Detail</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Billing and Payment Information --></label>
+        <name>Amendment_Compare_Billing_Information</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Ammend Customer Account Details --></label>
+        <name>Ammend_Account_Details_Quote_Detail</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Quote Details --></label>
+        <name>Ammend_Quote_Details_Mirror</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Cancellation Details --></label>
+        <name>Cancellation_Details</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Cancellation Details --></label>
+        <name>Cancellation_Details_Mirror</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Cancellation Details --></label>
+        <name>Cancellation_Details_Quote_detail_page</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Quote Details --></label>
+        <name>Cancellation_Quote_Details</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Quote Details --></label>
+        <name>Cancellation_Quote_Details_Mirror</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Billing and Payment Information --></label>
+        <name>Compare_Billing_and_Payment_Information</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Contact Info --></label>
+        <name>Contact_Info</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Custom Order Fields --></label>
+        <name>CustomOrderFields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Custom Quote Fields --></label>
+        <name>CustomQuoteFields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Account Details --></label>
+        <name>Detail_Account_Details</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Zuora Account and Subscription Information --></label>
+        <name>Detail_Account_Subscription_Info</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Quote Information --></label>
+        <name>Detail_Quote_Information</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Quote Information --></label>
+        <name>Detail_Quote_Information_Mirror</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Subscription Terms and Conditions --></label>
+        <name>Detail_Subscription_Terms</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Quote Metrics --></label>
+        <name>Quote_Detail_Metrics</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Quote Metrics Mirror --></label>
+        <name>Quote_Detail_Metrics_Mirror</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Quote Details --></label>
+        <name>Quote_Information</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Quote Details --></label>
+        <name>Quote_Information_Mirror</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Renew Customer Account Details --></label>
+        <name>Renew_Cust_Accnt_Details_Quote_Details</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Customer Account Details_Mirror --></label>
+        <name>Renewal_Quote_Custom_Accnt_Details_Mirro</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Customer Account Details --></label>
+        <name>Renewal_Quote_Customer_Account_Details</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Quote Details --></label>
+        <name>Renewal_Quote_Details</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Quote Details --></label>
+        <name>Renewal_Quote_Details_Info</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Quote Details --></label>
+        <name>Renewal_Quote_Details_mirror</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Subscription Terms and Conditions --></label>
+        <name>Renewal_Quote_Subscription_Terms</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Subscription Terms and Conditions --></label>
+        <name>Renewal_Quote_Subscription_Terms_Mirror</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Subscription Terms and Conditions --></label>
+        <name>Subscription_Terms</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Subscription Terms and Conditions --></label>
+        <name>Subscription_Terms_Quote_detail_page</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Subscription Terms and Conditions --></label>
+        <name>Subscription_Terms_and_Conditions_Mirror</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Tax Exemption Details --></label>
+        <name>Tax_Exemption</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Approval Process Flag - Discount Amount --></label>
+        <name>Approval_Process_Flag_Discount_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- AutoRenewal --></label>
+        <name>AutoRenewal__c</name>
+        <picklistValues>
+            <masterLabel>NO</masterLabel>
+            <translation><!-- NO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>YES</masterLabel>
+            <translation><!-- YES --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- BillToContactQuoteTemplateMergeField --></label>
+        <name>BillToContactQuoteTemplateMergeField__c</name>
+    </fields>
+    <fields>
+        <label><!-- Category --></label>
+        <name>Category__c</name>
+        <picklistValues>
+            <masterLabel>Announcements</masterLabel>
+            <translation><!-- Announcements --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bachelor(ette) Parties</masterLabel>
+            <translation><!-- Bachelor(ette) Parties --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bands</masterLabel>
+            <translation><!-- Bands --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Beauty</masterLabel>
+            <translation><!-- Beauty --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bridal Open House</masterLabel>
+            <translation><!-- Bridal Open House --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bridal Salons</masterLabel>
+            <translation><!-- Bridal Salons --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bridal Shows</masterLabel>
+            <translation><!-- Bridal Shows --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bump NEW - Baby Gear, Toys &amp; Clothing</masterLabel>
+            <translation><!-- Bump NEW - Baby Gear, Toys &amp; Clothing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bump NEW - Baby Products &amp; Services</masterLabel>
+            <translation><!-- Bump NEW - Baby Products &amp; Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bump NEW - Birthing Centers &amp; Hospitals</masterLabel>
+            <translation><!-- Bump NEW - Birthing Centers &amp; Hospitals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bump NEW - Breastfeeding</masterLabel>
+            <translation><!-- Bump NEW - Breastfeeding --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bump NEW - Child Care &amp; Nanny Services</masterLabel>
+            <translation><!-- Bump NEW - Child Care &amp; Nanny Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bump NEW - Cord Blood Banking</masterLabel>
+            <translation><!-- Bump NEW - Cord Blood Banking --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bump NEW - Doulas &amp; Midwives</masterLabel>
+            <translation><!-- Bump NEW - Doulas &amp; Midwives --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bump NEW - Family &amp; Lifestyle</masterLabel>
+            <translation><!-- Bump NEW - Family &amp; Lifestyle --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bump NEW - Fertility Services</masterLabel>
+            <translation><!-- Bump NEW - Fertility Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bump NEW - Health &amp; Wellness</masterLabel>
+            <translation><!-- Bump NEW - Health &amp; Wellness --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bump NEW - Nursery Furniture &amp; Décor</masterLabel>
+            <translation><!-- Bump NEW - Nursery Furniture &amp; Décor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bump NEW - Pediatric Services</masterLabel>
+            <translation><!-- Bump NEW - Pediatric Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bump NEW - Photographers &amp; Videographers</masterLabel>
+            <translation><!-- Bump NEW - Photographers &amp; Videographers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bump NEW - Play &amp; Parties</masterLabel>
+            <translation><!-- Bump NEW - Play &amp; Parties --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bump NEW - Prenatal Products &amp; Services</masterLabel>
+            <translation><!-- Bump NEW - Prenatal Products &amp; Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bump NEW - Preschools &amp; Education</masterLabel>
+            <translation><!-- Bump NEW - Preschools &amp; Education --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Calligraphers</masterLabel>
+            <translation><!-- Calligraphers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Caribbean</masterLabel>
+            <translation><!-- Caribbean --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Caterers</masterLabel>
+            <translation><!-- Caterers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ceremony Musicians</masterLabel>
+            <translation><!-- Ceremony Musicians --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dance Lessons</masterLabel>
+            <translation><!-- Dance Lessons --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Disc Jockeys</masterLabel>
+            <translation><!-- Disc Jockeys --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fashion Jewelry and Accessories</masterLabel>
+            <translation><!-- Fashion Jewelry and Accessories --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Favors</masterLabel>
+            <translation><!-- Favors --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Financial Services</masterLabel>
+            <translation><!-- Financial Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gifts &amp; Registries</masterLabel>
+            <translation><!-- Gifts &amp; Registries --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gown Cleaning &amp; Preservation</masterLabel>
+            <translation><!-- Gown Cleaning &amp; Preservation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Grand Openings</masterLabel>
+            <translation><!-- Grand Openings --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Guest Accommodations</masterLabel>
+            <translation><!-- Guest Accommodations --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hair, Makeup and Wellness</masterLabel>
+            <translation><!-- Hair, Makeup and Wellness --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Honeymoons - Africa</masterLabel>
+            <translation><!-- Honeymoons - Africa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Honeymoons - Asia</masterLabel>
+            <translation><!-- Honeymoons - Asia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Honeymoons - Australia &amp; New Zealand</masterLabel>
+            <translation><!-- Honeymoons - Australia &amp; New Zealand --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Honeymoons - Caribbean</masterLabel>
+            <translation><!-- Honeymoons - Caribbean --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Honeymoons - Europe</masterLabel>
+            <translation><!-- Honeymoons - Europe --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Honeymoons - Hawaii</masterLabel>
+            <translation><!-- Honeymoons - Hawaii --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Honeymoons - Mexico &amp; The Americas</masterLabel>
+            <translation><!-- Honeymoons - Mexico &amp; The Americas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Honeymoons - South Pacific</masterLabel>
+            <translation><!-- Honeymoons - South Pacific --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Honeymoons - US &amp; Canada</masterLabel>
+            <translation><!-- Honeymoons - US &amp; Canada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>House &amp; Home</masterLabel>
+            <translation><!-- House &amp; Home --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Invitations</masterLabel>
+            <translation><!-- Invitations --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lighting &amp; Décor</masterLabel>
+            <translation><!-- Lighting &amp; Décor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mexico</masterLabel>
+            <translation><!-- Mexico --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Officiants &amp; Premarital Counseling</masterLabel>
+            <translation><!-- Officiants &amp; Premarital Counseling --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Unique Wedding Ideas</masterLabel>
+            <translation><!-- Other Unique Wedding Ideas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Party Rentals &amp; Service Staff</masterLabel>
+            <translation><!-- Party Rentals &amp; Service Staff --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Photo Booths</masterLabel>
+            <translation><!-- Photo Booths --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Photographers</masterLabel>
+            <translation><!-- Photographers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prom Fashions</masterLabel>
+            <translation><!-- Prom Fashions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rehearsal Dinners &amp; Bridal Showers</masterLabel>
+            <translation><!-- Rehearsal Dinners &amp; Bridal Showers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Showcases</masterLabel>
+            <translation><!-- Showcases --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transportation/Valet</masterLabel>
+            <translation><!-- Transportation/Valet --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tuxes &amp; Men&apos;s Attire</masterLabel>
+            <translation><!-- Tuxes &amp; Men&apos;s Attire --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US Honeymoon &amp; Travel</masterLabel>
+            <translation><!-- US Honeymoon &amp; Travel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Videographers</masterLabel>
+            <translation><!-- Videographers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WC - Accessories</masterLabel>
+            <translation><!-- WC - Accessories --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WC - Antigua</masterLabel>
+            <translation><!-- WC - Antigua --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WC - Aruba</masterLabel>
+            <translation><!-- WC - Aruba --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WC - Australia</masterLabel>
+            <translation><!-- WC - Australia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WC - Austria</masterLabel>
+            <translation><!-- WC - Austria --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WC - Bahamas</masterLabel>
+            <translation><!-- WC - Bahamas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WC - Barbados</masterLabel>
+            <translation><!-- WC - Barbados --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WC - Bermuda</masterLabel>
+            <translation><!-- WC - Bermuda --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WC - Bridesmaid</masterLabel>
+            <translation><!-- WC - Bridesmaid --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WC - Fashion HP</masterLabel>
+            <translation><!-- WC - Fashion HP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WC - Flower Girl</masterLabel>
+            <translation><!-- WC - Flower Girl --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WC - Gown</masterLabel>
+            <translation><!-- WC - Gown --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WC - Mother</masterLabel>
+            <translation><!-- WC - Mother --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WC - Shoes</masterLabel>
+            <translation><!-- WC - Shoes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WC - Tuxedo</masterLabel>
+            <translation><!-- WC - Tuxedo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WC - Veils, Headpeice</masterLabel>
+            <translation><!-- WC - Veils, Headpeice --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wedding Cakes &amp; Desserts</masterLabel>
+            <translation><!-- Wedding Cakes &amp; Desserts --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wedding Florists</masterLabel>
+            <translation><!-- Wedding Florists --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wedding Planners</masterLabel>
+            <translation><!-- Wedding Planners --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wedding Rings and Fine Jewelry</masterLabel>
+            <translation><!-- Wedding Rings and Fine Jewelry --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wedding Venues</masterLabel>
+            <translation><!-- Wedding Venues --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wine, Champagne &amp; Liquor</masterLabel>
+            <translation><!-- Wine, Champagne &amp; Liquor --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Default Values Set --></label>
+        <name>Default_Values_Set__c</name>
+    </fields>
+    <fields>
+        <label><!-- Discount Qualifier --></label>
+        <name>DiscountQualifier__c</name>
+        <picklistValues>
+            <masterLabel>Wedding Wire</masterLabel>
+            <translation><!-- Wedding Wire --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Exist Subscription --></label>
+        <name>Exist_Subscription__c</name>
+        <relationshipLabel><!-- Quotes --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Is Cancellable --></label>
+        <name>IsCancellable__c</name>
+    </fields>
+    <fields>
+        <label><!-- Market --></label>
+        <name>Market__c</name>
+        <picklistValues>
+            <masterLabel>AK - Alaska</masterLabel>
+            <translation><!-- AK - Alaska --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AL - Alabama</masterLabel>
+            <translation><!-- AL - Alabama --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AR - Arkansas</masterLabel>
+            <translation><!-- AR - Arkansas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AZ - Phoenix</masterLabel>
+            <translation><!-- AZ - Phoenix --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AZ - Tucson</masterLabel>
+            <translation><!-- AZ - Tucson --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bump - Atlanta</masterLabel>
+            <translation><!-- Bump - Atlanta --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bump - Bay Area</masterLabel>
+            <translation><!-- Bump - Bay Area --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bump - Boston</masterLabel>
+            <translation><!-- Bump - Boston --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bump - Chicago</masterLabel>
+            <translation><!-- Bump - Chicago --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bump - Dallas</masterLabel>
+            <translation><!-- Bump - Dallas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bump - Houston</masterLabel>
+            <translation><!-- Bump - Houston --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bump - Los Angeles</masterLabel>
+            <translation><!-- Bump - Los Angeles --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bump - New Jersey</masterLabel>
+            <translation><!-- Bump - New Jersey --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bump - New York Metro</masterLabel>
+            <translation><!-- Bump - New York Metro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bump - North Carolina</masterLabel>
+            <translation><!-- Bump - North Carolina --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bump - Orange County</masterLabel>
+            <translation><!-- Bump - Orange County --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bump - Philadelphia</masterLabel>
+            <translation><!-- Bump - Philadelphia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bump - Phoenix</masterLabel>
+            <translation><!-- Bump - Phoenix --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bump - San Diego</masterLabel>
+            <translation><!-- Bump - San Diego --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bump - Seattle</masterLabel>
+            <translation><!-- Bump - Seattle --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bump - South Florida</masterLabel>
+            <translation><!-- Bump - South Florida --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bump - St. Louis</masterLabel>
+            <translation><!-- Bump - St. Louis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bump - Wash DC</masterLabel>
+            <translation><!-- Bump - Wash DC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA - Central CA</masterLabel>
+            <translation><!-- CA - Central CA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA - Los Angeles</masterLabel>
+            <translation><!-- CA - Los Angeles --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA - Orange County</masterLabel>
+            <translation><!-- CA - Orange County --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA - Palm Springs</masterLabel>
+            <translation><!-- CA - Palm Springs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA - Sacramento/Tahoe/Reno</masterLabel>
+            <translation><!-- CA - Sacramento/Tahoe/Reno --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA - San Diego</masterLabel>
+            <translation><!-- CA - San Diego --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA - San Fran/Bay Area</masterLabel>
+            <translation><!-- CA - San Fran/Bay Area --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA - Santa Barbara/Ventura</masterLabel>
+            <translation><!-- CA - Santa Barbara/Ventura --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAN - Toronto</masterLabel>
+            <translation><!-- CAN - Toronto --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CO - Colorado</masterLabel>
+            <translation><!-- CO - Colorado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CT - Connecticut</masterLabel>
+            <translation><!-- CT - Connecticut --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DC - DC/MD/Northern VA</masterLabel>
+            <translation><!-- DC - DC/MD/Northern VA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dest Weddings</masterLabel>
+            <translation><!-- Dest Weddings --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FL - Central</masterLabel>
+            <translation><!-- FL - Central --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FL - Northern</masterLabel>
+            <translation><!-- FL - Northern --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FL - South</masterLabel>
+            <translation><!-- FL - South --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FL - West Coast</masterLabel>
+            <translation><!-- FL - West Coast --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GA - Georgia</masterLabel>
+            <translation><!-- GA - Georgia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GA - Savannah/Coastal Area</masterLabel>
+            <translation><!-- GA - Savannah/Coastal Area --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HI - Hawaii</masterLabel>
+            <translation><!-- HI - Hawaii --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Honeymoons</masterLabel>
+            <translation><!-- Honeymoons --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IA - Iowa</masterLabel>
+            <translation><!-- IA - Iowa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ID - Idaho</masterLabel>
+            <translation><!-- ID - Idaho --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IL - Central Illinois</masterLabel>
+            <translation><!-- IL - Central Illinois --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IL - Chicago</masterLabel>
+            <translation><!-- IL - Chicago --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IL - Chicago Suburbs.</masterLabel>
+            <translation><!-- IL - Chicago Suburbs. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IN - Indiana</masterLabel>
+            <translation><!-- IN - Indiana --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KY - Kentucky</masterLabel>
+            <translation><!-- KY - Kentucky --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kleinfeld Florida</masterLabel>
+            <translation><!-- Kleinfeld Florida --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LA - All Other Areas</masterLabel>
+            <translation><!-- LA - All Other Areas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LA - New Orleans</masterLabel>
+            <translation><!-- LA - New Orleans --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MA - Boston</masterLabel>
+            <translation><!-- MA - Boston --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MA - Cape Cod</masterLabel>
+            <translation><!-- MA - Cape Cod --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MD - Baltimore</masterLabel>
+            <translation><!-- MD - Baltimore --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ME - Maine</masterLabel>
+            <translation><!-- ME - Maine --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MI - Detroit</masterLabel>
+            <translation><!-- MI - Detroit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MI - Grand Rpds/Northern</masterLabel>
+            <translation><!-- MI - Grand Rpds/Northern --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MI - Lansing/Tri-Cities</masterLabel>
+            <translation><!-- MI - Lansing/Tri-Cities --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MN - Minnesota</masterLabel>
+            <translation><!-- MN - Minnesota --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MO - Kansas City</masterLabel>
+            <translation><!-- MO - Kansas City --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MO - St. Louis</masterLabel>
+            <translation><!-- MO - St. Louis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MS - Mississippi</masterLabel>
+            <translation><!-- MS - Mississippi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MT - Montana</masterLabel>
+            <translation><!-- MT - Montana --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NC - North Carolina</masterLabel>
+            <translation><!-- NC - North Carolina --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ND - North Dakota</masterLabel>
+            <translation><!-- ND - North Dakota --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NE - Nebraska</masterLabel>
+            <translation><!-- NE - Nebraska --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NH - New Hampshire</masterLabel>
+            <translation><!-- NH - New Hampshire --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NJ - North/Central</masterLabel>
+            <translation><!-- NJ - North/Central --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NJ - South</masterLabel>
+            <translation><!-- NJ - South --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NM - New Mexico</masterLabel>
+            <translation><!-- NM - New Mexico --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NV - Las Vegas/Southern NV</masterLabel>
+            <translation><!-- NV - Las Vegas/Southern NV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NY - Hudson Valley</masterLabel>
+            <translation><!-- NY - Hudson Valley --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NY - Long Island</masterLabel>
+            <translation><!-- NY - Long Island --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NY - Manhattan</masterLabel>
+            <translation><!-- NY - Manhattan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NY - Outer Boroughs</masterLabel>
+            <translation><!-- NY - Outer Boroughs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NY - Wstrn/Cent/Upstate</masterLabel>
+            <translation><!-- NY - Wstrn/Cent/Upstate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OH - Cincinnati</masterLabel>
+            <translation><!-- OH - Cincinnati --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OH - Cleveland/NE Ohio</masterLabel>
+            <translation><!-- OH - Cleveland/NE Ohio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OH - Columbus</masterLabel>
+            <translation><!-- OH - Columbus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OH - Toledo</masterLabel>
+            <translation><!-- OH - Toledo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OK - Oklahoma</masterLabel>
+            <translation><!-- OK - Oklahoma --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OR - Oregon</masterLabel>
+            <translation><!-- OR - Oregon --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PA - Central</masterLabel>
+            <translation><!-- PA - Central --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PA - Lehigh Valley/Poconos</masterLabel>
+            <translation><!-- PA - Lehigh Valley/Poconos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PA - Philadelphia</masterLabel>
+            <translation><!-- PA - Philadelphia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PA - Pittsburgh</masterLabel>
+            <translation><!-- PA - Pittsburgh --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RI - Rhode Island</masterLabel>
+            <translation><!-- RI - Rhode Island --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SC - South Carolina</masterLabel>
+            <translation><!-- SC - South Carolina --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SD - South Dakota</masterLabel>
+            <translation><!-- SD - South Dakota --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TN - Tennessee</masterLabel>
+            <translation><!-- TN - Tennessee --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TX - Austin</masterLabel>
+            <translation><!-- TX - Austin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TX - Dallas</masterLabel>
+            <translation><!-- TX - Dallas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TX - Ft Worth/Waco</masterLabel>
+            <translation><!-- TX - Ft Worth/Waco --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TX - Houston</masterLabel>
+            <translation><!-- TX - Houston --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TX - San Antonio</masterLabel>
+            <translation><!-- TX - San Antonio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TX - West Texas</masterLabel>
+            <translation><!-- TX - West Texas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UT - Utah</masterLabel>
+            <translation><!-- UT - Utah --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VA - Virginia</masterLabel>
+            <translation><!-- VA - Virginia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VT - Vermont</masterLabel>
+            <translation><!-- VT - Vermont --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WA - Washington</masterLabel>
+            <translation><!-- WA - Washington --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WI - Wisconsin</masterLabel>
+            <translation><!-- WI - Wisconsin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WV - West Virginia</masterLabel>
+            <translation><!-- WV - West Virginia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WY - Wyoming</masterLabel>
+            <translation><!-- WY - Wyoming --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wedding Gowns - Internet</masterLabel>
+            <translation><!-- Wedding Gowns - Internet --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wedding Gowns, Party &amp; Accessories - Dir Mktg</masterLabel>
+            <translation><!-- Wedding Gowns, Party &amp; Accessories - Dir Mktg --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wedding Party &amp; Accessories - Internet</masterLabel>
+            <translation><!-- Wedding Party &amp; Accessories - Internet --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Maximum Promo Code Discount % --></label>
+        <name>Maximum_Promo_Code_Discount__c</name>
+    </fields>
+    <fields>
+        <label><!-- NumberOfExcessEmails --></label>
+        <name>NumberOfExcessEmails__c</name>
+    </fields>
+    <fields>
+        <label><!-- NumberOfQuoteAmendmentRecords --></label>
+        <name>NumberOfQuoteAmendmentRecords__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Email Campaigns --></label>
+        <name>NumberofEmailCampaigns__c</name>
+    </fields>
+    <fields>
+        <label><!-- Old Record Type --></label>
+        <name>Old_Record_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Stage Update --></label>
+        <name>Opportunity_Stage_Update__c</name>
+    </fields>
+    <fields>
+        <label><!-- OriginalSalesforceQuoteID --></label>
+        <name>OriginalSalesforceQuoteID__c</name>
+    </fields>
+    <fields>
+        <label><!-- OriginalSubCreatorSalesRepId --></label>
+        <name>OriginalSubCreatorSalesRepId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Payment Method Expiration Date --></label>
+        <name>Payment_Method_Expiration_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Payment Method --></label>
+        <name>Payment_Method__c</name>
+    </fields>
+    <fields>
+        <label><!-- Preferred Payment Schedule --></label>
+        <name>Preferred_Payment_Schedule__c</name>
+        <picklistValues>
+            <masterLabel>Annual</masterLabel>
+            <translation><!-- Annual --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Month</masterLabel>
+            <translation><!-- Month --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quarter</masterLabel>
+            <translation><!-- Quarter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Semi-Annual</masterLabel>
+            <translation><!-- Semi-Annual --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Previous Subscription TCV --></label>
+        <name>Previous_Subscription_TCV__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Line --></label>
+        <name>Product_Line__c</name>
+        <picklistValues>
+            <masterLabel>Direct Mail</masterLabel>
+            <translation><!-- Direct Mail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Internet</masterLabel>
+            <translation><!-- Internet --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Print</masterLabel>
+            <translation><!-- Print --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Quote Template TCV --></label>
+        <name>Quote_Template_TCV__c</name>
+    </fields>
+    <fields>
+        <label><!-- RSD --></label>
+        <name>RSDLookup__c</name>
+        <relationshipLabel><!-- Quotes (RSD) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- RSD Id --></label>
+        <name>RSD_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reason Quote Failed to Send to Z-Billing --></label>
+        <name>Reason_Quote_Failed_to_Send_to_Z_Billing__c</name>
+    </fields>
+    <fields>
+        <label><!-- RenewalRepId --></label>
+        <name>RenewalRepId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Renewal Rep --></label>
+        <name>RenewalRepLookup__c</name>
+        <relationshipLabel><!-- Quotes (Renewal Rep) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- ReportingRepId --></label>
+        <name>ReportingRepId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reporting Rep --></label>
+        <name>Reporting_Rep__c</name>
+        <relationshipLabel><!-- Quotes (Reporting Rep) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- SalesRepId --></label>
+        <name>SalesRepId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Rep --></label>
+        <name>SalesRepLookup__c</name>
+        <relationshipLabel><!-- Quotes (Sales Rep) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Server URL --></label>
+        <name>Server_URL__c</name>
+    </fields>
+    <fields>
+        <label><!-- Session Id --></label>
+        <name>Session_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- SoldToContactQuoteTemplateMergeField --></label>
+        <name>SoldToContactQuoteTemplateMergeField__c</name>
+    </fields>
+    <fields>
+        <label><!-- Subscription Being Renewed --></label>
+        <name>Subscription_Being_Renewed__c</name>
+        <relationshipLabel><!-- Quotes (Renewal Dashboard Subscription) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Subscription Term Start Date --></label>
+        <name>Subscription_Term_Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Term Total --></label>
+        <name>Term_Total__c</name>
+    </fields>
+    <fields>
+        <help><!-- Sum of the discounts (in dollars) from the quote rate plan charges.  This is essentially the TCV of discounts. --></help>
+        <label><!-- Total Contract Discount --></label>
+        <name>Total_Contract_Discount__c</name>
+    </fields>
+    <fields>
+        <label><!-- True TCV JSON Response Overwritten --></label>
+        <name>True_TCV_JSON_Response_Overwritten__c</name>
+    </fields>
+    <fields>
+        <label><!-- True TCV JSON Response --></label>
+        <name>True_TCV_JSON_Response__c</name>
+    </fields>
+    <fields>
+        <label><!-- True TCV --></label>
+        <name>True_TCV__c</name>
+    </fields>
+    <fields>
+        <help><!-- The Account associated with this Quote. --></help>
+        <label><!-- Account --></label>
+        <name>zqu__Account__c</name>
+        <relationshipLabel><!-- Quotes --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Amendment Name (Deprecated) --></label>
+        <name>zqu__AmendmentName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Amendment Name --></label>
+        <name>zqu__Amendment_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- The flag determines whether any credit balance on a customer&apos;s account is automatically applied to invoices --></help>
+        <label><!-- Apply Credit Balance --></label>
+        <name>zqu__ApplyCreditBalance__c</name>
+    </fields>
+    <fields>
+        <help><!-- Used to track the approval status of the quote. --></help>
+        <label><!-- Approval Status --></label>
+        <name>zqu__ApprovalStatus__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation><!-- Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation><!-- In Progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ready For Approval</masterLabel>
+            <translation><!-- Ready For Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation><!-- Rejected --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- If this Quote will Auto Renew or not. --></help>
+        <label><!-- Auto Renew --></label>
+        <name>zqu__AutoRenew__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bill Cycle Day --></label>
+        <name>zqu__BillCycleDay__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10</masterLabel>
+            <translation><!-- 10 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>11</masterLabel>
+            <translation><!-- 11 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>12</masterLabel>
+            <translation><!-- 12 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>13</masterLabel>
+            <translation><!-- 13 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>14</masterLabel>
+            <translation><!-- 14 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>15</masterLabel>
+            <translation><!-- 15 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>16</masterLabel>
+            <translation><!-- 16 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>17</masterLabel>
+            <translation><!-- 17 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>18</masterLabel>
+            <translation><!-- 18 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>19</masterLabel>
+            <translation><!-- 19 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>20</masterLabel>
+            <translation><!-- 20 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>21</masterLabel>
+            <translation><!-- 21 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>22</masterLabel>
+            <translation><!-- 22 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>23</masterLabel>
+            <translation><!-- 23 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>24</masterLabel>
+            <translation><!-- 24 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>25</masterLabel>
+            <translation><!-- 25 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>26</masterLabel>
+            <translation><!-- 26 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>27</masterLabel>
+            <translation><!-- 27 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>28</masterLabel>
+            <translation><!-- 28 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>29</masterLabel>
+            <translation><!-- 29 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>30</masterLabel>
+            <translation><!-- 30 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation><!-- 5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6</masterLabel>
+            <translation><!-- 6 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7</masterLabel>
+            <translation><!-- 7 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8</masterLabel>
+            <translation><!-- 8 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9</masterLabel>
+            <translation><!-- 9 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Auto-Set</masterLabel>
+            <translation><!-- Auto-Set --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>End of Month</masterLabel>
+            <translation><!-- End of Month --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- The Contact that is billed for this Quote. --></help>
+        <label><!-- Bill to Contact --></label>
+        <name>zqu__BillToContact__c</name>
+        <relationshipLabel><!-- Quotes --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Billing Batch --></label>
+        <name>zqu__BillingBatch__c</name>
+        <picklistValues>
+            <masterLabel>Batch1</masterLabel>
+            <translation><!-- Batch1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Batch10</masterLabel>
+            <translation><!-- Batch10 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Batch11</masterLabel>
+            <translation><!-- Batch11 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Batch12</masterLabel>
+            <translation><!-- Batch12 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Batch13</masterLabel>
+            <translation><!-- Batch13 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Batch14</masterLabel>
+            <translation><!-- Batch14 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Batch15</masterLabel>
+            <translation><!-- Batch15 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Batch16</masterLabel>
+            <translation><!-- Batch16 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Batch17</masterLabel>
+            <translation><!-- Batch17 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Batch18</masterLabel>
+            <translation><!-- Batch18 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Batch19</masterLabel>
+            <translation><!-- Batch19 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Batch2</masterLabel>
+            <translation><!-- Batch2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Batch20</masterLabel>
+            <translation><!-- Batch20 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Batch21</masterLabel>
+            <translation><!-- Batch21 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Batch22</masterLabel>
+            <translation><!-- Batch22 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Batch23</masterLabel>
+            <translation><!-- Batch23 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Batch24</masterLabel>
+            <translation><!-- Batch24 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Batch25</masterLabel>
+            <translation><!-- Batch25 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Batch26</masterLabel>
+            <translation><!-- Batch26 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Batch27</masterLabel>
+            <translation><!-- Batch27 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Batch28</masterLabel>
+            <translation><!-- Batch28 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Batch29</masterLabel>
+            <translation><!-- Batch29 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Batch3</masterLabel>
+            <translation><!-- Batch3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Batch30</masterLabel>
+            <translation><!-- Batch30 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Batch31</masterLabel>
+            <translation><!-- Batch31 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Batch32</masterLabel>
+            <translation><!-- Batch32 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Batch33</masterLabel>
+            <translation><!-- Batch33 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Batch34</masterLabel>
+            <translation><!-- Batch34 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Batch35</masterLabel>
+            <translation><!-- Batch35 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Batch36</masterLabel>
+            <translation><!-- Batch36 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Batch37</masterLabel>
+            <translation><!-- Batch37 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Batch38</masterLabel>
+            <translation><!-- Batch38 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Batch39</masterLabel>
+            <translation><!-- Batch39 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Batch4</masterLabel>
+            <translation><!-- Batch4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Batch40</masterLabel>
+            <translation><!-- Batch40 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Batch41</masterLabel>
+            <translation><!-- Batch41 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Batch42</masterLabel>
+            <translation><!-- Batch42 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Batch43</masterLabel>
+            <translation><!-- Batch43 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Batch44</masterLabel>
+            <translation><!-- Batch44 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Batch45</masterLabel>
+            <translation><!-- Batch45 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Batch46</masterLabel>
+            <translation><!-- Batch46 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Batch47</masterLabel>
+            <translation><!-- Batch47 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Batch48</masterLabel>
+            <translation><!-- Batch48 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Batch49</masterLabel>
+            <translation><!-- Batch49 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Batch5</masterLabel>
+            <translation><!-- Batch5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Batch50</masterLabel>
+            <translation><!-- Batch50 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Batch6</masterLabel>
+            <translation><!-- Batch6 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Batch7</masterLabel>
+            <translation><!-- Batch7 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Batch8</masterLabel>
+            <translation><!-- Batch8 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Batch9</masterLabel>
+            <translation><!-- Batch9 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- (Deprecated) --></help>
+        <label><!-- (Deprecated)BillingCycleDay --></label>
+        <name>zqu__BillingCycleDay__c</name>
+    </fields>
+    <fields>
+        <label><!-- Billing Entity --></label>
+        <name>zqu__BillingEntity__c</name>
+        <relationshipLabel><!-- Quotes --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- The Billing Method of the Quote. --></help>
+        <label><!-- Invoice Delivery Method --></label>
+        <name>zqu__BillingMethod__c</name>
+        <picklistValues>
+            <masterLabel>Both</masterLabel>
+            <translation><!-- Both --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Email</masterLabel>
+            <translation><!-- Email --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Print</masterLabel>
+            <translation><!-- Print --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Select how you would like Quote Metrics values to be calculated.If you select the End of Term option, Evergreen Subscription metrics will be calculated for 1 billing period. --></help>
+        <label><!-- Calculate Quote Metrics Through --></label>
+        <name>zqu__Calculate_Quote_Metrics_Through__c</name>
+    </fields>
+    <fields>
+        <help><!-- Date on which the cancellation is made. --></help>
+        <label><!-- Cancellation Date --></label>
+        <name>zqu__CancellationDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cancellation Effective Date --></label>
+        <name>zqu__CancellationEffectiveDate__c</name>
+        <picklistValues>
+            <masterLabel>End of Current Term</masterLabel>
+            <translation><!-- End of Current Term --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>End of Last Invoice Period</masterLabel>
+            <translation><!-- End of Last Invoice Period --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Enter a Date</masterLabel>
+            <translation><!-- Enter a Date --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Certificate ID --></label>
+        <name>zqu__Certificate_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Certificate Type --></label>
+        <name>zqu__Certificate_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Communication Profile --></label>
+        <name>zqu__CommunicationProfile__c</name>
+        <relationshipLabel><!-- Quotes --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Company Code --></label>
+        <name>zqu__Company_Code__c</name>
+    </fields>
+    <fields>
+        <help><!-- The Currency the Quote is in. --></help>
+        <label><!-- Currency --></label>
+        <name>zqu__Currency__c</name>
+        <picklistValues>
+            <masterLabel>CAD</masterLabel>
+            <translation><!-- CAD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CHF</masterLabel>
+            <translation><!-- CHF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EUR</masterLabel>
+            <translation><!-- EUR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GBP</masterLabel>
+            <translation><!-- GBP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JPY</masterLabel>
+            <translation><!-- JPY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>USD</masterLabel>
+            <translation><!-- USD --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Customer Acceptance Date should be on or after Service Activation Date.
+If Customer Acceptance Date is not required in Zuora, the Service Activation Date will be used as the Customer Acceptance Date. --></help>
+        <label><!-- Customer Acceptance Date --></label>
+        <name>zqu__Customer_Acceptance_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- The Contracted Delta Discount MRR value returned from previewing the Quote in Zuora --></help>
+        <label><!-- Delta Discount MRR --></label>
+        <name>zqu__DeltaDiscountMRR__c</name>
+    </fields>
+    <fields>
+        <help><!-- Tax on Delta Discount TCB retrieved from previewing the Quote in Zuora --></help>
+        <label><!-- Delta Discount TCB Tax --></label>
+        <name>zqu__DeltaDiscountTCBTax__c</name>
+    </fields>
+    <fields>
+        <help><!-- Delta Discount TCB value retrieved from previewing the Quote in Zuora --></help>
+        <label><!-- Delta Discount TCB --></label>
+        <name>zqu__DeltaDiscountTCB__c</name>
+    </fields>
+    <fields>
+        <help><!-- Delta Discount TCV value retrieved from previewing the Quote in Zuora --></help>
+        <label><!-- Delta Discount TCV --></label>
+        <name>zqu__DeltaDiscountTCV__c</name>
+    </fields>
+    <fields>
+        <help><!-- Changed MRR for this quote --></help>
+        <label><!-- DeltaMRR (Deprecated) --></label>
+        <name>zqu__DeltaMRR__c</name>
+    </fields>
+    <fields>
+        <help><!-- Tax on Delta TCB returned from previewing the Quote in Zuora --></help>
+        <label><!-- Delta TCB Tax --></label>
+        <name>zqu__DeltaTCBTax__c</name>
+    </fields>
+    <fields>
+        <help><!-- Changed TCV for this quote --></help>
+        <label><!-- DeltaTCV (Deprecated) --></label>
+        <name>zqu__DeltaTCV__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>zqu__Description__c</name>
+    </fields>
+    <fields>
+        <help><!-- The Discount CMRR value returned by previewing the Quote in Zuora --></help>
+        <label><!-- Discount MRR --></label>
+        <name>zqu__DiscountMRR__c</name>
+    </fields>
+    <fields>
+        <help><!-- Tax on Discount TCB retrieved from previewing the Quote in Zuora --></help>
+        <label><!-- Discount TCB Tax --></label>
+        <name>zqu__DiscountTCBTax__c</name>
+    </fields>
+    <fields>
+        <help><!-- Discount TCB value retrieved from previewing the Quote in Zuora --></help>
+        <label><!-- Discount TCB --></label>
+        <name>zqu__DiscountTCB__c</name>
+    </fields>
+    <fields>
+        <help><!-- Discount TCV value retrieved from previewing the Quote in Zuora --></help>
+        <label><!-- Discount TCV --></label>
+        <name>zqu__DiscountTCV__c</name>
+    </fields>
+    <fields>
+        <help><!-- This is the Zuora payment method id created by the HPM. --></help>
+        <label><!-- Electronic Payment Method Id --></label>
+        <name>zqu__ElectronicPaymentMethodId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Exist Subscription ID --></label>
+        <name>zqu__ExistSubscriptionID__c</name>
+    </fields>
+    <fields>
+        <help><!-- The flag determines whether the existing products are stored successfully --></help>
+        <label><!-- Existing Products Stored --></label>
+        <name>zqu__ExistingProductsStored__c</name>
+    </fields>
+    <fields>
+        <help><!-- The flag to control whether the invoice will be generated with current quote when the quote is sent to Z-Billing --></help>
+        <label><!-- Generate Invoice --></label>
+        <name>zqu__GenerateInvoice__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hidden Subscription Name --></label>
+        <name>zqu__Hidden_Subscription_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- The option to determine which period type to use for the subscription term. --></help>
+        <label><!-- Initial Term Period Type --></label>
+        <name>zqu__InitialTermPeriodType__c</name>
+        <picklistValues>
+            <masterLabel>Day</masterLabel>
+            <translation><!-- Day --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Month</masterLabel>
+            <translation><!-- Month --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Week</masterLabel>
+            <translation><!-- Week --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Year</masterLabel>
+            <translation><!-- Year --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- The Initial Term of the Quote. --></help>
+        <label><!-- Initial Term --></label>
+        <name>zqu__InitialTerm__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invoice Date --></label>
+        <name>zqu__InvoiceDate__c</name>
+    </fields>
+    <fields>
+        <help><!-- The system-generated Zuora invoice ID associated with the subscription that is just created by the current quote. --></help>
+        <label><!-- Zuora Invoice ID --></label>
+        <name>zqu__InvoiceID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invoice Owner Id --></label>
+        <name>zqu__InvoiceOwnerId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invoice Owner --></label>
+        <name>zqu__InvoiceOwnerName__c</name>
+    </fields>
+    <fields>
+        <help><!-- The option to determine which level the invoice will be generated when the quote is sent to Z-Billing. --></help>
+        <label><!-- Invoice Processing Option --></label>
+        <name>zqu__InvoiceProcessingOption__c</name>
+        <picklistValues>
+            <masterLabel>Account</masterLabel>
+            <translation><!-- Account --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Subscription</masterLabel>
+            <translation><!-- Subscription --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Determines if the subscription is invoiced separately. If TRUE, then all charges for this subscription are collected into the subscription&apos;s own invoice. --></help>
+        <label><!-- Invoice Separately --></label>
+        <name>zqu__InvoiceSeparately__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invoice Target Date --></label>
+        <name>zqu__InvoiceTargetDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invoice Template --></label>
+        <name>zqu__InvoiceTemplate__c</name>
+        <relationshipLabel><!-- Quotes --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- The flag to indicate whether the Quote Metrics need to be recalculated. --></help>
+        <label><!-- Is Charge Expired --></label>
+        <name>zqu__Is_Charge_Expired__c</name>
+    </fields>
+    <fields>
+        <help><!-- This box will be checked upon creation of the quote record if the quote is the Parent of one or more Sub Quotes. --></help>
+        <label><!-- Is Parent Quote --></label>
+        <name>zqu__Is_Parent_Quote__c</name>
+    </fields>
+    <fields>
+        <label><!-- Issuing Jurisdiction --></label>
+        <name>zqu__Issuing_Jurisdiction__c</name>
+    </fields>
+    <fields>
+        <label><!-- MRR (Deprecated) --></label>
+        <name>zqu__MRR__c</name>
+    </fields>
+    <fields>
+        <help><!-- The Quote Number. --></help>
+        <label><!-- Number --></label>
+        <name>zqu__Number__c</name>
+    </fields>
+    <fields>
+        <help><!-- The Opportunity associated with this Quote. --></help>
+        <label><!-- Opportunity --></label>
+        <name>zqu__Opportunity__c</name>
+        <relationshipLabel><!-- Quotes --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Order Number --></label>
+        <name>zqu__OrderNumber__c</name>
+    </fields>
+    <fields>
+        <help><!-- This is a lookup field for the Sub-Quote to look up for it&apos;s parent Quote,  the Primary Quote. --></help>
+        <label><!-- Parent Quote --></label>
+        <name>zqu__ParentQuote__c</name>
+        <relationshipLabel><!-- SubQuotes --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- This field is used to set the Gateway on New Billing Accounts in Zuora for New Subscription Quotes only. Values in this picklist must correspond to values in Zuora. --></help>
+        <label><!-- Payment Gateway --></label>
+        <name>zqu__PaymentGateway__c</name>
+        <picklistValues>
+            <masterLabel>Use Default Gateway</masterLabel>
+            <translation><!-- Use Default Gateway --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- The Payment Method for the Quote. --></help>
+        <label><!-- Payment Method --></label>
+        <name>zqu__PaymentMethod__c</name>
+        <picklistValues>
+            <masterLabel>ACH</masterLabel>
+            <translation><!-- ACH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Check</masterLabel>
+            <translation><!-- Check --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Credit Card</masterLabel>
+            <translation><!-- Credit Card --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- The Payment Term. --></help>
+        <label><!-- Payment Term --></label>
+        <name>zqu__PaymentTerm__c</name>
+        <picklistValues>
+            <masterLabel>Due Upon Receipt</masterLabel>
+            <translation><!-- Due Upon Receipt --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 30</masterLabel>
+            <translation><!-- Net 30 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 45</masterLabel>
+            <translation><!-- Net 45 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 60</masterLabel>
+            <translation><!-- Net 60 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Delta MRR which is got by previewing the quote from Zuora. --></help>
+        <label><!-- Delta MRR --></label>
+        <name>zqu__Previewed_Delta_MRR__c</name>
+    </fields>
+    <fields>
+        <help><!-- Delta TCB returned from previewing the Quote in Zuora --></help>
+        <label><!-- Delta TCB --></label>
+        <name>zqu__Previewed_Delta_TCB__c</name>
+    </fields>
+    <fields>
+        <help><!-- Delta TCV which is got by previewing the quote from Zuora. --></help>
+        <label><!-- Delta TCV --></label>
+        <name>zqu__Previewed_Delta_TCV__c</name>
+    </fields>
+    <fields>
+        <help><!-- Discount which is got by previewing the quote from Zuora. --></help>
+        <label><!-- Discount --></label>
+        <name>zqu__Previewed_Discount__c</name>
+    </fields>
+    <fields>
+        <help><!-- MRR value which is got by previewing the quote from Zuora. TEST --></help>
+        <label><!-- MRR --></label>
+        <name>zqu__Previewed_MRR__c</name>
+    </fields>
+    <fields>
+        <help><!-- Sub-total which is got by previewing the quote from Zuora. --></help>
+        <label><!-- Sub-Total --></label>
+        <name>zqu__Previewed_SubTotal__c</name>
+    </fields>
+    <fields>
+        <help><!-- Total Contracted Billing returned from previewing the quote in Zuora --></help>
+        <label><!-- TCB --></label>
+        <name>zqu__Previewed_TCB__c</name>
+    </fields>
+    <fields>
+        <help><!-- TCV value which is got by previewing the quote from Zuora. --></help>
+        <label><!-- TCV --></label>
+        <name>zqu__Previewed_TCV__c</name>
+    </fields>
+    <fields>
+        <help><!-- Tax which is got by previewing the quote from Zuora. --></help>
+        <label><!-- Tax --></label>
+        <name>zqu__Previewed_Tax__c</name>
+    </fields>
+    <fields>
+        <help><!-- Total which is got by previewing the quote from Zuora. --></help>
+        <label><!-- Total --></label>
+        <name>zqu__Previewed_Total__c</name>
+    </fields>
+    <fields>
+        <help><!-- Identifies a Primary Quote attached to an Opportunity. --></help>
+        <label><!-- Primary --></label>
+        <name>zqu__Primary__c</name>
+    </fields>
+    <fields>
+        <help><!-- The flag to control whether the payment will be processed with current quote when the quote is sent to Z-Billing. --></help>
+        <label><!-- Process Payment --></label>
+        <name>zqu__ProcessPayment__c</name>
+    </fields>
+    <fields>
+        <label><!-- ProductSelector Version --></label>
+        <name>zqu__ProductSelectorVersion__c</name>
+    </fields>
+    <fields>
+        <help><!-- Quote Business Type. --></help>
+        <label><!-- Quote Business Type --></label>
+        <name>zqu__QuoteBusinessType__c</name>
+        <picklistValues>
+            <masterLabel>Churn</masterLabel>
+            <translation><!-- Churn --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Downsell</masterLabel>
+            <translation><!-- Downsell --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New</masterLabel>
+            <translation><!-- New --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Renewal</masterLabel>
+            <translation><!-- Renewal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Upsell</masterLabel>
+            <translation><!-- Upsell --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- The Quote template that will be used to generate the Quote PDF or Word document.  If not selected, the user will select a quote template from a list of available quote templates when creating Quote PDF or Word document. --></help>
+        <label><!-- Quote Template --></label>
+        <name>zqu__QuoteTemplate__c</name>
+        <relationshipLabel><!-- Quotes --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Specifies how often products added to the Quote should be ramped. --></help>
+        <label><!-- Ramp Frequency --></label>
+        <name>zqu__RampFrequency__c</name>
+        <picklistValues>
+            <masterLabel>Annual</masterLabel>
+            <translation><!-- Annual --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Month</masterLabel>
+            <translation><!-- Month --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quarter</masterLabel>
+            <translation><!-- Quarter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Semi-Annual</masterLabel>
+            <translation><!-- Semi-Annual --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Specific Months</masterLabel>
+            <translation><!-- Specific Months --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- If it is allowed to edit the Quote record according to Zuora Config --></help>
+        <label><!-- RecordReadOnly --></label>
+        <name>zqu__RecordReadOnly__c</name>
+    </fields>
+    <fields>
+        <help><!-- Specifies whether a termed subscription will remain termed or change to evergreen when it is renewed. --></help>
+        <label><!-- Renewal Setting --></label>
+        <name>zqu__RenewalSetting__c</name>
+    </fields>
+    <fields>
+        <help><!-- The option to determine which period type to use for the subscription renewal term. --></help>
+        <label><!-- Renewal Term Period Type --></label>
+        <name>zqu__RenewalTermPeriodType__c</name>
+        <picklistValues>
+            <masterLabel>Day</masterLabel>
+            <translation><!-- Day --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Month</masterLabel>
+            <translation><!-- Month --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Week</masterLabel>
+            <translation><!-- Week --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Year</masterLabel>
+            <translation><!-- Year --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- The Renewal Term of the Quote. --></help>
+        <label><!-- Renewal Term --></label>
+        <name>zqu__RenewalTerm__c</name>
+    </fields>
+    <fields>
+        <help><!-- Service Activation Date should be on or after Start Date and cannot be after Customer Acceptance Date.
+If Service Activation Date is not required in Zuora, the Start Date will be used as the Service Activation Date. --></help>
+        <label><!-- Service Activation Date --></label>
+        <name>zqu__Service_Activation_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- The Contact that is sold to for this Quote. --></help>
+        <label><!-- Sold to Contact --></label>
+        <name>zqu__SoldToContact__c</name>
+        <relationshipLabel><!-- Quotes (Ship to Contact) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Customizes how often products on the Quote should be ramped. This field is required if you set Ramp Frequency to &apos;Specific Months&apos; --></help>
+        <label><!-- Specific Ramp Frequency --></label>
+        <name>zqu__SpecificRampFrequency__c</name>
+    </fields>
+    <fields>
+        <help><!-- The Date that the Quote Starts. --></help>
+        <label><!-- Start Date --></label>
+        <name>zqu__StartDate__c</name>
+    </fields>
+    <fields>
+        <help><!-- The Status of the Quote. --></help>
+        <label><!-- Status --></label>
+        <name>zqu__Status__c</name>
+        <picklistValues>
+            <masterLabel>New</masterLabel>
+            <translation><!-- New --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sent to Z-Billing</masterLabel>
+            <translation><!-- Sent to Z-Billing --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Store Products Job Id --></label>
+        <name>zqu__StoreProductsJobId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Subscription Name (Deprecated) --></label>
+        <name>zqu__SubscriptionName__c</name>
+    </fields>
+    <fields>
+        <help><!-- The term end date of the subscription is amendment on --></help>
+        <label><!-- Subscription Term End Date --></label>
+        <name>zqu__SubscriptionTermEndDate__c</name>
+    </fields>
+    <fields>
+        <help><!-- The term start date of the subscription is amendment on --></help>
+        <label><!-- Subscription Term Start Date --></label>
+        <name>zqu__SubscriptionTermStartDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Subscription Type --></label>
+        <name>zqu__SubscriptionType__c</name>
+        <picklistValues>
+            <masterLabel>Amend Subscription</masterLabel>
+            <translation><!-- Amend Subscription --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancel Subscription</masterLabel>
+            <translation><!-- Cancel Subscription --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Subscription</masterLabel>
+            <translation><!-- New Subscription --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Renew Subscription</masterLabel>
+            <translation><!-- Renew Subscription --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Subscription Version --></label>
+        <name>zqu__SubscriptionVersion__c</name>
+    </fields>
+    <fields>
+        <label><!-- Subscription Name --></label>
+        <name>zqu__Subscription_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- Subscription Term Type determines whether its Termed or Evergreen. If Evergreen is chosen, then Initial Term and Renewal Term will be set to 0 and Auto Renew will be unchecked. Also, blank value means Quote is created with Termed Subscription Type. --></help>
+        <label><!-- Subscription Term Type --></label>
+        <name>zqu__Subscription_Term_Type__c</name>
+        <picklistValues>
+            <masterLabel>Evergreen</masterLabel>
+            <translation><!-- Evergreen --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Termed</masterLabel>
+            <translation><!-- Termed --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Tax on Total Contracted Billing returned from previewing the quote in Zuora --></help>
+        <label><!-- TCB Tax --></label>
+        <name>zqu__TCBTax__c</name>
+    </fields>
+    <fields>
+        <label><!-- TCV (Deprecated) --></label>
+        <name>zqu__TCV__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tax Exempt Effective Date --></label>
+        <name>zqu__TaxExemptEffectiveDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tax Exempt Expiration Date --></label>
+        <name>zqu__TaxExemptExpirationDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>zqu__Tax_Exempt_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tax Exempt --></label>
+        <name>zqu__Tax_Exempt__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Verification</masterLabel>
+            <translation><!-- Pending Verification --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- The amount of Tax for the Quote. --></help>
+        <label><!-- Tax(Deprecated) --></label>
+        <name>zqu__Tax__c</name>
+    </fields>
+    <fields>
+        <label><!-- Term Start Date --></label>
+        <name>zqu__TermStartDate__c</name>
+    </fields>
+    <fields>
+        <help><!-- Special Terms and Notes for the Quote. --></help>
+        <label><!-- Special Terms and Notes --></label>
+        <name>zqu__Terms__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total(Deprecated) --></label>
+        <name>zqu__Total__c</name>
+    </fields>
+    <fields>
+        <label><!-- VAT ID --></label>
+        <name>zqu__VAT_ID__c</name>
+    </fields>
+    <fields>
+        <help><!-- The Date that the Quote is Valid until. --></help>
+        <label><!-- Valid Until --></label>
+        <name>zqu__ValidUntil__c</name>
+    </fields>
+    <fields>
+        <label><!-- Zuora Account ID --></label>
+        <name>zqu__ZuoraAccountID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Zuora Config --></label>
+        <name>zqu__ZuoraConfig__c</name>
+        <relationshipLabel><!-- Quote --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Zuora Entity ID --></label>
+        <name>zqu__ZuoraEntityId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Zuora Invoice Number --></label>
+        <name>zqu__ZuoraInvoiceNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Zuora Parent Billing Account Id --></label>
+        <name>zqu__ZuoraParentBillingAccountId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Zuora Parent Billing Account Name --></label>
+        <name>zqu__ZuoraParentBillingAccountName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Zuora Payment Id --></label>
+        <name>zqu__ZuoraPaymentID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Zuora Payment Number --></label>
+        <name>zqu__ZuoraPaymentNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Zuora Subscription ID --></label>
+        <name>zqu__ZuoraSubscriptionID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Zuora Subscription Number --></label>
+        <name>zqu__ZuoraSubscriptionNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Zuora Account Number --></label>
+        <name>zqu__Zuora_Account_Number__c</name>
+    </fields>
+    <layouts>
+        <layout>Quote Layout - Amendment Read-Only v6.1 - Clone</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- General Information --></label>
+            <section>General Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Quote Layout - Amendment Read-Only v6.1 - Renewal Letter Sales Ops</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- General Information --></label>
+            <section>General Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Quote Layout - Amendment v6.1 - Clone</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- General Information --></label>
+            <section>General Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Quote Layout - Cancellation ReadOnly v6.1 - Clone</layout>
+        <sections>
+            <label><!-- Amendment View --></label>
+            <section>Amendment View</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Quote Layout - Cancellation v6.1 - Clone</layout>
+        <sections>
+            <label><!-- Amendment View --></label>
+            <section>Amendment View</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Quote Layout - Default V6.1 - Clone</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Quote Layout - Read Only v6.1 - Clone</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Quote Layout - Read Only v6.1 - Renewal Letter Sales Ops</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- General Information --></label>
+            <section>General Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Quote Layout - Renewal Read-Only V6.1 - Clone</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- General Information --></label>
+            <section>General Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Quote Layout - Renewal V6.1 - Clone</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- General Information --></label>
+            <section>General Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Quote Layout - v6.1 - Admin</layout>
+        <sections>
+            <label><!-- Amendment View --></label>
+            <section>Amendment View</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel><!-- Quote Name --></nameFieldLabel>
+    <recordTypes>
+        <description><!-- Record Type for Amendment Quote, assigned with Amendment Page Layout --></description>
+        <label><!-- Amendment --></label>
+        <name>Amendment</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Record Type for amend Subscription Quote after sent to Zuora, assigned with Amendment Read Only Page Layout --></description>
+        <label><!-- Amendment ReadOnly --></label>
+        <name>Amendment_ReadOnly</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Record Type for Cancellation Quote, assigned with Cancellation Page Layout --></description>
+        <label><!-- Cancellation --></label>
+        <name>Cancellation</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Record Type for Cancellation Quote, assigned with Cancellation Page Layout --></description>
+        <label><!-- Cancellation ReadOnly --></label>
+        <name>Cancellation_ReadOnly</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Record Type for Quote Default, assigned with Quote Default Page Layout --></description>
+        <label><!-- Default --></label>
+        <name>Default</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Record Type for New Subscription Quote after sent to Zuora, assigned with Quote Read Only Page Layout --></description>
+        <label><!-- ReadOnly --></label>
+        <name>ReadOnly</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Record Type for Quote Renewal, assigned with Renewal Page Layout --></description>
+        <label><!-- Renewal --></label>
+        <name>Renewal</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Record Type for renew subscription Quote after sent to Zuora, assigned with Renewal Read Only Page Layout --></description>
+        <label><!-- Renewal ReadOnly --></label>
+        <name>Renewal_ReadOnly</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- A Subscription LESS than 12 months can not be set to auto renew. Please update the subscription term OR you can forward without setting the subscription to auto renew. --></errorMessage>
+        <name>Auto_Renew_Rule</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The Preferred Payment Schedule of &apos;Month&apos; is not a valid selection when the Payment Method is &apos;Check&apos;. Please change the value of Preferred Payment Schedule or Payment Method. --></errorMessage>
+        <name>Check_not_Support_Month_PPS</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please DO NOT fill in the Invoice Owner --></errorMessage>
+        <name>Invoice_Owner_Validation_Rule</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The new Term Start Date can&apos;t be earlier than the original Subscription Term Start Date in Amendment. --></errorMessage>
+        <name>Prevent_Amendment_Service_Activation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The Billing Contact must have an email address --></errorMessage>
+        <name>ValidateBillingContactEmail</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The Billing Contact must have a complete mailing address --></errorMessage>
+        <name>ValidateBillingContactMailingAddress</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The Billing Contact must have a 10-digit phone number --></errorMessage>
+        <name>ValidateBillingContactPhoneNumber</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Customer Acceptance Date cannot be before Service Activation Date or Start Date --></errorMessage>
+        <name>zqu__ValidateCustomerAcceptanceDate</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Service Activation Date cannot be before Start Date --></errorMessage>
+        <name>zqu__ValidateServiceActivationDate</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- [Deprecated] --></errorMessage>
+        <name>zqu__ValidateSubscriptionTermedType</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- NewPaymentMethod --></label>
+        <name>NewPaymentMethod</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Select_Products --></label>
+        <name>Select_Products</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_Renewal_Letter --></label>
+        <name>Send_Renewal_Letter</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Submit_for_Approval --></label>
+        <name>Submit_for_Approval</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Amendment_Send_to_Z_Billing --></label>
+        <name>zqu__Amendment_Send_to_Z_Billing</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Change_Currency --></label>
+        <name>zqu__Change_Currency</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Change_Invoice_Owner --></label>
+        <name>zqu__Change_Invoice_Owner</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- CloneQuote --></label>
+        <name>zqu__CloneQuote</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- CpqProductSelect --></label>
+        <name>zqu__CpqProductSelect</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Delete --></label>
+        <name>zqu__Delete</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- EditQuote --></label>
+        <name>zqu__EditQuote</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- EditQuoteDetails --></label>
+        <name>zqu__EditQuoteDetails</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- EditQuoteProducts --></label>
+        <name>zqu__EditQuoteProducts</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Edit_Cancellation_Details --></label>
+        <name>zqu__Edit_Cancellation_Details</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Edit_Charges --></label>
+        <name>zqu__Edit_Charges</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Generate_PDF2 --></label>
+        <name>zqu__Generate_PDF2</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Generate_PDF_Lightning --></label>
+        <name>zqu__Generate_PDF_Lightning</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Generate_Word --></label>
+        <name>zqu__Generate_Word</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Generate_Word_Lightning --></label>
+        <name>zqu__Generate_Word_Lightning</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- New_Payment_Method --></label>
+        <name>zqu__New_Payment_Method</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- New_Quote --></label>
+        <name>zqu__New_Quote</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- ProductSelect --></label>
+        <name>zqu__ProductSelect</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- ProductSelectByScontrol --></label>
+        <name>zqu__ProductSelectByScontrol</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- ProductSelectByVFPage --></label>
+        <name>zqu__ProductSelectByVFPage</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- SubmitToZuora --></label>
+        <name>zqu__SubmitToZuora</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- UpdateZuoraAccountDetails --></label>
+        <name>zqu__UpdateZuoraAccountDetails</name>
+    </webLinks>
+</CustomObjectTranslation>

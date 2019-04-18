@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>(updated)</description>
+    <filter>
+        <criteriaItems>
+            <column>CREATED_BY</column>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>Alexandria Teixeira,Denise Giorno,Amanda Johnson,Arielle Asher,Courtney Carlesimo,Katrina Hayes,Jenna Legat,Kaitlyn Quenzer,Danielle Candela,Marcy Palacios,Kristin Walsifer,Laura Gardner,Allison Becker,Kylee Orriss,mollie cumiskey,Monica Robinson,Rita Belitzky,Tori Parker,Callie D&apos;Ambrisi,Tracy Ridgway</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>TASK</column>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>1</value>
+        </criteriaItems>
+    </filter>
+    <format>Matrix</format>
+    <groupingsAcross>
+        <dateGranularity>Day</dateGranularity>
+        <field>TASK_TYPE</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsAcross>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>CREATED_BY</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Today&apos;s Tasks</name>
+    <params>
+        <name>closed</name>
+        <value>closed</value>
+    </params>
+    <params>
+        <name>type</name>
+        <value>t</value>
+    </params>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Activity</reportType>
+    <roleHierarchyFilter>ConciergeManager</roleHierarchyFilter>
+    <scope>team</scope>
+    <showDetails>true</showDetails>
+    <timeFrameFilter>
+        <dateColumn>DUE_DATE</dateColumn>
+        <interval>INTERVAL_TODAY</interval>
+    </timeFrameFilter>
+</Report>

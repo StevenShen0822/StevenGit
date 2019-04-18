@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help><!-- When a check is received as payment, the Check Batch # needs to be entered to serve as a cross-reference between Zuora and GP. --></help>
+        <label><!-- Check Batch --></label>
+        <name>CheckBatch__c</name>
+    </fields>
+    <fields>
+        <help><!-- The CRM Account that this payment is related to. --></help>
+        <label><!-- Account --></label>
+        <name>Zuora__Account__c</name>
+        <relationshipLabel><!-- Payments --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- The accounting code for the payment. Accounting codes group transactions that contain similar accounting attributes. --></help>
+        <label><!-- Accounting Code --></label>
+        <name>Zuora__AccountingCode__c</name>
+    </fields>
+    <fields>
+        <help><!-- The amount of the payment. --></help>
+        <label><!-- Amount --></label>
+        <name>Zuora__Amount__c</name>
+    </fields>
+    <fields>
+        <help><!-- The amount of the payment to apply to a credit balance. --></help>
+        <label><!-- Applied Credit Balance Amount --></label>
+        <name>Zuora__AppliedCreditBalanceAmount__c</name>
+    </fields>
+    <fields>
+        <help><!-- The amount of the payment to apply to an invoice. --></help>
+        <label><!-- Applied Invoice Amount --></label>
+        <name>Zuora__AppliedInvoiceAmount__c</name>
+    </fields>
+    <fields>
+        <help><!-- The authorization transaction ID from the payment gateway. Use this field for electronic payments, such as credit cards. --></help>
+        <label><!-- Auth Transaction ID --></label>
+        <name>Zuora__AuthTransactionId__c</name>
+    </fields>
+    <fields>
+        <help><!-- The first six digits of the credit card or debit card used for the payment, when applicable. --></help>
+        <label><!-- Bank Identification Number --></label>
+        <name>Zuora__BankIdentificationNumber__c</name>
+    </fields>
+    <fields>
+        <help><!-- The billing account that the payment is for. --></help>
+        <label><!-- Billing Account --></label>
+        <name>Zuora__BillingAccount__c</name>
+        <relationshipLabel><!-- Payments --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- The date when the payment was canceled. --></help>
+        <label><!-- Cancelled On --></label>
+        <name>Zuora__CancelledOn__c</name>
+    </fields>
+    <fields>
+        <help><!-- The comment about the payment --></help>
+        <label><!-- Comment --></label>
+        <name>Zuora__Comment__c</name>
+    </fields>
+    <fields>
+        <help><!-- The Zuora user who created the payment. --></help>
+        <label><!-- Created By --></label>
+        <name>Zuora__CreatedById__c</name>
+    </fields>
+    <fields>
+        <help><!-- The date when the payment was created in Zuora system. --></help>
+        <label><!-- Created Date --></label>
+        <name>Zuora__CreatedDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Unique External Id --></label>
+        <name>Zuora__EXT_ID__c</name>
+    </fields>
+    <fields>
+        <help><!-- The date when the payment takes effect. --></help>
+        <label><!-- Effective Date (Deprecated) --></label>
+        <name>Zuora__EffectiveDate__c</name>
+    </fields>
+    <fields>
+        <help><!-- The date when the payment takes effect. --></help>
+        <label><!-- Effective Date --></label>
+        <name>Zuora__Effective_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- External ID(Deprecated) --></label>
+        <name>Zuora__External_Id__c</name>
+    </fields>
+    <fields>
+        <help><!-- The ID of the gateway order, which is the merchant-specified natural key value. --></help>
+        <label><!-- Gateway Order ID --></label>
+        <name>Zuora__GatewayOrderId__c</name>
+    </fields>
+    <fields>
+        <help><!-- The code returned from the payment gateway for the payment. This code is gateway-dependent. --></help>
+        <label><!-- Gateway Response Code --></label>
+        <name>Zuora__GatewayResponseCode__c</name>
+    </fields>
+    <fields>
+        <help><!-- The message returned from the payment gateway for the payment. This message is gateway-dependent. --></help>
+        <label><!-- Gateway Response --></label>
+        <name>Zuora__GatewayResponse__c</name>
+    </fields>
+    <fields>
+        <label><!-- Gateway State --></label>
+        <name>Zuora__GatewayStatus__c</name>
+        <picklistValues>
+            <masterLabel>FailedToSettle</masterLabel>
+            <translation><!-- FailedToSettle --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MarkedForSubmission</masterLabel>
+            <translation><!-- MarkedForSubmission --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NotSubmitted</masterLabel>
+            <translation><!-- NotSubmitted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Settled</masterLabel>
+            <translation><!-- Settled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Submitted</masterLabel>
+            <translation><!-- Submitted --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- The unique identification number for the invoice that the payment is applied to. --></help>
+        <label><!-- Invoice Number --></label>
+        <name>Zuora__InvoiceNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invoice --></label>
+        <name>Zuora__Invoice__c</name>
+        <relationshipLabel><!-- Payments --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- The date when a payment was marked and waiting for batch submission to the payment process. Use this field for the Spectrum gateway only. --></help>
+        <label><!-- Marked For Submission On --></label>
+        <name>Zuora__MarkedForSubmissionOn__c</name>
+    </fields>
+    <fields>
+        <help><!-- The display name of the payment method used for the payment. --></help>
+        <label><!-- Payment Method --></label>
+        <name>Zuora__PaymentMethod__c</name>
+    </fields>
+    <fields>
+        <label><!-- PaymentNumber --></label>
+        <name>Zuora__PaymentNumber__c</name>
+    </fields>
+    <fields>
+        <help><!-- The transaction ID returned by the payment gateway. Use this field to reconcile payments between your gateway and Z-Payments. --></help>
+        <label><!-- Reference ID --></label>
+        <name>Zuora__ReferenceId__c</name>
+    </fields>
+    <fields>
+        <help><!-- The amount of the payment that is refunded. This field is null if no refund is made against the payment. --></help>
+        <label><!-- Refund Amount --></label>
+        <name>Zuora__RefundedAmount__c</name>
+    </fields>
+    <fields>
+        <help><!-- The transaction ID returned by the payment gateway if there is an additional transaction for the payment. --></help>
+        <label><!-- Second Payment Reference ID --></label>
+        <name>Zuora__SecondPaymentReferenceId__c</name>
+    </fields>
+    <fields>
+        <help><!-- The date when the payment was settled in the payment processor. --></help>
+        <label><!-- Settled On --></label>
+        <name>Zuora__SettledOn__c</name>
+    </fields>
+    <fields>
+        <help><!-- A payment gateway-specific field that maps to Zuora for the gateways, Orbital and Verifi --></help>
+        <label><!-- Soft Descriptor Phone --></label>
+        <name>Zuora__SoftDescriptorPhone__c</name>
+    </fields>
+    <fields>
+        <help><!-- A payment gateway-specific field that maps to Zuora for the gateways, Orbital and Verifi. --></help>
+        <label><!-- Soft Descriptor --></label>
+        <name>Zuora__SoftDescriptor__c</name>
+    </fields>
+    <fields>
+        <help><!-- The status of the payment in the Zuora system. The value depends on the type of payment. --></help>
+        <label><!-- Status --></label>
+        <name>Zuora__Status__c</name>
+        <picklistValues>
+            <masterLabel>Canceled</masterLabel>
+            <translation><!-- Canceled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancelled</masterLabel>
+            <translation><!-- Cancelled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Error</masterLabel>
+            <translation><!-- Error --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Posted</masterLabel>
+            <translation><!-- Posted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Processed</masterLabel>
+            <translation><!-- Processed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Processing</masterLabel>
+            <translation><!-- Processing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Voided</masterLabel>
+            <translation><!-- Voided --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- The date when the payment was submitted. --></help>
+        <label><!-- Submitted On --></label>
+        <name>Zuora__SubmittedOn__c</name>
+    </fields>
+    <fields>
+        <help><!-- Indicates if the payment was transferred to an external accounting system. --></help>
+        <label><!-- Transferred to Accounting --></label>
+        <name>Zuora__TransferedToAccounting__c</name>
+        <picklistValues>
+            <masterLabel>Error</masterLabel>
+            <translation><!-- Error --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ignore</masterLabel>
+            <translation><!-- Ignore --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Processing</masterLabel>
+            <translation><!-- Processing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Indicates if the payment is external or electronic. --></help>
+        <label><!-- Type --></label>
+        <name>Zuora__Type__c</name>
+        <picklistValues>
+            <masterLabel>Electronic</masterLabel>
+            <translation><!-- Electronic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>External</masterLabel>
+            <translation><!-- External --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- The Zuora user who last updated the payment. --></help>
+        <label><!-- Updated By --></label>
+        <name>Zuora__UpdatedById__c</name>
+    </fields>
+    <fields>
+        <help><!-- The date when the payment was last updated in Zuora system. --></help>
+        <label><!-- Updated Date --></label>
+        <name>Zuora__UpdatedDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- test --></label>
+        <name>test__c</name>
+    </fields>
+    <layouts>
+        <layout>Payment Z-Force Layout v2.7 - Clone</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Gateway Information --></label>
+            <section>Gateway Information</section>
+        </sections>
+        <sections>
+            <label><!-- Payment Information --></label>
+            <section>Payment Information</section>
+        </sections>
+        <sections>
+            <label><!-- Zuora System Information --></label>
+            <section>Zuora System Information</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

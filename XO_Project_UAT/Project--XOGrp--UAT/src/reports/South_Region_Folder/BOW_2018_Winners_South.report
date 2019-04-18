@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Account$Owner</field>
+    </columns>
+    <columns>
+        <field>Account$Parent</field>
+    </columns>
+    <columns>
+        <field>Account$Parent.Local_Paid_Status__c</field>
+    </columns>
+    <columns>
+        <field>Account$Name</field>
+    </columns>
+    <columns>
+        <field>Account.Endorsements__r$Profile_Name__c</field>
+    </columns>
+    <columns>
+        <field>Account$Email__c</field>
+    </columns>
+    <columns>
+        <field>Account$Local_Paid_Status__c</field>
+    </columns>
+    <columns>
+        <field>Account$Credit_Hold__c</field>
+    </columns>
+    <columns>
+        <field>Account.Endorsements__r$Market__c</field>
+    </columns>
+    <columns>
+        <field>Account.Endorsements__r$Category__c</field>
+    </columns>
+    <columns>
+        <field>Account$LastActivityDate</field>
+    </columns>
+    <columns>
+        <field>Account.Endorsements__r$Name</field>
+    </columns>
+    <filter>
+        <criteriaItems>
+            <column>Account.Endorsements__r$Name</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>contains</operator>
+            <value>Best of Weddings 2018,Hall of Fame</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.Endorsements__r$CreatedDate</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>greaterOrEqual</operator>
+            <value>11/3/2017 12:00 AM</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account$Owner</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>contains</operator>
+            <value>anais,audrey,christie,christina emerson,cindy,eileen,heather,jessica smith,jessica williams,karla,mechelle,melina,silver,tamara,tasha</value>
+        </criteriaItems>
+    </filter>
+    <format>Tabular</format>
+    <name>BOW 2018 Winners South</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Accounts_with_Endorsements_2__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <timeFrameFilter>
+        <dateColumn>Account$LastActivityDate</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

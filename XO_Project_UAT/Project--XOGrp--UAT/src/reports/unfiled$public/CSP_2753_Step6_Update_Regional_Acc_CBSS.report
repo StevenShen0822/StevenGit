@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Account.CasesafeID__c</field>
+    </columns>
+    <columns>
+        <field>ACCOUNT.NAME</field>
+    </columns>
+    <columns>
+        <field>USERS.NAME</field>
+    </columns>
+    <columns>
+        <field>Account.Override_Account_CBSS__c</field>
+    </columns>
+    <columns>
+        <field>Account.CBBS__c</field>
+    </columns>
+    <columns>
+        <field>Account.CBSS_Email__c</field>
+    </columns>
+    <columns>
+        <field>Account.CBSS_Name__c</field>
+    </columns>
+    <columns>
+        <field>Account.CBSS_Phone__c</field>
+    </columns>
+    <columns>
+        <field>Account.RegionalNational__c</field>
+    </columns>
+    <filter>
+        <criteriaItems>
+            <column>USERS.NAME</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Rhonda Haberkamp,Mandy Niebuhr</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>RECORDTYPE</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Account.AccConcierge</value>
+        </criteriaItems>
+    </filter>
+    <format>Tabular</format>
+    <name>CSP-2753 Update Regional Acc CBSS</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>AccountList</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <timeFrameFilter>
+        <dateColumn>CREATED_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

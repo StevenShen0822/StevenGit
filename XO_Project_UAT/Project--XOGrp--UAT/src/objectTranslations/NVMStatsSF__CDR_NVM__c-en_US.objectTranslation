@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Applet Name --></label>
+        <name>NVMStatsSF__Applet_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- NVM Call Summary --></label>
+        <name>NVMStatsSF__CDR_Lookup__c</name>
+        <relationshipLabel><!-- Call Events --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- CLID --></label>
+        <name>NVMStatsSF__CLID__c</name>
+    </fields>
+    <fields>
+        <label><!-- CallGuid --></label>
+        <name>NVMStatsSF__CallGuid__c</name>
+    </fields>
+    <fields>
+        <label><!-- Data1 --></label>
+        <name>NVMStatsSF__Data1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Data2 --></label>
+        <name>NVMStatsSF__Data2__c</name>
+    </fields>
+    <fields>
+        <label><!-- TelNum --></label>
+        <name>NVMStatsSF__Data_TelNum__c</name>
+    </fields>
+    <fields>
+        <label><!-- Delete Record --></label>
+        <name>NVMStatsSF__Delete_Record__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>NVMStatsSF__Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Duration --></label>
+        <name>NVMStatsSF__Duration__c</name>
+    </fields>
+    <fields>
+        <label><!-- Event --></label>
+        <name>NVMStatsSF__Event__c</name>
+    </fields>
+    <fields>
+        <label><!-- RingDuration --></label>
+        <name>NVMStatsSF__RingDuration__c</name>
+    </fields>
+    <fields>
+        <label><!-- Seq --></label>
+        <name>NVMStatsSF__Seq__c</name>
+    </fields>
+    <fields>
+        <label><!-- Server --></label>
+        <name>NVMStatsSF__Server__c</name>
+    </fields>
+    <fields>
+        <label><!-- Service Name --></label>
+        <name>NVMStatsSF__Service_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Service Telephone Number --></label>
+        <name>NVMStatsSF__Service_Telephone_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- State --></label>
+        <name>NVMStatsSF__State__c</name>
+    </fields>
+    <fields>
+        <label><!-- Time --></label>
+        <name>NVMStatsSF__Time__c</name>
+    </fields>
+</CustomObjectTranslation>

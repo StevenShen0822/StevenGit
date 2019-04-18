@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Distribution team member --></label>
+        <name>n2de__Distribution_team_member__c</name>
+        <relationshipLabel><!-- Distributor rr-sa --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Distributor --></label>
+        <name>n2de__Distributor__c</name>
+        <relationshipLabel><!-- Distributor rr-sa --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Is OOO --></label>
+        <name>n2de__Is_ooo__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is sticky --></label>
+        <name>n2de__Is_sticky__c</name>
+    </fields>
+    <fields>
+        <label><!-- Matched assignments --></label>
+        <name>n2de__Matched_assignments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Object name --></label>
+        <name>n2de__Object_name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Redundant --></label>
+        <name>n2de__Redundant__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sticky match level --></label>
+        <name>n2de__Sticky_match_level__c</name>
+    </fields>
+    <fields>
+        <label><!-- Distribution team --></label>
+        <name>n2de__Team__c</name>
+        <relationshipLabel><!-- Distributor rr-sa --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Unique identifier --></label>
+        <name>n2de__Unique_identifier__c</name>
+    </fields>
+    <fields>
+        <label><!-- User --></label>
+        <name>n2de__User__c</name>
+        <relationshipLabel><!-- Distributor rr-sa --></relationshipLabel>
+    </fields>
+</CustomObjectTranslation>

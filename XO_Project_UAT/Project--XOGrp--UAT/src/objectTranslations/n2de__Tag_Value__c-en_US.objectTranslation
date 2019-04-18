@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Tag Category --></label>
+        <name>n2de__Tag_Category__c</name>
+        <relationshipLabel><!-- Distributor Tag Values --></relationshipLabel>
+    </fields>
+</CustomObjectTranslation>

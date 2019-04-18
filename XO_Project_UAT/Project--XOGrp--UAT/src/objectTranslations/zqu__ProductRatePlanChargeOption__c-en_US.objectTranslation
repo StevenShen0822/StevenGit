@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- Edit Product Rate Plan Charge Option --></label>
+        <name>EditProductRatePlanChargeOption</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- New Product Rate Plan Charge Option --></label>
+        <name>NewProductRatePlanChargeOption</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Currency --></label>
+        <name>zqu__Currency__c</name>
+        <picklistValues>
+            <masterLabel>CAD</masterLabel>
+            <translation><!-- CAD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EUR</masterLabel>
+            <translation><!-- EUR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GBP</masterLabel>
+            <translation><!-- GBP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JPY</masterLabel>
+            <translation><!-- JPY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>USD</masterLabel>
+            <translation><!-- USD --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Default Quantity --></label>
+        <name>zqu__Default_Quantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Maximum Quantity --></label>
+        <name>zqu__Max_Quantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Minimum Quantity --></label>
+        <name>zqu__Min_Quantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Original Option --></label>
+        <name>zqu__Origin__c</name>
+        <relationshipLabel><!-- Product Rate Plan Charge Options --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Price Summary --></label>
+        <name>zqu__PriceSummary__c</name>
+    </fields>
+    <fields>
+        <label><!-- Price --></label>
+        <name>zqu__Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Rate Plan Charge --></label>
+        <name>zqu__ProductRatePlanCharge__c</name>
+        <relationshipLabel><!-- Product Rate Plan Charge Options --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Product Rate Plan Option --></label>
+        <name>zqu__ProductRatePlanOption__c</name>
+        <relationshipLabel><!-- Product Rate Plan Charge Options --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Product Rate Plan --></label>
+        <name>zqu__ProductRatePlan__c</name>
+        <relationshipLabel><!-- Product Rate Plan Charge Options --></relationshipLabel>
+    </fields>
+    <recordTypes>
+        <label><!-- Default --></label>
+        <name>Default</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Snapshot --></label>
+        <name>Snapshot</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Default Quantity should be greater than or equal to 0 --></errorMessage>
+        <name>zqu__Default_Quantity_Rule</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Max Quantity should be greater than or equal to 0 --></errorMessage>
+        <name>zqu__Max_Quantity_Rule</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Min Quantity should be less than or equal to Max Quantity --></errorMessage>
+        <name>zqu__Min_Quantity_Less_Than_Max</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Min Quantity should be greater than or equal to 0 --></errorMessage>
+        <name>zqu__Min_Quantity_Rule</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Override ProductRatePlanCharge should belong to the ProductRatePlanOption overrided ProductRatePlan --></errorMessage>
+        <name>zqu__Override_Rule</name>
+    </validationRules>
+</CustomObjectTranslation>

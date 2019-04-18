@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Applied Amount --></label>
+        <name>Zuora__ApplyAmount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Unique External Id --></label>
+        <name>Zuora__EXT_ID__c</name>
+    </fields>
+    <fields>
+        <help><!-- The Invoice Payment ID in Zuora system. --></help>
+        <label><!-- External ID(Deprecated) --></label>
+        <name>Zuora__External_Id__c</name>
+    </fields>
+    <fields>
+        <help><!-- The invoice associated with this Invoice Payment object. --></help>
+        <label><!-- Invoice --></label>
+        <name>Zuora__Invoice__c</name>
+        <relationshipLabel><!-- Invoice Payments --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- The payment associated with this Invoice Payment object. --></help>
+        <label><!-- Payment --></label>
+        <name>Zuora__Payment__c</name>
+        <relationshipLabel><!-- Invoice Payments --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Specifies the amount of a refund that applied against a payment on an earlier the invoice. --></help>
+        <label><!-- Refund Amount --></label>
+        <name>Zuora__RefundAmount__c</name>
+    </fields>
+</CustomObjectTranslation>

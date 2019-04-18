@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>ACCOUNT_ID</field>
+    </columns>
+    <columns>
+        <field>ACCOUNT.NAME</field>
+    </columns>
+    <columns>
+        <field>EMAIL</field>
+    </columns>
+    <columns>
+        <field>Account.Primary_Category__c</field>
+    </columns>
+    <columns>
+        <field>ACCOUNT.ADDRESS2_CITY</field>
+    </columns>
+    <columns>
+        <field>ACCOUNT.ADDRESS2_STATE_CODE</field>
+    </columns>
+    <columns>
+        <field>Account.Local_Sales_Market__c</field>
+    </columns>
+    <columns>
+        <field>Account.Fulfilled__c</field>
+    </columns>
+    <description>claimed and unclaimed</description>
+    <filter>
+        <criteriaItems>
+            <column>Account.Local_Paid_Status__c</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Unpaid</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>EMAIL_OPT_OUT</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>0</value>
+        </criteriaItems>
+    </filter>
+    <format>Tabular</format>
+    <name>Unpaid Accounts (Devin)</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>ContactList</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <sortColumn>Account.Fulfilled__c</sortColumn>
+    <sortOrder>Asc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>CREATED_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

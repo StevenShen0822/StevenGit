@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DuplicateRule xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <actionOnInsert>Allow</actionOnInsert>
+    <actionOnUpdate>Allow</actionOnUpdate>
+    <alertText>You&apos;re creating a duplicate record. We recommend you use an existing record instead.3</alertText>
+    <description>Local Dupe Rule Final - Match Account Billing Address info to Lead Address infor</description>
+    <duplicateRuleFilter>
+        <booleanFilter xsi:nil="true"/>
+        <duplicateRuleFilterItems>
+            <field>RecordType</field>
+            <operation>equals</operation>
+            <value>Local</value>
+            <sortOrder>1</sortOrder>
+            <table>Account</table>
+        </duplicateRuleFilterItems>
+    </duplicateRuleFilter>
+    <duplicateRuleMatchRules>
+        <matchRuleSObjectType>Lead</matchRuleSObjectType>
+        <matchingRule>Local_Account_to_Lead_Duplicate_Rule_billing_matching_rule</matchingRule>
+        <objectMapping>
+            <inputObject>Account</inputObject>
+            <mappingFields>
+                <inputField>Name</inputField>
+                <outputField>Company</outputField>
+            </mappingFields>
+            <mappingFields>
+                <inputField>Email__c</inputField>
+                <outputField>Email</outputField>
+            </mappingFields>
+            <mappingFields>
+                <inputField>Phone</inputField>
+                <outputField>Phone</outputField>
+            </mappingFields>
+            <mappingFields>
+                <inputField>BillingStreet</inputField>
+                <outputField>Street</outputField>
+            </mappingFields>
+            <mappingFields>
+                <inputField>Website</inputField>
+                <outputField>Website</outputField>
+            </mappingFields>
+            <mappingFields>
+                <inputField>BillingPostalCode</inputField>
+                <outputField>PostalCode</outputField>
+            </mappingFields>
+            <outputObject>Lead</outputObject>
+        </objectMapping>
+    </duplicateRuleMatchRules>
+    <isActive>true</isActive>
+    <masterLabel>Local Account to Lead Billing Duplicate Rule</masterLabel>
+    <operationsOnInsert>Alert</operationsOnInsert>
+    <operationsOnInsert>Report</operationsOnInsert>
+    <securityOption>EnforceSharingRules</securityOption>
+    <sortOrder>3</sortOrder>
+</DuplicateRule>

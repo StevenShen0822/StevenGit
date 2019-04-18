@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Feature Requested Cancelled</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Feature Requested Cancelled</value>
+    </caseValues>
+    <fields>
+        <label><!-- Case --></label>
+        <name>Case__c</name>
+        <relationshipLabel><!-- Feature Requested Cancelled --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Price --></label>
+        <name>Charge_Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Charge Zuora Id --></label>
+        <name>Charge_Zuora_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Period --></label>
+        <name>Period_Text__c</name>
+    </fields>
+    <fields>
+        <label><!-- Period --></label>
+        <name>Period__c</name>
+    </fields>
+    <fields>
+        <label><!-- Price --></label>
+        <name>Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rate Plan Name --></label>
+        <name>Rate_Plan_Name_Text__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rate Plan Name --></label>
+        <name>Rate_Plan_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Rep --></label>
+        <name>Sales_Rep__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Cancelled</masterLabel>
+            <translation><!-- Cancelled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Requested Cancelled</masterLabel>
+            <translation><!-- Requested Cancelled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Saved</masterLabel>
+            <translation><!-- Saved --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Sub Product Charge Number --></label>
+        <name>Sub_Product_Charge_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sub Sales Rep --></label>
+        <name>Sub_Sales_Rep__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sub Term End Date --></label>
+        <name>Sub_Term_End_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sub Term Start Date --></label>
+        <name>Sub_Term_Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Subscription Name --></label>
+        <name>Subscription_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Subscription Product &amp; Charge --></label>
+        <name>Subscription_Product_Charge__c</name>
+        <relationshipLabel><!-- Feature Requested Cancelled --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Subscription Sales Rep --></label>
+        <name>Subscription_Sales_Rep__c</name>
+        <relationshipLabel><!-- Feature Requested Cancelled --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Subscription Zuora Id --></label>
+        <name>Subscription_Zuora_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Term End Date --></label>
+        <name>Term_End_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Term Start Date --></label>
+        <name>Term_Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- UniqueId --></label>
+        <name>UniqueId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Subscription Version --></label>
+        <name>Zuora_Version__c</name>
+    </fields>
+    <layouts>
+        <layout>Feature Requested Cancelled Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <webLinks>
+        <label><!-- Manage_Feature_Requested_Cancelled --></label>
+        <name>Manage_Feature_Requested_Cancelled</name>
+    </webLinks>
+</CustomObjectTranslation>

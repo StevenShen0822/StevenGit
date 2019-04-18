@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Additional Terms</value>
+        </caseValues>
+        <name>special_terms_contract</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <label><!-- Company Sign By --></label>
+        <name>CompanySignedBy__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company Signed Date/Time --></label>
+        <name>CompanySignedDateTime__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company Sign Title --></label>
+        <name>CompanySignedTitle__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact --></label>
+        <name>Contact__c</name>
+        <relationshipLabel><!-- Contracts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Contract Fee --></label>
+        <name>ContractFee__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contract Start Date --></label>
+        <name>ContractStartDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contract Summary (Internal) --></label>
+        <name>ContractSummaryInternal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contract Type --></label>
+        <name>ContractType__c</name>
+        <picklistValues>
+            <masterLabel>Concierge Venue</masterLabel>
+            <translation><!-- Concierge Venue --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Contract % --></label>
+        <name>Contract__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Sign By --></label>
+        <name>CustomerSignedBy__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Signed Date/Time --></label>
+        <name>CustomerSignedDateTime__c</name>
+    </fields>
+    <fields>
+        <label><!-- Days Contract Open --></label>
+        <name>Days_Contract_Open__c</name>
+    </fields>
+    <fields>
+        <label><!-- Days Out For Signature --></label>
+        <name>Days_Out_For_Signature__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Record Type --></label>
+        <name>Opportunity_Record_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity --></label>
+        <name>Opportunity__c</name>
+        <relationshipLabel><!-- Contracts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Payment Terms --></label>
+        <name>PaymentTerm__c</name>
+        <picklistValues>
+            <masterLabel>Flat Fee $</masterLabel>
+            <translation><!-- Flat Fee $ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Percentage</masterLabel>
+            <translation><!-- Percentage --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Preferred Payment Method --></label>
+        <name>Preferred_Payment_Method__c</name>
+        <picklistValues>
+            <masterLabel>ACH</masterLabel>
+            <translation><!-- ACH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Check</masterLabel>
+            <translation><!-- Check --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Credit Card</masterLabel>
+            <translation><!-- Credit Card --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Reference ID --></label>
+        <name>Reference_ID__c</name>
+    </fields>
+    <layouts>
+        <layout>Contract Layout</layout>
+        <sections>
+            <label><!-- Signature Information --></label>
+            <section>Signature Information</section>
+        </sections>
+    </layouts>
+    <validationRules>
+        <errorMessage><!-- You can not create or edit the Concierge Contract --></errorMessage>
+        <name>Can_Not_Edit_Concierge_Contract</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Company Signed By is required when marking a contract Signed --></errorMessage>
+        <name>Require_company_signed_by</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Company Signed Date/Time is required when marking a contract Signed --></errorMessage>
+        <name>Require_company_signed_datetime</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Customer Signed By is required when marking a contract Signed --></errorMessage>
+        <name>Require_customer_signed_by</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Customer Signed Date/Time is required when marking a contract Signed --></errorMessage>
+        <name>Require_customer_signed_datetime</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Preferred Payment Method field is required when the [Status] value on a Contract record is set to &quot;Signed&quot;. --></errorMessage>
+        <name>Require_payment_method_by_Statu</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please capture either Contract % or Contract Fee. --></errorMessage>
+        <name>VR_ContractFeePerReq</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Payment Terms is Flat Fee $, please capture Contract Fee. --></errorMessage>
+        <name>VR_FlatFeePer</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Payment Terms is Percentage, please capture Contract %. --></errorMessage>
+        <name>VR_PercContFee</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- New_Contract --></label>
+        <name>New_Contract</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- SendEchosign --></label>
+        <name>SendEchosign</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_to_EchoSign --></label>
+        <name>echosign_dev1__Send_to_EchoSign</name>
+    </webLinks>
+</CustomObjectTranslation>

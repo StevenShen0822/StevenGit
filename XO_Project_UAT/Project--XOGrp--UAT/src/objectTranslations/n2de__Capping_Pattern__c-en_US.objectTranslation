@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help><!-- Default cap applied to team members if no cap entry is created for their tag, or they do not have a tag from the selected collection. --></help>
+        <label><!-- Default cap --></label>
+        <name>n2de__Default_cap__c</name>
+    </fields>
+    <fields>
+        <help><!-- Collection of tags to apply team-level caps to. --></help>
+        <label><!-- Tag collection --></label>
+        <name>n2de__Tag_collection__c</name>
+        <relationshipLabel><!-- Capping Patterns --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- The method used to control the maximum number of objects that are distributed to members of the team. --></help>
+        <label><!-- Cap type --></label>
+        <name>n2de__Type__c</name>
+        <picklistValues>
+            <masterLabel>Daily</masterLabel>
+            <translation><!-- Daily --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hourly</masterLabel>
+            <translation><!-- Hourly --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Load balanced</masterLabel>
+            <translation><!-- Load balanced --></translation>
+        </picklistValues>
+    </fields>
+</CustomObjectTranslation>

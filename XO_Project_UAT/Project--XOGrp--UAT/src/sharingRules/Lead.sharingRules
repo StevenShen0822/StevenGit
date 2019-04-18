@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>Local_Team_Sharing_Rule</fullName>
+        <accessLevel>Read</accessLevel>
+        <description>Will grant a local users under the Local Sales Operations Role</description>
+        <label>Local Team Sharing Rule</label>
+        <sharedTo>
+            <roleAndSubordinates>Local_Sales_Operations</roleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Local</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>OwnerId</field>
+            <operation>notEqual</operation>
+            <value>00Gf1000002nrPa</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Marketing_Local</fullName>
+        <accessLevel>Read</accessLevel>
+        <description>SS-6288</description>
+        <label>Marketing Local</label>
+        <sharedTo>
+            <roleAndSubordinates>Local_Core_Marketing</roleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Local</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Restrict_National_Records_Being_Created_In_Hubspot</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>To restrict the national records being created in Hubspot. Created a profile &quot;Service Accounts Hubspot&quot; and Created a Role &quot;Hubspot Accounts&quot;</description>
+        <label>Restrict National Records Being Created In Hubspot</label>
+        <sharedTo>
+            <role>Hubspot_Accounts</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Local</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Sales_Service_Team</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Sales Service Team</label>
+        <sharedTo>
+            <group>Sales_Service_Team</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Local</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+</SharingRules>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>FK_CREATED_DATE</field>
+    </columns>
+    <columns>
+        <field>CUST_NAME</field>
+    </columns>
+    <columns>
+        <field>FK_$zqu__Quote__c.SalesRepLookup__c</field>
+    </columns>
+    <columns>
+        <field>FK_CREATED</field>
+    </columns>
+    <columns>
+        <field>FK_$zqu__Quote__c.zqu__SubscriptionType__c</field>
+    </columns>
+    <columns>
+        <field>FK_NAME</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <aggregateTypes>Average</aggregateTypes>
+        <field>FK_$zqu__Quote__c.zqu__Previewed_TCV__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <aggregateTypes>Average</aggregateTypes>
+        <field>FK_$zqu__Quote__c.zqu__Previewed_Delta_TCV__c</field>
+    </columns>
+    <filter>
+        <criteriaItems>
+            <column>FK_CREATED</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Tonia Hass</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>FK_NAME</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>contains</operator>
+            <value>re-enter,re enter,reenter,enter</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>FK_$zqu__Quote__c.SalesRepLookup__c</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Alexandria Teixeira,Briana Boyd,Briana Hayes,Caitlyn Ziobro,Cassandra Ettman,Chloe Wilson,Christina Jenkins,Donna Raimondi,Erica Barreto,Jade Govel,Kaitlyn Quenzer,Katie Kuroski,Kelsey Davidson,Kelsey O&apos;Toole,Kylee Orriss,Laura Gardner,Lauren Fazio,Liz Engrassia,Madison Jones,Marcy Palacios,Mollie Cumiskey,Nicole Riordan,Susan Elwood,Victoria Zaino</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>FK_$zqu__Quote__c.zqu__SubscriptionType__c</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>New Subscription,Cancel Subscription</value>
+        </criteriaItems>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>FK_$zqu__Quote__c.zqu__Account__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Re-Enter</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$Zuora__Subscription__c@Zuora__Subscription__c.Latest_Quote__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <timeFrameFilter>
+        <dateColumn>FK_CREATED_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

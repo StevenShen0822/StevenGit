@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>XO Group Settings</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>XO Group Settings</value>
+    </caseValues>
+    <fields>
+        <label><!-- Always Set Credit Hold To False --></label>
+        <name>Always_Set_Credit_Hold_To_False__c</name>
+    </fields>
+    <fields>
+        <label><!-- Always Set Geocode Override To True --></label>
+        <name>Always_Set_Geocode_Override_To_True__c</name>
+    </fields>
+    <fields>
+        <help><!-- Turns on and off partner fulfillment and account update callouts. --></help>
+        <label><!-- Turn on Fulfillment Callouts --></label>
+        <name>Turn_on_Fulfillment_Callouts__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

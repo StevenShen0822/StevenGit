@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Account.Reference_ID__c</field>
+    </columns>
+    <columns>
+        <field>ACCOUNT.NAME</field>
+    </columns>
+    <filter>
+        <criteriaItems>
+            <column>Account.Reference_ID__c</column>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>ACCT-018341,ACCT-017493,ACCT-017492,ACCT-017494,ACCT-003341,ACCT-011112,ACCT-012796,ACCT-011555,ACCT-012302,ACCT-012306,ACCT-011883,ACCT-011783,ACCT-011786,ACCT-013475,ACCT-013789,ACCT-013030,ACCT-012036,ACCT-012355,ACCT-014728,ACCT-013176,ACCT-012648,ACCT-012690,ACCT-001302,ACCT-001303,ACCT-005308,ACCT-008393,ACCT-002124,ACCT-007286,ACCT-008697,ACCT-009898,ACCT-008003,ACCT-008060,ACCT-009167,ACCT-005615,ACCT-009469,ACCT-009396,ACCT-007344,ACCT-017885,ACCT-017887,ACCT-001202,ACCT-000861,ACCT-002545,ACCT-000988,ACCT-001711,ACCT-001719,ACCT-001307,ACCT-000196,ACCT-002960,ACCT-017536,ACCT-017533,ACCT-017535,ACCT-017537,ACCT-017534,ACCT-001714,ACCT-000689,ACCT-002540,ACCT-002139,ACCT-003340,ACCT-018612,ACCT-018614,ACCT-018615,ACCT-018613,ACCT-018611</value>
+        </criteriaItems>
+    </filter>
+    <format>Tabular</format>
+    <name>Libby Child Accounts</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>AccountList</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <timeFrameFilter>
+        <dateColumn>CREATED_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

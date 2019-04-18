@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>ACCOUNT_OWNER</field>
+    </columns>
+    <columns>
+        <field>ACCOUNT.NAME</field>
+    </columns>
+    <columns>
+        <field>Account.Primary_Category__c</field>
+    </columns>
+    <description>Merged on 12/6 by Raymond to resolve duplicates</description>
+    <filter>
+        <criteriaItems>
+            <column>CREATED</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Raymond Li</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>field_key</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>contains</operator>
+            <value>Primary Category,Location ID</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.Primary_Category__c</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>contains</operator>
+            <value>Shower,Designers</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.Local_Sales_Market__c</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>contains</operator>
+            <value>Phoenix,Tucson,New Mexico,Central CA,Sacramento,Los Angeles,Orange County,Palm Springs,San Diego,Nevada,San Fran,Santa Barbara,Colorado,Utah,Hawaii,Kansas City,St. Louis,Portland,Washington</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>ACCOUNT_OWNER</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>contains</operator>
+            <value>O&apos;Toole,Orriss,Jenkins,Kirksey</value>
+        </criteriaItems>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Account.Local_Sales_Market__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>West Accounts merged by Tech</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>AccountAuditHistory</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <sortColumn>ACCOUNT.NAME</sortColumn>
+    <sortOrder>Asc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>CREATED_DATE</dateColumn>
+        <endDate>2016-12-06</endDate>
+        <interval>INTERVAL_CUSTOM</interval>
+        <startDate>2016-12-06</startDate>
+    </timeFrameFilter>
+</Report>

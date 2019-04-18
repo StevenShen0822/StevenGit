@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Account$CasesafeID__c</field>
+    </columns>
+    <columns>
+        <field>Account$Name</field>
+    </columns>
+    <columns>
+        <field>Account$Account_Status__c</field>
+    </columns>
+    <columns>
+        <field>Account$Negative_Disposition_Reason__c</field>
+    </columns>
+    <filter>
+        <criteriaItems>
+            <column>Account$Negative_Disposition_Reason__c</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Bad Contact,Duplicate,Missing Required Information,Not My Territory</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account$Account_Status__c</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Dormant</value>
+        </criteriaItems>
+    </filter>
+    <format>Tabular</format>
+    <name>CSP-2891(3)</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Account_Custom__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <timeFrameFilter>
+        <dateColumn>Account$Active_Status_Change_Date__c</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

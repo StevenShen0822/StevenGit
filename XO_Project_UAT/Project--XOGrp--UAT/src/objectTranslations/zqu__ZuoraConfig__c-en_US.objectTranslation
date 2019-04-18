@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help><!-- Password for API Login --></help>
+        <label><!-- APIPassword --></label>
+        <name>zqu__APIPassword__c</name>
+    </fields>
+    <fields>
+        <help><!-- URL used to connect to Zuora --></help>
+        <label><!-- APIURL --></label>
+        <name>zqu__APIURL__c</name>
+    </fields>
+    <fields>
+        <help><!-- User Name for API Login --></help>
+        <label><!-- APIUsername --></label>
+        <name>zqu__APIUsername__c</name>
+    </fields>
+    <fields>
+        <help><!-- Is this config is active or not. --></help>
+        <label><!-- Active --></label>
+        <name>zqu__Active__c</name>
+    </fields>
+    <fields>
+        <help><!-- Allow update of bill cycle day of existing customers --></help>
+        <label><!-- Allow Update BillCycleDay --></label>
+        <name>zqu__AllowUpdateBillCycleDay__c</name>
+    </fields>
+    <fields>
+        <help><!-- Allow Updating of Zuora Account Information from SFDC --></help>
+        <label><!-- Allow Updating Zuora Account Info --></label>
+        <name>zqu__AllowUpdatingZuora__c</name>
+    </fields>
+    <fields>
+        <help><!-- The BaseURL. --></help>
+        <label><!-- BaseURL --></label>
+        <name>zqu__BaseURL__c</name>
+    </fields>
+    <fields>
+        <help><!-- Allow Invoice Edit value for newly created accounts --></help>
+        <label><!-- BillingAccount_AllowInvoiceEdit --></label>
+        <name>zqu__BillingAccount_AllowInvoiceEdit__c</name>
+        <picklistValues>
+            <masterLabel>False</masterLabel>
+            <translation><!-- False --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>True</masterLabel>
+            <translation><!-- True --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Batch to be used for newly created accounts --></help>
+        <label><!-- BillingAccount_Batch --></label>
+        <name>zqu__BillingAccount_Batch__c</name>
+        <picklistValues>
+            <masterLabel>Batch1</masterLabel>
+            <translation><!-- Batch1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Batch10</masterLabel>
+            <translation><!-- Batch10 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Batch11</masterLabel>
+            <translation><!-- Batch11 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Batch12</masterLabel>
+            <translation><!-- Batch12 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Batch13</masterLabel>
+            <translation><!-- Batch13 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Batch14</masterLabel>
+            <translation><!-- Batch14 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Batch15</masterLabel>
+            <translation><!-- Batch15 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Batch16</masterLabel>
+            <translation><!-- Batch16 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Batch17</masterLabel>
+            <translation><!-- Batch17 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Batch18</masterLabel>
+            <translation><!-- Batch18 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Batch19</masterLabel>
+            <translation><!-- Batch19 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Batch2</masterLabel>
+            <translation><!-- Batch2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Batch20</masterLabel>
+            <translation><!-- Batch20 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Batch3</masterLabel>
+            <translation><!-- Batch3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Batch4</masterLabel>
+            <translation><!-- Batch4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Batch5</masterLabel>
+            <translation><!-- Batch5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Batch6</masterLabel>
+            <translation><!-- Batch6 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Batch7</masterLabel>
+            <translation><!-- Batch7 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Batch8</masterLabel>
+            <translation><!-- Batch8 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Batch9</masterLabel>
+            <translation><!-- Batch9 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Bill Cycle Day for newly created Accounts --></help>
+        <label><!-- BillingAccount_BillCycleDay --></label>
+        <name>zqu__BillingAccount_BillCycleDay__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10</masterLabel>
+            <translation><!-- 10 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>11</masterLabel>
+            <translation><!-- 11 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>12</masterLabel>
+            <translation><!-- 12 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>13</masterLabel>
+            <translation><!-- 13 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>14</masterLabel>
+            <translation><!-- 14 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>15</masterLabel>
+            <translation><!-- 15 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>16</masterLabel>
+            <translation><!-- 16 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>17</masterLabel>
+            <translation><!-- 17 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>18</masterLabel>
+            <translation><!-- 18 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>19</masterLabel>
+            <translation><!-- 19 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>20</masterLabel>
+            <translation><!-- 20 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>21</masterLabel>
+            <translation><!-- 21 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>22</masterLabel>
+            <translation><!-- 22 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>23</masterLabel>
+            <translation><!-- 23 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>24</masterLabel>
+            <translation><!-- 24 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>25</masterLabel>
+            <translation><!-- 25 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>26</masterLabel>
+            <translation><!-- 26 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>27</masterLabel>
+            <translation><!-- 27 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>28</masterLabel>
+            <translation><!-- 28 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>29</masterLabel>
+            <translation><!-- 29 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>30</masterLabel>
+            <translation><!-- 30 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation><!-- 5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6</masterLabel>
+            <translation><!-- 6 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7</masterLabel>
+            <translation><!-- 7 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8</masterLabel>
+            <translation><!-- 8 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9</masterLabel>
+            <translation><!-- 9 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>End of Month</masterLabel>
+            <translation><!-- End of Month --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Default Currency Value in Quote --></help>
+        <label><!-- Currency --></label>
+        <name>zqu__Currency__c</name>
+        <picklistValues>
+            <masterLabel>CAD</masterLabel>
+            <translation><!-- CAD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CHF</masterLabel>
+            <translation><!-- CHF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EUR</masterLabel>
+            <translation><!-- EUR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GBP</masterLabel>
+            <translation><!-- GBP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JPY</masterLabel>
+            <translation><!-- JPY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>USD</masterLabel>
+            <translation><!-- USD --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Date Format Input --></label>
+        <name>zqu__DateFormatInput__c</name>
+        <picklistValues>
+            <masterLabel>dd/mm/yyyy</masterLabel>
+            <translation><!-- dd/mm/yyyy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>mm/dd/yyyy</masterLabel>
+            <translation><!-- mm/dd/yyyy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>yyyy-mm-dd</masterLabel>
+            <translation><!-- yyyy-mm-dd --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Turns debugging on or off --></help>
+        <label><!-- Debug --></label>
+        <name>zqu__Debug__c</name>
+    </fields>
+    <fields>
+        <label><!-- Enable Amendments --></label>
+        <name>zqu__EnableAmendmentsDEV__c</name>
+    </fields>
+    <fields>
+        <help><!-- Default Invoice Delivery Preference in Quote --></help>
+        <label><!-- Invoice Delivery Preferences --></label>
+        <name>zqu__InvoiceDeliveryPreferences__c</name>
+        <picklistValues>
+            <masterLabel>Both</masterLabel>
+            <translation><!-- Both --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Email</masterLabel>
+            <translation><!-- Email --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Print</masterLabel>
+            <translation><!-- Print --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Setting to allow Bill Cycle Day to match the contract effective date when creating a new account --></help>
+        <label><!-- Match contract effective date --></label>
+        <name>zqu__MatchContractEffectiveDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Max API Query Filter --></label>
+        <name>zqu__MaxAPIQueryFilter__c</name>
+    </fields>
+    <fields>
+        <help><!-- Default Payment Term Value in Quote --></help>
+        <label><!-- Payment Term --></label>
+        <name>zqu__PaymentTerm__c</name>
+        <picklistValues>
+            <masterLabel>Due Upon Receipt</masterLabel>
+            <translation><!-- Due Upon Receipt --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 30</masterLabel>
+            <translation><!-- Net 30 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 45</masterLabel>
+            <translation><!-- Net 45 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 60</masterLabel>
+            <translation><!-- Net 60 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- ProductSelectorVersion --></label>
+        <name>zqu__ProductSelectorVersion__c</name>
+        <picklistValues>
+            <masterLabel>S-Controls</masterLabel>
+            <translation><!-- S-Controls --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VF-Pages</masterLabel>
+            <translation><!-- VF-Pages --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- set quote to read-only after successfully submitted to z-billing --></help>
+        <label><!-- Quote Read-Only --></label>
+        <name>zqu__QuoteReadOnly__c</name>
+    </fields>
+    <fields>
+        <help><!-- URL to access Quote template --></help>
+        <label><!-- QuoteURL --></label>
+        <name>zqu__QuoteURL__c</name>
+    </fields>
+    <fields>
+        <help><!-- Default Autorenew Value in Quote --></help>
+        <label><!-- Subscription Autorenew default --></label>
+        <name>zqu__SubscriptionAutorenewDefault__c</name>
+    </fields>
+    <fields>
+        <help><!-- Quote Template ID (from Zuora Admin) --></help>
+        <label><!-- Template_Id --></label>
+        <name>zqu__Template_Id__c</name>
+    </fields>
+</CustomObjectTranslation>

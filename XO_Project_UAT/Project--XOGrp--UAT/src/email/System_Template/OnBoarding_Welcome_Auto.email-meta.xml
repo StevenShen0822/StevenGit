@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email template sent to welcome new customers to the knot and asks them for their logo in 2 sizes. CSP-2534</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Blank_LetterHead</letterhead>
+    <name>1: Welcome Email Auto</name>
+    <style>freeForm</style>
+    <subject>Thanks for Joining Our Community! [{!Case.Thread_Id}]</subject>
+    <textOnly>Welcome to The Knot Pro community! Your Account Strategist team will be your go-to support team for everything from optimizing your Storefront to connecting with the couples that are best for your business.
+
+First thing’s first. Let’s get you set up:
+
+Schedule an Onboarding Call:
+Jump on a quick call with us - we’ll get your Storefront off the ground and go over a few best practices. It’ll only take about 30 minutes. Promise.
+Click here to schedule!
+
+Log in to your account:
+Keep an eye out for an email containing your login info to The Knot Pro. Already have access? Awesome. You should be all set.
+
+PRO TIP: Prior to our onboarding call you’ll want to log in, poke around and start completing your Storefront. Oh, and jot down any questions you might have for me!
+
+Call or email with any questions, any time and we will be more than happy to help!</textOnly>
+    <type>html</type>
+</EmailTemplate>

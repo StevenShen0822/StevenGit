@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <buckets>
+        <bucketType>picklist</bucketType>
+        <developerName>BucketField_48165562</developerName>
+        <masterLabel>Reporter Type</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <sourceColumnName>Case.Reporter_Type__c</sourceColumnName>
+        <useOther>false</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>Customer</sourceValue>
+            </sourceValues>
+            <value>Vendor</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Reviewer</sourceValue>
+            </sourceValues>
+            <value>Reviewer</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Local Core Account Executive</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Local Core Sales Operations</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Local Core Finance - ARR</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Local Core Regional Sales (RSR, RSD)</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Local Core Strategy Specialist</sourceValue>
+            </sourceValues>
+            <value>Internal</value>
+        </values>
+    </buckets>
+    <columns>
+        <field>OWNER</field>
+    </columns>
+    <columns>
+        <field>CREATED_DATE</field>
+    </columns>
+    <columns>
+        <field>SUBJECT</field>
+    </columns>
+    <columns>
+        <field>AGE</field>
+    </columns>
+    <columns>
+        <field>OPEN</field>
+    </columns>
+    <columns>
+        <field>CLOSED</field>
+    </columns>
+    <columns>
+        <field>ACCOUNT.NAME</field>
+    </columns>
+    <filter>
+        <criteriaItems>
+            <column>OWNER</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Rhianna Reed,Ryan Deakyne,Benjamin Francois</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>STATUS</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Closed</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>RECORDTYPE</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Case.X3_Reviews</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Case.Reporter_Type__c</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Customer</value>
+        </criteriaItems>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>REASON</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Case.Case_Reason_Drilldown__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Vendor Reason For Submission</name>
+    <params>
+        <name>units</name>
+        <value>h</value>
+    </params>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CaseList</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <timeFrameFilter>
+        <dateColumn>CREATED_DATEONLY</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Tag Value --></label>
+        <name>n2de__Tag_Value__c</name>
+        <relationshipLabel><!-- Tag User --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- User --></label>
+        <name>n2de__User__c</name>
+        <relationshipLabel><!-- Distributor Tag User --></relationshipLabel>
+    </fields>
+</CustomObjectTranslation>

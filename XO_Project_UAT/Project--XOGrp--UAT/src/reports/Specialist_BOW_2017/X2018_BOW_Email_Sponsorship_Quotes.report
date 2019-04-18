@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>zqu__Quote__c$zqu__Account__c</field>
+    </columns>
+    <columns>
+        <field>zqu__Quote__c$zqu__Status__c</field>
+    </columns>
+    <columns>
+        <field>zqu__Quote__c$SalesRepLookup__c</field>
+    </columns>
+    <columns>
+        <field>zqu__Quote__c.zqu__Quote_Amendments__r.zqu__Quote_Rate_Plans__r.zqu__QuoteChargeSummarys__r$Name</field>
+    </columns>
+    <columns>
+        <field>zqu__Quote__c$CreatedDate</field>
+    </columns>
+    <columns>
+        <field>zqu__Quote__c.zqu__Quote_Amendments__r.zqu__Quote_Rate_Plans__r$Quote_Expiration_Date__c</field>
+    </columns>
+    <description>Will Include Pending Quotes as well as Closed Won</description>
+    <filter>
+        <criteriaItems>
+            <column>zqu__Quote__c.zqu__Quote_Amendments__r.zqu__Quote_Rate_Plans__r$zqu__ProductRatePlan__c</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>contains</operator>
+            <value>best of weddings-email sponsorship</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>zqu__Quote__c.zqu__Quote_Amendments__r.zqu__Quote_Rate_Plans__r.zqu__QuoteChargeSummarys__r$Name</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>contains</operator>
+            <value>20% Down</value>
+        </criteriaItems>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>zqu__Quote__c.zqu__Quote_Amendments__r.zqu__Quote_Rate_Plans__r$Name</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>2018 BOW Email Sponsorship Quotes</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Quotes_with_Quote_Amendments_with_Quote_Rate_Plan__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <timeFrameFilter>
+        <dateColumn>zqu__Quote__c$CreatedDate</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+        <startDate>2017-11-03</startDate>
+    </timeFrameFilter>
+</Report>

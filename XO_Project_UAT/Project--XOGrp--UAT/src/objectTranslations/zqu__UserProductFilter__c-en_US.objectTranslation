@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help><!-- The name of the field this User Product Filter applies to. --></help>
+        <label><!-- Field --></label>
+        <name>zqu__FieldName__c</name>
+    </fields>
+    <fields>
+        <help><!-- The Guided Selling Section this filter is used in (must be of type Filter). --></help>
+        <label><!-- Guided Selling Section --></label>
+        <name>zqu__GuidedSellingSection__c</name>
+        <relationshipLabel><!-- User Product Filters --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- The object type this filter applies to. --></help>
+        <label><!-- Object --></label>
+        <name>zqu__ObjectName__c</name>
+        <picklistValues>
+            <masterLabel>Product</masterLabel>
+            <translation><!-- Product --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Rate Plan</masterLabel>
+            <translation><!-- Product Rate Plan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Rate Plan Charge</masterLabel>
+            <translation><!-- Product Rate Plan Charge --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- The order of this User Product Filter. --></help>
+        <label><!-- Order --></label>
+        <name>zqu__Order__c</name>
+    </fields>
+</CustomObjectTranslation>

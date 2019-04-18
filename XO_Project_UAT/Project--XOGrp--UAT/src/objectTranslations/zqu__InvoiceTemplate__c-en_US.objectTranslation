@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- Lookup Popup Window --></label>
+        <name>Lookup_Popup_Window</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Billing Entity --></label>
+        <name>zqu__BillingEntity__c</name>
+        <relationshipLabel><!-- Invoice Templates --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- The Zuora Id of this invoice template. --></help>
+        <label><!-- Zuora Id --></label>
+        <name>zqu__ZuoraId__c</name>
+    </fields>
+    <webLinks>
+        <label><!-- BackToConfigSettings --></label>
+        <name>zqu__BackToConfigSettings</name>
+    </webLinks>
+</CustomObjectTranslation>

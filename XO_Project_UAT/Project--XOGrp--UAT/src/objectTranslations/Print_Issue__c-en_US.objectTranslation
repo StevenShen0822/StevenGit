@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Print Issue</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Print Issues</value>
+    </caseValues>
+    <fields>
+        <help><!-- When checked, allows user to enter any name they choose.  When unchecked, the system will name the object --></help>
+        <label><!-- Allow Custom Name --></label>
+        <name>Allow_Custom_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- As Seen On Pages &amp; Icon Appear Online --></label>
+        <name>As_Seen_On_Pages_Icon_Appear_Online__c</name>
+    </fields>
+    <fields>
+        <label><!-- Available for Sale --></label>
+        <name>Available_for_Sale__c</name>
+    </fields>
+    <fields>
+        <label><!-- Edition --></label>
+        <name>Edition__c</name>
+        <relationshipLabel><!-- Print Issues --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Gross Circulation --></label>
+        <name>Gross_Circulation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Next Issue --></label>
+        <name>Next_Issue__c</name>
+        <relationshipLabel><!-- Print Issues (Next Issue) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Previous Issue --></label>
+        <name>Previous_Issue__c</name>
+        <relationshipLabel><!-- Print Issues --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Previous Year&apos;s Issue --></label>
+        <name>Previous_Years_Issue__c</name>
+        <relationshipLabel><!-- Print Issues (Previous Year&apos;s Issue) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Print Market --></label>
+        <lookupFilter>
+            <errorMessage><!-- You may only select Active Markets --></errorMessage>
+        </lookupFilter>
+        <name>Print_Market__c</name>
+        <relationshipLabel><!-- Print Issues --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Publication ID Number --></label>
+        <name>Publication_ID_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Publication Id External ID --></label>
+        <name>Publication_Id_External_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Publish/1st Cover Ship --></label>
+        <name>Publish_1st_Cover_Ship__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reference ID --></label>
+        <name>Reference_ID__c</name>
+    </fields>
+    <fields>
+        <help><!-- Leave blank to have the system automatically calculate an end date --></help>
+        <label><!-- Selling End Date --></label>
+        <name>Selling_End_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Leave blank to have the system automatically calculate a start date --></help>
+        <label><!-- Selling Start Date --></label>
+        <name>Selling_Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Short Name --></label>
+        <name>Short_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- Leave blank to have the system automatically calculate --></help>
+        <label><!-- Step 1 --></label>
+        <name>Step_1__c</name>
+    </fields>
+    <fields>
+        <help><!-- Leave blank to have the system automatically calculate --></help>
+        <label><!-- Step 2 Contracts/Non-CR Ads --></label>
+        <name>Step_2__c</name>
+    </fields>
+    <fields>
+        <help><!-- Leave blank to have the system automatically calculate --></help>
+        <label><!-- Step 3 Contracts/CR Ads --></label>
+        <name>Step_3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Step 4 Dummy Book --></label>
+        <name>Step_4__c</name>
+    </fields>
+    <fields>
+        <help><!-- Leave blank to have the system automatically calculate --></help>
+        <label><!-- Step 5 Book to Printer --></label>
+        <name>Step_5__c</name>
+    </fields>
+    <fields>
+        <label><!-- 1st Cover Display Until --></label>
+        <name>X1st_Cover_Display_Until__c</name>
+    </fields>
+    <fields>
+        <label><!-- 1st Cover On-Sale --></label>
+        <name>X1st_Cover_On_Sale__c</name>
+    </fields>
+    <fields>
+        <label><!-- 2nd Cover Display Until --></label>
+        <name>X2nd_Cover_Display_Until__c</name>
+    </fields>
+    <fields>
+        <help><!-- Leave blank to have the system automatically calculate --></help>
+        <label><!-- 2nd Cover On-Sale --></label>
+        <name>X2nd_Cover_On_Sale__c</name>
+    </fields>
+    <fields>
+        <label><!-- 2nd Cover Ship --></label>
+        <name>X2nd_Cover_Ship__c</name>
+    </fields>
+    <fields>
+        <label><!-- 3rd Cover Display Until --></label>
+        <name>X3rd_Cover_Display_Until__c</name>
+    </fields>
+    <fields>
+        <label><!-- 3rd Cover On-Sale --></label>
+        <name>X3rd_Cover_On_Sale__c</name>
+    </fields>
+    <fields>
+        <label><!-- 3rd Cover Ship --></label>
+        <name>X3rd_Cover_Ship__c</name>
+    </fields>
+    <layouts>
+        <layout>Print Issue Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Previous/Next Issues --></label>
+            <section>Previous/Next Issues</section>
+        </sections>
+        <sections>
+            <label><!-- Publication Schedule --></label>
+            <section>Publication Schedule</section>
+        </sections>
+        <sections>
+            <label><!-- Selling Dates --></label>
+            <section>Selling Dates</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

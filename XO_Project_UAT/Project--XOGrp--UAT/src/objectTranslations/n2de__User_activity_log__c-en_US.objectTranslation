@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Action --></label>
+        <name>n2de__Action__c</name>
+        <picklistValues>
+            <masterLabel>Log in</masterLabel>
+            <translation><!-- Log in --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Log out</masterLabel>
+            <translation><!-- Log out --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Action date --></label>
+        <name>n2de__Action_date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reason --></label>
+        <name>n2de__Reason__c</name>
+        <picklistValues>
+            <masterLabel>Break</masterLabel>
+            <translation><!-- Break --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Busy</masterLabel>
+            <translation><!-- Busy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>End of day</masterLabel>
+            <translation><!-- End of day --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Meeting</masterLabel>
+            <translation><!-- Meeting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Out of Office</masterLabel>
+            <translation><!-- Out of Office --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- User --></label>
+        <name>n2de__User__c</name>
+        <relationshipLabel><!-- User activity logs --></relationshipLabel>
+    </fields>
+</CustomObjectTranslation>

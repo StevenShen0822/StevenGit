@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Length --></label>
+        <name>zqu__Length__c</name>
+    </fields>
+    <fields>
+        <label><!-- Max Value --></label>
+        <name>zqu__MaxValue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Seq name --></label>
+        <name>zqu__SeqName__c</name>
+    </fields>
+</CustomObjectTranslation>
